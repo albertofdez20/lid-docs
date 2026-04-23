@@ -4,11 +4,11 @@ Key terms used across LID docs.
 
 ## Core loop
 
-**Create → Share → Sell → Get Paid.** The four-step sequence every feature serves. If a feature strengthens this loop, we build it. If it doesn't, we don't.
+**Create → Share → Sell → Get paid.** The four-step sequence every feature serves. If a feature strengthens this loop, we build it. If it doesn't, we don't.
 
 ## Completed loop
 
-A single sale where all five steps happen: Create → Share → Sale → Attribution correct → Funds route correctly → Payout settles. All five steps must complete for the loop to count. Partial completion is not a loop.
+A single sale where all five steps happen. Create → Share → Sale → Attribution correct → Funds route correctly → Payout settles. All five steps must complete for the loop to count. Partial completion is not a loop.
 
 ## Activated seller
 
@@ -24,7 +24,7 @@ A seller who completes at least one additional loop after the first clean loop. 
 
 ## Red-light bug
 
-Lost funds, payment routed to the wrong account, incorrect split calculation, failed product creation that still charged the seller, or misleading payout/attribution data shown to a user. Any unresolved red-light bug blocks all phase progression until it's fixed.
+Lost funds, payment routed to the wrong account, incorrect split calculation, failed product creation that still charged the seller, or misleading payout or attribution data shown to a user. Any unresolved red-light bug blocks all phase progression until it's fixed.
 
 ## High-intent user
 
@@ -54,13 +54,13 @@ The division of a sale's proceeds between the seller, affiliate (if any), and LI
 
 Settlement that happens in the same transaction as the sale, with no payout schedule, minimum balance, or withdrawal request.
 
-## USDC
+## Digital dollars (USDC)
 
-US dollar stablecoin issued by Circle, fully backed 1:1 by cash and short-term US Treasuries. The native settlement asset on LID. One USDC is always one US dollar.
+US dollar stablecoin issued by Circle, fully backed 1:1 by cash and short-term US Treasuries. The native settlement asset on LID. One USDC is always one US dollar. "Digital dollars" is the user-facing term.
 
 ## Solana
 
-The blockchain LID is built on. Chosen for sub-second transaction finality, USDC liquidity, and sub-cent fees.
+The blockchain LID runs on. Chosen for sub-second transaction finality, USDC liquidity, and sub-cent fees. LID runs on Solana. LID is not a Solana product.
 
 ## The 3% fee
 
@@ -80,11 +80,11 @@ The phase at which LID has produced measurable, repeatable earning behavior. Not
 
 ## Active alpha validation
 
-LID's current commercial maturity: live on Solana mainnet, operationally real, commercial proof still being earned through completed loops. Distinct from beta, which we will not claim before repeatability is proven.
+LID's current commercial maturity. Live on Solana mainnet, operationally real, commercial proof still being earned through completed loops. Distinct from beta, which we will not claim before repeatability is proven.
 
 ## Permissionless distribution
 
-Any user can generate an affiliate link and earn commission on any product that has affiliate commission enabled, with no approval process, no application, and no contract.
+Any user can generate an affiliate link and earn commission on any product that has affiliate commission enabled. No approval process. No application. No contract.
 
 ## Trust layer
 

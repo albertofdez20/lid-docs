@@ -14,7 +14,7 @@ Most creator commerce platforms land between 5% and 30% effective take rate once
 
 **Strong enough to keep LID sustainable.** Combined with a planned Pro tier for advanced features, the unit economics support venture-scale growth. See [blended ARPU math in the vision doc](../company/vision.md).
 
-**Durable enough to block incumbents.** A 3% fee is a pricing moat. Any incumbent that matches it has to gut their existing revenue model. They can't match it without breaking their P&L, so they won't.
+**Durable enough to block incumbents.** A 3% fee is a pricing moat. Any incumbent that matches it has to gut their existing revenue model. They can't match without breaking their P&L. So they won't.
 
 ## What the 3% covers
 
@@ -30,7 +30,7 @@ Most creator commerce platforms land between 5% and 30% effective take rate once
 
 - It's not an escrow fee. LID never holds your money.
 - It's not a payment processing fee. Solana network fees are separate (sub-cent).
-- It's not a currency conversion fee. Settlement is in USDC 1:1.
+- It's not a currency conversion fee. Settlement is in digital dollars 1:1.
 - It's not a subscription. You pay only when you transact.
 
 ## When the model evolves
@@ -43,7 +43,7 @@ A Pro tier is planned for when the product earns the right to charge for it. The
 | **Pro** | 3% | ~$29 | Active sellers who want analytics and custom branding. |
 | **Enterprise** | Custom | Custom | High-volume partners, API integrations, white-label. |
 
-When Pro launches, the current 3% rate will be preserved for existing sellers during the transition. The core loop (create, share, sell, get paid) will always be available on the Free tier. Subscriptions add advanced tools. They do not gate core functionality.
+When Pro launches, the current 3% rate will be preserved for existing sellers during the transition. The core loop (create, share, sell, get paid) will always be available on the Free tier. Subscriptions add advanced tools on top. They do not gate core functionality.
 
 No timeline has been committed for the Pro launch. It happens when the features are real enough to justify charging for them.
 

@@ -1,0 +1,648 @@
+/* ============================================================
+   LID: docs.lid.pro custom stylesheet
+   Paste the full contents of this file into:
+   GitBook Dashboard → Site → Customization → Custom CSS
+   Requires a plan that supports Custom CSS (Premium on modern GitBook).
+   ============================================================ */
+
+/* ----------  1. Design tokens  ---------- */
+
+:root,
+html,
+html[data-theme] {
+  /* Surface */
+  --lid-bg: #0B0414;
+  --lid-surface: #140823;
+  --lid-surface-2: #1E0D33;
+
+  /* Accent */
+  --lid-accent: #8B5CF6;
+  --lid-accent-soft: #A78BFA;
+
+  /* Type */
+  --lid-text: #E8E4F0;
+  --lid-text-muted: #9B96AB;
+  --lid-text-faint: #5E5770;
+
+  /* Functional */
+  --lid-success: #34D399;
+  --lid-warning: #FBBF24;
+  --lid-error: #F87171;
+
+  /* Type system */
+  --lid-font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --lid-font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --lid-font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* GitBook theme variable overrides */
+  --primary-color: 139 92 246;            /* #8B5CF6 violet accent */
+  --primary-color-50: 245 243 255;
+  --primary-color-100: 237 233 254;
+  --primary-color-200: 221 214 254;
+  --primary-color-300: 196 181 253;
+  --primary-color-400: 167 139 250;
+  --primary-color-500: 139 92 246;
+  --primary-color-600: 124 58 237;
+  --primary-color-700: 109 40 217;
+  --primary-color-800: 91 33 182;
+  --primary-color-900: 76 29 149;
+  --primary-color-950: 46 16 101;
+}
+
+/* Force Lid dark theme across the site. Light mode is not in scope. */
+html,
+html[data-theme="dark"],
+html[data-theme="light"],
+html[data-theme="auto"] {
+  color-scheme: dark;
+  background-color: var(--lid-bg);
+  color: var(--lid-text);
+}
+
+/* Load the typefaces. GitBook injects font files via CSS, so an @import is
+   the fastest way in. If Custom Font plans allow, swap this for the native
+   GitBook font picker set to "Space Grotesk" + "Inter". */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap");
+
+/* ----------  2. Base layout  ---------- */
+
+body,
+main,
+.main-content,
+[class*="bg-light"],
+[class*="bg-white"],
+[data-testid="page"],
+[data-testid="page-content"] {
+  background-color: var(--lid-bg) !important;
+  color: var(--lid-text) !important;
+  font-family: var(--lid-font-body);
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0;
+  font-feature-settings: "ss01", "cv11";
+}
+
+/* Elevated surfaces: cards, callouts, inline code chips */
+aside,
+.card,
+[class*="rounded"][class*="border"],
+[data-testid="hint"],
+[data-testid="card"],
+[class*="bg-tint"],
+[class*="bg-card"] {
+  background-color: var(--lid-surface) !important;
+  border-color: rgba(155, 150, 171, 0.12) !important;
+  color: var(--lid-text);
+}
+
+/* Hero-level surfaces (first visible card on a page, modals) */
+[data-testid="page-hero"],
+[class*="hero"] {
+  background-color: var(--lid-surface-2) !important;
+}
+
+/* ----------  3. Typography  ---------- */
+
+h1, h2, h3, h4, h5, h6,
+[class*="heading"],
+[data-testid*="heading"] {
+  font-family: var(--lid-font-display) !important;
+  color: var(--lid-text) !important;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  text-transform: none;             /* kill any title-case/uppercase */
+}
+
+h1 {
+  font-size: clamp(36px, 5vw, 56px);
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  margin-bottom: 24px;
+  /* Keep Lid headlines on one line wherever possible */
+  text-wrap: balance;
+}
+
+h2 {
+  font-size: 32px;
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+p,
+li {
+  font-family: var(--lid-font-body) !important;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--lid-text) !important;
+}
+
+/* Body paragraphs get a comfortable measure, never full-width */
+article p,
+main p,
+[data-testid="page-body"] p {
+  max-width: 68ch;
+}
+
+/* Muted secondary copy: captions, page intros, figure labels */
+small,
+figcaption,
+.caption,
+[data-testid="caption"] {
+  color: var(--lid-text-muted) !important;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+/* Faint copy: page numbers, footnotes, metadata */
+.footer-meta,
+[data-testid="page-footer"],
+[data-testid="breadcrumb"],
+[class*="text-muted"],
+[class*="text-light"] {
+  color: var(--lid-text-faint) !important;
+}
+
+/* Strong / emphasis */
+strong, b {
+  color: var(--lid-text) !important;
+  font-weight: 600;
+}
+
+em, i {
+  color: var(--lid-text) !important;
+  font-style: italic;
+}
+
+/* Eyebrow / label utility: tiny uppercase labels the way Lid uses them on slides */
+.eyebrow,
+[data-variant="eyebrow"] {
+  font-family: var(--lid-font-body);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--lid-text-muted);
+}
+
+/* ----------  4. Links  ---------- */
+
+a,
+a:visited {
+  color: var(--lid-accent) !important;
+  text-decoration: none;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: color 120ms ease, text-decoration-color 120ms ease;
+}
+
+a:hover,
+a:focus-visible {
+  color: var(--lid-accent-soft) !important;
+  text-decoration: underline;
+  text-decoration-color: var(--lid-accent-soft);
+}
+
+/* Links inside flowing body text get a subtle underline on rest */
+main p a,
+main li a {
+  text-decoration: underline;
+  text-decoration-color: rgba(139, 92, 246, 0.45);
+  text-underline-offset: 3px;
+}
+
+/* ----------  5. Navigation (left rail + header)  ---------- */
+
+header,
+[data-testid="header"],
+[role="banner"],
+nav.site-nav,
+nav.left-nav,
+aside[role="navigation"] {
+  background-color: var(--lid-bg) !important;
+  border-color: rgba(155, 150, 171, 0.08) !important;
+  color: var(--lid-text);
+}
+
+nav a,
+aside[role="navigation"] a,
+[data-testid="toc"] a,
+[data-testid="page-list"] a {
+  color: var(--lid-text-muted) !important;
+  font-family: var(--lid-font-body);
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 500;
+  letter-spacing: 0;
+  transition: color 120ms ease;
+  text-decoration: none;
+}
+
+nav a:hover,
+aside[role="navigation"] a:hover,
+[data-testid="toc"] a:hover {
+  color: var(--lid-text) !important;
+  text-decoration: none;
+}
+
+/* Active nav item: accent rail + full-strength text */
+nav a[aria-current="page"],
+nav a.active,
+aside[role="navigation"] a[aria-current="page"],
+[data-testid="toc"] a[aria-current="page"],
+[data-testid="toc"] a.active {
+  color: var(--lid-text) !important;
+  background: rgba(139, 92, 246, 0.08);
+  border-left: 2px solid var(--lid-accent);
+  padding-left: 10px;
+  font-weight: 600;
+}
+
+/* Section group headings in the TOC (e.g., "Getting started") */
+nav [class*="group-heading"],
+nav [class*="section-title"],
+aside[role="navigation"] [class*="group-heading"] {
+  font-family: var(--lid-font-body);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--lid-text-faint);
+  margin-top: 24px;
+}
+
+/* Header logo. The SVG is inlined as a base64 data URL so the Custom CSS
+   renders the logo without relying on GitBook's asset hosting. If you also
+   upload the logo in the dashboard (Site → Customization → Logo), that
+   takes precedence and these rules become inert. */
+[data-testid="site-logo"]:empty::before,
+header [class*="logo"]:empty::before {
+  content: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDY3MC41IDI2My4yIj4KICA8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMjkuOC4yLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogMi4xLjEgQnVpbGQgMykgIC0tPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuc3QwIHsKICAgICAgICBmaWxsOiAjYTU3NmZmOwogICAgICB9CgogICAgICAuc3QxIHsKICAgICAgICBmaWxsOiAjZmZmOwogICAgICB9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8Zz4KICAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xMTksMy41aDIyLjVjMy40LDAsNi4yLDIuOCw2LjIsNi4ydjcwYzAsMy4zLDIuMiw1LjUsNS44LDNsMzEuOC0zMi41YzIuMy0yLjMsNi0yLjMsOC4zLDBsMTYuNiwxNi42YzIuMywyLjMsMi4zLDYuMSwwLDguNGwtMjkuOCwyOS41Yy02LjgsNi44LTE3LjgsNi42LTI0LjQtLjRsLTQwLjUtNDIuOGMtMS43LTEuOC0yLjYtNC4xLTIuNi02LjVWOS43YzAtMy40LDIuOC02LjIsNi4yLTYuMloiLz4KICAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yNTcuNSwxMTkuMnYyMi43YzAsMy40LTIuOCw2LjItNi4yLDYuMmgtNjkuNGMtMy4zLDAtNS40LDIuMi0yLjksNS44bDMyLjMsMzJjMi4zLDIuMywyLjMsNiwwLDguM2wtMTYuNSwxNi44Yy0yLjMsMi4zLTYsMi4zLTguMywwbC0yOS4zLTMwLjFjLTYuNy02LjktNi41LTE4LC40LTI0LjZsNDIuNS00MC44YzEuNy0xLjcsNC4xLTIuNiw2LjUtMi42aDQ0LjhjMy40LDAsNi4yLDIuOCw2LjIsNi4yaDBaIi8+CiAgICA8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTQwLjYsMjU4LjVoLTIyLjVjLTMuNCwwLTYuMi0yLjgtNi4yLTYuMnYtNzBjMC0zLjMtMi4yLTUuNS01LjgtM2wtMzEuOCwzMi41Yy0yLjMsMi4zLTYsMi4zLTguMywwbC0xNi42LTE2LjZjLTIuMy0yLjMtMi4zLTYuMSwwLTguNGwyOS44LTI5LjVjNi44LTYuOCwxNy44LTYuNiwyNC40LjRsNDAuNSw0Mi44YzEuNywxLjgsMi42LDQuMSwyLjYsNi41djQ1LjJjMCwzLjQtMi44LDYuMi02LjIsNi4yaDBaIi8+CiAgICA8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMi42LDE0Mi43di0yMi43YzAtMy40LDIuOC02LjIsNi4yLTYuMmg2OS40YzMuMywwLDUuNC0yLjIsMi45LTUuOGwtMzIuMy0zMmMtMi4zLTIuMy0yLjMtNiwwLTguM2wxNi41LTE2LjhjMi4zLTIuMyw2LTIuMyw4LjMsMGwyOS4zLDMwLjFjNi43LDYuOSw2LjUsMTgtLjQsMjQuNmwtNDIuNSw0MC44Yy0xLjcsMS43LTQsMi42LTYuNSwyLjZIOC43Yy0zLjQsMC02LjItMi44LTYuMi02LjJaIi8+CiAgICA8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTUwLjQsMTI4LjFsLTE2LTE2LjFjLTIuNS0yLjUtNi41LTIuNS05LDBsLTE2LDE2LjFjLTIuNSwyLjUtMi41LDYuNiwwLDkuMWwxNiwxNi4xYzIuNSwyLjUsNi41LDIuNSw5LDBsMTYtMTYuMWMyLjUtMi41LDIuNS02LjYsMC05LjFaIi8+CiAgPC9nPgogIDxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0zMjguOSw1Mi4zaDMzLjF2MTM5LjdoODguNHYzMC44aC0xMjEuNVY1Mi4zWiIvPgogIDxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik00NjkuMyw1Ni43YzAtMTIsOC41LTIwLjksMjAuNC0yMC45czIwLjQsOC45LDIwLjQsMjAuOS04LjUsMjAuNi0yMC40LDIwLjYtMjAuNC04LjYtMjAuNC0yMC42Wk00NzQuMiw5NGgzMC44djEyOC44aC0zMC44Vjk0WiIvPgogIDxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik01MjkuNSwxNTcuMWMwLTQ0LjEsMzIuNi02Ni41LDYzLjYtNjYuNXMzMy42LDcuOCw0Mi43LDIyLjJWMzcuN2gzMC44djExOS43YzAsNDEuNy0yNy45LDY4LjgtNjgsNjguOHMtNjktMjguMi02OS02OS4xWk02MzUuOCwxNTguNGMwLTIyLjctMTUtMzguOC0zNy41LTM4LjhzLTM3LjcsMTYuMi0zNy43LDM4LjgsMTUuMywzOC44LDM3LjcsMzguOCwzNy41LTE2LjIsMzcuNS0zOC44WiIvPgo8L3N2Zz4=");
+  display: block;
+  width: 96px;
+  height: auto;
+  vertical-align: middle;
+}
+
+/* ----------  6. Code blocks, inline code, mono  ---------- */
+
+code,
+kbd,
+samp {
+  font-family: var(--lid-font-mono) !important;
+  font-size: 0.92em;
+  background-color: var(--lid-surface);
+  color: var(--lid-accent-soft) !important;
+  padding: 2px 6px;
+  border-radius: 4px;
+  border: 1px solid rgba(155, 150, 171, 0.12);
+}
+
+pre,
+pre code,
+[class*="code-block"],
+[data-testid="code-block"] {
+  background-color: var(--lid-surface) !important;
+  border: 1px solid rgba(155, 150, 171, 0.12) !important;
+  border-radius: 8px;
+  color: var(--lid-text) !important;
+  font-family: var(--lid-font-mono) !important;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+pre code {
+  background: transparent !important;
+  border: 0 !important;
+  padding: 0;
+}
+
+pre {
+  padding: 20px 24px;
+  margin: 24px 0;
+  overflow-x: auto;
+}
+
+/* Wallet addresses and tx hashes: muted mono per lid-design rules */
+[class*="hash"],
+[class*="address"] {
+  font-family: var(--lid-font-mono);
+  font-size: 13px;
+  color: var(--lid-text-muted);
+}
+
+/* ----------  7. Tables  ---------- */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0;
+  font-size: 15px;
+  font-family: var(--lid-font-body);
+}
+
+table th {
+  text-align: left;
+  font-family: var(--lid-font-body);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--lid-text-muted) !important;
+  padding: 12px 16px;
+  background-color: var(--lid-surface) !important;
+  border-bottom: 1px solid rgba(155, 150, 171, 0.16);
+}
+
+table td {
+  padding: 14px 16px;
+  color: var(--lid-text) !important;
+  border-bottom: 1px solid rgba(155, 150, 171, 0.08);
+  vertical-align: top;
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+}
+
+/* Totals rows get a subtle accent without adding a color */
+table tr:last-child td strong {
+  color: var(--lid-accent-soft) !important;
+}
+
+/* ----------  8. GitBook callouts / hints  ---------- */
+
+[data-testid="hint"],
+[class*="callout"],
+.hint {
+  background-color: var(--lid-surface) !important;
+  border: 1px solid rgba(155, 150, 171, 0.12) !important;
+  border-left: 3px solid var(--lid-accent) !important;
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin: 24px 0;
+  color: var(--lid-text) !important;
+}
+
+/* GitBook's semantic hint variants. Neutralize their default colors and
+   use a single left accent with a subtle icon color shift. */
+[data-hint-style="info"],
+.hint-info        { border-left-color: var(--lid-accent) !important; }
+[data-hint-style="success"],
+.hint-success     { border-left-color: var(--lid-success) !important; }
+[data-hint-style="warning"],
+.hint-warning     { border-left-color: var(--lid-warning) !important; }
+[data-hint-style="danger"],
+[data-hint-style="error"],
+.hint-danger      { border-left-color: var(--lid-error) !important; }
+
+/* ----------  9. Cards, tabs, accordions  ---------- */
+
+[data-testid="card"],
+.card,
+[class*="card-root"] {
+  background-color: var(--lid-surface) !important;
+  border: 1px solid rgba(155, 150, 171, 0.12) !important;
+  border-radius: 12px;
+  padding: 24px;
+  color: var(--lid-text) !important;
+  transition: border-color 160ms ease, transform 160ms ease;
+}
+
+[data-testid="card"]:hover,
+.card:hover {
+  border-color: rgba(139, 92, 246, 0.4) !important;
+  transform: translateY(-1px);
+}
+
+/* Tab strip */
+[role="tablist"],
+[data-testid="tabs"] [role="tablist"] {
+  border-bottom: 1px solid rgba(155, 150, 171, 0.12);
+  gap: 0;
+}
+
+[role="tab"],
+[data-testid="tab"] {
+  font-family: var(--lid-font-body);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--lid-text-muted) !important;
+  padding: 12px 20px;
+  border-bottom: 2px solid transparent;
+  transition: color 120ms ease, border-color 120ms ease;
+  background: transparent !important;
+}
+
+[role="tab"][aria-selected="true"],
+[data-testid="tab"][aria-selected="true"] {
+  color: var(--lid-text) !important;
+  border-bottom-color: var(--lid-accent) !important;
+  font-weight: 600;
+}
+
+/* Accordion / expandable */
+details,
+[data-testid="expandable"] {
+  background-color: var(--lid-surface) !important;
+  border: 1px solid rgba(155, 150, 171, 0.12) !important;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin: 16px 0;
+}
+
+details[open] {
+  border-color: rgba(139, 92, 246, 0.35) !important;
+}
+
+details summary {
+  font-family: var(--lid-font-display);
+  font-weight: 600;
+  color: var(--lid-text) !important;
+  cursor: pointer;
+  list-style: none;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+/* ----------  10. Buttons and CTAs  ---------- */
+
+button,
+.button,
+a[class*="button"],
+[data-testid*="button"] {
+  font-family: var(--lid-font-body);
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 8px;
+  transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease;
+}
+
+/* Primary: accent background, bg text */
+button[class*="primary"],
+.button-primary,
+a[class*="button-primary"] {
+  background-color: var(--lid-accent) !important;
+  color: var(--lid-bg) !important;
+  border: 0;
+  padding: 10px 18px;
+}
+
+button[class*="primary"]:hover,
+.button-primary:hover {
+  background-color: var(--lid-accent-soft) !important;
+}
+
+/* Secondary: ghost outline */
+button[class*="secondary"],
+.button-secondary,
+a[class*="button-secondary"] {
+  background-color: transparent !important;
+  color: var(--lid-text) !important;
+  border: 1px solid var(--lid-text-muted) !important;
+  padding: 9px 17px;
+}
+
+button[class*="secondary"]:hover,
+.button-secondary:hover {
+  border-color: var(--lid-accent) !important;
+  color: var(--lid-accent-soft) !important;
+}
+
+/* ----------  11. Search  ---------- */
+
+input[type="search"],
+[data-testid="search"] input,
+[role="search"] input {
+  background-color: var(--lid-surface) !important;
+  color: var(--lid-text) !important;
+  border: 1px solid rgba(155, 150, 171, 0.16) !important;
+  border-radius: 8px;
+  font-family: var(--lid-font-body);
+  font-size: 14px;
+  padding: 10px 14px;
+}
+
+input[type="search"]:focus,
+[data-testid="search"] input:focus,
+[role="search"] input:focus {
+  border-color: var(--lid-accent) !important;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.18);
+}
+
+input[type="search"]::placeholder {
+  color: var(--lid-text-faint);
+}
+
+/* Search results container */
+[data-testid="search-results"],
+[role="listbox"] {
+  background-color: var(--lid-surface-2) !important;
+  border: 1px solid rgba(155, 150, 171, 0.12) !important;
+  border-radius: 12px;
+}
+
+/* ----------  12. Misc  ---------- */
+
+hr {
+  border: 0;
+  border-top: 1px solid rgba(155, 150, 171, 0.12);
+  margin: 48px 0;
+}
+
+blockquote {
+  border-left: 2px solid var(--lid-accent);
+  padding: 4px 0 4px 20px;
+  margin: 24px 0;
+  color: var(--lid-text-muted);
+  font-style: normal;
+}
+
+img,
+figure img,
+picture img {
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+/* Scrollbar: subtle, not loud */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--lid-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(155, 150, 171, 0.2);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(155, 150, 171, 0.35);
+}
+
+/* Selection uses the accent, not the default blue */
+::selection {
+  background: rgba(139, 92, 246, 0.35);
+  color: var(--lid-text);
+}
+
+/* ----------  13. Anti-patterns: kill off-brand stuff if GitBook renders it  ---------- */
+
+/* No gradient meshes, glass effects, or neumorph shadows sneaking in via themes */
+[class*="gradient-mesh"],
+[class*="glassmorph"],
+[class*="neumorph"] {
+  background-image: none !important;
+  backdrop-filter: none !important;
+  box-shadow: none !important;
+}
+
+/* Emoji-as-bullets sometimes ship in themes as list-marker images. Reset. */
+ul > li::marker {
+  color: var(--lid-text-faint);
+  content: "— ";
+}
+
+ol > li::marker {
+  color: var(--lid-text-faint);
+}
+
+/* ----------  14. Responsive polish  ---------- */
+
+@media (max-width: 768px) {
+  h1 { font-size: 36px; line-height: 1.1; }
+  h2 { font-size: 26px; margin-top: 36px; }
+  h3 { font-size: 19px; }
+
+  article p,
+  main p,
+  [data-testid="page-body"] p {
+    max-width: 100%;
+  }
+
+  pre {
+    padding: 16px;
+    font-size: 13px;
+  }
+}

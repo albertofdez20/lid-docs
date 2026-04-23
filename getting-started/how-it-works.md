@@ -1,28 +1,28 @@
-# How it works
+# The core loop
 
 Every action on LID serves one loop.
 
-**Create → Share → Sell → Get Paid**
+**Create → Share → Sell → Get paid.**
 
 ## Create
 
-A seller signs up and creates a digital product at [app.lid.pro](https://app.lid.pro). Title, description, price, file or access link. The whole flow is built to take minutes, not an afternoon.
+A seller signs up at [app.lid.pro](https://app.lid.pro) and creates a digital product. Title, description, price, file or access link. The whole flow takes minutes, not an afternoon.
 
-The seller sets the affiliate commission at creation. Example: 20% of each sale to whoever drove it. That number is locked into the on-chain rules for that product.
+The seller sets the affiliate commission at creation. Example: 20% of each sale goes to whoever drove it. That number is locked into the on-chain rules for that product.
 
-No inventory tracking, no fulfillment pipelines, no shipping. The product page is the storefront. The smart contract is the cash register.
+No inventory. No fulfillment pipelines. No shipping. The product page is the storefront. The smart contract is the cash register.
 
 ## Share
 
 Every product on LID has a public link.
 
-Anyone who wants to earn on the sale can generate an affiliate version of that link from the product page. The affiliate version carries an on-chain binding: when a buyer checks out through it, the attribution is recorded at the protocol level.
+Anyone who wants to earn on the sale can generate an affiliate version of that link from the product page. The affiliate version carries an on-chain binding. When a buyer checks out through it, the attribution is recorded at the protocol level.
 
 No application. No approval. No contract to countersign. The moment a seller turns on affiliate commission, every visitor is a potential distributor.
 
 ## Sell
 
-A buyer lands on the product page. Checkout is designed to feel like software. No wallet jargon, no chain selection, no gas prompts. The buyer pays in USDC or fiat-to-USDC through an abstracted payment surface.
+A buyer lands on the product page. Checkout feels like software. No wallet jargon. No chain selection. No gas prompts. The buyer pays in digital dollars or fiat-to-digital-dollars through an abstracted payment surface.
 
 At the moment the transaction clears, two things happen atomically.
 
@@ -31,7 +31,7 @@ At the moment the transaction clears, two things happen atomically.
 
 Attribution is not a best-effort guess from a click database. It's a rule executed by the smart contract at checkout.
 
-## Get Paid
+## Get paid
 
 In the same transaction as the sale, the split executes.
 
@@ -39,9 +39,9 @@ In the same transaction as the sale, the split executes.
 - **Affiliate** receives their commission, if one was attached.
 - **LID** receives its 3% infrastructure fee.
 
-All three payments settle in USDC in seconds. No reconciliation. No payout schedule. Money does not sit with LID between the sale and the payout. It is never touched.
+All three payments settle in digital dollars in seconds. No reconciliation. No payout schedule. Money does not sit with LID between the sale and the payout. It is never touched.
 
-The seller can off-ramp to fiat post-raise once the fiat partner is live. USDC is the native settlement asset.
+The seller can off-ramp to fiat post-raise, once the fiat partner is live. Digital dollars are the native settlement asset.
 
 ## Why this matters
 
@@ -49,6 +49,6 @@ Every other model for creator commerce routes money through the platform. The pl
 
 LID does none of that. The split is the transaction. The fee is transparent. The trust layer is the contract.
 
-That's how "your customers are your sales team" becomes a real mechanism, not a slogan.
+That's how "your customers are your sales team" becomes a real mechanism. Not a slogan.
 
 Next: [Quickstart →](quickstart.md)

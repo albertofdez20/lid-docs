@@ -45,12 +45,12 @@ You don't have to promote everything that's available. Your filter is your edge.
 
 ## Building a small portfolio
 
-Most affiliates start with one product and learn the loop. As you earn, add more, but curate them like you're building a shelf in a store.
+Most affiliates start with one product and learn the loop. As you earn, add more. Curate them like you're building a shelf in a store.
 
 Rules of thumb:
 
 - 3 to 5 products is a healthy active portfolio for a single creator.
-- Products that serve different slices of your audience compound, products that compete cannibalize.
+- Products that serve different slices of your audience compound. Products that compete cannibalize.
 - Rotate based on what's converting. Drop products that don't pull their weight.
 
 Next: [Share and earn →](share-and-earn.md)

@@ -1,6 +1,6 @@
-# Roadmap: The Proof Ladder
+# Roadmap: the proof ladder
 
-LID advances in phases. Every phase has to clear three gates at the same time:
+LID advances in phases. Every phase has to clear three gates at the same time.
 
 1. **Business.** Usage, revenue, repeat behavior.
 2. **Trust and quality.** Payout accuracy, attribution correctness, zero red-light bugs.
@@ -8,7 +8,7 @@ LID advances in phases. Every phase has to clear three gates at the same time:
 
 We do not move forward because time passed, attention increased, or the narrative sounds better. We move because the proof is there.
 
-## Phase 1: Trusted Alpha (current)
+## Phase 1: Trusted alpha (current)
 
 Prove the core loop works with trusted users under close observation.
 
@@ -20,7 +20,7 @@ Prove the core loop works with trusted users under close observation.
 - Observed sessions and debriefs complete
 - Top trust frictions fixed
 
-## Phase 2: Instrumented Self-Serve Alpha
+## Phase 2: Instrumented self-serve alpha
 
 Open the product further. Let the market qualify itself. No meeting required before product access.
 
@@ -30,7 +30,7 @@ Open the product further. Let the market qualify itself. No meeting required bef
 - Instant median payout
 - High-intent users clearly separable from noise
 
-## Phase 3: Proof of Liquidity
+## Phase 3: Proof of liquidity
 
 The first real fundraising bridge. The question shifts from "will people click?" to "does the system produce measurable earning and repeat behavior?"
 
@@ -40,7 +40,7 @@ The first real fundraising bridge. The question shifts from "will people click?"
 - 10 to 20 power users
 - 30%+ repeat seller rate
 
-## Phase 4: Agentic API and Repeatability (post-funding)
+## Phase 4: Agentic API and repeatability (post-funding)
 
 Deploy the raise to reduce founder dependence and expand into programmable agentic distribution.
 

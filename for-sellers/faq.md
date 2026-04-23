@@ -2,7 +2,7 @@
 
 ## Do I need a crypto wallet to sell on LID?
 
-No. The whole point is that you don't see Web3 complexity as a seller. You sign up with email. Your account holds USDC automatically. No wallet setup, no seed phrase, no chain selection.
+No. You don't see Web3 complexity as a seller. You sign up with email. Your account holds digital dollars automatically. No wallet setup, no seed phrase, no chain selection.
 
 If you're crypto-native and want to connect your own wallet, you can. For everyone else, the abstraction handles it.
 
@@ -22,7 +22,7 @@ LID does not issue refunds automatically. You set your own refund policy. If you
 
 ## How do I price my product?
 
-Price in USD from the dashboard. Settlement happens in USDC, which tracks the dollar 1:1. Buyers see the USD price. No crypto price volatility affects the number.
+Price in USD from the dashboard. Settlement happens in digital dollars, which track the dollar 1:1. Buyers see the USD price. No price volatility affects the number.
 
 ## What if a buyer sends the wrong amount?
 
@@ -30,9 +30,9 @@ They can't. Checkout is a fixed-price flow. The smart contract accepts the exact
 
 ## What happens if my affiliate is a scammer?
 
-Attribution binds at checkout. If an affiliate drives a sale, they're paid their split. LID does not arbitrate who "deserves" the commission. That's the point: attribution is neutral and enforceable.
+Attribution binds at checkout. If an affiliate drives a sale, they're paid their split. LID does not arbitrate who "deserves" the commission. That's the point. Attribution is neutral and enforceable.
 
-If an affiliate is gaming the system (fake traffic, cookie stuffing, etc.), fraud controls at the protocol level are a priority area. Email alberto@lid.pro if you see abuse.
+If an affiliate is gaming the system (fake traffic, cookie stuffing), fraud controls at the protocol level are a priority area. Email alberto@lid.pro if you see abuse.
 
 ## Can I remove an affiliate from my product?
 
@@ -60,4 +60,4 @@ See [Team](../company/team.md).
 
 Email alberto@lid.pro. Every support case during alpha goes through the founder. That's deliberate.
 
-Next: [For Affiliates →](../for-affiliates/how-affiliate-works.md)
+Next: [How the affiliate system works →](../for-affiliates/how-affiliate-works.md)

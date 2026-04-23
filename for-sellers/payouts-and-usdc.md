@@ -4,7 +4,7 @@ Payouts on LID happen in the same transaction as the sale. There is no payout sc
 
 ## How it works
 
-Every sale on LID settles atomically. That means all three moves happen in the same Solana transaction, or none of them do:
+Every sale on LID settles atomically. All four moves happen in the same Solana transaction, or none of them do.
 
 1. Buyer sends payment
 2. Seller receives their share
@@ -19,19 +19,19 @@ When you make a sale, your account balance goes up immediately. You can verify t
 
 The balance is held at an address associated with your account. Your funds are never pooled with LID's operating funds. You can view every transaction on-chain.
 
-## USDC
+## Digital dollars (USDC)
 
-All payouts on LID are denominated in USDC. USDC is a US dollar stablecoin issued by Circle, fully backed 1:1 by cash and short-term US Treasuries. One USDC is always one US dollar.
+All payouts on LID settle in USDC. USDC is a US dollar stablecoin issued by Circle, fully backed 1:1 by cash and short-term US Treasuries. One USDC is always one US dollar.
 
 Think of it as digital dollars that move at internet speed. The balance you hold in your LID account is dollar-denominated. It does not fluctuate with crypto prices.
 
 ## Can I get paid in fiat
 
-Today: no. All settlement is in USDC.
+Today: no. All settlement is in digital dollars.
 
-Post-raise: yes. A fiat off-ramp is on the roadmap. After the raise closes, we'll integrate with a payment provider that lets you convert your USDC balance to your local currency and transfer to your bank account. The specific partner will be announced when the integration is live.
+Post-raise: yes. A fiat off-ramp is on the roadmap. After the raise closes, we'll integrate with a payment provider that lets you convert your USDC balance to your local currency and transfer to a bank account. The specific partner will be announced when the integration is live.
 
-For now, if you need fiat, you can send your USDC to an exchange that supports USDC on Solana (Coinbase, Kraken, Binance, and others) and withdraw fiat from there. This is an extra step, and we know it. Fixing it is a priority after the raise.
+For now, if you need fiat, you can send USDC to an exchange that supports USDC on Solana (Coinbase, Kraken, Binance, and others) and withdraw fiat from there. This is an extra step, and we know it. Fixing it is a priority after the raise.
 
 ## Security
 
@@ -41,8 +41,8 @@ The smart contracts that execute the splits have been designed and reviewed with
 
 ## What if something goes wrong
 
-If a payout ever fails or routes incorrectly, that's a red-light bug and our highest priority. Email alberto@lid.pro immediately. Any red-light bug blocks phase progression for the product until it's fixed. We take this seriously because trust through execution is the core promise.
+If a payout ever fails or routes incorrectly, that's a red-light bug and our highest priority. Email alberto@lid.pro immediately. Any red-light bug blocks phase progression for the product until it's fixed. We take this seriously. Trust through execution is the core promise.
 
 In the current alpha phase, every completed loop is reviewed for correctness.
 
-Next: [FAQ →](faq.md)
+Next: [FAQ for sellers →](faq.md)

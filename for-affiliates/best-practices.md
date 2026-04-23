@@ -60,6 +60,6 @@ If every post is a link, you're not an affiliate. You're a billboard. Billboards
 
 The affiliate system on LID rewards consistency. Attribution is permanent. Your track record is visible. Sellers see which affiliates actually move units. The people who show up early and do the work credibly get pick of new products first.
 
-This is the flywheel: your customers become your sales team, because when the system is fair, the best sellers compound.
+This is the flywheel. Your customers become your sales team, because when the system is fair, the best sellers compound.
 
-Next: [Protocol →](../protocol/the-trust-layer.md)
+Next: [The trust layer →](../protocol/the-trust-layer.md)

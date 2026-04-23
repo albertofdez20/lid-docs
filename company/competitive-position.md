@@ -1,6 +1,6 @@
 # Competitive position
 
-LID does not compete as a cheaper Gumroad. LID operates in a different category: **infrastructure**, not **storefront**.
+LID does not compete as a cheaper Gumroad. LID operates in a different category. **Infrastructure**, not **storefront**.
 
 ## The category distinction
 
@@ -23,7 +23,7 @@ Storefronts are destinations. Infrastructure is a layer. A storefront sells to b
 
 ## Why LID wins
 
-Sell + distribute + split + payout in one loop.
+Sell, distribute, split, and pay out in one loop.
 
 Collaborative selling by default. Faster path from sale to earnings. Trust through smart contract execution, not reconciliation. 3% flat vs. 5 to 30% from every competitor listed above.
 
@@ -33,7 +33,7 @@ Every seller keeps more on LID than anywhere else.
 
 Pricing is part of the moat. The deeper defense is structural.
 
-Incumbents can lower fees. They cannot retrofit on-chain attribution, atomic splits, or permissionless distribution without rebuilding their stack on blockchain. That's an entire platform rewrite, not a pricing adjustment.
+Incumbents can lower fees. They cannot retrofit on-chain attribution, atomic splits, or permissionless distribution without rebuilding their stack on blockchain. That's a platform rewrite, not a pricing adjustment.
 
 By the time a Web2 incumbent ships a competitive feature, LID's affiliate network effects will have compounded. Every completed loop on LID makes the liquidity advantage harder to catch.
 
@@ -45,7 +45,7 @@ By the time a Web2 incumbent ships a competitive feature, LID's affiliate networ
 
 **Instant payouts.** Every competitor holds money and pays on a schedule. LID settles in the same transaction.
 
-**3% flat.** Every competitor's effective take rate is higher, usually much higher.
+**3% flat.** Every competitor's effective take rate is higher. Usually much higher.
 
 **Invisible blockchain.** Every competitor in Web3 exposes wallet complexity. LID hides it.
 

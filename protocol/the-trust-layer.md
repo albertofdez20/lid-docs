@@ -4,15 +4,15 @@ Trust in creator commerce is usually a spreadsheet. A platform tracks clicks, at
 
 LID replaces that with a smart contract.
 
-## What a trust layer actually is
+## What a trust layer is
 
-A trust layer is the answer to three questions:
+A trust layer is the answer to three questions.
 
 1. **Who drove this sale?** (Attribution)
 2. **How much does each party get?** (Splits)
 3. **When do they get it?** (Settlement)
 
-On most platforms, all three are decided off-chain. Click logs attribute the sale. A commission engine calculates the split. A payout schedule determines when money moves. Every step involves the platform as an arbiter, and every step is a place where trust can break.
+On most platforms, all three are decided off-chain. Click logs attribute the sale. A commission engine calculates the split. A payout schedule determines when money moves. Every step involves the platform as an arbiter. Every step is a place where trust can break.
 
 LID executes all three inside the Solana transaction that processes the sale. Attribution is bound when the buyer checks out. Splits are calculated by rules set at product creation. Settlement happens in the same transaction. No arbiter. No spreadsheet. No delay.
 
@@ -37,7 +37,7 @@ When attribution and splits are enforced by a smart contract:
 - No party (including LID) can retroactively alter the split.
 - Every sale, every split, every payout is independently verifiable on Solana.
 
-The result is that "trust" stops being a policy and starts being a property of the system.
+Trust stops being a policy and becomes a property of the system.
 
 ## What this means for each side
 
@@ -57,6 +57,6 @@ Three things had to be true at the same time to make this work. All three became
 2. **Sub-second settlement.** Transactions confirm fast enough that checkout feels like software, not like waiting for a blockchain.
 3. **UX that hides the chain.** The buyer never sees a wallet, a gas prompt, or a chain selector.
 
-Solana is the chain where all three are simultaneously true at the scale LID needs.
+Solana is where all three are simultaneously true at the scale LID needs.
 
 Next: [Instant splits →](instant-splits.md)

@@ -12,11 +12,11 @@ If a buyer pays $100 for your product, LID takes $3. The remaining $97 splits be
 
 - Sale price in USD equivalent.
 - Solana network fees for the transaction (sub-cent).
-- A small payment processing fee if the buyer pays in fiat via our payment partner (passed through, not taken by LID).
+- A small payment processing fee if the buyer pays in fiat through our payment partner. Passed through, not taken by LID.
 
 ## What the affiliate earns
 
-Whatever percentage you set at product creation. If you set 20% and the product sells for $100, the affiliate receives $20 in USDC in the same transaction.
+Whatever percentage you set at product creation. If you set 20% and the product sells for $100, the affiliate receives $20 in digital dollars in the same transaction.
 
 ## Example math
 
@@ -39,7 +39,9 @@ A $100 sale with no affiliate (direct sale by you):
 
 ## Why 3%
 
-The fee is designed to be low enough to align with top earners and strong enough to make LID sustainable. Most creator commerce platforms effectively charge between 5% and 30% once payment processing, subscriptions, and withdrawal fees are added up. Gumroad's effective take rate is around 13%. Lemon Squeezy runs 5 to 10%. Stan Store charges variable amounts on top of monthly.
+The fee is designed to be low enough to align with top earners and strong enough to make LID sustainable.
+
+Most creator commerce platforms effectively charge between 5% and 30% once payment processing, subscriptions, and withdrawal fees are added up. Gumroad's effective take rate is around 13%. Lemon Squeezy runs 5 to 10%. Stan Store charges variable amounts on top of monthly.
 
 LID's 3% stays fixed. No tollbooth that punishes you the bigger you get.
 
@@ -53,18 +55,18 @@ A Pro tier is planned for when the product earns the right to charge for it. Exp
 | **Pro** | 3% | ~$29 | Analytics, custom branding, priority support. |
 | **Enterprise** | Custom | Custom | White-label, API access, dedicated support. |
 
-Today there's only one tier: flat 3% on every sale. Everyone gets the core loop. The subscription tiers add advanced tools. They do not gate core functionality.
+Today there's only one tier. Flat 3% on every sale. Everyone gets the core loop. Subscription tiers add advanced tools on top. They do not gate core functionality.
 
 ## No hidden fees
 
 - No monthly cost today
-- No withdrawal fees (your USDC is already in your account after every sale)
+- No withdrawal fees (your digital dollars are already in your account after every sale)
 - No minimum balance
 - No inactivity fee
-- No chargeback fees (crypto payments are final)
+- No chargeback fees (on-chain payments are final)
 
 ## What about taxes
 
-LID doesn't withhold taxes. You're responsible for your local tax obligations on the revenue you earn. We can generate transaction history for accounting purposes from your dashboard.
+LID does not withhold taxes. You're responsible for your local tax obligations on the revenue you earn. We can generate transaction history for accounting from your dashboard.
 
 Next: [Payouts and USDC →](payouts-and-usdc.md)

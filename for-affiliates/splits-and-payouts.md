@@ -4,9 +4,9 @@ The split is the transaction. There's no payout step that happens after.
 
 ## The mechanic
 
-When a buyer checks out through your affiliate link, the smart contract executes a single Solana transaction that does four things at once:
+When a buyer checks out through your affiliate link, the smart contract executes a single Solana transaction that does four things at once.
 
-1. Accepts the buyer's payment in USDC
+1. Accepts the buyer's payment in digital dollars
 2. Sends the seller's share to the seller's account
 3. Sends your commission to your account
 4. Sends the 3% infrastructure fee to LID
@@ -15,7 +15,7 @@ If any of those steps fails, the whole transaction reverts. The buyer isn't char
 
 ## What you receive
 
-The commission percentage set on the product when you generated your link. Example: if the commission is 25% and the sale price is $200, you receive $50 in USDC the moment the transaction clears.
+The commission percentage set on the product when you generated your link. Example: if the commission is 25% and the sale price is $200, you receive $50 in digital dollars the moment the transaction clears.
 
 The percentage cannot be changed retroactively. The rate at the moment of sale is the rate that applies.
 
@@ -31,7 +31,7 @@ Your dashboard shows every split you've received with:
 - Product
 - Sale amount
 - Your percentage
-- Your USDC amount
+- Your digital-dollar amount
 - Solana transaction signature (clickable, opens the on-chain record)
 
 Every payout is independently verifiable on a block explorer.

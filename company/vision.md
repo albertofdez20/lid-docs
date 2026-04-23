@@ -2,7 +2,7 @@
 
 **Your customers are your sales team.**
 
-LID is a programmable commerce routing layer built on Solana. It solves a two-sided market failure in digital commerce. Creators who need sellers. Sellers who need products. LID connects both sides with on-chain attribution, permissionless affiliate distribution, and instant USDC payouts, all in a single transaction.
+LID is a programmable commerce routing layer. It runs on Solana. It solves a two-sided market failure in digital commerce. Creators who need sellers. Sellers who need products. LID connects both sides with on-chain attribution, permissionless affiliate distribution, and instant digital-dollar payouts, all in a single transaction.
 
 The core insight: every buyer is a potential distributor. LID makes that real.
 
@@ -10,17 +10,17 @@ The core insight: every buyer is a potential distributor. LID makes that real.
 
 | Horizon | Mission |
 |---|---|
-| **Today** | Help humans sell digital products together and get paid instantly. |
+| **Today** | Help humans sell digital products together. Pay them instantly. |
 | **12 to 24 months** | Become the default economic routing layer for AI agents buying and selling from each other. |
-| **Long term** | Extend the same trust layer to physical goods: car resale, real estate referrals, tokenized real-world assets. Same infrastructure. Different volume. |
+| **Long term** | Extend the same trust layer to physical goods. Car resale. Real estate referrals. Tokenized real-world assets. Same infrastructure. Different volume. |
 
 Info-products are the wedge. Agents come next. Physical goods are the ceiling.
 
 ## The principle
 
-Everything at LID flows from one principle: if a decision doesn't help people earn fairly and grow over time, we don't make it.
+Everything at LID flows from one principle. If a decision doesn't help people earn fairly and grow over time, we don't make it.
 
-Eventually that principle extends to autonomous agents. Today it starts with humans selling together.
+The principle extends to autonomous agents. Today it starts with humans selling together.
 
 ## Why now
 
@@ -30,7 +30,7 @@ Fixing this market failure required three things to be true at once.
 2. Sub-second settlement
 3. UX that hides both
 
-That combination only became real in the last 18 months. Solana is where all three landed at the same time. LID is what you build when they do.
+That combination became real in the last 18 months. Solana is where all three landed at the same time. LID is what you build when they do.
 
 ## How LID wins
 
@@ -38,11 +38,11 @@ That combination only became real in the last 18 months. Solana is where all thr
 
 **Enforceable attribution.** Smart contracts guarantee who gets paid and how much. The trust gap between creator and seller closes.
 
-**Instant payouts.** Splits settle immediately in USDC. Money never sits with the platform.
+**Instant payouts.** Splits settle immediately in digital dollars. Money never sits with the platform.
 
 **Flat 3% infrastructure fee.** Low enough to align with top earners. Durable enough to block incumbents who can't match it without gutting their revenue model.
 
-**Fully abstracted UX.** Feels like software. Works like money. The blockchain is invisible.
+**Abstracted UX.** Feels like software. Works like money. The blockchain is invisible.
 
 **Trust through execution.** Smart contracts guarantee the split and the fee. No 30-day delays. No attribution disputes.
 
@@ -71,7 +71,7 @@ These three compound. Network effects grow the liquidity pool. The trust layer r
 
 ## Business model
 
-Flat 3% infrastructure fee on every transaction. USDC settlement. No subscriptions today. A Pro tier is planned when advanced features justify it.
+Flat 3% infrastructure fee on every transaction. Digital-dollar settlement. No subscriptions today. A Pro tier is planned when advanced features justify it.
 
 Per-seller economics at target scale:
 

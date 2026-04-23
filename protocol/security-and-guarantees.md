@@ -10,9 +10,9 @@ Trust is the product. This page lays out what we guarantee, how we protect again
 
 **LID does not custody your funds.** Your account balance lives on-chain. We do not pool your funds with LID operating capital. You can verify every transaction independently.
 
-**Past sales are immutable.** Once a split settles, the record is on Solana forever. No one can edit it retroactively, not even us.
+**Past sales are immutable.** Once a split settles, the record is on Solana forever. No one can edit it retroactively. Not even us.
 
-**The 3% fee is transparent.** The fee amount on every sale is visible on-chain. No hidden markup, no currency conversion margin, no added line items at payout.
+**The 3% fee is transparent.** The fee amount on every sale is visible on-chain. No hidden markup. No currency conversion margin. No added line items at payout.
 
 ## What is still being earned
 
@@ -24,7 +24,7 @@ Trust is the product. This page lays out what we guarantee, how we protect again
 
 ## What counts as a red-light bug
 
-A red-light bug is anything that breaks the core trust promise:
+A red-light bug is anything that breaks the core trust promise.
 
 - Lost funds.
 - Payment routed to the wrong account.
@@ -77,4 +77,4 @@ Email alberto@lid.pro for:
 
 Every report gets a direct response from the founding team.
 
-Next: [Developers →](../developers/overview.md)
+Next: [Developers overview →](../developers/overview.md)

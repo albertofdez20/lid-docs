@@ -4,7 +4,7 @@ Every sale on LID splits money in the same transaction it collects it.
 
 ## The mechanic
 
-A transaction on LID contains a series of instructions that execute atomically. For a simple sale with one affiliate, those instructions look like this:
+A transaction on LID contains a series of instructions that execute atomically. For a simple sale with one affiliate, those instructions look like this.
 
 1. Buyer pays the full price in USDC.
 2. Seller's share routes to the seller's account.
@@ -14,7 +14,7 @@ A transaction on LID contains a series of instructions that execute atomically. 
 
 If any instruction fails, the whole transaction reverts. Either all parties move together or no one moves.
 
-This is atomicity. It's the property that makes a split trustable without arbitration.
+This is atomicity. The property that makes a split trustable without arbitration.
 
 ## Why this changes the game
 
@@ -39,18 +39,18 @@ On LID, there is no window. The split is the transaction. The platform never hol
 
 ## Split types on the roadmap
 
-Once the core loop is proven at scale, the split types expand:
+Once the core loop is proven at scale, the split types expand.
 
 - **Multi-affiliate attribution.** Multiple affiliates who contributed to a sale, with weighted splits.
 - **Team splits.** A single seller account that represents a team, with automatic split-down to team members.
 - **Royalty splits.** Secondary affiliate tiers, where the person who recruited the selling affiliate also earns a smaller share.
 - **Protocol-owned revenue routes.** Splits that route directly to DAOs, treasuries, or multi-sig wallets as part of the transaction.
 
-These are infrastructure primitives for the programmable commerce layer. The same mechanism that sends a commission to an affiliate will send a share to an AI agent, a DAO, or a RWA issuer as the system expands.
+These are infrastructure primitives for the programmable commerce layer. The same mechanism that sends a commission to an affiliate will send a share to an AI agent, a DAO, or a tokenized-asset issuer as the system expands.
 
 ## What "instant" actually feels like
 
-You make a sale. You see the USDC in your account balance within seconds. You can verify the Solana transaction signature. You can move the USDC to an exchange or hold it.
+You make a sale. You see the digital dollars in your account balance within seconds. You can verify the Solana transaction signature. You can move the balance to an exchange or hold it.
 
 That is it. There is no payout step that runs later.
 

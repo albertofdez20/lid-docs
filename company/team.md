@@ -1,6 +1,6 @@
 # Team
 
-LID is built by three founders, each with hard-earned expertise in one of the pillars that makes the product work: community, protocol, and growth.
+LID is built by three founders, each with hard-earned expertise in one of the pillars that makes the product work. Community, protocol, and growth.
 
 ## Alberto Fernández, Founder & CEO
 
@@ -24,7 +24,7 @@ Founder of Eclips3, a firm that has scaled 190+ Web3 projects. Relationships wit
 
 ## How we work
 
-**Trust is infrastructure.** We move slow on payouts, attribution, and splits. We never let speed create sloppiness in trust-critical rails.
+**Trust is infrastructure.** We move slowly on payouts, attribution, and splits. We never let speed create sloppiness in trust-critical rails.
 
 **Move fast on the rest.** Discovery, content, onboarding, iteration. The product-as-pitch motion requires high velocity.
 

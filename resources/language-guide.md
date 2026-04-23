@@ -20,6 +20,7 @@ How LID talks about itself in public. These are the lines we use and the lines w
 | Blended ARPU of $143/year | Vague "great unit economics" |
 | Completed loops, affiliate-led GMV | "We have users" (when they are invited testers) |
 | Sell your products and get paid instantly | Wallet jargon, chain names, gas prompts, "connect your wallet" |
+| Digital dollars | USDC (in audience-facing copy; USDC is fine in protocol and developer pages) |
 | Fiat off-ramp planned post-raise | "Fiat payments available" (they are not yet) |
 | Start with 3%. Pro tier comes when features justify it. | "Subscription model" (until it actually exists) |
 | 100 sellers → $14K. 10K → $1.4M. 100K → $14M. | Empty TAM claims without bottom-up math |
@@ -41,11 +42,11 @@ Outreach and social CTAs point at lid.pro. The product surface is for people who
 
 **Say what it IS, not what it isn't.** "This isn't another storefront. It's infrastructure." is lazy. "LID is infrastructure for collaborative selling." goes straight to the point.
 
-**No hype vocabulary.** Revolutionize, leverage, seamless, unlock, elevate, cutting-edge, game-changing, paradigm shift, journey, ecosystem. Every one of these words triggers rewrite.
+**No hype vocabulary.** Revolutionize, leverage, seamless, unlock, elevate, cutting-edge, game-changing, paradigm shift, journey, ecosystem. Every one of these words triggers a rewrite.
 
-**Start with the point.** No "in today's rapidly evolving landscape." No "have you ever wondered." No "we're excited to announce." The first sentence IS the hook.
+**Start with the point.** No "in today's rapidly evolving landscape". No "have you ever wondered". No "we're excited to announce". The first sentence IS the hook.
 
-**Close with action or momentum.** No recaps, no empty inspiration, no "what do you think?" The content provokes response on its own.
+**Close with action or momentum.** No recaps, no empty inspiration, no "what do you think?". The content provokes response on its own.
 
 ## What we never claim
 
@@ -67,6 +68,6 @@ If we say the number, we can point at the proof.
 
 ## The ultimate test
 
-Every piece of copy gets the same test: would a real person write this at a bar? If it sounds like a brochure, rewrite. If it sounds like LID, ship.
+Every piece of copy gets the same test. Would a real person write this at a bar? If it sounds like a brochure, rewrite. If it sounds like LID, ship.
 
 Next: [Contact →](contact.md)

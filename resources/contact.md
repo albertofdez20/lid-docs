@@ -17,7 +17,7 @@ Include:
 - What you expected to happen
 - What actually happened
 
-Red-light bugs (lost funds, wrong payout, attribution error) are top priority and will block phase progression until resolved.
+Red-light bugs (lost funds, wrong payout, attribution error) are top priority and block phase progression until resolved.
 
 ## For developers
 

@@ -50,3 +50,11 @@
 * [Glossary](resources/glossary.md)
 * [Language guide](resources/language-guide.md)
 * [Contact](resources/contact.md)
+
+## Legal
+
+* [Overview](legal/README.md)
+* [Terms of Service](legal/terms.md)
+* [Privacy Policy](legal/privacy.md)
+* [Cookie Policy](legal/cookies.md)
+* [Risk Disclosure](legal/risk-disclosure.md)

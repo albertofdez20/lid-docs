@@ -38,17 +38,17 @@ Educators, course creators, coaches, niche experts, and paid communities come ne
 
 ## Where LID is going
 
-| Horizon | What we're building |
-|---|---|
-| **Today** | Humans selling digital products together. Instant payouts. |
-| **12 to 24 months** | The default economic routing layer for AI agents buying and selling from each other. |
-| **Long term** | The same trust layer for physical goods. Car resale. Real estate referrals. Tokenized real-world assets. |
+| Horizon             | What we're building                                                                                      |
+| ------------------- | -------------------------------------------------------------------------------------------------------- |
+| **Today**           | Humans selling digital products together. Instant payouts.                                               |
+| **12 to 24 months** | The default economic routing layer for AI agents buying and selling from each other.                     |
+| **Long term**       | The same trust layer for physical goods. Car resale. Real estate referrals. Tokenized real-world assets. |
 
 Info-products are the wedge. Agents come next. Physical goods are the ceiling.
 
 ## Live status
 
-LID launched on Solana mainnet on April 22, 2026. Product at [app.lid.pro](https://app.lid.pro). Site at [lid.pro](https://lid.pro).
+LID launched on Solana mainnet on April 24, 2026. Product at [app.lid.pro](https://app.lid.pro). Site at [lid.pro](https://lid.pro).
 
 Active alpha validation. Proof of liquidity still being earned.
 

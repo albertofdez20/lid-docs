@@ -1,5 +1,7 @@
 ---
-description: Programmable commerce routing layer on Solana. Your customers are your sales team.
+description: >-
+  Programmable commerce routing layer on Solana. Your customers are your sales
+  team.
 ---
 
 # Welcome to LID
@@ -14,11 +16,11 @@ No approvals. No contracts. No 30-day payout delays.
 
 Everything LID does serves one loop. If a feature strengthens it, we build it. If not, we don't.
 
-| Step | What happens |
-|---|---|
-| **Create** | A seller sets up a digital product in minutes. |
-| **Share** | Any visitor generates an affiliate link. Attribution is on-chain. |
-| **Sell** | Checkout runs. Attribution binds at the moment of purchase. |
+| Step         | What happens                                                       |
+| ------------ | ------------------------------------------------------------------ |
+| **Create**   | A seller sets up a digital product in minutes.                     |
+| **Share**    | Any visitor generates an affiliate link. Attribution is on-chain.  |
+| **Sell**     | Checkout runs. Attribution binds at the moment of purchase.        |
 | **Get paid** | Seller, affiliate, and LID settle in USDC in the same transaction. |
 
 ## Start here
@@ -35,10 +37,6 @@ These docs serve four readers. Pick the entry point.
 
 ## Live status
 
-LID launched on Solana mainnet on April 22, 2026. Product at [app.lid.pro](https://app.lid.pro). Site at [lid.pro](https://lid.pro).
+LID launched on Solana mainnet on April 24, 2026. Product at [app.lid.pro](https://app.lid.pro). Site at [lid.pro](https://lid.pro).
 
 In active alpha validation. The infrastructure works. Commercial proof is being earned through completed loops, affiliate-led GMV, and repeat seller behavior.
-
-## Contact
-
-alberto@lid.pro

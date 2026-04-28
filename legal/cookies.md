@@ -1,7 +1,6 @@
 # Cookie Policy
 
-_Last updated: 23 April 2026._
-_Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE)._
+_Last updated: 23 April 2026._ _Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE)._
 
 {% hint style="info" %}
 **In plain language.** Cookies are small files stored on your device that help Lid work and help us understand how the service is used. Some are essential and always on. Others run only if you accept them. You can change your choice at any time from the cookie banner on `lid.pro` or the settings link in our footer.
@@ -68,14 +67,14 @@ These cookies help us measure the performance of our marketing campaigns. We may
 
 Some cookies are set by third-party services we use. Each provider has its own cookie and privacy policy.
 
-| Provider | Purpose | Category | Privacy policy |
-|---|---|---|---|
-| Privy | Wallet connection and authentication | Strictly necessary | privy.io/privacy |
-| Cloudflare | DDoS protection, bot defence | Strictly necessary | cloudflare.com/privacypolicy |
-| Vercel | Hosting and content delivery | Strictly necessary | vercel.com/legal/privacy-policy |
-| PostHog | Product analytics | Analytics | posthog.com/privacy |
-| Sentry | Error monitoring | Analytics | sentry.io/privacy |
-| HubSpot | Marketing automation, newsletters | Marketing | legal.hubspot.com/privacy-policy |
+| Provider   | Purpose                              | Category           | Privacy policy                   |
+| ---------- | ------------------------------------ | ------------------ | -------------------------------- |
+| Privy      | Wallet connection and authentication | Strictly necessary | privy.io/privacy                 |
+| Cloudflare | DDoS protection, bot defence         | Strictly necessary | cloudflare.com/privacypolicy     |
+| Vercel     | Hosting and content delivery         | Strictly necessary | vercel.com/legal/privacy-policy  |
+| PostHog    | Product analytics                    | Analytics          | posthog.com/privacy              |
+| Sentry     | Error monitoring                     | Analytics          | sentry.io/privacy                |
+| HubSpot    | Marketing automation, newsletters    | Marketing          | legal.hubspot.com/privacy-policy |
 
 We review this list regularly and keep it current on this page.
 
@@ -136,8 +135,4 @@ We may update this Policy to reflect new features, new providers, or changes in 
 
 ## 9. Contact
 
-**Lid Labs Technologies - FZCO**
-Attn: Data Protection
-IFZA Business Park, DDP
-PO Box 342001, Dubai, United Arab Emirates
-Email: privacy@lid.pro
+**Lid Labs Technologies - FZCO** Attn: Data Protection IFZA Business Park, DDP PO Box 342001, Dubai, United Arab Emirates Email: legal@lid.pro

@@ -1,7 +1,6 @@
 # Privacy Policy
 
-_Last updated: 23 April 2026._
-_Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE)._
+_Last updated: 23 April 2026._ _Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE)._
 
 {% hint style="info" %}
 **In plain language.** We collect what we need to run Lid and nothing we do not. Your wallet address is public on Solana; we do not change that. Your email and account data are private. Blockchain transactions are permanent — we cannot delete what is recorded on Solana. We do not sell your personal data. We honour the rights the law gives you under UAE PDPL, EU GDPR, and California CCPA.
@@ -11,11 +10,7 @@ _Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UA
 
 The controller of your personal data is:
 
-**Lid Labs Technologies - FZCO**
-Trade licence No. 65802
-IFZA Business Park, DDP
-PO Box 342001, Dubai, United Arab Emirates
-Email: privacy@lid.pro
+**Lid Labs Technologies - FZCO** Trade licence No. 65802 IFZA Business Park, DDP PO Box 342001, Dubai, United Arab Emirates Email: privacy@lid.pro
 
 For the purposes of UAE Federal Decree-Law No. 45 of 2021 on the Protection of Personal Data (UAE PDPL), the EU General Data Protection Regulation (GDPR), the UK GDPR, and the California Consumer Privacy Act as amended by the CPRA (CCPA/CPRA), Lid acts as the **data controller** for data processed on `lid.pro` and `app.lid.pro`.
 
@@ -81,17 +76,17 @@ We do not ask for sensitive data. We do not knowingly process health data, data 
 
 ## 4. How we use your data
 
-| Purpose | Legal basis (GDPR / UK GDPR) | UAE PDPL equivalent |
-|---|---|---|
-| Provide the service and execute transactions | Performance of a contract | Fulfilment of a contract with the data subject |
-| Verify eligibility and run sanctions checks | Legal obligation / legitimate interest | Legal obligation |
-| Detect and prevent fraud, abuse, and attacks | Legitimate interest | Legitimate interest of the controller |
-| Respond to support requests | Performance of a contract | Fulfilment of a contract |
-| Send service and product updates | Legitimate interest | Legitimate interest |
-| Send marketing emails | Consent | Consent |
-| Analytics and product improvement | Legitimate interest | Legitimate interest |
-| Meet tax, accounting, and regulatory obligations | Legal obligation | Legal obligation |
-| Defend legal claims | Legitimate interest | Legitimate interest |
+| Purpose                                          | Legal basis (GDPR / UK GDPR)           | UAE PDPL equivalent                            |
+| ------------------------------------------------ | -------------------------------------- | ---------------------------------------------- |
+| Provide the service and execute transactions     | Performance of a contract              | Fulfilment of a contract with the data subject |
+| Verify eligibility and run sanctions checks      | Legal obligation / legitimate interest | Legal obligation                               |
+| Detect and prevent fraud, abuse, and attacks     | Legitimate interest                    | Legitimate interest of the controller          |
+| Respond to support requests                      | Performance of a contract              | Fulfilment of a contract                       |
+| Send service and product updates                 | Legitimate interest                    | Legitimate interest                            |
+| Send marketing emails                            | Consent                                | Consent                                        |
+| Analytics and product improvement                | Legitimate interest                    | Legitimate interest                            |
+| Meet tax, accounting, and regulatory obligations | Legal obligation                       | Legal obligation                               |
+| Defend legal claims                              | Legitimate interest                    | Legitimate interest                            |
 
 You can withdraw consent for marketing at any time. The unsubscribe link is in every marketing email.
 
@@ -116,20 +111,20 @@ We do not sell personal data. We do not share it with third parties for their ow
 
 ## 7. Service providers we work with
 
-| Provider | Role | Location | Learn more |
-|---|---|---|---|
-| Privy (Stripe Inc.) | Wallet creation, embedded wallet, authentication | United States | privy.io/privacy |
-| Alchemy | Solana RPC provider | United States | alchemy.com/policies/privacy-policy |
-| Pinata | IPFS storage for product metadata | United States | pinata.cloud/privacy |
-| Helius | Webhooks, transaction monitoring | United States | helius.dev/privacy |
-| Cloudflare | CDN, DDoS protection | United States / Global | cloudflare.com/privacypolicy |
-| Vercel | Hosting (marketing and app front-end) | United States / Global | vercel.com/legal/privacy-policy |
-| AWS | Cloud infrastructure | United States / Global | aws.amazon.com/privacy |
-| PostHog | Product analytics | United States | posthog.com/privacy |
-| Sentry | Error monitoring | United States | sentry.io/privacy |
-| Resend | Transactional email delivery | United States | resend.com/legal/privacy-policy |
-| HubSpot | CRM and marketing email | United States | legal.hubspot.com/privacy-policy |
-| Linear / Notion | Internal work management | United States | linear.app/privacy, notion.so/privacy |
+| Provider            | Role                                             | Location               | Learn more                            |
+| ------------------- | ------------------------------------------------ | ---------------------- | ------------------------------------- |
+| Privy (Stripe Inc.) | Wallet creation, embedded wallet, authentication | United States          | privy.io/privacy                      |
+| Alchemy             | Solana RPC provider                              | United States          | alchemy.com/policies/privacy-policy   |
+| Pinata              | IPFS storage for product metadata                | United States          | pinata.cloud/privacy                  |
+| Helius              | Webhooks, transaction monitoring                 | United States          | helius.dev/privacy                    |
+| Cloudflare          | CDN, DDoS protection                             | United States / Global | cloudflare.com/privacypolicy          |
+| Vercel              | Hosting (marketing and app front-end)            | United States / Global | vercel.com/legal/privacy-policy       |
+| AWS                 | Cloud infrastructure                             | United States / Global | aws.amazon.com/privacy                |
+| PostHog             | Product analytics                                | United States          | posthog.com/privacy                   |
+| Sentry              | Error monitoring                                 | United States          | sentry.io/privacy                     |
+| Resend              | Transactional email delivery                     | United States          | resend.com/legal/privacy-policy       |
+| HubSpot             | CRM and marketing email                          | United States          | legal.hubspot.com/privacy-policy      |
+| Linear / Notion     | Internal work management                         | United States          | linear.app/privacy, notion.so/privacy |
 
 We review this list regularly and keep it current on this page.
 
@@ -147,14 +142,14 @@ You can ask us for a copy of the safeguards that apply to your data by emailing 
 
 ## 9. How long we keep data
 
-| Data category | Retention |
-|---|---|
-| Account data (email, display name) | While your account is active, plus up to 12 months after closure |
-| Transaction and commercial records | 7 years, to meet UAE tax and accounting obligations |
-| Support communications | 3 years after the last interaction |
-| Device and technical logs | Up to 13 months |
-| Marketing data | Until you unsubscribe, plus 6 months for suppression records |
-| On-chain transaction data | Permanent — recorded on the Solana blockchain outside our control |
+| Data category                      | Retention                                                         |
+| ---------------------------------- | ----------------------------------------------------------------- |
+| Account data (email, display name) | While your account is active, plus up to 12 months after closure  |
+| Transaction and commercial records | 7 years, to meet UAE tax and accounting obligations               |
+| Support communications             | 3 years after the last interaction                                |
+| Device and technical logs          | Up to 13 months                                                   |
+| Marketing data                     | Until you unsubscribe, plus 6 months for suppression records      |
+| On-chain transaction data          | Permanent — recorded on the Solana blockchain outside our control |
 
 We may keep data longer to defend legal claims, comply with a regulator, or resolve disputes.
 
@@ -231,8 +226,4 @@ We may change this Policy to reflect new features, legal changes, or how we oper
 
 ## 15. Contact
 
-**Lid Labs Technologies - FZCO**
-Attn: Data Protection
-IFZA Business Park, DDP
-PO Box 342001, Dubai, United Arab Emirates
-Email: privacy@lid.pro
+**Lid Labs Technologies - FZCO** Attn: Data Protection IFZA Business Park, DDP PO Box 342001, Dubai, United Arab Emirates Email: legal@lid.pro

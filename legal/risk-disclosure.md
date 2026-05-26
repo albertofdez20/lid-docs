@@ -1,6 +1,6 @@
 # Risk Disclosure
 
-_Last updated: 23 April 2026._ _Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE)._
+*Last updated: 26 May 2026.* *Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE).*
 
 {% hint style="warning" %}
 **Read this before you use Lid.** Lid runs on the Solana blockchain. That comes with real risks. Transactions are final. Smart contracts can fail. USDC has its own issuer risk. Wallets can be stolen. Tax is your job. If any risk below is one you are not willing to accept, do not use the service.
@@ -10,11 +10,11 @@ This document is not legal, financial, or tax advice.
 
 ## 1. Who this applies to
 
-This Risk Disclosure applies to every user of Lid — Creator, Affiliate, and Buyer — on `lid.pro` and `app.lid.pro`. By using the service you confirm you have read and understood the risks below and accept them.
+This Risk Disclosure applies to every user of Lid (Creator, Affiliate, and Buyer) on `lid.pro` and `app.lid.pro`. By using the service you confirm you have read and understood the risks below and accept them.
 
 ## 2. Transactions on the Solana blockchain are final
 
-Every payment, payout, and attribution event on Lid is executed by a smart contract on the Solana blockchain. Once a transaction is confirmed, it cannot be reversed, paused, or edited — by you, by the counterparty, or by Lid.
+Every payment, payout, and attribution event on Lid is executed by a smart contract on the Solana blockchain. Once a transaction is confirmed, it cannot be reversed, paused, or edited by you, by the counterparty, or by Lid.
 
 * Lid cannot undo a sale.
 * Lid cannot claw back a payout.
@@ -26,7 +26,9 @@ Before you confirm a transaction, check the amount, the wallet address, the prod
 
 ## 3. Smart contract risk
 
-Lid's smart contracts are deployed on the Solana mainnet. The code is audited, monitored, and continuously tested. Smart contracts can still have bugs, vulnerabilities, or edge cases that only surface under specific conditions.
+Lid's smart contracts are deployed on the Solana mainnet. The code has been peer-reviewed internally and pressure-tested against every observed alpha session. A third-party security audit is the gate for self-serve alpha and is part of the post-raise engineering roadmap. Until that audit ships, treat the trust layer as production-active under close observation, not externally certified.
+
+Smart contracts can still have bugs, vulnerabilities, or edge cases that only surface under specific conditions.
 
 Possible outcomes:
 
@@ -43,17 +45,17 @@ Solana is a public, permissionless blockchain operated by a decentralised networ
 
 Network-level events that can affect you:
 
-* **Congestion** — during peak demand, transactions can be delayed or dropped. A payment may fail even if your wallet has the funds.
-* **Outages** — the Solana network has had outages in the past. While an outage is ongoing, no transactions can settle.
-* **Fork or chain reorganisation** — in rare cases, the chain state may re-organise. Transactions confirmed in a short window could be affected.
-* **Validator changes** — changes to validator behaviour, protocol upgrades, or consensus rules can change how transactions work.
-* **Fee spikes** — network fees (gas) are paid in SOL and can rise sharply under load. You are responsible for having enough SOL in your wallet to pay them.
+* **Congestion.** During peak demand, transactions can be delayed or dropped. A payment may fail even if your wallet has the funds.
+* **Outages.** The Solana network has had outages in the past. While an outage is ongoing, no transactions can settle.
+* **Fork or chain reorganisation.** In rare cases, the chain state may re-organise. Transactions confirmed in a short window could be affected.
+* **Validator changes.** Changes to validator behaviour, protocol upgrades, or consensus rules can change how transactions work.
+* **Fee spikes.** Network fees (gas) are paid in SOL and can rise sharply under load. You are responsible for having enough SOL in your wallet to pay them.
 
 Lid does not guarantee that the Solana network will be available, performant, or secure at any given moment.
 
 ## 5. USDC and stablecoin risk
 
-All settlements on Lid are in USDC — the US-dollar-pegged stablecoin issued by Circle Internet Financial, Inc. USDC is not issued or controlled by Lid.
+All settlements on Lid are in USDC, the US-dollar-pegged stablecoin issued by Circle Internet Financial, Inc. USDC is not issued or controlled by Lid.
 
 Risks specific to USDC:
 
@@ -67,11 +69,11 @@ Read Circle's terms and disclosures at `circle.com/en/legal` before using Lid.
 
 ## 6. Wallet and self-custody risk
 
-Lid is non-custodial. You hold your own private keys, either directly in an external wallet (for example, Phantom, Solflare, Backpack) or through an embedded wallet provider such as Privy.
+Lid is non-custodial. Most users transact through the embedded wallet provided by Privy. Crypto-native users can choose to connect an external wallet (Phantom, Solflare, Backpack). Either way, Lid never holds custody of your funds.
 
 What this means:
 
-* If you lose your private key or recovery phrase, your funds are gone. No one — not Lid, not the wallet provider, not Solana — can recover them.
+* If you lose your private key or recovery phrase, your funds are gone. No one (not Lid, not the wallet provider, not Solana) can recover them.
 * If your key is stolen, the thief can move your funds. Lid cannot freeze or reverse transactions signed with your key.
 * If you approve a malicious transaction, by mistake or through a phishing attack, the damage is permanent.
 
@@ -103,7 +105,7 @@ Lid routes payments and attribution. Lid does not:
 
 If you are a Buyer, read the product description, preview, and the Creator's own refund policy before paying. If you are a Creator, write an accurate description and honour your stated terms.
 
-Lid may suspend or remove a Creator's account for repeated or serious misrepresentation, as described in the [Terms of Service](terms.md).
+Lid may suspend or remove a Creator's account for repeated or serious misrepresentation, as described in the [Terms of Service](/legal/terms.md).
 
 ## 9. Price and market risk
 
@@ -120,7 +122,7 @@ The legal status of digital assets, stablecoins, affiliate marketing, and blockc
 Possible outcomes:
 
 * A jurisdiction restricts or bans the use of USDC or non-custodial wallets, making Lid unavailable there.
-* A regulator introduces new obligations — for example, VAT collection, consumer refund rules, or affiliate disclosure rules — that apply to your activity on Lid.
+* A regulator introduces new obligations, for example, VAT collection, consumer refund rules, or affiliate disclosure rules, that apply to your activity on Lid.
 * A court order or regulator action requires Lid to suspend accounts, freeze referrals, or disclose user data.
 
 You are responsible for knowing the rules in your jurisdiction and for complying with them. If you are unsure, seek local legal advice before using Lid.
@@ -155,13 +157,13 @@ Lid relies on third-party services to run the platform. Outages, security incide
 
 Providers you should be aware of:
 
-* **Privy** — wallet creation and authentication (Stripe-owned since June 2025).
-* **Alchemy** — Solana RPC.
-* **Pinata** — IPFS storage for product files and metadata. IPFS is a distributed storage network. If pinning is lost, a file may become temporarily unavailable.
-* **Helius** — transaction monitoring and webhooks.
-* **Circle** — USDC issuer.
+* **Privy.** Wallet creation and authentication (Stripe-owned since June 2025).
+* **Alchemy.** Solana RPC.
+* **Pinata.** IPFS storage for product files and metadata. IPFS is a distributed storage network. If pinning is lost, a file may become temporarily unavailable.
+* **Helius.** Transaction monitoring and webhooks.
+* **Circle.** USDC issuer.
 
-See the [Privacy Policy](privacy.md) for the full list and links to each provider's terms.
+See the [Privacy Policy](/legal/privacy.md) for the full list and links to each provider's terms.
 
 ## 14. Phishing, scams, and social engineering
 
@@ -178,7 +180,7 @@ Report anything suspicious to `security@lid.pro`.
 
 ## 15. No investment or professional advice
 
-Nothing on Lid — product pages, marketing pages, or internal messaging — is investment advice, legal advice, financial advice, or tax advice. Products listed on Lid are not securities offerings and are not registered as such. Creators are solely responsible for the compliance of their products.
+Nothing on Lid (product pages, marketing pages, or internal messaging) is investment advice, legal advice, financial advice, or tax advice. Products listed on Lid are not securities offerings and are not registered as such. Creators are solely responsible for the compliance of their products.
 
 If you need advice, talk to a qualified professional licensed in your jurisdiction.
 
@@ -188,4 +190,4 @@ We may update this document as Lid evolves and as the risks change. When we do, 
 
 ## 17. Contact
 
-**Lid Labs Technologies - FZCO** IFZA Business Park, DDP PO Box 342001, Dubai, United Arab Emirates Email: legal@lid.pro
+**Lid Labs Technologies - FZCO** IFZA Business Park, DDP PO Box 342001, Dubai, United Arab Emirates Email: <legal@lid.pro>

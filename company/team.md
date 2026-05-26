@@ -1,51 +1,34 @@
 # Team
 
-LID is built by three founders, each with hard-earned expertise in one of the pillars that makes the product work. Community, protocol, and growth.
+LID is built by a sole founder, two heads of function, and a small group of advisors. Lean by design. Trust-critical roles owned end-to-end.
 
-## Alberto Fernández, Founder & CEO
+## Alberto Fernández
+**Founder and CEO.** Sole founder on cap table. Owns product, strategy, GTM, and the founder voice.
 
-Product, strategy, go-to-market.
+Previously built ENO, an 80,000-member community, and Orbi. 2x crypto founder.
 
-Previously built ENO, an 80,000-member community, and Orbi. Acelera and Protocol Labs alumni. Owns the product narrative, the GTM motion, and the direct relationship with early sellers during alpha.
+Drives the long horizon. Holds the team to the proof ladder. Writes most of what the world reads from Lid.
 
-Contact: alberto@lid.pro
+## Darwin Ramirez
+**Head of Engineering.** Owns the protocol, the application stack, and integrations.
 
-## Juan de la Rosa, Co-Founder & CTO
+Built and owns the live Privy wallet and auth layer. Owns the completed Bridge production cutover. Owns the split contract that has carried 100% payout accuracy and 100% attribution accuracy across every observed loop to date.
 
-Protocol, blockchain architecture, smart contract engineering.
+The blockchain is invisible because Darwin built it that way.
 
-Founded Token Labs, which operates autonomously with $3.75M TVL. Full-time on LID. Owns the trust layer: the smart contracts, the settlement logic, and the atomic split mechanism that makes the whole system work.
+## Farhana Meghami
+**Head of Growth.** Owns growth, partnerships, and community.
 
-## Farhana Meghami, Head of Growth
+Founder of Eclips3, which scaled 190+ Web3 projects. Relationships with major L1 founders and exchange partners.
 
-Growth, partnerships, community.
+Drives the community-lead distribution motion that put Lid in front of La Familia and the Spanish-speaking Solana network.
 
-Founder of Eclips3, a firm that has scaled 190+ Web3 projects. Relationships with major L1 founders and OKX. Owns the affiliate flywheel and the partnership pipeline that converts the liquidity proof into propagation.
+## Operating entity
+Lid Labs Technologies (Dubai). Trade Licence No. 65802. Registration No. 63769. IFZA Business Park, Dubai.
 
-## How we work
-
-**Trust is infrastructure.** We move slowly on payouts, attribution, and splits. We never let speed create sloppiness in trust-critical rails.
-
-**Move fast on the rest.** Discovery, content, onboarding, iteration. The product-as-pitch motion requires high velocity.
-
-**Observed behavior over opinions.** We measure proof, not noise. Completed loops beat traffic numbers. Repeat sellers beat vanity signups.
-
-**Founder-led support during alpha.** Every support case during the alpha phase runs through the founder. That's deliberate. It keeps friction classification honest and the team close to the reality of how the product actually lands.
-
-## Hiring
-
-We're not actively hiring at the seed stage. Post-raise, we will open a small number of roles.
-
-Planned early hires:
-
-- Second protocol engineer (Solana, smart contract focus)
-- Product designer focused on the seller and affiliate flows
-- Agent DevRel once the API is closer to ready
-
-If any of those fits you, email alberto@lid.pro now. Early conversations matter even when the req isn't live.
-
-## Advisors and supporters
-
+## Advisors
 To be disclosed post-raise with the full team and cap table materials.
 
-Next: [Competitive position →](competitive-position.md)
+---
+
+Trust is infrastructure. Move slow on the rails. Move fast on the rest.

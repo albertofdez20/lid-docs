@@ -4,32 +4,44 @@ LID is designed to play well with the tools creators and developers already use.
 
 ## What integrates today
 
+**The live stack**
+
+* **Privy** · embedded wallet and auth. Live.
+* **Alchemy** · Solana RPC. Live.
+* **Pinata** · IPFS metadata storage. Live.
+* **Solana Pay** · checkout UX. Live.
+* **USDC SPL Token** · settlement asset. Live.
+* **Bridge** · fiat rails. Live. Owned by Darwin.
+* **Helius webhooks** · transaction monitoring. Planned.
+* **x402 / ACP** · Year 2 horizon.
+
 **Payment inputs**
 
-- USDC on Solana (native)
-- Fiat-to-USDC on the buyer side through a hosted payment partner (the buyer sees USD, settlement is USDC)
+* USDC on Solana (native)
+* Fiat-to-USDC on the buyer side through Bridge (the buyer sees USD, settlement is USDC)
 
 **Delivery targets**
 
-- Direct file delivery (PDF, ZIP, video, any file type)
-- URL-based delivery (Notion, Google Drive, YouTube, Discord, Telegram, any link)
+* Direct file delivery (PDF, ZIP, video, any file type)
+* URL-based delivery (Notion, Google Drive, YouTube, Discord, Telegram, any link)
 
 **Social sharing**
 
-- Affiliate links are plain URLs, so they work on every platform. Twitter, LinkedIn, Instagram, TikTok, Threads, email, newsletter, Discord, Telegram, community forums, blogs.
+* Affiliate links are plain URLs, so they work on every platform. Twitter, LinkedIn, Instagram, TikTok, Threads, email, newsletter, Discord, Telegram, community forums, blogs.
 
 **Verification**
 
-- Every sale produces a Solana transaction signature that can be verified on any block explorer.
+* Every sale produces a Solana transaction signature that can be verified on any block explorer.
 
 ## On the roadmap
 
-**Fiat off-ramp.** Post-raise. Lets sellers and affiliates convert USDC directly to their local currency and transfer to a bank account. Provider TBD.
+**Fiat on-ramp and off-ramp.** Bridge. Live in production. Owned by Darwin.
 
 **Webhooks.** Real-time events delivered to a URL you control. Useful for:
-- Triggering external CRM entries on product creation
-- Running onboarding automation on sale
-- Syncing to a data warehouse
+
+* Triggering external CRM entries on product creation
+* Running onboarding automation on sale
+* Syncing to a data warehouse
 
 **SDK (JavaScript, Python).** Client libraries for reading LID state and (where the signer allows) creating products or affiliate links programmatically.
 
@@ -51,13 +63,13 @@ LID is designed to play well with the tools creators and developers already use.
 
 If you want to integrate LID with a product you're building, we want to hear from you. Especially if you're building:
 
-- AI agent frameworks
-- Creator toolkits (content platforms, newsletter tools, community platforms)
-- Analytics or attribution tools
-- Marketplaces or aggregators
-- Crypto wallets or exchanges
+* AI agent frameworks
+* Creator toolkits (content platforms, newsletter tools, community platforms)
+* Analytics or attribution tools
+* Marketplaces or aggregators
+* Crypto wallets or exchanges
 
-Email alberto@lid.pro with:
+Email <alberto@lid.pro> with:
 
 1. What you're building
 2. How you'd integrate LID
@@ -72,4 +84,4 @@ We do not do prestige partnerships for the sake of prestige. Every integration w
 
 Lightweight, practical, measurable. That's the standard.
 
-Next: [Vision →](../company/vision.md)
+Next: [Vision →](/company/vision.md)

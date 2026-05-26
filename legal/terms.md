@@ -1,17 +1,16 @@
 # Terms of Service
 
-_Last updated: 23 April 2026._
-_Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE)._
+*Last updated: 26 May 2026.* *Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE).*
 
 {% hint style="info" %}
-**In plain language.** Lid is infrastructure for selling digital products. A Creator uploads a product. A link gets shared. A Buyer pays in USDC. A smart contract splits the payment between the Creator, the Affiliate, and Lid — in the same transaction. Flat 3% fee. No custody. No holds.
+**In plain language.** Lid is infrastructure for selling digital products. A Creator uploads a product. A link gets shared. A Buyer pays in digital dollars. A smart contract splits the payment between the Creator, the Affiliate, and Lid in the same transaction. Flat 3% fee. No custody. No holds.
 
 If you use Lid, you agree to these Terms.
 {% endhint %}
 
 Six things to know before you keep reading.
 
-1. You need a wallet to use Lid. You control it. We do not.
+1. Every Lid account is an embedded wallet under the hood, provided by Privy. You sign up with email. Lid never holds custody of your funds.
 2. Transactions on Solana are final. We cannot reverse them.
 3. Affiliates are permissionless. Anyone can share a product link and earn a share of the sale.
 4. Our fee is flat 3% on every transaction. It settles in the same transaction as the sale.
@@ -22,14 +21,14 @@ Six things to know before you keep reading.
 
 Lid Labs Technologies - FZCO is a free zone company registered in Dubai, United Arab Emirates.
 
-| Detail | Value |
-|---|---|
-| Trade licence number | 65802 |
-| Registration number | 63769 |
-| Registered office | IFZA Business Park, DDP, PO Box 342001, Dubai, UAE |
-| Licensing authority | Dubai Integrated Economic Zones Authority (DIEZA) |
-| Tax registration number | 105134383600001 |
-| Contact | legal@lid.pro |
+| Detail                  | Value                                              |
+| ----------------------- | -------------------------------------------------- |
+| Trade licence number    | 65802                                              |
+| Registration number     | 63769                                              |
+| Registered office       | IFZA Business Park, DDP, PO Box 342001, Dubai, UAE |
+| Licensing authority     | Dubai Integrated Economic Zones Authority (DIEZA)  |
+| Tax registration number | 105134383600001                                    |
+| Contact                 | <legal@lid.pro>                                    |
 
 In these Terms, "**Lid**," "**we**," "**us**," and "**our**" mean Lid Labs Technologies - FZCO. "**You**" and "**your**" mean the person or company using Lid.
 
@@ -55,7 +54,7 @@ Lid is not available in jurisdictions where the service, the sale of digital pro
 
 ## 4. Your account and your wallet
 
-Lid uses a connected wallet as your account. Your wallet is your identity on Lid.
+Every Lid account is an embedded wallet under the hood, provided by Privy. You sign up with email. Lid never holds custody of your funds. Settlement happens directly to the wallet tied to your account.
 
 You are responsible for:
 
@@ -65,7 +64,7 @@ You are responsible for:
 
 Lid never has custody of your wallet, your keys, or your funds. If you lose your keys, we cannot recover your wallet and we cannot recover funds held in it.
 
-If you log in through an embedded wallet provider (for example, Privy), that provider's terms and security model apply to how your keys are generated and stored. See the [Privacy Policy](privacy.md) for the list of providers we work with.
+If you log in through an embedded wallet provider (for example, Privy), that provider's terms and security model apply to how your keys are generated and stored. See the [Privacy Policy](/legal/privacy.md) for the list of providers we work with.
 
 You may close your account at any time by stopping use of the service. Closing an account does not reverse past transactions.
 
@@ -213,7 +212,7 @@ Lid does not warrant:
 * The quality, legality, or delivery of any product listed by a Creator.
 * The conduct of any Affiliate or Buyer.
 
-Read the [Risk Disclosure](risk-disclosure.md) carefully before using Lid. You are entering a blockchain-based system. Mistakes and outages can lead to loss. Only commit funds or products you can afford to lose.
+Read the [Risk Disclosure](/legal/risk-disclosure.md) carefully before using Lid. You are entering a blockchain-based system. Mistakes and outages can lead to loss. Only commit funds or products you can afford to lose.
 
 ## 15. Limitation of liability
 
@@ -257,7 +256,7 @@ Where a dispute involves a consumer whose jurisdiction grants mandatory protecti
 
 **No waiver.** Our failure to enforce a right does not waive it.
 
-**Entire agreement.** These Terms, together with the [Privacy Policy](privacy.md), the [Cookie Policy](cookies.md), and the [Risk Disclosure](risk-disclosure.md), are the full agreement between you and Lid on the subject. They replace any prior agreement on the same subject.
+**Entire agreement.** These Terms, together with the [Privacy Policy](/legal/privacy.md), the [Cookie Policy](/legal/cookies.md), and the [Risk Disclosure](/legal/risk-disclosure.md), are the full agreement between you and Lid on the subject. They replace any prior agreement on the same subject.
 
 **Language.** These Terms are written in English. If we publish translations, the English version controls in case of conflict, except where local law requires the local-language version to control.
 
@@ -265,7 +264,4 @@ Where a dispute involves a consumer whose jurisdiction grants mandatory protecti
 
 ## 20. Contact
 
-**Lid Labs Technologies - FZCO**
-IFZA Business Park, DDP
-PO Box 342001, Dubai, United Arab Emirates
-Email: legal@lid.pro
+**Lid Labs Technologies - FZCO** IFZA Business Park, DDP PO Box 342001, Dubai, United Arab Emirates Email: <legal@lid.pro>

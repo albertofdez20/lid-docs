@@ -1,6 +1,6 @@
 # Cookie Policy
 
-_Last updated: 23 April 2026._ _Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE)._
+*Last updated: 26 May 2026.* *Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE).*
 
 {% hint style="info" %}
 **In plain language.** Cookies are small files stored on your device that help Lid work and help us understand how the service is used. Some are essential and always on. Others run only if you accept them. You can change your choice at any time from the cookie banner on `lid.pro` or the settings link in our footer.
@@ -10,11 +10,11 @@ _Last updated: 23 April 2026._ _Operated by Lid Labs Technologies - FZCO (Trade 
 
 This Cookie Policy explains how Lid Labs Technologies - FZCO ("Lid," "we," "us") uses cookies and similar technologies on `lid.pro`, `app.lid.pro`, and any Lid-operated domain.
 
-This Policy is part of the [Privacy Policy](privacy.md). Read both together for the full picture of how we handle your data.
+This Policy is part of the [Privacy Policy](/legal/privacy.md). Read both together for the full picture of how we handle your data.
 
 ## 2. What cookies are
 
-A cookie is a small text file that a website stores on your device (computer, tablet, phone) when you visit. It lets the site remember what you did — for example, that you logged in, what language you chose, or which cookie categories you accepted.
+A cookie is a small text file that a website stores on your device (computer, tablet, phone) when you visit. It lets the site remember what you did. For example, that you logged in, what language you chose, or which cookie categories you accepted.
 
 "Similar technologies" covers tools that do the same job:
 
@@ -127,7 +127,7 @@ Through cookies and similar tech we may collect:
 * Session duration.
 * Email open and click data, for marketing emails you have subscribed to.
 
-See the [Privacy Policy](privacy.md) for how long we keep each category and how to exercise your rights.
+See the [Privacy Policy](/legal/privacy.md) for how long we keep each category and how to exercise your rights.
 
 ## 8. Changes to this Policy
 
@@ -135,4 +135,4 @@ We may update this Policy to reflect new features, new providers, or changes in 
 
 ## 9. Contact
 
-**Lid Labs Technologies - FZCO** Attn: Data Protection IFZA Business Park, DDP PO Box 342001, Dubai, United Arab Emirates Email: legal@lid.pro
+**Lid Labs Technologies - FZCO** Attn: Data Protection IFZA Business Park, DDP PO Box 342001, Dubai, United Arab Emirates Email: <legal@lid.pro>

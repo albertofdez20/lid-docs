@@ -1,4 +1,4 @@
-# The trust layer
+# Overview
 
 Trust in creator commerce is usually a spreadsheet. A platform tracks clicks, attributes sales, calculates commissions, holds the money, and sends payouts on a schedule. Every step is a database entry. Every step is contestable.
 
@@ -22,20 +22,20 @@ The current creator commerce stack was built for advertisers buying ad inventory
 
 Specific failure modes:
 
-- **Attribution disputes.** Two affiliates claim the same sale. The platform picks one. Trust erodes.
-- **Payout delays.** Money sits with the platform for 30 to 60 days. When the platform fails or changes policy, the money is exposed.
-- **Commission changes.** A creator lowers the commission retroactively. The affiliate has no recourse.
-- **Platform risk.** If the platform dies, all attribution data dies with it. Affiliates lose history.
+* **Attribution disputes.** Two affiliates claim the same sale. The platform picks one. Trust erodes.
+* **Payout delays.** Money sits with the platform for 30 to 60 days. When the platform fails or changes policy, the money is exposed.
+* **Commission changes.** A creator lowers the commission retroactively. The affiliate has no recourse.
+* **Platform risk.** If the platform dies, all attribution data dies with it. Affiliates lose history.
 
 ## What on-chain enforcement changes
 
 When attribution and splits are enforced by a smart contract:
 
-- The split rule for a product is visible to every party before anyone shares it.
-- The attribution for a sale is bound at the exact moment of checkout.
-- The money moves in the same transaction as the sale.
-- No party (including LID) can retroactively alter the split.
-- Every sale, every split, every payout is independently verifiable on Solana.
+* The split rule for a product is visible to every party before anyone shares it.
+* The attribution for a sale is bound at the exact moment of checkout.
+* The money moves in the same transaction as the sale.
+* No party (including LID) can retroactively alter the split.
+* Every sale, every split, every payout is independently verifiable on Solana.
 
 Trust stops being a policy and becomes a property of the system.
 
@@ -59,4 +59,8 @@ Three things had to be true at the same time to make this work. All three became
 
 Solana is where all three are simultaneously true at the scale LID needs.
 
-Next: [Instant splits →](instant-splits.md)
+## On-chain product registry and ownership records
+
+Two structures sit underneath everything else. The on-chain product registry holds one immutable record per product. The ownership record holds one immutable entry per buyer, per product. Together they answer two questions that databases never settle cleanly: does this product exist, and who owns it. Both answers live on Solana. Both survive Lid as a company.
+
+Next: [Instant splits →](/the-trust-layer/instant-splits.md)

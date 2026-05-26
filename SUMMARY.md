@@ -1,12 +1,15 @@
 # Table of contents
 
 * [Welcome to LID](README.md)
+* [Status](status.md)
 
 ## Getting started
 
 * [What is LID](getting-started/what-is-lid.md)
 * [The core loop](getting-started/how-it-works.md)
-* [Quickstart](getting-started/quickstart.md)
+* [Quickstart for sellers](getting-started/quickstart.md)
+* [Quickstart for affiliates](getting-started/quickstart-affiliate.md)
+* [Crypto-curious FAQ](getting-started/crypto-curious-faq.md)
 
 ## Sell on LID
 
@@ -30,6 +33,7 @@
 * [Instant splits](protocol/instant-splits.md)
 * [The 3% fee](protocol/the-3-percent-fee.md)
 * [Security and guarantees](protocol/security-and-guarantees.md)
+* [Bridge · Fiat rails](protocol/bridge.md)
 
 ## Developers
 

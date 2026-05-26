@@ -8,11 +8,11 @@ The core insight: every buyer is a potential distributor. LID makes that real.
 
 ## Mission by horizon
 
-| Horizon | Mission |
-|---|---|
-| **Today** | Help humans sell digital products together. Pay them instantly. |
-| **12 to 24 months** | Become the default economic routing layer for AI agents buying and selling from each other. |
-| **Long term** | Extend the same trust layer to physical goods. Car resale. Real estate referrals. Tokenized real-world assets. Same infrastructure. Different volume. |
+| Horizon             | Mission                                                                                                                                               |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Today**           | Help humans sell digital products together. Pay them instantly.                                                                                       |
+| **12 to 24 months** | Become the default economic routing layer for AI agents buying and selling from each other.                                                           |
+| **Long term**       | Extend the same trust layer to physical goods. Car resale. Real estate referrals. Tokenized real-world assets. Same infrastructure. Different volume. |
 
 Info-products are the wedge. Agents come next. Physical goods are the ceiling.
 
@@ -54,47 +54,53 @@ Three things protect LID that competitors cannot copy quickly.
 
 **2. On-chain trust layer.** No Web2 competitor can retrofit this without rebuilding their stack on blockchain. The trust layer is architecture, not a feature.
 
-**3. The 3% strategic wedge.** Aligned pricing that incumbents cannot match without breaking their P&L.
+**3. The 3% strategic wedge.** Aligned pricing that incumbents cannot match without breaking their P\&L.
 
 These three compound. Network effects grow the liquidity pool. The trust layer retains it. The 3% wedge prevents incumbents from competing on price.
 
 ## What we will not do
 
-- We will not become a 10%+ tollbooth that punishes top earners.
-- We will not optimize short-term GMV by weakening network health.
-- We will not chase hype or inflate narrative beyond what proof supports.
-- We will not call LID beta before repeatability is earned.
-- We will not expose Web3 complexity to end users.
-- We will not build agent infrastructure before the human wedge hits its targets.
-- We will not build physical-goods infrastructure before the digital wedge hits proof of liquidity.
-- We will not introduce subscription tiers until features justify them.
+* We will not become a 10%+ tollbooth that punishes top earners.
+* We will not optimize short-term GMV by weakening network health.
+* We will not chase hype or inflate narrative beyond what proof supports.
+* We will not call LID beta before repeatability is earned.
+* We will not expose Web3 complexity to end users.
+* We will not build agent infrastructure before the human wedge hits its targets.
+* We will not build physical-goods infrastructure before the digital wedge hits proof of liquidity.
+* We will not introduce subscription tiers until features justify them.
 
 ## Business model
 
-Flat 3% infrastructure fee on every transaction. Digital-dollar settlement. No subscriptions today. A Pro tier is planned when advanced features justify it.
+Flat 3% infrastructure fee on every transaction. Digital-dollar settlement. No subscriptions today.
+
+Pro tier comes when features justify it. The lead Pro feature is creator-to-buyer communication: email and community tools that close the gap between you and the people who buy from you. Analytics, custom branding, advanced attribution, and priority support sit alongside it. Pro lands at around $29 per month with the 3% transaction fee unchanged.
 
 Per-seller economics at target scale:
 
-| Line | Value per seller per year |
-|---|---|
-| Average seller GMV | $3,000 |
-| 3% transaction fee | $90 |
-| Pro subscription (20% of sellers at $29/mo) | $348 applied to 20% |
-| **Blended ARPU** | **$143** |
+| Line                                        | Value per seller per year |
+| ------------------------------------------- | ------------------------- |
+| Average seller GMV                          | $3,000                    |
+| 3% transaction fee                          | $90                       |
+| Pro subscription (20% of sellers at $29/mo) | $348 applied to 20%       |
+| **Blended ARPU**                            | **$143**                  |
 
 Revenue scales with sellers:
 
-| Sellers | Annual revenue | Stage |
-|---|---|---|
-| 100 | $14K | 6-month milestone |
-| 10,000 | $1.4M | Early Series A territory |
-| 100,000 | $14M | Category-defining scale |
-| 500,000 | $70M+ | Info-products ceiling only |
+| Sellers | Annual revenue | Stage                      |
+| ------- | -------------- | -------------------------- |
+| 100     | $14K           | 6-month milestone          |
+| 10,000  | $1.4M          | Early Series A territory   |
+| 100,000 | $14M           | Category-defining scale    |
+| 500,000 | $70M+          | Info-products ceiling only |
 
 Agents and physical goods extend the ceiling non-linearly.
+
+## Operating entity
+
+Operating entity: Lid Labs Technologies (Dubai). Trade Licence No. 65802.
 
 ## In one sentence
 
 Your customers are your sales team. LID makes that real by solving a two-sided market failure with permissionless distribution, enforceable attribution, and instant payouts on aligned 3% infrastructure.
 
-Next: [Roadmap →](roadmap.md)
+Next: [Roadmap →](/company/roadmap.md)

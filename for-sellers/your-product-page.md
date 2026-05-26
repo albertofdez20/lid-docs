@@ -10,12 +10,12 @@ This page is your product's home. It's where buyers land, where affiliates explo
 
 ## What the page shows
 
-- Product title
-- Description you wrote
-- Price
-- Buy button
-- "Earn on this product" option (if affiliate commission is greater than 0)
-- Trust signals: instant payout, on-chain settlement, 3% infrastructure fee
+* Product title
+* Description you wrote
+* Price
+* Buy button
+* "Earn on this product" option (if affiliate commission is greater than 0)
+* Trust signals: instant payout, on-chain settlement, 3% infrastructure fee
 
 ## The affiliate side of the page
 
@@ -27,28 +27,21 @@ This is the thing that's different. The product page isn't only a place to buy. 
 
 ## What you can customize today
 
-- Title, description, price
-- Delivery file or access link
-- Affiliate commission percentage
-- Product image or thumbnail
-- Slug (the end of the URL)
+* Title, description, price
+* Delivery file or access link
+* Affiliate commission percentage
+* Product image or thumbnail
+* Slug (the end of the URL)
 
 ## What's coming on Pro
 
-When the Pro tier launches, it will add:
-
-- Custom branding (your logo, colors, layout)
-- Analytics on traffic, conversion, and affiliate performance
-- Priority support
-- Advanced attribution reporting
-
-Pro will be around $29 per month with a 3% transaction fee. The flat 3% tier today covers the full core loop. Pro is for when you want analytics and branding on top.
+Pro tier comes when features justify it. The lead Pro feature is creator-to-buyer communication: email and community tools that close the gap between you and the people who buy from you. Analytics, custom branding, advanced attribution, and priority support sit alongside it. Pro lands at around $29 per month with the 3% transaction fee unchanged.
 
 ## What's on the roadmap
 
-- White-label product pages (Enterprise tier)
-- API-driven product creation
-- Embeddable checkout for your own site
+* White-label product pages (Enterprise tier)
+* API-driven product creation
+* Embeddable checkout for your own site
 
 ## Page performance
 
@@ -58,4 +51,4 @@ The product page is also the front door for attribution, trust, and conversion. 
 2. **Price visible above the fold.** No hunting.
 3. **Instant payout mentioned.** This is your differentiator. Say so.
 
-Next: [Pricing and fees →](pricing-and-fees.md)
+Next: [Pricing and fees →](/sell-on-lid/pricing-and-fees.md)

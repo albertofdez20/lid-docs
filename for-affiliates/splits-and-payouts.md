@@ -27,20 +27,18 @@ Your balance sits in your LID account, associated with a Solana address. You can
 
 Your dashboard shows every split you've received with:
 
-- Date and time
-- Product
-- Sale amount
-- Your percentage
-- Your digital-dollar amount
-- Solana transaction signature (clickable, opens the on-chain record)
+* Date and time
+* Product
+* Sale amount
+* Your percentage
+* Your digital-dollar amount
+* Solana transaction signature (clickable, opens the on-chain record)
 
 Every payout is independently verifiable on a block explorer.
 
 ## Off-ramping to fiat
 
-Today: you can move USDC from your LID account to any exchange that supports USDC on Solana (Coinbase, Kraken, Binance, others), convert to fiat there, and withdraw to your bank.
-
-Post-raise: a fiat off-ramp will be integrated directly. You'll be able to convert USDC to your local currency and transfer to a bank account without leaving LID. The provider will be announced when the integration is live.
+Bridge is the integrated fiat rails inside Lid. Cash out from your affiliate balance to a bank account directly. The digital-dollar leg stays atomic on-chain. The fiat leg happens through Bridge when you decide to take it.
 
 ## What if a sale gets refunded
 
@@ -52,10 +50,10 @@ Refund policies are set per seller. Check the product page if you want to unders
 
 Attribution is enforced by the smart contract. If you drove the checkout, you're paid. There is no "contested commission" workflow because there's nothing to contest. The contract has already settled.
 
-If something goes wrong at a protocol level (a payment routed to the wrong account, a split calculated incorrectly), that's a red-light bug. Email alberto@lid.pro. Any red-light bug blocks phase progression until it's resolved.
+If something goes wrong at a protocol level (a payment routed to the wrong account, a split calculated incorrectly), that's a red-light bug. Email <alberto@lid.pro>. Any red-light bug blocks phase progression until it's resolved.
 
 ## Tax
 
 LID does not withhold taxes. Commissions are your income. You're responsible for reporting them according to your local tax obligations. The dashboard can export transaction history for accounting.
 
-Next: [Best practices →](best-practices.md)
+Next: [Best practices →](/earn-on-lid/best-practices.md)

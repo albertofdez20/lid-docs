@@ -35,13 +35,13 @@ Attribution is not a best-effort guess from a click database. It's a rule execut
 
 In the same transaction as the sale, the split executes.
 
-- **Seller** receives their share.
-- **Affiliate** receives their commission, if one was attached.
-- **LID** receives its 3% infrastructure fee.
+* **Seller** receives their share.
+* **Affiliate** receives their commission, if one was attached.
+* **LID** receives its 3% infrastructure fee.
 
 All three payments settle in digital dollars in seconds. No reconciliation. No payout schedule. Money does not sit with LID between the sale and the payout. It is never touched.
 
-The seller can off-ramp to fiat post-raise, once the fiat partner is live. Digital dollars are the native settlement asset.
+The seller can off-ramp to fiat through Bridge, our live fiat rails partner. The production cutover is complete. Digital dollars are the native settlement asset.
 
 ## Why this matters
 
@@ -51,4 +51,4 @@ LID does none of that. The split is the transaction. The fee is transparent. The
 
 That's how "your customers are your sales team" becomes a real mechanism. Not a slogan.
 
-Next: [Quickstart →](quickstart.md)
+Next: [Quickstart →](/getting-started/quickstart.md)

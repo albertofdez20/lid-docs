@@ -18,22 +18,22 @@ The link works anywhere a URL works. The question is where your audience pays at
 
 **High-trust, high-intent channels:**
 
-- Your own newsletter
-- Your community (Discord, Telegram, Circle, Slack)
-- Direct replies to people who asked for a recommendation
-- A pinned tweet or post
+* Your own newsletter
+* Your community (Discord, Telegram, Circle, Slack)
+* Direct replies to people who asked for a recommendation
+* A pinned tweet or post
 
 **Medium-trust channels:**
 
-- Organic social posts (Twitter, LinkedIn, Instagram, Threads, TikTok)
-- Reply guy mode on related conversations
-- Your link in bio
+* Organic social posts (Twitter, LinkedIn, Instagram, Threads, TikTok)
+* Reply guy mode on related conversations
+* Your link in bio
 
 **Low-trust channels (use carefully):**
 
-- Cold DMs
-- Mass outreach
-- Forum posts where you're not a regular
+* Cold DMs
+* Mass outreach
+* Forum posts where you're not a regular
 
 The further from the center of your existing audience you go, the harder the conversion. Stay close to home first.
 
@@ -51,21 +51,21 @@ Most affiliates post a link with no context and wonder why nothing converts. The
 
 ## What not to do
 
-- **Don't spam.** You'll burn your audience faster than the commission will pay.
-- **Don't fake reviews.** Attribution is on-chain. Gaming it catches up.
-- **Don't hide that you're earning.** Disclosure builds trust. "Full disclosure: I earn a commission if you buy" is a three-second line that protects the relationship.
-- **Don't promote products you haven't touched.** Your audience can tell the difference.
+* **Don't spam.** You'll burn your audience faster than the commission will pay.
+* **Don't fake reviews.** Attribution is on-chain. Gaming it catches up.
+* **Don't hide that you're earning.** Disclosure builds trust. "Full disclosure: I earn a commission if you buy" is a three-second line that protects the relationship.
+* **Don't promote products you haven't touched.** Your audience can tell the difference.
 
 ## Tracking your performance
 
 Your dashboard at [app.lid.pro](https://app.lid.pro) shows:
 
-- Clicks on each affiliate link
-- Conversions
-- Commission earned (total and per product)
-- Payout history (every split you've received)
+* Clicks on each affiliate link
+* Conversions
+* Commission earned (total and per product)
+* Payout history (every split you've received)
 
-When Pro launches, analytics will deepen. Per-channel attribution, conversion funnels, time-to-purchase, repeat buyer tracking.
+When Pro launches, creator-to-buyer communication tools land first (email, community). Analytics deepens alongside: per-channel attribution, conversion funnels, time-to-purchase, repeat buyer tracking.
 
 ## Earnings cadence
 
@@ -73,4 +73,4 @@ Every sale attributed to you pays out the commission immediately, in the same tr
 
 Your account balance grows as sales close.
 
-Next: [Splits and payouts →](splits-and-payouts.md)
+Next: [Splits and payouts →](/earn-on-lid/splits-and-payouts.md)

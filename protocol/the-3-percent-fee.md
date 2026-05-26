@@ -12,38 +12,31 @@ Most creator commerce platforms land between 5% and 30% effective take rate once
 
 **Low enough to align with top earners.** The more a seller grows, the less they feel LID. A seller doing $50K/month isn't punished for scale. On a 10% platform, that seller pays $5K/month in fees. On LID, $1,500.
 
-**Strong enough to keep LID sustainable.** Combined with a planned Pro tier for advanced features, the unit economics support venture-scale growth. See [blended ARPU math in the vision doc](../company/vision.md).
+**Strong enough to keep LID sustainable.** Combined with a planned Pro tier for advanced features, the unit economics support venture-scale growth. See [blended ARPU math in the vision doc](/company/vision.md).
 
-**Durable enough to block incumbents.** A 3% fee is a pricing moat. Any incumbent that matches it has to gut their existing revenue model. They can't match without breaking their P&L. So they won't.
+**Durable enough to block incumbents.** A 3% fee is a pricing moat. Any incumbent that matches it has to gut their existing revenue model. They can't match without breaking their P\&L. So they won't.
 
 ## What the 3% covers
 
-- Infrastructure to route splits atomically.
-- The smart contract that enforces attribution.
-- Product page hosting and delivery.
-- Buyer checkout flow.
-- Seller dashboard.
-- Affiliate dashboard.
-- Support during alpha (every case goes through the founder).
+The 3% covers the rails. The smart contract that splits payment between seller, affiliate, and Lid. The atomic settlement. The on-chain attribution that holds up under audit. Lid never holds your money. No escrow. No subscription required (today). No currency conversion charge. Bridge handles fiat-to-digital-dollar conversion as a passthrough at cost.
 
-## What the 3% is not
+Specifically, the 3% pays for:
 
-- It's not an escrow fee. LID never holds your money.
-- It's not a payment processing fee. Solana network fees are separate (sub-cent).
-- It's not a currency conversion fee. Settlement is in digital dollars 1:1.
-- It's not a subscription. You pay only when you transact.
+* Infrastructure to route splits atomically.
+* The smart contract that enforces attribution.
+* Product page hosting and delivery.
+* Buyer checkout flow.
+* Seller dashboard.
+* Affiliate dashboard.
+* Support during alpha (every case goes through the founder).
+
+Bridge handles fiat on/off-ramp at the edges. The 3% covers the rails inside Lid.
 
 ## When the model evolves
 
-A Pro tier is planned for when the product earns the right to charge for it. The expected structure:
+Pro tier comes when features justify it. The lead Pro feature is creator-to-buyer communication: email and community tools that close the gap between you and the people who buy from you. Analytics, custom branding, advanced attribution, and priority support sit alongside it. Pro lands at around $29 per month with the 3% transaction fee unchanged.
 
-| Tier | Transaction fee | Monthly | Who it's for |
-|---|---|---|---|
-| **Free** | 5% | $0 | Casual sellers, single-product launches. |
-| **Pro** | 3% | ~$29 | Active sellers who want analytics and custom branding. |
-| **Enterprise** | Custom | Custom | High-volume partners, API integrations, white-label. |
-
-When Pro launches, the current 3% rate will be preserved for existing sellers during the transition. The core loop (create, share, sell, get paid) will always be available on the Free tier. Subscriptions add advanced tools on top. They do not gate core functionality.
+The core loop (create, share, sell, get paid) stays available without a subscription. Subscriptions add advanced tools on top. They do not gate core functionality.
 
 No timeline has been committed for the Pro launch. It happens when the features are real enough to justify charging for them.
 
@@ -53,4 +46,4 @@ The fee structure is part of the trust architecture. A platform that charges 20%
 
 We built LID to be the second one.
 
-Next: [Security and guarantees →](security-and-guarantees.md)
+Next: [Security and guarantees →](/the-trust-layer/security-and-guarantees.md)

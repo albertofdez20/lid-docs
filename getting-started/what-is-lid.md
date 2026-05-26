@@ -14,7 +14,7 @@ Digital commerce has a two-sided problem that neither side can fix alone.
 
 **People with audiences want to earn by selling.** Today they wait for affiliate approval, fill out forms, and get paid 30 to 60 days later. If they get paid at all.
 
-The current stack was built to track clicks and report attribution after the fact. Built for advertisers, not for collaborators selling together.
+The current stack was built to track clicks and report attribution after the fact. Lid is built for collaborators selling together.
 
 LID makes both sides work in one loop.
 
@@ -32,7 +32,7 @@ LID makes both sides work in one loop.
 
 ## Who LID is for today
 
-Crypto-native creators activate fastest. They already understand digital payouts and expect instant settlement.
+Creators in the Spanish-speaking Solana community activate fastest today. The wedge has also translated cleanly to non-crypto creators (Roberto's 9-year audience, Luis's pre-revenue Instagram brand).
 
 Educators, course creators, coaches, niche experts, and paid communities come next, once the loop is proven with the first group.
 
@@ -52,4 +52,4 @@ LID launched on Solana mainnet on April 24, 2026. Product at [app.lid.pro](https
 
 Active alpha validation. Proof of liquidity still being earned.
 
-Next: [The core loop →](how-it-works.md)
+Next: [The core loop →](/getting-started/how-it-works.md)

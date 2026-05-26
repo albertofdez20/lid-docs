@@ -1,4 +1,4 @@
-# Roadmap: the proof ladder
+# Roadmap
 
 LID advances in phases. Every phase has to clear three gates at the same time.
 
@@ -8,68 +8,85 @@ LID advances in phases. Every phase has to clear three gates at the same time.
 
 We do not move forward because time passed, attention increased, or the narrative sounds better. We move because the proof is there.
 
+## Completed Phase 1 milestones
+
+* LID launched on Solana mainnet. 2026-04-22.
+* Privy live in production. Embedded wallet and auth.
+* Bridge production cutover complete.
+* First organic completed loop. Derlys to Alberto. €5. 2026-05-22.
+* 100% payout accuracy, 100% attribution accuracy, 0 red-light bugs to date.
+* 3 documented Mom Test sessions across 3 creator tiers and 2 languages.
+* 1 creator-owned product live. Roberto · *CRIPTOMONEDAS - Primeros Pasos*.
+* La Familia · *Háblanos de tu proyecto* community feature.
+* Colosseum FRONTIER verified. 1 of 2,857 confirmed Solana builds.
+
 ## Phase 1: Trusted alpha (current)
 
 Prove the core loop works with trusted users under close observation.
 
 **Exit criteria:**
-- 10 clean completed loops
-- 100% payout accuracy
-- 100% attribution accuracy
-- 0 red-light bugs
-- Observed sessions and debriefs complete
-- Top trust frictions fixed
+
+* 10 clean completed loops
+* 100% payout accuracy
+* 100% attribution accuracy
+* 0 red-light bugs
+* Observed sessions and debriefs complete
+* Top trust frictions fixed
 
 ## Phase 2: Instrumented self-serve alpha
 
 Open the product further. Let the market qualify itself. No meeting required before product access.
 
 **Exit criteria:**
-- $10K to $20K cumulative GMV
-- 10%+ GMV via affiliate
-- Instant median payout
-- High-intent users clearly separable from noise
+
+* $10K to $20K cumulative GMV
+* 10%+ GMV via affiliate
+* Instant median payout
+* High-intent users clearly separable from noise
 
 ## Phase 3: Proof of liquidity
 
 The first real fundraising bridge. The question shifts from "will people click?" to "does the system produce measurable earning and repeat behavior?"
 
 **Exit criteria:**
-- $50K to $100K cumulative GMV
-- 20%+ affiliate share of GMV
-- 10 to 20 power users
-- 30%+ repeat seller rate
+
+* $50K to $100K cumulative GMV
+* 20%+ affiliate share of GMV
+* 10 to 20 power users
+* 30%+ repeat seller rate
 
 ## Phase 4: Agentic API and repeatability (post-funding)
 
 Deploy the raise to reduce founder dependence and expand into programmable agentic distribution.
 
 **Focus areas:**
-- Stable repeatable human usage
-- Controlled support load
-- Agent DevRel pipeline
-- Agentic Commerce API integrated into AI-agent frameworks
-- Fiat off-ramp implementation
+
+* Stable repeatable human usage
+* Controlled support load
+* Agent DevRel pipeline
+* Agentic Commerce API integrated into AI-agent frameworks
+* Third-party smart contract audit
 
 ## Phase 5: Propagation
 
 Growth comes from distribution dynamics, not founder energy.
 
 **Targets:**
-- $1M to $5M cumulative GMV
-- 30%+ affiliate share
-- 40%+ creators enabled
-- Under 7 days to first sale
+
+* $1M to $5M cumulative GMV
+* 30%+ affiliate share
+* 40%+ creators enabled
+* Under 7 days to first sale
 
 ## What we're building now vs. later
 
-| Build now | Build next (post-funding) |
-|---|---|
+| Build now                                                                       | Build next (post-funding)                                                                        |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
 | Affiliate-driven sales, automatic splits, product pages, strict 3% enforcement. | Agentic Commerce API, developer rails for autonomous agents, integrations into agent frameworks. |
-| Human liquidity and repeat earning behavior. | Machine-to-machine distribution and monetization at scale. |
-| Trust-critical infrastructure and clean loop execution. | Programmable expansion once the human wedge is proven. |
-| USDC-only settlement. | Fiat on/off ramp (provider TBD) once USDC liquidity is validated. |
-| Flat 3% infrastructure fee. | Pro tier (~$29/mo) when analytics, branding, and advanced attribution justify it. |
+| Human liquidity and repeat earning behavior.                                    | Machine-to-machine distribution and monetization at scale.                                       |
+| Trust-critical infrastructure and clean loop execution.                         | Programmable expansion once the human wedge is proven.                                           |
+| USDC settlement plus Bridge fiat on-ramp and off-ramp. Live in production.      | Third-party smart contract audit and white-label embedding.                                      |
+| Flat 3% infrastructure fee.                                                     | Pro tier (\~$29/mo) when creator-to-buyer communication, analytics, branding, and advanced attribution justify it. |
 
 ## Fundraise
 
@@ -77,20 +94,20 @@ Raising $500K pre-seed. Converts a live product into proof of liquidity, onboard
 
 **Use of funds:**
 
-| Allocation | % | Near-term output |
-|---|---|---|
-| Engineering | 50% | Protocol hardening, product surface, Pro tier build-out, second protocol engineer. |
-| Go-to-market | 30% | Founder-led distribution, community seeding, partnership activation. |
-| Design and capacity | 15% | UX, onboarding, iteration speed, design system. |
-| Operating runway | 5% | Legal, infrastructure, ops. |
+| Allocation          | %   | Near-term output                                                                   |
+| ------------------- | --- | ---------------------------------------------------------------------------------- |
+| Engineering         | 50% | Protocol hardening, product surface, Pro tier build-out, second protocol engineer. |
+| Go-to-market        | 30% | Founder-led distribution, community seeding, partnership activation.               |
+| Design and capacity | 15% | UX, onboarding, iteration speed, design system.                                    |
+| Operating runway    | 5%  | Legal, infrastructure, ops.                                                        |
 
 **Milestone bridge:**
 
-| Capital | Milestone | Proof required |
-|---|---|---|
-| First $150K | Self-serve alpha | $10K to $20K GMV, 10%+ via affiliate, instant median payout. |
-| Next $200K | Proof of liquidity | $50K to $100K GMV, 20%+ affiliate share, 30%+ repeat sellers. |
-| Final $150K | Power-seller engine | First 100 power sellers, programmable distribution API. |
-| Post-raise | Series A trigger | Agentic API + repeatability + fiat off-ramp. |
+| Capital     | Milestone           | Proof required                                                |
+| ----------- | ------------------- | ------------------------------------------------------------- |
+| First $150K | Self-serve alpha    | $10K to $20K GMV, 10%+ via affiliate, instant median payout.  |
+| Next $200K  | Proof of liquidity  | $50K to $100K GMV, 20%+ affiliate share, 30%+ repeat sellers. |
+| Final $150K | Power-seller engine | First 100 power sellers, programmable distribution API.       |
+| Post-raise  | Series A trigger    | Agentic API and repeatability and third-party audit.          |
 
-Next: [Team →](team.md)
+Next: [Team →](/company/team.md)

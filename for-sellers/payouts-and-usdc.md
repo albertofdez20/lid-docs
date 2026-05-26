@@ -27,22 +27,18 @@ Think of it as digital dollars that move at internet speed. The balance you hold
 
 ## Can I get paid in fiat
 
-Today: no. All settlement is in digital dollars.
-
-Post-raise: yes. A fiat off-ramp is on the roadmap. After the raise closes, we'll integrate with a payment provider that lets you convert your USDC balance to your local currency and transfer to a bank account. The specific partner will be announced when the integration is live.
-
-For now, if you need fiat, you can send USDC to an exchange that supports USDC on Solana (Coinbase, Kraken, Binance, and others) and withdraw fiat from there. This is an extra step, and we know it. Fixing it is a priority after the raise.
+Yes. Bridge is live as our fiat rails partner. Cash out from your Lid account to a bank account through Bridge when you want to. Settlement still happens in digital dollars at the protocol layer. The fiat step is your choice, not the system's.
 
 ## Security
 
 Your account balance lives on Solana. LID does not custody your funds beyond the infrastructure layer. You can always verify your balance and transaction history on-chain.
 
-The smart contracts that execute the splits have been designed and reviewed with security as a primary goal. A formal audit is part of the post-raise engineering roadmap.
+The smart contracts that execute the splits have been designed and reviewed with security as a primary goal. A formal third-party audit is part of the post-raise engineering roadmap.
 
 ## What if something goes wrong
 
-If a payout ever fails or routes incorrectly, that's a red-light bug and our highest priority. Email alberto@lid.pro immediately. Any red-light bug blocks phase progression for the product until it's fixed. We take this seriously. Trust through execution is the core promise.
+If a payout ever fails or routes incorrectly, that's a red-light bug and our highest priority. Email <alberto@lid.pro> immediately. Any red-light bug blocks phase progression for the product until it's fixed. We take this seriously. Trust through execution is the core promise.
 
 In the current alpha phase, every completed loop is reviewed for correctness.
 
-Next: [FAQ for sellers →](faq.md)
+Next: [FAQ for sellers →](/sell-on-lid/faq.md)

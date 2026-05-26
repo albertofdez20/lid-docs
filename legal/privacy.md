@@ -1,16 +1,16 @@
 # Privacy Policy
 
-_Last updated: 23 April 2026._ _Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE)._
+*Last updated: 26 May 2026.* *Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE).*
 
 {% hint style="info" %}
-**In plain language.** We collect what we need to run Lid and nothing we do not. Your wallet address is public on Solana; we do not change that. Your email and account data are private. Blockchain transactions are permanent — we cannot delete what is recorded on Solana. We do not sell your personal data. We honour the rights the law gives you under UAE PDPL, EU GDPR, and California CCPA.
+**In plain language.** We collect what we need to run Lid and nothing we do not. Your wallet address is public on Solana; we do not change that. Your email and account data are private. Blockchain transactions are permanent. We cannot delete what is recorded on Solana. We do not sell your personal data. We honour the rights the law gives you under UAE PDPL, EU GDPR, and California CCPA.
 {% endhint %}
 
 ## 1. Who is responsible for your data
 
 The controller of your personal data is:
 
-**Lid Labs Technologies - FZCO** Trade licence No. 65802 IFZA Business Park, DDP PO Box 342001, Dubai, United Arab Emirates Email: privacy@lid.pro
+**Lid Labs Technologies - FZCO** Trade licence No. 65802 IFZA Business Park, DDP PO Box 342001, Dubai, United Arab Emirates Email: <privacy@lid.pro>
 
 For the purposes of UAE Federal Decree-Law No. 45 of 2021 on the Protection of Personal Data (UAE PDPL), the EU General Data Protection Regulation (GDPR), the UK GDPR, and the California Consumer Privacy Act as amended by the CPRA (CCPA/CPRA), Lid acts as the **data controller** for data processed on `lid.pro` and `app.lid.pro`.
 
@@ -111,20 +111,22 @@ We do not sell personal data. We do not share it with third parties for their ow
 
 ## 7. Service providers we work with
 
-| Provider            | Role                                             | Location               | Learn more                            |
-| ------------------- | ------------------------------------------------ | ---------------------- | ------------------------------------- |
-| Privy (Stripe Inc.) | Wallet creation, embedded wallet, authentication | United States          | privy.io/privacy                      |
-| Alchemy             | Solana RPC provider                              | United States          | alchemy.com/policies/privacy-policy   |
-| Pinata              | IPFS storage for product metadata                | United States          | pinata.cloud/privacy                  |
-| Helius              | Webhooks, transaction monitoring                 | United States          | helius.dev/privacy                    |
-| Cloudflare          | CDN, DDoS protection                             | United States / Global | cloudflare.com/privacypolicy          |
-| Vercel              | Hosting (marketing and app front-end)            | United States / Global | vercel.com/legal/privacy-policy       |
-| AWS                 | Cloud infrastructure                             | United States / Global | aws.amazon.com/privacy                |
-| PostHog             | Product analytics                                | United States          | posthog.com/privacy                   |
-| Sentry              | Error monitoring                                 | United States          | sentry.io/privacy                     |
-| Resend              | Transactional email delivery                     | United States          | resend.com/legal/privacy-policy       |
-| HubSpot             | CRM and marketing email                          | United States          | legal.hubspot.com/privacy-policy      |
-| Linear / Notion     | Internal work management                         | United States          | linear.app/privacy, notion.so/privacy |
+| Provider            | Role                                             | Status     | Location               | Learn more                            |
+| ------------------- | ------------------------------------------------ | ---------- | ---------------------- | ------------------------------------- |
+| Privy (Stripe Inc.) | Wallet creation, embedded wallet, authentication | Live       | United States          | privy.io/privacy                      |
+| Alchemy             | Solana RPC provider                              | Live       | United States          | alchemy.com/policies/privacy-policy   |
+| Pinata              | IPFS storage for product metadata                | Live       | United States          | pinata.cloud/privacy                  |
+| Helius              | Webhooks, transaction monitoring                 | Planned    | United States          | helius.dev/privacy                    |
+| Cloudflare          | CDN, DDoS protection                             | Live       | United States / Global | cloudflare.com/privacypolicy          |
+| Vercel              | Hosting (marketing and app front-end)            | Live       | United States / Global | vercel.com/legal/privacy-policy       |
+| AWS                 | Cloud infrastructure                             | Live       | United States / Global | aws.amazon.com/privacy                |
+| PostHog             | Product analytics                                | Live       | United States          | posthog.com/privacy                   |
+| Sentry              | Error monitoring                                 | Live       | United States          | sentry.io/privacy                     |
+| Resend              | Transactional email delivery                     | Live       | United States          | resend.com/legal/privacy-policy       |
+| HubSpot             | CRM and marketing email                          | Live       | United States          | legal.hubspot.com/privacy-policy      |
+| Linear / Notion     | Internal work management                         | Live       | United States          | linear.app/privacy, notion.so/privacy |
+
+Helius webhooks are planned, not yet active. When the integration goes live, this Policy will be updated and existing users notified.
 
 We review this list regularly and keep it current on this page.
 
@@ -138,7 +140,7 @@ Lid is based in the UAE. Some of our service providers are in the United States 
 * A data-transfer mechanism approved by the UAE Data Office.
 * Your explicit consent, where other safeguards are not available.
 
-You can ask us for a copy of the safeguards that apply to your data by emailing privacy@lid.pro.
+You can ask us for a copy of the safeguards that apply to your data by emailing <privacy@lid.pro>.
 
 ## 9. How long we keep data
 
@@ -185,7 +187,7 @@ You have the right to:
 
 We do not knowingly collect personal information from minors under 16.
 
-To exercise a CCPA right, email privacy@lid.pro. We may need to verify your identity before we respond. An authorised agent may make a request for you with written permission.
+To exercise a CCPA right, email <privacy@lid.pro>. We may need to verify your identity before we respond. An authorised agent may make a request for you with written permission.
 
 ### For users in the UAE (PDPL)
 
@@ -193,7 +195,7 @@ You have the right to request correction, deletion, restriction, portability, th
 
 ### How to exercise your rights
 
-Email privacy@lid.pro with "Data Rights Request" in the subject line. We will respond within 30 days of verifying your identity, or sooner where the law requires. We may extend this by up to 60 additional days for complex requests and will tell you if we do.
+Email <privacy@lid.pro> with "Data Rights Request" in the subject line. We will respond within 30 days of verifying your identity, or sooner where the law requires. We may extend this by up to 60 additional days for complex requests and will tell you if we do.
 
 ## 11. How we protect your data
 
@@ -214,11 +216,11 @@ If a breach is likely to result in a high risk to your rights, we will notify yo
 
 ## 12. Cookies and similar technologies
 
-We use cookies and similar technologies to operate the service, remember preferences, and measure use. See the [Cookie Policy](cookies.md) for details and for how to manage your choices.
+We use cookies and similar technologies to operate the service, remember preferences, and measure use. See the [Cookie Policy](/legal/cookies.md) for details and for how to manage your choices.
 
 ## 13. Children
 
-Lid is not for people under 18. We do not knowingly collect personal data from anyone under 18. If you believe a minor has given us personal data, email privacy@lid.pro and we will delete it.
+Lid is not for people under 18. We do not knowingly collect personal data from anyone under 18. If you believe a minor has given us personal data, email <privacy@lid.pro> and we will delete it.
 
 ## 14. Changes to this Policy
 
@@ -226,4 +228,4 @@ We may change this Policy to reflect new features, legal changes, or how we oper
 
 ## 15. Contact
 
-**Lid Labs Technologies - FZCO** Attn: Data Protection IFZA Business Park, DDP PO Box 342001, Dubai, United Arab Emirates Email: legal@lid.pro
+**Lid Labs Technologies - FZCO** Attn: Data Protection IFZA Business Park, DDP PO Box 342001, Dubai, United Arab Emirates Email: <legal@lid.pro>

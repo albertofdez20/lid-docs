@@ -1,47 +1,43 @@
 # Table of contents
 
 * [Welcome to Lid](README.md)
-* [Status](status.md)
 
-## Getting started
+## Start here
 
 * [What is Lid](getting-started/what-is-lid.md)
-* [The core loop](getting-started/how-it-works.md)
-* [Quickstart for sellers](getting-started/quickstart.md)
-* [Quickstart for affiliates](getting-started/quickstart-affiliate.md)
-* [Crypto-curious FAQ](getting-started/crypto-curious-faq.md)
+* [Your first sale in 5 minutes](getting-started/quickstart.md)
+* [Earn by sharing in 5 minutes](getting-started/quickstart-affiliate.md)
 
 ## Sell on Lid
 
 * [Create a product](for-sellers/create-a-product.md)
 * [Your product page](for-sellers/your-product-page.md)
 * [Pricing and fees](for-sellers/pricing-and-fees.md)
-* [Payouts and USDC](for-sellers/payouts-and-usdc.md)
+* [Getting paid](for-sellers/payouts-and-usdc.md)
 * [Courses](for-sellers/courses.md)
 * [Bounties](for-sellers/bounties.md)
 * [Links and campaigns](for-sellers/links-and-campaigns.md)
-* [Refunds and escrow](for-sellers/refunds-and-escrow.md)
-* [FAQ for sellers](for-sellers/faq.md)
+* [Refunds and protection](for-sellers/refunds-and-escrow.md)
+
+## Earn by sharing
+
+* [How sharing and earning works](for-affiliates/how-affiliate-works.md)
+* [Find products to promote](for-affiliates/find-products-to-promote.md)
+* [Share and earn](for-affiliates/share-and-earn.md)
+* [Where the money goes](for-affiliates/splits-and-payouts.md)
+* [Best practices](for-affiliates/best-practices.md)
 
 ## Buy on Lid
 
 * [Buying on Lid](for-buyers/README.md)
+* [Your purchases](for-buyers/your-purchases.md)
+* [Refunds and protection](for-buyers/refunds-and-protection.md)
 
-## Earn on Lid
+## Help
 
-* [How the affiliate system works](for-affiliates/how-affiliate-works.md)
-* [Find products to promote](for-affiliates/find-products-to-promote.md)
-* [Share and earn](for-affiliates/share-and-earn.md)
-* [Splits and payouts](for-affiliates/splits-and-payouts.md)
-* [Best practices](for-affiliates/best-practices.md)
-
-## The trust layer
-
-* [Overview](protocol/the-trust-layer.md)
-* [Instant splits](protocol/instant-splits.md)
-* [The 3% fee](protocol/the-3-percent-fee.md)
-* [Security and guarantees](protocol/security-and-guarantees.md)
-* [Fiat rails · Planned](protocol/bridge.md)
+* [Is Lid safe?](trust/is-lid-safe.md)
+* [FAQ](faq.md)
+* [Troubleshooting](troubleshooting.md)
 
 ## Developers
 
@@ -56,12 +52,10 @@
 * [Vision](company/vision.md)
 * [Roadmap](company/roadmap.md)
 * [Team](company/team.md)
-* [Competitive position](company/competitive-position.md)
 
 ## Resources
 
 * [Glossary](resources/glossary.md)
-* [Language guide](resources/language-guide.md)
 * [Contact](resources/contact.md)
 
 ## Legal

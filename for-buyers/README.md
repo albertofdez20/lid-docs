@@ -1,32 +1,54 @@
 # Buying on Lid
 
-You found a product on Lid, or someone shared a link with you. Here is everything that happens with your money and your purchase, in plain terms.
+Someone shared a link with you, or you found something you want. This page walks you through what happens when you buy.
 
-## How to buy
+## What happens when you buy
 
-1. Open the product page and hit **Buy now**.
-2. Sign in with your email if you haven't. No wallet setup, no extension, no seed phrase: an account is created for you.
-3. Pay in digital dollars. The price on the page is the price you pay; the seller covers Lid's fee.
+1. Open the product page and select **Buy now**.
+2. Sign in with your email. Lid creates an account for you on the spot.
+3. Pay in digital dollars. The price on the page is the amount you pay.
+4. You get access immediately. Files are ready to download, and courses open right away.
 
-Settlement is instant. The moment you pay, the seller and any affiliate are paid, and you get access.
+<!-- screenshot: a product page with the Buy now button visible -->
 
-## Where your purchase lives
+{% hint style="info" %}
+Today you pay in digital dollars. Paying with a regular card is coming.
+{% endhint %}
 
-Your receipt is your delivery. Every purchase gives you a permanent receipt with the unlockable content attached: files, course access, whatever the product includes. Find it any time under **My purchases** in your [dashboard](https://lid.pro/dashboard). It doesn't expire, and it doesn't depend on an email surviving your inbox.
+## What you need
 
-## Refunds
+An email address. That covers it. There is nothing technical to set up or install.
 
-Each product shows its refund policy before you pay:
+## How your payment is handled
 
-* **No refund window.** The sale is final at purchase. You'll see this on cheap digital products.
-* **A refund window (1 to 90 days).** Your payment sits in escrow for that period. If something is wrong, open a dispute from the purchase before the window closes; a successful dispute returns your money automatically.
+* Sellers never see your payment details.
+* If a product has a refund window, your payment is protected during it. Read more in [Refunds and protection](refunds-and-protection.md).
+* Everything you buy lives in one place in your account. See [Your purchases](your-purchases.md).
 
-The policy is enforced by the smart contract, not by the seller's mood.
+## Common questions
 
-## Earn from what you bought
+<details><summary>Do I need an app?</summary>
 
-Any product on Lid is sharable. If you liked something, grab your link from the product page and earn the commission the seller set (shown on the page) every time someone buys through it. No application. Your commission arrives in the same transaction as the sale.
+Lid runs in your browser. Open the link, sign in with your email, and you are set.
 
-## If something looks wrong
+</details>
 
-The only official domains are `lid.pro` and `docs.lid.pro`. Check the URL before signing in or paying. Questions: hi@lid.pro.
+<details><summary>What are digital dollars?</summary>
+
+Money that works like dollars and moves over the internet in seconds. The price you see is the price you pay.
+
+</details>
+
+<details><summary>Can I pay with my card?</summary>
+
+Card payments are coming. Today, purchases use digital dollars.
+
+</details>
+
+<details><summary>Is my purchase tied to one device?</summary>
+
+Your purchases live in your account. Sign in with the same email from any device and everything is there.
+
+</details>
+
+This is the link if you want to look around: [lid.pro](https://lid.pro)

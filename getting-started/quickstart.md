@@ -1,53 +1,49 @@
-# Quickstart
+# Your first sale in 5 minutes
 
-Go from zero to your first live product in under 5 minutes.
+Go from signup to a live product in about five minutes.
 
-## 1. Sign up
+## The steps
 
-Go to [lid.pro/dashboard](https://lid.pro/dashboard) and create an account. Email and password. That's all.
+1. **Sign up.** Go to [lid.pro](https://lid.pro) and create an account with your email. That's all you need.
 
-## 2. Create your first product
+   <!-- screenshot: signup screen with email field -->
 
-Click **New Product** and fill in:
+2. **Create your product.** Click **New Product**. Add a title, a short description, and what the buyer gets: a file you upload or a link to your content.
 
-- **Title.** What the product is called.
-- **Description.** What the buyer gets. Keep it specific.
-- **Price.** Set in USD. Payment settles in digital dollars.
-- **Delivery.** Upload a file or paste an access link. Notion page, private YouTube, Discord invite, Google Drive. Whatever delivers the product.
-- **Affiliate commission (optional).** Set a percentage anyone can earn for driving a sale. Example: 20%. If you leave this at 0, no one but you earns on this product.
+   <!-- screenshot: New Product form -->
 
-Click **Publish**. Your product is live.
+3. **Set your price.** Prices are in dollars. Buyers see the price, you receive the money.
 
-## 3. Get your share link
+4. **Set the commission you'll share.** Choose what anyone who shares your product earns per sale, from 1% to 50%.
 
-Every product has a public share link. It looks like:
+   {% hint style="info" %}
+   A higher commission gives more people a reason to share your product.
+   {% endhint %}
 
-```
-https://lid.pro/p/your-product
-```
+5. **Publish.** Click **Publish**. Your product is live.
 
-This is the link you share anywhere. Twitter, Instagram, your email list, a Discord pinned message.
+   <!-- screenshot: published product page -->
 
-## 4. Share and sell
+6. **Share your link.** Every product gets its own link. Post it where your audience is: social, email, group chats.
 
-Drop the link where your audience is. Write a post. Pin it. DM someone who asked.
+## Questions
 
-When a sale closes, the split runs in the same transaction. You see the digital dollars in your account instantly.
+<details><summary>What does it cost?</summary>
 
-If someone else shares your product through their affiliate link, the commission you set goes to them. Your seller split is preserved. Neither side waits for a payout.
+Nothing up front. Lid keeps a flat 3% of each sale. There are no other fees.
 
-## 5. Invite affiliates (optional)
+</details>
 
-Want to turn on distribution?
+<details><summary>When do I get paid?</summary>
 
-Send your product page link to anyone with an audience that matches your product. They click **Earn on this product** to generate their personal affiliate link. No application. No approval from you. The commission you set at creation is already live for whoever wants to earn it.
+Seconds after each sale, automatically. The money arrives as digital dollars and goes straight to you. Lid never holds it. Cashing out to a bank account is coming.
 
-This is the flywheel. Your audience is your sales team.
+</details>
 
-## That's the loop
+<details><summary>Do I need anything technical?</summary>
 
-Create → Share → Sell → Get paid.
+No. You sign up with an email and Lid handles the rest.
 
-Everything else in these docs is a deeper look at one of those four steps. You already know the whole product.
+</details>
 
-Next: [Create a product →](../for-sellers/create-a-product.md)
+This is the link if you want to start: [lid.pro](https://lid.pro)

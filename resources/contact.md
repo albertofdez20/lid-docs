@@ -1,79 +1,25 @@
 # Contact
 
-## For everyone
+## Email
 
-**Email:** alberto@lid.pro
+[alberto@lid.pro](mailto:alberto@lid.pro)
 
-Every inquiry during the alpha phase goes through the founder. That's deliberate. It keeps the team close to the reality of how the product lands and makes sure trust-critical feedback is heard in days, not quarters.
+Every message goes to the founder. You will get a reply from a person, not a ticket number.
 
-## For sellers and affiliates
+## X
 
-**Product support:** alberto@lid.pro
+[@albertofdez20](https://x.com/albertofdez20)
 
-Include:
-- Your account email
-- The product ID or URL involved
-- A Solana transaction signature if the issue is payment-related
-- What you expected to happen
-- What actually happened
+DMs are open.
 
-Red-light bugs (lost funds, wrong payout, attribution error) are top priority and block phase progression until resolved.
+## Reporting a problem
 
-## For developers
+Include these five things and we can usually fix it on the first reply:
 
-**Integration waitlist:** alberto@lid.pro
+1. The email you use to log in
+2. The product name or link involved
+3. What you expected to happen
+4. What actually happened
+5. A screenshot, if you have one
 
-Email with:
-- What you're building
-- How you'd integrate Lid
-- What API or event surface you'd need
-- Timeline
-
-Early design partners shape the Agentic Commerce API.
-
-## For security researchers
-
-**Responsible disclosure:** alberto@lid.pro
-
-We respond quickly, handle privately when possible, and credit researchers who help. Please give us a reasonable window to address the issue before public disclosure.
-
-## For investors and partners
-
-**Pre-seed raise (open):** Raising a $750K pre-seed (target) with a $500K floor, on a post-money SAFE at an $8M cap. alberto@lid.pro
-
-Fundraising materials (deck, memo, data room) available to serious inquiries.
-
-For partnership discussions, include:
-- Your product or organization
-- The shape of the partnership you're imagining
-- Why it's better for users on both sides
-
-We don't do prestige partnerships for prestige. Every integration has to produce measurable benefit for sellers or affiliates.
-
-## For press
-
-**Media inquiries:** alberto@lid.pro
-
-We're early and selective about press. We prefer deep coverage that engages with the product over mentions in roundups.
-
-## Social
-
-Alberto is building Lid in public across Twitter, LinkedIn, and Instagram. Follow for product updates, market commentary, and honest progress against the proof ladder.
-
-Handles and links available at [lid.pro](https://lid.pro).
-
-## Team
-
-See [Team](../company/team.md) for the full founding team.
-
-## Location
-
-Lid is a remote team with roots across Latin America, Europe, and the US.
-
----
-
-One more time, because it matters:
-
-**alberto@lid.pro**
-
-You'll get a response, not a ticket number.
+Anything involving money that seems missing or a payout that looks wrong goes to the front of the line. Put "payment issue" in the subject line.

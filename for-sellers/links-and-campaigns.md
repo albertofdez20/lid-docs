@@ -1,24 +1,28 @@
 # Links and campaigns
 
-Short links with tracking: clicks, events, and conversions. Use them standalone to measure your own traffic, or open them up as reward campaigns where sharers earn from a pool when visitors hit the goal you set.
+Create a tracked link, define what counts as a result, and pay the people who bring results.
 
-## Standalone links
+## Tracked links
 
-Create a short link in **Links** in the [dashboard](https://lid.pro/dashboard), point it anywhere, and watch clicks, events, and conversions per link. Useful on its own, even before money is involved.
+Create a short link under **Links** in your [dashboard](https://lid.pro/dashboard), point it anywhere, and watch clicks and results per link.
 
 ## Reward campaigns
 
-A campaign turns a link into a distribution engine:
-
-1. Create a campaign and define the goal (the event or conversion that counts).
+1. Create a campaign and define the result that counts.
 2. Fund the reward pool.
-3. Open it to sharers. Anyone can grab their own variant of the link with **Generate my link**.
-4. Attribution runs per sharer. When visitors hit the goal, the sharer earns from the pool, in digital dollars.
+3. Open it up. Anyone can click **Generate my link** to get their own version.
+4. When a visitor hits the goal, the sharer who brought them is paid from the pool in seconds.
 
-Attribution windows are set per campaign (7 days by default). Each sharer sees their own clicks, conversions, and earnings under **My shared links**.
+<!-- screenshot: campaign setup with goal and reward pool -->
 
-## Where this fits next to products
+Each sharer sees their own clicks, results, and earnings under **My shared links**.
 
-Products pay affiliates a cut of a sale. Campaigns pay sharers for traffic and actions toward any goal, sale or not. Same rail, same instant settlement, different trigger.
+## FAQ
 
-Next: [Refunds and escrow →](refunds-and-escrow.md)
+<details><summary>How long does a sharer get credit for a visitor?</summary>
+
+You set the window per campaign. The default is 7 days.
+
+</details>
+
+Start a campaign at [lid.pro](https://lid.pro). That is the link if you want to sell.

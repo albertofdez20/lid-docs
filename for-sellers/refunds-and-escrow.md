@@ -1,22 +1,26 @@
-# Refunds and escrow
+# Refunds and protection
 
-Refunds on Lid are a product setting, not a support queue. You choose the policy once, at creation, and the smart contract enforces it.
+You choose a refund window for each product, and the payment is protected until the window passes.
 
-## The refund window
+## How it works
 
-Every product carries a refund window, from 0 to 90 days:
+1. When you create a product, pick a refund window from 0 to 90 days.
+2. With 0 days, you are paid in seconds when the sale lands.
+3. With a window, the payment is protected until the window passes, then it releases to you automatically.
+4. If a refund goes through, the buyer gets the full amount back, including the sharer's commission.
 
-* **0 days.** You are paid instantly and finally, in the sale transaction. No refunds. Right for cheap digital products where instant settlement is the whole point.
-* **1 to 90 days.** The purchase sits in on-chain escrow for the window. If the buyer doesn't dispute, it releases to you automatically. If a dispute succeeds, the money returns to the buyer and the whole split reverses, including the affiliate's share.
+Buyers see your refund policy on the product page before they pay.
 
-## Why escrow instead of manual refunds
+## Services
 
-Manual refunds require trusting the seller to act. Escrow requires nothing: the program holds the funds and the rules execute either way. Buyers see the policy on the product page before paying, which is worth more than any "satisfaction guaranteed" badge.
+For services, the payment is protected until the buyer accepts your delivery. Then it releases to you.
 
-## What it means for each side
+## FAQ
 
-* **Sellers** trade a settlement delay for buyer trust. Longer windows convert cautious buyers; 0 days maximizes cash flow.
-* **Affiliates** earn when the sale sticks. With a window, commissions confirm when escrow releases.
-* **Buyers** know the recourse before they pay, and it doesn't depend on anyone's goodwill.
+<details><summary>Which window should I pick?</summary>
 
-Next: [FAQ for sellers →](faq.md)
+Short windows mean faster money for you. Longer windows help cautious buyers say yes.
+
+</details>
+
+Pick your policy at [lid.pro](https://lid.pro). That is the link if you want to sell.

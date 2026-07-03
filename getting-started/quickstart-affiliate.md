@@ -1,39 +1,45 @@
-# Quickstart · Affiliate
+# Earn by sharing in 5 minutes
 
-Five minutes from landing here to sharing your first link.
+You don't need your own product. Share someone else's and earn a cut of every sale.
 
-## Step 1 · Sign up at lid.pro/dashboard
+## The steps
 
-Email is enough. No seed phrase. No chain selection. No wallet to install.
+1. **Sign up.** Go to [lid.pro](https://lid.pro) and create an account with your email.
 
-Lid creates an account for you with an embedded wallet under the hood. You see a dashboard. The crypto stays invisible.
+2. **Find a product.** Browse the products on Lid and pick something you would recommend. Each one shows its commission up front, set by the seller, from 1% to 50%.
 
-## Step 2 · Find a product to promote
+   <!-- screenshot: product list with commission shown -->
 
-Browse the marketplace. Filter by category, by commission percentage, by creator.
+3. **Get your link.** Open the product page and click **Earn on this product**. Your personal link appears. No application, no waiting.
 
-Pick something you'd actually recommend. The audience can smell the difference.
+   <!-- screenshot: Earn on this product button -->
 
-## Step 3 · Claim your affiliate link
+4. **Share it.** Post your link where your audience is. One honest line on why you like the product works best.
 
-One click. Your link is generated. Attribution binds to your account at the moment a buyer clicks through.
+5. **Get paid.** The moment someone buys through your link, your cut arrives in digital dollars. There is nothing to claim and no payout button.
 
-The link looks like a normal product page. No `?ref=` tracking string visible to the buyer.
+{% hint style="info" %}
+Share things you would actually buy. Your audience can tell the difference.
+{% endhint %}
 
-## Step 4 · Share where your audience already is
+## Questions
 
-Twitter, Instagram, your newsletter, a Discord channel, a DM. The platform doesn't care. Attribution does.
+<details><summary>How much do I earn?</summary>
 
-Write a real recommendation. One sentence about why you'd buy it. The link beneath.
+The seller sets the commission, from 1% to 50% of the price. You see it on the product page before you share.
 
-## Step 5 · Watch the split happen
+</details>
 
-When a buyer purchases through your link, the smart contract executes a three-way split in the same transaction: creator share, your affiliate share, Lid 3% fee.
+<details><summary>When do I get paid?</summary>
 
-No delay. No payout button. No 30-day wait. Your dashboard updates the second the sale clears.
+Seconds after the sale, automatically. Lid never holds your money.
 
-## What's next
+</details>
 
-Read [Best practices](../for-affiliates/best-practices.md) for affiliate strategy. Read [Find products to promote](../for-affiliates/find-products-to-promote.md) for how to choose what to share.
+<details><summary>Do I need permission from the seller?</summary>
 
-Your audience is your sales team. Now you're someone else's.
+No. Any product with a commission is open for anyone to share.
+
+</details>
+
+This is the link if you want to share: [lid.pro](https://lid.pro)

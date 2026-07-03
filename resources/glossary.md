@@ -1,113 +1,35 @@
 # Glossary
 
-Key terms used across Lid docs.
+The handful of terms you will meet inside Lid, in plain words.
 
-## Active alpha validation
+## Digital dollars
 
-Lid's current commercial maturity. Live on Solana mainnet, operationally real, commercial proof still being earned through completed loops. Distinct from beta, which we will not claim before repeatability is proven.
+The money you earn and spend on Lid; each digital dollar is worth one US dollar.
 
-## Activated seller
+## Commission
 
-A user who has created a product AND shared it live. Creation alone is not activation. Sharing the link is what turns an account into an active seller.
+The share of a sale, set by the seller between 1% and 50%, that goes to the person whose link led to the purchase.
 
-## Affiliate share
+## Share link
 
-The percentage of GMV driven by affiliate links, as opposed to direct seller-to-buyer sales. A leading indicator of whether the affiliate flywheel is real.
+Your personal link to a product; when someone buys through it, you earn the commission.
 
-## Agentic Commerce API
+## Payout
 
-The full public developer surface (REST API, SDK, webhooks at scale) that exposes Lid's commerce primitives as first-class methods. On the roadmap, post-raise. Agents already transact today over the MCP write-surface v1.
+The money that lands in your account the moment a sale happens, automatically.
 
-## Attribution
+## Refund window
 
-The on-chain record of which affiliate (if any) drove a given sale. Bound at the moment of checkout, enforced by the smart contract, immutable after.
+A period the seller chooses during which a buyer can ask for their money back.
 
-## Fiat rails (planned)
+## Bounty
 
-The fiat on-ramp and off-ramp Lid is integrating through Bridge. Not live yet. Once integration completes, it handles fiat-to-digital-dollars on the buyer side and a bank-account cash-out for sellers and affiliates.
+A reward a seller offers for a result, like a sale, paid automatically when it happens.
 
-## Completed loop
+## Course
 
-A single sale where all five steps happen. Create → Share → Sale → Attribution correct → Funds route correctly → Payout settles. All five steps must complete for the loop to count. Partial completion is not a loop.
+A product made of lessons that buyers unlock when they purchase.
 
-## Core loop
+## Service
 
-**Create → Share → Sell → Get paid.** The four-step sequence every feature serves. If a feature strengthens this loop, we build it. If it doesn't, we don't.
-
-## Digital dollars (USDC)
-
-US dollar stablecoin issued by Circle, fully backed 1:1 by cash and short-term US Treasuries. The native settlement asset on Lid. One USDC is always one US dollar. "Digital dollars" is the user-facing term.
-
-## GMV
-
-Gross merchandise value. Total dollar volume transacted through Lid. Measured cumulatively across completed sales.
-
-## High-intent user
-
-A user who completes signup, creates a product, shares a live link, starts a sale flow, returns after first visit, or submits meaningful post-use feedback. The behavioral signal that separates real users from passive signups.
-
-## Instant payout
-
-Settlement that happens in the same transaction as the sale, with no payout schedule, minimum balance, or withdrawal request.
-
-## Mom Test session
-
-A documented observed onboarding session with a real seller. The tester's behavior and verbatim quotes drive product decisions.
-
-## Observed-session pressure-testing
-
-Lid's pre-external-audit trust mechanism. Every alpha session is observed and reconciled against payout and attribution correctness.
-
-## On-chain product registry
-
-An immutable record that a product exists on Solana. One record per product, not one per unit sold.
-
-## Ownership record
-
-An on-chain entry that proves who owns or has access to a product. One per buyer, per product.
-
-## Permissionless distribution
-
-Any user can generate an affiliate link and earn commission on any product that has affiliate commission enabled. No approval process. No application. No contract.
-
-## Power user
-
-A seller with at least 2 completed loops and at least 1 repeat action. Power users are the proof that the system produces earning behavior, not just one-time usage.
-
-## Privy
-
-The embedded wallet and auth provider. Live in production. Every Lid account is a Privy embedded wallet under the hood.
-
-## Pro tier
-
-An optional subscription tier at around $29 per month, in build. Leads with creator-to-buyer communication tools (email, community). Adds analytics, custom branding, advanced attribution, and priority support. Pro sells tools and never gates the four steps. The 3% transaction fee stays unchanged.
-
-## Proof of liquidity
-
-The phase at which Lid has produced measurable, repeatable earning behavior. Not yet reached. Current phase is earning it through alpha usage.
-
-## Red-light bug
-
-Lost funds, payment routed to the wrong account, incorrect split calculation, failed product creation that still charged the seller, or misleading payout or attribution data shown to a user. Any unresolved red-light bug blocks all phase progression until it's fixed.
-
-## Repeat seller
-
-A seller who completes at least one additional loop after the first clean loop. Distinct from a power user: repeat behavior is the leading indicator, power-user status is the compound effect.
-
-## Solana
-
-The blockchain Lid runs on. Chosen for sub-second transaction finality, USDC liquidity, and sub-cent fees. Lid runs on Solana. Lid is not a Solana product.
-
-## Split
-
-The division of a sale's proceeds between the seller, affiliate (if any), and Lid. Executed atomically in the same Solana transaction as the sale.
-
-## The 3% fee
-
-Lid's flat infrastructure fee. Deducted as part of the atomic split, routed to a Lid-controlled address in the same transaction as the sale. No hidden markups, no processing fees added later.
-
-## Trust layer
-
-The combination of on-chain attribution enforcement, atomic splits, and instant settlement that replaces the platform-as-arbiter model with contract-as-arbiter.
-
-Next: [Language guide →](language-guide.md)
+Work you sell with protected payment: the money is held until the buyer confirms the work was delivered.

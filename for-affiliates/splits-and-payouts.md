@@ -1,59 +1,48 @@
 # Splits and payouts
 
-The split is the transaction. There's no payout step that happens after.
+Here is where the money goes on each sale and when it arrives.
 
-## The mechanic
+## What happens when someone buys
 
-When a buyer checks out through your affiliate link, the smart contract executes a single Solana transaction that does four things at once.
+1. The buyer pays.
+2. The payment splits automatically: the seller's share, your commission, and Lid's 3% fee.
+3. Your commission lands in your Lid account in seconds, in digital dollars.
+4. Your dashboard lists every payout with the date, product, sale amount, and your cut.
 
-1. Accepts the buyer's payment in digital dollars
-2. Sends the seller's share to the seller's account
-3. Sends your commission to your account
-4. Sends the 3% infrastructure fee to Lid
+<!-- screenshot: dashboard payout history -->
 
-If any of those steps fails, the whole transaction reverts. The buyer isn't charged. The seller doesn't get paid. You don't either. There is no scenario where the money gets stuck in limbo.
+## A worked example
 
-## What you receive
+A $10 sale with a 10% commission splits like this:
 
-The commission percentage set on the product when you generated your link. Example: if the commission is 25% and the sale price is $200, you receive $50 in digital dollars the moment the transaction clears.
+| Who | Gets |
+|---|---|
+| Seller | $8.70 |
+| You | $1.00 |
+| Lid | $0.30 |
 
-The percentage cannot be changed retroactively. The rate at the moment of sale is the rate that applies.
+{% hint style="info" %}
+Your commission is locked in when the buyer pays. The rate shown at the moment of sale is the rate you receive.
+{% endhint %}
 
-## Where the money lands
+## Common questions
 
-Your balance sits in your Lid account, associated with a Solana address. You can verify it on-chain anytime. Lid does not custody your funds in a pooled treasury. They're yours, on-chain, addressable by you.
+<details><summary>Is there a minimum payout or a waiting period?</summary>
 
-## Seeing your payouts
+No. Every commission is paid in full, in seconds, whatever the amount.
 
-Your dashboard shows every split you've received with:
+</details>
 
-* Date and time
-* Product
-* Sale amount
-* Your percentage
-* Your digital-dollar amount
-* Solana transaction signature (clickable, opens the on-chain record)
+<details><summary>What if the sale is refunded?</summary>
 
-Every payout is independently verifiable on a block explorer.
+Some sellers offer a refund window. If a purchase is refunded, the commission for that sale is returned with it. Each seller's policy is on the product page.
 
-## Off-ramping to fiat
+</details>
 
-Not available yet. Your commissions settle in digital dollars, atomically, in the sale transaction, and you can send them anywhere today. A built-in cash-out to a bank account is planned for after the raise.
+<details><summary>What about taxes?</summary>
 
-## What if a sale gets refunded
+Lid does not withhold taxes. Commissions are your income, and reporting them is your responsibility.
 
-Products can carry a refund window (0 to 90 days, set by the seller). Inside that window the purchase sits in on-chain escrow; if the buyer disputes and the refund goes through, the split reverses and your commission is returned along with the seller's share. Deliberate and symmetric. Your commission is tied to the sale actually sticking. With a 0-day window, you are paid instantly and finally.
+</details>
 
-Refund policies are set per seller. Check the product page if you want to understand a seller's policy before sharing.
-
-## Disputes
-
-Attribution is enforced by the smart contract. If you drove the checkout, you're paid. There is no "contested commission" workflow because there's nothing to contest. The contract has already settled.
-
-If something goes wrong at a protocol level (a payment routed to the wrong account, a split calculated incorrectly), that's a red-light bug. Email <alberto@lid.pro>. Any red-light bug blocks phase progression until it's resolved.
-
-## Tax
-
-Lid does not withhold taxes. Commissions are your income. You're responsible for reporting them according to your local tax obligations. The dashboard can export transaction history for accounting.
-
-Next: [Best practices →](best-practices.md)
+See it work on your first sale: [lid.pro](https://lid.pro)

@@ -1,58 +1,43 @@
 # Create a product
 
-A product on Lid is any digital thing you want to sell and route to collaborators. Ebooks. Courses. Templates. Community access. Research reports. Notion docs. Private channels. API keys. If it can be delivered by a link or a file, it's a product.
+A product on Lid is anything digital you can deliver with a file or a link: an ebook, a template, a course, access to a community.
 
-## Before you start
+## Steps
 
-Pick one product to launch first. Not five.
+1. Go to your [dashboard](https://lid.pro/dashboard) and click **New Product**.
 
-Your first live product is the one that teaches you how the loop feels end to end. Pick the one you already know how to sell.
+<!-- screenshot: dashboard with the New Product button highlighted -->
 
-## Step by step
+2. Add a title. Concrete beats clever.
+3. Write the description. Say what the buyer gets and who it is for.
+4. Set the price in US dollars.
+5. Attach the delivery. Upload a file (PDF, ZIP, video) or paste an access link. Lid sends it to the buyer the moment they pay.
 
-**1. Go to [lid.pro/dashboard](https://lid.pro/dashboard) and click New Product.**
+<!-- screenshot: product form with file upload and access link fields -->
 
-**2. Add the title.** Keep it concrete. "Solana Developer Bootcamp, Cohort 4" beats "The Complete Developer Course".
+6. Set the commission you share with people who bring you sales. Anywhere from 1% to 50%. A common setup: you keep 87%, the sharer gets 10%, Lid gets 3%.
+7. Click **Publish**. Your page is live.
 
-**3. Write the description.** State what the buyer gets. State who it's for. State what they walk away able to do. Skip the hype.
+<!-- screenshot: published product page with the public link -->
 
-**4. Set the price.** Enter in USD. Settlement is in digital dollars. You can change the price later. Existing buyers keep their access.
+## FAQ
 
-**5. Attach the delivery.** Either upload a file (PDF, ZIP, video) or paste an access URL. Notion page, YouTube playlist, Discord invite, Google Drive share, Telegram group. Lid sends the link or file to the buyer on successful payment.
+<details><summary>Can I edit after publishing?</summary>
 
-**6. Set an affiliate commission.** A percentage of each sale that goes to whoever drove it. This is the number that turns strangers into distributors. Set it thoughtfully.
+Yes. Title, description, price, delivery file, and commission all stay editable. Buyers who already paid keep their access.
 
-**7. Publish.**
+</details>
 
-## Choosing an affiliate commission
+<details><summary>What does Lid charge?</summary>
 
-The commission is the offer you make to the market of potential sellers.
+A flat 3% on every sale, shown up front. That is the only fee.
 
-| Commission | What it signals | When to use it |
-|---|---|---|
-| **0%** | You handle all distribution yourself. | Private or niche products where you don't want open distribution. |
-| **10 to 20%** | Standard creator rate. Enough to interest affiliates with existing audiences. | Most digital products. |
-| **30 to 50%** | Strong incentive. Designed to attract serious distributors. | High-ticket courses and cohorts where affiliate acquisition matters more than margin. |
-| **50%+** | You want your product to spread. | Low-cost products where volume beats margin. |
+</details>
 
-The right number depends on your margin and your distribution plan. A good default for most creators is 20 to 30%.
+<details><summary>How do I get paid?</summary>
 
-## What a good product page looks like
+In seconds, automatically, in digital dollars. See [Getting paid](payouts-and-usdc.md).
 
-The public-facing page is what affiliates forward and buyers land on. A good one answers three questions in the first scroll.
+</details>
 
-1. **What is this?** One sentence. Plain language.
-2. **Who is it for?** A specific type of person, not "everyone".
-3. **What do they walk away with?** A concrete outcome or asset, not a vibe.
-
-The rest is detail. Testimonials, the agenda, the delivery format, the refund policy.
-
-## You can always edit
-
-Title, description, price, delivery file, and commission are all editable after launch. The only thing you can't edit after a sale is the specific split that applied to *that* sale. Past sales are immutable on-chain.
-
-## Ready to share
-
-Once the product is live, copy the public link. That's what you drop in a post, an email, or a DM. Affiliates generate their own version of the link from the same page.
-
-Next: [Your product page →](your-product-page.md)
+This is the link if you want to sell: [lid.pro](https://lid.pro)

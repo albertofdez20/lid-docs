@@ -1,56 +1,39 @@
 # Find products to promote
 
-The best products to promote are the ones you'd buy yourself, from a seller you'd vouch for, to an audience you've already earned.
+Here is how to find products worth sharing with your audience.
 
-## Where to find products
+## Steps
 
-- **Product directory** at [lid.pro/dashboard](https://lid.pro/dashboard). Browse live products with affiliate commission enabled.
-- **Sellers you already follow.** If a creator you respect is on Lid, their product page has a clear "Earn on this product" button.
-- **Search by category.** Filter by type (courses, templates, communities) and commission percentage.
+1. Go to [lid.pro](https://lid.pro) and browse the product directory.
+2. Look for products that offer a commission. The percentage is shown on the product page before you share, anywhere from 1% to 50%.
+3. Ask yourself: would I recommend this to a friend for free?
+4. Ask the second question: does my audience actually want this?
+5. Read the product page like a buyer. Clear description, clear price, clear deliverable.
 
-## How to pick
+<!-- screenshot: product directory with commission percentages visible -->
 
-Three questions. If the answer to all three is yes, it's worth sharing.
+{% hint style="info" %}
+A good fit converts better than a big percentage. A product your audience wants at 15% beats a product they ignore at 50%.
+{% endhint %}
 
-**1. Would I actually use this?**
+## Common questions
 
-If you wouldn't spend your own money on the product, don't promote it to people who trust you. Your audience is your asset. Burning trust for a commission is a bad trade.
+<details><summary>What commission can I expect?</summary>
 
-**2. Does my audience want this?**
+The seller sets it, between 1% and 50%. The number is always visible before you share.
 
-Good fit matters more than big commission. A 15% commission on a product your audience already wants beats 50% on a product they'll ignore.
+</details>
 
-**3. Is the seller credible?**
+<details><summary>Do I need permission from the seller?</summary>
 
-Look at the product page. Is it clear? Does the description match what's delivered? Are there testimonials or proof of results? A weak product page converts badly no matter how much you push.
+No. If a product shows a commission, it is open to everyone.
 
-## What to look for in commission
+</details>
 
-| Commission | What it means |
-|---|---|
-| **10 to 20%** | Standard. Fine for high-ticket items where 15% of $500 is still $75. |
-| **30 to 50%** | Strong. Seller is serious about affiliate distribution. |
-| **50%+** | The seller is prioritizing volume over margin. Usually low-ticket products designed to spread. |
+<details><summary>How many products should I share?</summary>
 
-High commission alone isn't enough. High commission on a product no one wants still pays zero.
+Start with one. Add more once you see what your audience responds to.
 
-## Red flags
+</details>
 
-- Vague product descriptions
-- No clear deliverable
-- Price that seems too high or too low for what's offered
-- Seller with no public identity and no track record
-
-You don't have to promote everything that's available. Your filter is your edge.
-
-## Building a small portfolio
-
-Most affiliates start with one product and learn the loop. As you earn, add more. Curate them like you're building a shelf in a store.
-
-Rules of thumb:
-
-- 3 to 5 products is a healthy active portfolio for a single creator.
-- Products that serve different slices of your audience compound. Products that compete cannibalize.
-- Rotate based on what's converting. Drop products that don't pull their weight.
-
-Next: [Share and earn →](share-and-earn.md)
+When you find something worth sharing, this is where to start: [lid.pro](https://lid.pro)

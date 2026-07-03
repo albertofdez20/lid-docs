@@ -1,4 +1,24 @@
 root: ./
+
 structure:
   readme: README.md
   summary: SUMMARY.md
+
+redirects:
+  status: README.md
+  getting-started/how-it-works: getting-started/what-is-lid.md
+  getting-started/crypto-curious-faq: faq.md
+  sell-on-lid/faq: faq.md
+  for-sellers/faq: faq.md
+  the-trust-layer/the-trust-layer: trust/is-lid-safe.md
+  the-trust-layer/instant-splits: trust/is-lid-safe.md
+  the-trust-layer/the-3-percent-fee: for-sellers/pricing-and-fees.md
+  the-trust-layer/security-and-guarantees: trust/is-lid-safe.md
+  the-trust-layer/bridge: for-sellers/payouts-and-usdc.md
+  protocol/the-trust-layer: trust/is-lid-safe.md
+  protocol/instant-splits: trust/is-lid-safe.md
+  protocol/the-3-percent-fee: for-sellers/pricing-and-fees.md
+  protocol/security-and-guarantees: trust/is-lid-safe.md
+  protocol/bridge: for-sellers/payouts-and-usdc.md
+  company/competitive-position: company/vision.md
+  resources/language-guide: resources/glossary.md

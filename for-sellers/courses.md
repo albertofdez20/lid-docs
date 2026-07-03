@@ -1,26 +1,32 @@
 # Courses
 
-A course is a product type with structure: modules, lessons, and progress. Buyers unlock it the moment the sale settles, like every other product on Lid.
+A course is a product with structure: modules, lessons, and progress, unlocked the moment someone buys.
 
-## What a course can hold
+## Steps
 
-* **Modules and lessons.** Video, audio, PDF, or text, in the order you set.
-* **Gated lessons.** Content unlocks on purchase. No separate hosting, no member plugin.
-* **Progress.** Buyers see where they left off.
-
-## How to create one
-
-1. Go to **My products → New product** in the [dashboard](https://lid.pro/dashboard).
+1. Go to **My products → New product** in your [dashboard](https://lid.pro/dashboard).
 2. Pick **Course** as the product type.
-3. Add modules and lessons, set the price, set the affiliate cut.
-4. Publish. Your course gets a hosted page and a sharable link.
+3. Add your modules and lessons. Video, audio, PDF, or text, in the order you want.
+4. Mark any lessons you want as free previews.
+5. Set the price and the commission you share.
+6. Publish.
 
-## The same loop applies
+<!-- screenshot: course builder with modules and lessons -->
 
-A course settles like any Lid sale: seller, affiliate, and Lid in one transaction, flat 3%. Anyone who shares your course link earns the cut you set. The affiliate program is on by default at 10%.
+Buyers get access automatically after they pay, and they can see where they left off.
 
-## Pricing a course
+## FAQ
 
-Courses carry higher perceived value than single files. Common pattern: a $5 to $15 entry product to seed affiliates, and a $49+ course as the main offer they promote.
+<details><summary>Do I need a separate hosting tool?</summary>
 
-Next: [Bounties →](bounties.md)
+Lid hosts the course page and the lessons for you.
+
+</details>
+
+<details><summary>How do I get paid?</summary>
+
+Like any Lid sale: in seconds, automatically, with a flat 3% fee.
+
+</details>
+
+Build your course at [lid.pro](https://lid.pro). That is the link if you want to sell.

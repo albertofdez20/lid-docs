@@ -1,55 +1,33 @@
 # What is Lid
 
-Lid is a routing layer for commerce. Every sale splits itself between the people who earned it.
+Lid is a place to sell what you make. You create a product, you share a link, and you get paid in seconds when someone buys.
 
-You create a digital product. You share the link. When someone buys, you get paid in seconds. If anyone else shared that link and drove the sale, they get paid too, in the same transaction.
+Anyone else can share your link too. When their share leads to a sale, they earn a commission you set, from 1% to 50%.
 
-That's the product.
+## Who it's for
 
-## The market failure Lid solves
+Creators of courses, guides, templates, coaching, and services. Also anyone with an audience who wants to earn by sharing.
 
-Digital commerce has a two-sided problem that neither side can fix alone.
+## The four steps
 
-**Creators build the product, then have to become marketers.** Ads cost money. Organic takes time. They need sellers they can't hire.
-
-**People with audiences want to earn by selling.** Today they wait for affiliate approval, fill out forms, and get paid 30 to 60 days later. If they get paid at all.
-
-The current stack was built to track clicks and report attribution after the fact. Lid is built for collaborators selling together.
-
-Lid makes both sides work in one loop.
+| Step | What happens |
+| ---- | ------------ |
+| **Create** | Set up your product in minutes. |
+| **Share** | Post your link. Anyone can share it too. |
+| **Sell** | Someone buys through any of those links. |
+| **Get paid** | You and whoever shared are paid in seconds, in digital dollars. |
 
 ## What makes Lid different
 
-**Permissionless distribution.** Anyone can share a product link and earn on the sale. No affiliate application. No approval queue. No contracts.
+* Anyone can share your product and earn. No applications, no approvals.
+* Everyone is paid in seconds, automatically. Lid never holds your money.
+* The fee is a flat 3% per sale. Nothing else.
+* You never handle anything technical. An email is enough.
 
-**Enforceable attribution.** Who gets paid and how much is settled by smart contracts, not spreadsheets. The trust gap between creator and seller closes.
+AI assistants can buy and sell on Lid too. If that means nothing to you, you can ignore it.
 
-**Instant payouts.** Seller, affiliate, and Lid settle in the same transaction. No reconciliation. No 30-day hold. Money never sits with the platform.
+## What you can sell today
 
-**Flat 3% infrastructure fee.** No subscriptions today. No hidden fees. When the product earns the right to charge more, a Pro tier will add advanced tools on top. Core functionality stays on the flat fee.
+Digital products, courses, and services with protected payments. Bounties and share links too. Memberships and subscriptions are coming.
 
-**Feels like software. Works like money.** Sellers and buyers never see a wallet, a chain name, or a gas prompt. The blockchain is invisible infrastructure.
-
-## Who Lid is for today
-
-Creators in the Spanish-speaking Solana community activate fastest today. The wedge has also translated cleanly to non-crypto creators (Roberto's 9-year audience, Luis's pre-revenue Instagram brand).
-
-Educators, course creators, coaches, niche experts, and paid communities come next, once the loop is proven with the first group.
-
-## Where Lid is going
-
-| Horizon             | What we're building                                                                                      |
-| ------------------- | -------------------------------------------------------------------------------------------------------- |
-| **Today**           | Humans selling digital products together. Instant payouts.                                               |
-| **12 to 24 months** | The default economic routing layer for AI agents buying and selling from each other.                     |
-| **Long term**       | The same trust layer for physical goods. Car resale. Real estate referrals. Tokenized real-world assets. |
-
-Info-products are the wedge. Agents come next. Physical goods are the ceiling.
-
-## Live status
-
-Lid is live in production on Solana mainnet, shipping every week. Product at [lid.pro/dashboard](https://lid.pro/dashboard). Site at [lid.pro](https://lid.pro).
-
-Active alpha validation. Proof of liquidity still being earned.
-
-Next: [The core loop →](how-it-works.md)
+This is the link if you want to sell: [lid.pro](https://lid.pro)

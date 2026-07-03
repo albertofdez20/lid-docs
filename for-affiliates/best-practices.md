@@ -1,65 +1,32 @@
-# Best practices for affiliates
+# Best practices
 
-The difference between affiliates who earn and affiliates who post links is the quality of the setup. Not the volume.
+Short advice for sharing links while keeping your audience's trust.
 
-## Pick products you actually use
+## What works
 
-The single biggest predictor of conversion is whether you've experienced the product. When you can say "I used this, here's what changed," the sell does itself. When you're pitching something you haven't touched, the audience reads the distance in the copy.
+1. Share things you would recommend anyway. If you would tell a friend about it for free, it is worth sharing with your link.
+2. Tell people it is your link. One line does it: "I earn a commission if you buy through this." Honesty builds trust, and most platforms require it.
+3. Give context. Say what the product did for you or who it is for. A link with a story beats a bare link.
+4. Put the link at the end. Story first, link last.
+5. Skip the spam. One thoughtful recommendation beats ten rushed ones.
+6. Check your dashboard. See what people bought, then share more of that.
 
-## Share the outcome, not the features
+{% hint style="info" %}
+Your audience is the asset. Every recommendation either builds trust or spends it.
+{% endhint %}
 
-**Weak:** "This course teaches you Solana programming."
+## Common questions
 
-**Strong:** "Three weekends with this course and I deployed my first program to devnet. Here's the first commit." [screenshot]
+<details><summary>How often should I share?</summary>
 
-The outcome is what buyers pay for. Features are what lazy copy describes.
+When it fits naturally. A product shared with real context once a month beats daily link drops.
 
-## Disclose the commission
+</details>
 
-"I get a cut if you buy through this link" is a one-line move that builds trust. It's also required by most platforms and regulators. Don't hide it. The people who won't buy because of disclosure weren't going to buy anyway.
+<details><summary>Do I have to say I earn a commission?</summary>
 
-## Build a rotation, not a spam cannon
+Yes. It keeps trust with your audience, and most platforms and regulators require it.
 
-One product shared well, monthly, beats ten products shared poorly, weekly.
+</details>
 
-Pick 3 to 5 products that fit different slices of your audience. Rotate them across your content. Each product gets proper context, a real recommendation, and its own moment.
-
-## Use channels where you already earned trust
-
-Your newsletter converts better than your Twitter. Your Twitter converts better than a cold DM. A cold DM converts better than spamming a Discord you just joined.
-
-Work from the center of your audience outward. When you've exhausted your warm circle, the next move is creating more trust, not more volume.
-
-## Put the link at the end
-
-Open with the story. Show the evidence. Name the audience. Then drop the link.
-
-"You can see how I used this and check it out here: [link]"
-
-Posts that lead with a link feel transactional. Posts that lead with a story feel like a recommendation.
-
-## Time your promotion
-
-If the seller is launching a new cohort, doing a sale, or running an open enrollment window, that's your moment. Urgency earns attention.
-
-If the product is evergreen, find the moments in your own content when it naturally fits. "Last week someone asked me how I got started with X. This is the answer."
-
-## Track what works
-
-After 10 to 20 shares, look at the dashboard. Which products converted? Which channels drove sales? Which posts got clicks but no purchases?
-
-Double down on what worked. Cut what didn't.
-
-## Stay human
-
-The strongest affiliates are the ones whose audience forgets they're affiliates. They recommend because they have something to say. The commission is a byproduct of trust they already earned.
-
-If every post is a link, you're not an affiliate. You're a billboard. Billboards don't convert.
-
-## The long game
-
-The affiliate system on Lid rewards consistency. Attribution is permanent. Your track record is visible. Sellers see which affiliates actually move units. The people who show up early and do the work credibly get pick of new products first.
-
-This is the flywheel. Your customers become your sales team, because when the system is fair, the best sellers compound.
-
-Next: [The trust layer →](../protocol/the-trust-layer.md)
+Pick something you already recommend and start here: [lid.pro](https://lid.pro)

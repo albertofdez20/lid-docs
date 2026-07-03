@@ -1,56 +1,46 @@
 # How the affiliate system works
 
-Lid's affiliate system has one rule: anyone can sell any product that has affiliate commission turned on. No approval. No application. No contract.
+You share a product link, someone buys through it, and you are paid the moment they pay.
 
-Here's how it works.
+## The whole thing in five steps
 
-## The flow
+1. Find a product on Lid that offers a commission.
+2. Click **Earn on this product** on the product page.
+3. Lid creates a personal link for you.
+4. Share it anywhere. Group chats, Instagram, X, YouTube.
+5. When someone buys through your link, your commission arrives in seconds, automatically.
 
-1. You find a product on Lid with affiliate commission enabled.
-2. You click **Earn on this product** on the product page.
-3. Lid generates a personal affiliate link for you.
-4. You share the link anywhere. Social, email, community, DM.
-5. When someone buys through your link, the smart contract splits the payment in the same transaction.
-6. Your commission lands in your Lid account in seconds.
+<!-- screenshot: product page with the Earn on this product button -->
 
-That's the entire system.
+{% hint style="info" %}
+The seller sets the commission, from 1% to 50%. You always see the number before you share.
+{% endhint %}
 
-## What makes it different
+## Why it stays simple
 
-**No gatekeeper.** You don't wait for a creator to approve your application. The commission is already set on the product. The moment you want to sell, you can.
+* Anyone can share. There is no application and no approval.
+* You are paid in digital dollars the moment the buyer pays.
+* There is no minimum payout and no waiting period.
+* Lid knows the sale came from your link, so your commission is locked in when the buyer pays.
 
-**On-chain attribution.** When someone checks out through your link, the smart contract binds you to that sale as the attribution. You don't trust a database to remember. The contract enforces.
+## Common questions
 
-**Instant payment.** The seller, you, and Lid are paid in the same transaction. You don't wait 30 days. You don't hit a minimum withdrawal. The commission is liquid digital dollars the moment the sale clears.
+<details><summary>Do I need to apply?</summary>
 
-**Transparent splits.** The exact percentage you earn was set by the seller when they created the product. You see the number before you share. No surprise changes.
+No. If a product offers a commission, you can share it right away.
 
-## What you need to get started
+</details>
 
-- An email address
-- A Lid account at [lid.pro/dashboard](https://lid.pro/dashboard)
-- A product you believe in to share
+<details><summary>When do I get paid?</summary>
 
-You don't need a crypto wallet. You don't need a Solana address. You don't need to understand the underlying technology. The UX stays out of your way.
+The moment the buyer pays. It takes seconds.
 
-## How attribution works when someone clicks your link
+</details>
 
-When a buyer clicks your affiliate link and checks out, the smart contract records your affiliate address as the attribution for that specific purchase.
+<details><summary>Can the commission change after I share?</summary>
 
-If the buyer clicks your link, leaves, comes back later through a different link, and then buys, attribution goes to the link they actually checked out through. Attribution binds at the moment of sale, not at the moment of first click.
+The rate shown at the moment of sale is the rate you receive. Your commission is locked in when the buyer pays.
 
-This is a deliberate design choice. Click-attribution windows get abused and disputed constantly. Checkout-attribution is unambiguous.
+</details>
 
-## What you can't do
-
-- You can't share a product that doesn't have affiliate commission enabled. The seller has to turn it on.
-- You can't negotiate a custom commission with the seller through Lid. The commission set on the product is the commission.
-- You can't claim attribution on sales that happened before you generated your affiliate link.
-
-## The opportunity
-
-Lid affiliate is permissionless creator commerce. If you have an audience, a newsletter, a group of followers, or even a set of friends who trust your taste, you can earn on any product on the platform that has commission turned on.
-
-The ones who show up early have the advantage of pick. Fewer affiliates competing for the same attention pool. Bigger margin on every sale.
-
-Next: [Find products to promote →](find-products-to-promote.md)
+This is the link if you want to start sharing: [lid.pro](https://lid.pro)

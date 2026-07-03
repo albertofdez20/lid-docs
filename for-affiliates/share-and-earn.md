@@ -7,7 +7,7 @@ Once you have your affiliate link, the next step is simple. Put it where the rig
 On any product page with affiliate commission enabled, click **Earn on this product**. Your affiliate link is created instantly and looks like:
 
 ```
-https://app.lid.pro/p/product-slug?ref=your-id
+https://lid.pro/dashboard/p/product-slug?ref=your-id
 ```
 
 That `ref` parameter is what the smart contract reads at checkout to bind attribution to you.
@@ -58,7 +58,7 @@ Most affiliates post a link with no context and wonder why nothing converts. The
 
 ## Tracking your performance
 
-Your dashboard at [app.lid.pro](https://app.lid.pro) shows:
+Your dashboard at [lid.pro/dashboard](https://lid.pro/dashboard) shows:
 
 * Clicks on each affiliate link
 * Conversions
@@ -73,4 +73,4 @@ Every sale attributed to you pays out the commission immediately, in the same tr
 
 Your account balance grows as sales close.
 
-Next: [Splits and payouts →](/earn-on-lid/splits-and-payouts.md)
+Next: [Splits and payouts →](splits-and-payouts.md)

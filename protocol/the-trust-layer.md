@@ -2,7 +2,7 @@
 
 Trust in creator commerce is usually a spreadsheet. A platform tracks clicks, attributes sales, calculates commissions, holds the money, and sends payouts on a schedule. Every step is a database entry. Every step is contestable.
 
-LID replaces that with a smart contract.
+Lid replaces that with a smart contract.
 
 ## What a trust layer is
 
@@ -14,7 +14,7 @@ A trust layer is the answer to three questions.
 
 On most platforms, all three are decided off-chain. Click logs attribute the sale. A commission engine calculates the split. A payout schedule determines when money moves. Every step involves the platform as an arbiter. Every step is a place where trust can break.
 
-LID executes all three inside the Solana transaction that processes the sale. Attribution is bound when the buyer checks out. Splits are calculated by rules set at product creation. Settlement happens in the same transaction. No arbiter. No spreadsheet. No delay.
+Lid executes all three inside the Solana transaction that processes the sale. Attribution is bound when the buyer checks out. Splits are calculated by rules set at product creation. Settlement happens in the same transaction. No arbiter. No spreadsheet. No delay.
 
 ## Why the spreadsheet model breaks
 
@@ -34,7 +34,7 @@ When attribution and splits are enforced by a smart contract:
 * The split rule for a product is visible to every party before anyone shares it.
 * The attribution for a sale is bound at the exact moment of checkout.
 * The money moves in the same transaction as the sale.
-* No party (including LID) can retroactively alter the split.
+* No party (including Lid) can retroactively alter the split.
 * Every sale, every split, every payout is independently verifiable on Solana.
 
 Trust stops being a policy and becomes a property of the system.
@@ -47,7 +47,7 @@ Trust stops being a policy and becomes a property of the system.
 
 **For buyers:** The checkout is a single atomic event. The product is delivered as part of the transaction. The money moves to the right places as part of the same event.
 
-**For LID:** Our 3% is settled in the same transaction as everyone else's split. We don't hold balances. We don't touch your money between the sale and the payout. Our revenue is a split line, not a custody relationship.
+**For Lid:** Our 3% is settled in the same transaction as everyone else's split. We don't hold balances. We don't touch your money between the sale and the payout. Our revenue is a split line, not a custody relationship.
 
 ## Why Solana
 
@@ -57,10 +57,10 @@ Three things had to be true at the same time to make this work. All three became
 2. **Sub-second settlement.** Transactions confirm fast enough that checkout feels like software, not like waiting for a blockchain.
 3. **UX that hides the chain.** The buyer never sees a wallet, a gas prompt, or a chain selector.
 
-Solana is where all three are simultaneously true at the scale LID needs.
+Solana is where all three are simultaneously true at the scale Lid needs.
 
 ## On-chain product registry and ownership records
 
 Two structures sit underneath everything else. The on-chain product registry holds one immutable record per product. The ownership record holds one immutable entry per buyer, per product. Together they answer two questions that databases never settle cleanly: does this product exist, and who owns it. Both answers live on Solana. Both survive Lid as a company.
 
-Next: [Instant splits →](/the-trust-layer/instant-splits.md)
+Next: [Instant splits →](instant-splits.md)

@@ -4,8 +4,8 @@ The best products to promote are the ones you'd buy yourself, from a seller you'
 
 ## Where to find products
 
-- **Product directory** at [app.lid.pro](https://app.lid.pro). Browse live products with affiliate commission enabled.
-- **Sellers you already follow.** If a creator you respect is on LID, their product page has a clear "Earn on this product" button.
+- **Product directory** at [lid.pro/dashboard](https://lid.pro/dashboard). Browse live products with affiliate commission enabled.
+- **Sellers you already follow.** If a creator you respect is on Lid, their product page has a clear "Earn on this product" button.
 - **Search by category.** Filter by type (courses, templates, communities) and commission percentage.
 
 ## How to pick

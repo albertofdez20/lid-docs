@@ -1,17 +1,17 @@
 # Smart contracts
 
-LID runs on a Solana program that enforces product registration, attribution binding, and atomic settlement.
+Lid runs on a Solana program that enforces product registration, attribution binding, and atomic settlement.
 
 This page describes the architecture at a conceptual level. Full ABIs, method signatures, and example code publish when the contracts are audited and the public API stabilizes.
 
 ## What the program does
 
-At the contract level, LID implements:
+At the contract level, Lid implements:
 
 1. **Product registry.** On-chain record of a product's ID, price, seller address, affiliate commission percentage, and delivery metadata reference.
-2. **Checkout routing.** A method that accepts a buyer's USDC payment and routes it to the seller, affiliate, and LID per the rules set on the product.
+2. **Checkout routing.** A method that accepts a buyer's USDC payment and routes it to the seller, affiliate, and Lid per the rules set on the product.
 3. **Attribution binding.** The checkout method reads an optional affiliate reference parameter and binds that address as the beneficiary of the affiliate split for this specific sale.
-4. **Fee enforcement.** The 3% fee is a hard-coded split in the settlement logic, routed to a LID-controlled address.
+4. **Fee enforcement.** The 3% fee is a hard-coded split in the settlement logic, routed to a Lid-controlled address.
 
 ## Atomicity
 
@@ -20,7 +20,7 @@ Every checkout is a single Solana transaction. Within that transaction:
 - Buyer's USDC is moved out
 - Seller's share is moved in
 - Affiliate's share is moved in (if applicable)
-- LID's fee is moved in
+- Lid's fee is moved in
 - Access metadata is emitted (event log)
 
 If any step fails, the transaction reverts. No partial state exists where the buyer has paid but not received the product, or where the seller has been paid but the affiliate hasn't.
@@ -76,7 +76,7 @@ If you find a vulnerability, email alberto@lid.pro with details. We respond quic
 
 ## What developers can do today
 
-Today, contract interaction happens through the LID web app. Direct on-chain interaction is possible (the contracts are deployed and public), but there is no published SDK or client library yet.
+Today, contract interaction happens through the Lid web app. Direct on-chain interaction is possible (the contracts are deployed and public), but there is no published SDK or client library yet.
 
 The Agentic Commerce API (roadmap, post-raise) will provide the developer surface for programmatic access.
 

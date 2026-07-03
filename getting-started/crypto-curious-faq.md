@@ -14,7 +14,7 @@ No. A buyer lands on a checkout. They pay. The wallet is created for them invisi
 
 A USDC stablecoin. One USDC equals one US dollar. The price stays at $1.00. Lid uses digital dollars because they settle in under a second and the value is predictable.
 
-## What if USDC depegs?
+## What if the digital dollar loses its 1:1 value (a "depeg")?
 
 USDC is issued by Circle and backed by reserves held at regulated US banks. Depegs in USDC's history have been brief and resolved. If something material changes, Lid will publish a clear update. Today, USDC is one of the most reserve-backed stablecoins in the market.
 
@@ -24,7 +24,7 @@ No. Solana is the network underneath. You'll feel its speed (sub-second settleme
 
 ## Can I get paid in regular dollars?
 
-Yes. Bridge is our fiat rails partner. Cash out your digital dollars to a bank account whenever you want. The conversion happens at the edge.
+Not yet inside Lid. You earn digital dollars, instantly, and they are yours: you can send them to any wallet or exchange today. A built-in cash-out to your bank account is planned and will land after the raise. We will not claim it before it ships.
 
 ## What if I lose my password?
 
@@ -44,8 +44,8 @@ Safer where it matters most: payouts and attribution. The smart contract can't b
 
 ## What's still being earned?
 
-External smart contract audit. Repeatability across hundreds of loops. Phase 2 self-serve alpha. We're honest about what's done and what isn't. The [Status page](/status.md) shows current numbers.
+External smart contract audit. Repeatability across hundreds of loops. Phase 2 self-serve alpha. We're honest about what's done and what isn't. The [Status page](../status.md) shows current numbers.
 
 ## How do I get started?
 
-[Quickstart](/getting-started/quickstart.md) if you're a seller. [Affiliate quickstart](/getting-started/quickstart-affiliate.md) if you want to share and earn.
+[Quickstart](quickstart.md) if you're a seller. [Affiliate quickstart](quickstart-affiliate.md) if you want to share and earn.

@@ -2,13 +2,13 @@
 
 Trust is the product. This page lays out what we guarantee, how we protect against failure modes, and what's still in active hardening.
 
-## What LID guarantees today
+## What Lid guarantees today
 
 **Attribution is enforced by smart contracts.** Every sale binds the affiliate at the moment of checkout. The contract settles the split according to the rules set at product creation.
 
-**Splits settle atomically.** The sale, the seller's share, the affiliate's share, and LID's fee all move in the same Solana transaction. No partial settlements.
+**Splits settle atomically.** The sale, the seller's share, the affiliate's share, and Lid's fee all move in the same Solana transaction. No partial settlements.
 
-**LID does not custody your funds.** Your account balance lives on-chain. We do not pool your funds with LID operating capital. You can verify every transaction independently.
+**Lid does not custody your funds.** Your account balance lives on-chain. We do not pool your funds with Lid operating capital. You can verify every transaction independently.
 
 **Past sales are immutable.** Once a split settles, the record is on Solana forever. No one can edit it retroactively. Not even us.
 
@@ -16,9 +16,9 @@ Trust is the product. This page lays out what we guarantee, how we protect again
 
 ## What is still being earned
 
-**Repeatability at scale.** LID launched on Solana mainnet on April 22, 2026. We are in active alpha validation. Commercial proof (repeat sellers, affiliate-led GMV, loop completion rates) is being earned now, not yet completed. We will not call the product beta or claim production maturity until the proof is there.
+**Repeatability at scale.** Lid is live in production on Solana mainnet, shipping every week. We are in active alpha validation. Commercial proof (repeat sellers, affiliate-led GMV, loop completion rates) is being earned now, not yet completed. We will not call the product beta or claim production maturity until the proof is there.
 
-**Formal audit.** A full third-party smart contract audit is part of the post-raise engineering roadmap. The contracts have been designed and reviewed internally with security as a primary goal. External audit is next.
+**Formal audit.** A full third-party smart contract audit is part of the post-raise engineering roadmap. The contracts have been designed and reviewed internally with security as a primary goal. The external audit is sequenced before public-scale money movement.
 
 **Fraud controls.** Permissionless distribution means the protocol has to defend against abuse without gating participation. Fraud control is a top priority area for ongoing engineering.
 
@@ -56,7 +56,7 @@ These are normal in alpha. We fix them as fast as we can and they don't block ph
 
 ## What you should verify yourself
 
-Every sale on LID produces a Solana transaction signature. You can paste it into a block explorer and see:
+Every sale on Lid produces a Solana transaction signature. You can paste it into a block explorer and see:
 
 - The full transaction
 - Every account that moved USDC
@@ -64,7 +64,7 @@ Every sale on LID produces a Solana transaction signature. You can paste it into
 - The timestamp
 - The signer
 
-This is the auditability that makes the trust layer work. You don't have to trust LID's dashboard. The dashboard is a convenience. The chain is the source of truth.
+This is the auditability that makes the trust layer work. You don't have to trust Lid's dashboard. The dashboard is a convenience. The chain is the source of truth.
 
 ## Reporting
 

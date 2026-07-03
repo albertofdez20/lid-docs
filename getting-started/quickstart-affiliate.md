@@ -2,7 +2,7 @@
 
 Five minutes from landing here to sharing your first link.
 
-## Step 1 · Sign up at app.lid.pro
+## Step 1 · Sign up at lid.pro/dashboard
 
 Email is enough. No seed phrase. No chain selection. No wallet to install.
 
@@ -16,7 +16,7 @@ Pick something you'd actually recommend. The audience can smell the difference.
 
 ## Step 3 · Claim your affiliate link
 
-One click. Your link is generated. Attribution binds to your wallet at the moment a buyer clicks through.
+One click. Your link is generated. Attribution binds to your account at the moment a buyer clicks through.
 
 The link looks like a normal product page. No `?ref=` tracking string visible to the buyer.
 
@@ -34,6 +34,6 @@ No delay. No payout button. No 30-day wait. Your dashboard updates the second th
 
 ## What's next
 
-Read [Best practices](/earn-on-lid/best-practices.md) for affiliate strategy. Read [Find products to promote](/earn-on-lid/find-products-to-promote.md) for how to choose what to share.
+Read [Best practices](../for-affiliates/best-practices.md) for affiliate strategy. Read [Find products to promote](../for-affiliates/find-products-to-promote.md) for how to choose what to share.
 
-Your customers are your sales team. Now you're someone else's.
+Your audience is your sales team. Now you're someone else's.

@@ -1,10 +1,10 @@
 # Glossary
 
-Key terms used across LID docs.
+Key terms used across Lid docs.
 
 ## Active alpha validation
 
-LID's current commercial maturity. Live on Solana mainnet, operationally real, commercial proof still being earned through completed loops. Distinct from beta, which we will not claim before repeatability is proven.
+Lid's current commercial maturity. Live on Solana mainnet, operationally real, commercial proof still being earned through completed loops. Distinct from beta, which we will not claim before repeatability is proven.
 
 ## Activated seller
 
@@ -16,19 +16,15 @@ The percentage of GMV driven by affiliate links, as opposed to direct seller-to-
 
 ## Agentic Commerce API
 
-The roadmap developer surface that exposes LID's commerce primitives (product creation, attribution, splits) as API and SDK methods. Launches post-raise.
+The full public developer surface (REST API, SDK, webhooks at scale) that exposes Lid's commerce primitives as first-class methods. On the roadmap, post-raise. Agents already transact today over the MCP write-surface v1.
 
 ## Attribution
 
 The on-chain record of which affiliate (if any) drove a given sale. Bound at the moment of checkout, enforced by the smart contract, immutable after.
 
-## Blended ARPU
+## Fiat rails (planned)
 
-Weighted average revenue per active seller per year across the 3% transaction fee and Pro subscription revenue streams. Current target: $143/year.
-
-## Bridge
-
-Lid's fiat rails partner. Live in production. Handles fiat-to-digital-dollars on the buyer side and digital-dollars-to-fiat off-ramp for sellers and affiliates.
+The fiat on-ramp and off-ramp Lid is integrating through Bridge. Not live yet. Once integration completes, it handles fiat-to-digital-dollars on the buyer side and a bank-account cash-out for sellers and affiliates.
 
 ## Completed loop
 
@@ -40,11 +36,11 @@ A single sale where all five steps happen. Create → Share → Sale → Attribu
 
 ## Digital dollars (USDC)
 
-US dollar stablecoin issued by Circle, fully backed 1:1 by cash and short-term US Treasuries. The native settlement asset on LID. One USDC is always one US dollar. "Digital dollars" is the user-facing term.
+US dollar stablecoin issued by Circle, fully backed 1:1 by cash and short-term US Treasuries. The native settlement asset on Lid. One USDC is always one US dollar. "Digital dollars" is the user-facing term.
 
 ## GMV
 
-Gross merchandise value. Total dollar volume transacted through LID. Measured cumulatively across completed sales.
+Gross merchandise value. Total dollar volume transacted through Lid. Measured cumulatively across completed sales.
 
 ## High-intent user
 
@@ -80,15 +76,15 @@ A seller with at least 2 completed loops and at least 1 repeat action. Power use
 
 ## Privy
 
-The embedded wallet and auth provider. Live in production since April 2026. Every Lid account is a Privy embedded wallet under the hood.
+The embedded wallet and auth provider. Live in production. Every Lid account is a Privy embedded wallet under the hood.
 
 ## Pro tier
 
-A planned subscription tier at around $29 per month. Leads with creator-to-buyer communication tools (email, community). Adds analytics, custom branding, advanced attribution, and priority support. The 3% transaction fee stays unchanged.
+An optional subscription tier at around $29 per month, in build. Leads with creator-to-buyer communication tools (email, community). Adds analytics, custom branding, advanced attribution, and priority support. Pro sells tools and never gates the four steps. The 3% transaction fee stays unchanged.
 
 ## Proof of liquidity
 
-The phase at which LID has produced measurable, repeatable earning behavior. Not yet reached. Current phase is earning it through alpha usage.
+The phase at which Lid has produced measurable, repeatable earning behavior. Not yet reached. Current phase is earning it through alpha usage.
 
 ## Red-light bug
 
@@ -100,18 +96,18 @@ A seller who completes at least one additional loop after the first clean loop. 
 
 ## Solana
 
-The blockchain LID runs on. Chosen for sub-second transaction finality, USDC liquidity, and sub-cent fees. LID runs on Solana. LID is not a Solana product.
+The blockchain Lid runs on. Chosen for sub-second transaction finality, USDC liquidity, and sub-cent fees. Lid runs on Solana. Lid is not a Solana product.
 
 ## Split
 
-The division of a sale's proceeds between the seller, affiliate (if any), and LID. Executed atomically in the same Solana transaction as the sale.
+The division of a sale's proceeds between the seller, affiliate (if any), and Lid. Executed atomically in the same Solana transaction as the sale.
 
 ## The 3% fee
 
-LID's flat infrastructure fee. Deducted as part of the atomic split, routed to a LID-controlled address in the same transaction as the sale. No hidden markups, no processing fees added later.
+Lid's flat infrastructure fee. Deducted as part of the atomic split, routed to a Lid-controlled address in the same transaction as the sale. No hidden markups, no processing fees added later.
 
 ## Trust layer
 
 The combination of on-chain attribution enforcement, atomic splits, and instant settlement that replaces the platform-as-arbiter model with contract-as-arbiter.
 
-Next: [Language guide →](/resources/language-guide.md)
+Next: [Language guide →](language-guide.md)

@@ -9,7 +9,7 @@ When a buyer checks out through your affiliate link, the smart contract executes
 1. Accepts the buyer's payment in digital dollars
 2. Sends the seller's share to the seller's account
 3. Sends your commission to your account
-4. Sends the 3% infrastructure fee to LID
+4. Sends the 3% infrastructure fee to Lid
 
 If any of those steps fails, the whole transaction reverts. The buyer isn't charged. The seller doesn't get paid. You don't either. There is no scenario where the money gets stuck in limbo.
 
@@ -21,7 +21,7 @@ The percentage cannot be changed retroactively. The rate at the moment of sale i
 
 ## Where the money lands
 
-Your balance sits in your LID account, associated with a Solana address. You can verify it on-chain anytime. LID does not custody your funds in a pooled treasury. They're yours, on-chain, addressable by you.
+Your balance sits in your Lid account, associated with a Solana address. You can verify it on-chain anytime. Lid does not custody your funds in a pooled treasury. They're yours, on-chain, addressable by you.
 
 ## Seeing your payouts
 
@@ -38,11 +38,11 @@ Every payout is independently verifiable on a block explorer.
 
 ## Off-ramping to fiat
 
-Bridge is the integrated fiat rails inside Lid. Cash out from your affiliate balance to a bank account directly. The digital-dollar leg stays atomic on-chain. The fiat leg happens through Bridge when you decide to take it.
+Not available yet. Your commissions settle in digital dollars, atomically, in the sale transaction, and you can send them anywhere today. A built-in cash-out to a bank account is planned for after the raise.
 
 ## What if a sale gets refunded
 
-If the seller issues a refund, the split reverses. Your commission is returned along with the seller's share. This is deliberate and symmetric. Your commission is tied to the sale actually sticking.
+Products can carry a refund window (0 to 90 days, set by the seller). Inside that window the purchase sits in on-chain escrow; if the buyer disputes and the refund goes through, the split reverses and your commission is returned along with the seller's share. Deliberate and symmetric. Your commission is tied to the sale actually sticking. With a 0-day window, you are paid instantly and finally.
 
 Refund policies are set per seller. Check the product page if you want to understand a seller's policy before sharing.
 
@@ -54,6 +54,6 @@ If something goes wrong at a protocol level (a payment routed to the wrong accou
 
 ## Tax
 
-LID does not withhold taxes. Commissions are your income. You're responsible for reporting them according to your local tax obligations. The dashboard can export transaction history for accounting.
+Lid does not withhold taxes. Commissions are your income. You're responsible for reporting them according to your local tax obligations. The dashboard can export transaction history for accounting.
 
-Next: [Best practices →](/earn-on-lid/best-practices.md)
+Next: [Best practices →](best-practices.md)

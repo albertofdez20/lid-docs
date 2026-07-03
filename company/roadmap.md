@@ -1,6 +1,6 @@
 # Roadmap
 
-LID advances in phases. Every phase has to clear three gates at the same time.
+Lid advances in phases. Every phase has to clear three gates at the same time.
 
 1. **Business.** Usage, revenue, repeat behavior.
 2. **Trust and quality.** Payout accuracy, attribution correctness, zero red-light bugs.
@@ -10,13 +10,13 @@ We do not move forward because time passed, attention increased, or the narrativ
 
 ## Completed Phase 1 milestones
 
-* LID launched on Solana mainnet. 2026-04-22.
+* Lid launched on Solana mainnet.
 * Privy live in production. Embedded wallet and auth.
-* Bridge production cutover complete.
-* First organic completed loop. Derlys to Alberto. €5. 2026-05-22.
+* Digital-dollar settlement live in production. Bridge fiat ramp integrating.
+* First organic full payout cycle. Derlys to Alberto. €5. 2026-05-22.
 * 100% payout accuracy, 100% attribution accuracy, 0 red-light bugs to date.
 * 3 documented Mom Test sessions across 3 creator tiers and 2 languages.
-* 1 creator-owned product live. Roberto · *CRIPTOMONEDAS - Primeros Pasos*.
+* 5+ creator-owned products live. First: Roberto Sanz · *CRIPTOMONEDAS - Primeros Pasos*.
 * La Familia · *Háblanos de tu proyecto* community feature.
 * Colosseum FRONTIER verified. 1 of 2,857 confirmed Solana builds.
 
@@ -82,32 +82,16 @@ Growth comes from distribution dynamics, not founder energy.
 
 | Build now                                                                       | Build next (post-funding)                                                                        |
 | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| Affiliate-driven sales, automatic splits, product pages, strict 3% enforcement. | Agentic Commerce API, developer rails for autonomous agents, integrations into agent frameworks. |
+| Affiliate-driven sales, automatic splits, product pages, agentic commerce over MCP, strict 3% enforcement. | Full public Agentic Commerce API, developer rails for autonomous agents, integrations into agent frameworks. |
 | Human liquidity and repeat earning behavior.                                    | Machine-to-machine distribution and monetization at scale.                                       |
 | Trust-critical infrastructure and clean loop execution.                         | Programmable expansion once the human wedge is proven.                                           |
-| USDC settlement plus Bridge fiat on-ramp and off-ramp. Live in production.      | Third-party smart contract audit and white-label embedding.                                      |
+| Digital-dollar settlement, live in production.                                   | Bridge fiat on-ramp and off-ramp (integrating), third-party smart contract audit, white-label embedding. |
 | Flat 3% infrastructure fee.                                                     | Pro tier (\~$29/mo) when creator-to-buyer communication, analytics, branding, and advanced attribution justify it. |
 
 ## Fundraise
 
-Raising $500K pre-seed. Converts a live product into proof of liquidity, onboards the first 100 power users, and expands LID into the programmable economic routing layer for both human and agentic commerce.
+Raising a $750K pre-seed (target) with a $500K floor, on a post-money SAFE at an $8M cap. The round converts a live product into proof of liquidity, onboards the first 100 power users, and expands Lid into the programmable economic routing layer for both human and agentic commerce. Deck, memo, and data room go to serious inquiries: alberto@lid.pro.
 
-**Use of funds:**
+Use-of-funds detail and milestone tranches live in the fundraising materials, not in public docs.
 
-| Allocation          | %   | Near-term output                                                                   |
-| ------------------- | --- | ---------------------------------------------------------------------------------- |
-| Engineering         | 50% | Protocol hardening, product surface, Pro tier build-out, second protocol engineer. |
-| Go-to-market        | 30% | Founder-led distribution, community seeding, partnership activation.               |
-| Design and capacity | 15% | UX, onboarding, iteration speed, design system.                                    |
-| Operating runway    | 5%  | Legal, infrastructure, ops.                                                        |
-
-**Milestone bridge:**
-
-| Capital     | Milestone           | Proof required                                                |
-| ----------- | ------------------- | ------------------------------------------------------------- |
-| First $150K | Self-serve alpha    | $10K to $20K GMV, 10%+ via affiliate, instant median payout.  |
-| Next $200K  | Proof of liquidity  | $50K to $100K GMV, 20%+ affiliate share, 30%+ repeat sellers. |
-| Final $150K | Power-seller engine | First 100 power sellers, programmable distribution API.       |
-| Post-raise  | Series A trigger    | Agentic API and repeatability and third-party audit.          |
-
-Next: [Team →](/company/team.md)
+Next: [Team →](team.md)

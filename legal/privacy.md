@@ -12,7 +12,7 @@ The controller of your personal data is:
 
 **Lid Labs Technologies - FZCO** Trade licence No. 65802 IFZA Business Park, DDP PO Box 342001, Dubai, United Arab Emirates Email: <privacy@lid.pro>
 
-For the purposes of UAE Federal Decree-Law No. 45 of 2021 on the Protection of Personal Data (UAE PDPL), the EU General Data Protection Regulation (GDPR), the UK GDPR, and the California Consumer Privacy Act as amended by the CPRA (CCPA/CPRA), Lid acts as the **data controller** for data processed on `lid.pro` and `app.lid.pro`.
+For the purposes of UAE Federal Decree-Law No. 45 of 2021 on the Protection of Personal Data (UAE PDPL), the EU General Data Protection Regulation (GDPR), the UK GDPR, and the California Consumer Privacy Act as amended by the CPRA (CCPA/CPRA), Lid acts as the **data controller** for data processed on `lid.pro` and `lid.pro/dashboard`.
 
 Our Data Protection contact is `privacy@lid.pro`. For EU and UK users, contact us at the same address. If we appoint an EU or UK representative, their details will be listed here.
 
@@ -20,7 +20,7 @@ Our Data Protection contact is `privacy@lid.pro`. For EU and UK users, contact u
 
 This Policy applies to personal data we collect when you:
 
-* Visit `lid.pro`, `app.lid.pro`, or any Lid-operated domain.
+* Visit `lid.pro`, `lid.pro/dashboard`, or any Lid-operated domain.
 * Create an account, connect a wallet, or complete a transaction.
 * List a product as a Creator, share a link as an Affiliate, or pay as a Buyer.
 * Contact us by email or in any Lid-operated channel.
@@ -216,7 +216,7 @@ If a breach is likely to result in a high risk to your rights, we will notify yo
 
 ## 12. Cookies and similar technologies
 
-We use cookies and similar technologies to operate the service, remember preferences, and measure use. See the [Cookie Policy](/legal/cookies.md) for details and for how to manage your choices.
+We use cookies and similar technologies to operate the service, remember preferences, and measure use. See the [Cookie Policy](cookies.md) for details and for how to manage your choices.
 
 ## 13. Children
 

@@ -1,29 +1,26 @@
-# Bridge · Fiat on-ramp and off-ramp
+# Fiat rails · Planned
 
-The protocol settles in digital dollars. Bridge is the rail that connects digital dollars to fiat in both directions. Live in production. Owned by Darwin end-to-end.
+The protocol settles in digital dollars, today. Cashing out to a bank account is not live yet. Bridge is the fiat on-ramp and off-ramp Lid is integrating. This page describes what is being built, in plain terms, so nobody has to guess.
 
-## What Bridge does for buyers
+## What works today
 
-A buyer can pay in their local fiat. Bridge converts at the edge and the protocol receives digital dollars. The buyer never sees a wallet, a chain, or a gas prompt. They see a checkout that works.
+You earn digital dollars on every sale, instantly, to your Lid account. You can send them to any wallet or to a friend from Settings. What you cannot do yet is convert them to fiat inside Lid.
 
-## What Bridge does for sellers and affiliates
+## What the fiat rail will add
 
-A creator earns digital dollars on every sale. When they want fiat, Bridge moves digital dollars to a bank account. No batch cycles. No third-party reconciliation. The off-ramp is a choice the creator makes, not a step the system forces.
+Once the Bridge integration completes, two edges, same protocol in the middle:
+
+* **Buyers** pay in local fiat. The rail converts at the edge and the protocol receives digital dollars. The buyer sees a checkout that works, nothing else.
+* **Sellers and affiliates** cash out digital dollars to a bank account when they choose. No batch cycles. The off-ramp is a choice the creator makes, not a step the system forces.
 
 ## What stays on-chain
 
-Settlement. Attribution. Split execution. Product registry. Ownership records. The four trust guarantees the smart contract enforces never leave the chain.
+Settlement. Attribution. Split execution. Product registry. Ownership records. The four trust guarantees the smart contract enforces never leave the chain. The fiat leg happens at the edges. The trust layer stays inside.
 
-The fiat leg happens at the edges. The trust layer stays inside.
+## When
 
-## How it fits the loop
+Darwin owns the Bridge integration end-to-end. Integration in progress. Public rollout is sequenced post-raise, once digital-dollar liquidity is proven. The [Status page](../status.md) reflects the current posture; if this page and the app at [lid.pro](https://lid.pro) ever disagree, the app is right.
 
-Create. Share. Sell. Get paid. The Bridge layer touches step 1 (a buyer paying in fiat) and step 4 (a creator cashing out to fiat). Everything in the middle is the protocol.
+## One rule for this topic
 
-## Roadmap
-
-SPEI and MXN virtual accounts. Broader corridor expansion. Capacity scales with Phase 2 volume.
-
-## Operations
-
-Darwin owns the Bridge integration end-to-end. Production cutover completed in May 2026. Status visible at [app.lid.pro](https://app.lid.pro).
+We do not say "fiat payments available" anywhere until they are. If you find a page that claims otherwise, it is wrong and we want to know: hi@lid.pro.

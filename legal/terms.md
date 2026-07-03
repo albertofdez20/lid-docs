@@ -64,7 +64,7 @@ You are responsible for:
 
 Lid never has custody of your wallet, your keys, or your funds. If you lose your keys, we cannot recover your wallet and we cannot recover funds held in it.
 
-If you log in through an embedded wallet provider (for example, Privy), that provider's terms and security model apply to how your keys are generated and stored. See the [Privacy Policy](/legal/privacy.md) for the list of providers we work with.
+If you log in through an embedded wallet provider (for example, Privy), that provider's terms and security model apply to how your keys are generated and stored. See the [Privacy Policy](privacy.md) for the list of providers we work with.
 
 You may close your account at any time by stopping use of the service. Closing an account does not reverse past transactions.
 
@@ -212,7 +212,7 @@ Lid does not warrant:
 * The quality, legality, or delivery of any product listed by a Creator.
 * The conduct of any Affiliate or Buyer.
 
-Read the [Risk Disclosure](/legal/risk-disclosure.md) carefully before using Lid. You are entering a blockchain-based system. Mistakes and outages can lead to loss. Only commit funds or products you can afford to lose.
+Read the [Risk Disclosure](risk-disclosure.md) carefully before using Lid. You are entering a blockchain-based system. Mistakes and outages can lead to loss. Only commit funds or products you can afford to lose.
 
 ## 15. Limitation of liability
 
@@ -236,7 +236,7 @@ We may, at our own cost, take over the defence of any claim covered by this inde
 
 ## 17. Modifications
 
-We may change these Terms to reflect new features, legal requirements, or changes to how Lid works. When we do, we will post the updated version at [lid.pro/terms](https://lid.pro/terms) and change the "Last updated" date at the top of this document.
+We may change these Terms to reflect new features, legal requirements, or changes to how Lid works. When we do, we will post the updated version on this page and change the "Last updated" date at the top of this document.
 
 For material changes, we will give at least 30 days' notice through email or an in-product notice. If you keep using Lid after the notice period, you accept the revised Terms. If you do not accept them, stop using Lid. On-chain transactions already completed before a change remain governed by the Terms in force at the time of the transaction.
 
@@ -256,7 +256,7 @@ Where a dispute involves a consumer whose jurisdiction grants mandatory protecti
 
 **No waiver.** Our failure to enforce a right does not waive it.
 
-**Entire agreement.** These Terms, together with the [Privacy Policy](/legal/privacy.md), the [Cookie Policy](/legal/cookies.md), and the [Risk Disclosure](/legal/risk-disclosure.md), are the full agreement between you and Lid on the subject. They replace any prior agreement on the same subject.
+**Entire agreement.** These Terms, together with the [Privacy Policy](privacy.md), the [Cookie Policy](cookies.md), and the [Risk Disclosure](risk-disclosure.md), are the full agreement between you and Lid on the subject. They replace any prior agreement on the same subject.
 
 **Language.** These Terms are written in English. If we publish translations, the English version controls in case of conflict, except where local law requires the local-language version to control.
 

@@ -25,7 +25,7 @@ Red-light bugs (lost funds, wrong payout, attribution error) are top priority an
 
 Email with:
 - What you're building
-- How you'd integrate LID
+- How you'd integrate Lid
 - What API or event surface you'd need
 - Timeline
 
@@ -39,7 +39,7 @@ We respond quickly, handle privately when possible, and credit researchers who h
 
 ## For investors and partners
 
-**Pre-seed raise ($500K, open):** alberto@lid.pro
+**Pre-seed raise (open):** Raising a $750K pre-seed (target) with a $500K floor, on a post-money SAFE at an $8M cap. alberto@lid.pro
 
 Fundraising materials (deck, memo, data room) available to serious inquiries.
 
@@ -58,7 +58,7 @@ We're early and selective about press. We prefer deep coverage that engages with
 
 ## Social
 
-Alberto is building LID in public across Twitter, LinkedIn, and Instagram. Follow for product updates, market commentary, and honest progress against the proof ladder.
+Alberto is building Lid in public across Twitter, LinkedIn, and Instagram. Follow for product updates, market commentary, and honest progress against the proof ladder.
 
 Handles and links available at [lid.pro](https://lid.pro).
 
@@ -68,7 +68,7 @@ See [Team](../company/team.md) for the full founding team.
 
 ## Location
 
-LID is a remote team with roots across Latin America, Europe, and the US.
+Lid is a remote team with roots across Latin America, Europe, and the US.
 
 ---
 

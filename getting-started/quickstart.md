@@ -4,7 +4,7 @@ Go from zero to your first live product in under 5 minutes.
 
 ## 1. Sign up
 
-Go to [app.lid.pro](https://app.lid.pro) and create an account. Email and password. That's all.
+Go to [lid.pro/dashboard](https://lid.pro/dashboard) and create an account. Email and password. That's all.
 
 ## 2. Create your first product
 
@@ -23,7 +23,7 @@ Click **Publish**. Your product is live.
 Every product has a public share link. It looks like:
 
 ```
-https://app.lid.pro/p/your-product-slug
+https://lid.pro/p/your-product
 ```
 
 This is the link you share anywhere. Twitter, Instagram, your email list, a Discord pinned message.
@@ -42,7 +42,7 @@ Want to turn on distribution?
 
 Send your product page link to anyone with an audience that matches your product. They click **Earn on this product** to generate their personal affiliate link. No application. No approval from you. The commission you set at creation is already live for whoever wants to earn it.
 
-This is the flywheel. Your customers are your sales team.
+This is the flywheel. Your audience is your sales team.
 
 ## That's the loop
 

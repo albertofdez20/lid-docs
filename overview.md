@@ -2,26 +2,26 @@
 
 This section is intentionally high-level during the alpha phase. Full technical reference, contract ABIs, and endpoint specs publish when the API surface stabilizes post-raise.
 
-## What LID is from a developer's perspective
+## What Lid is from a developer's perspective
 
-LID is programmable commerce infrastructure on Solana.
+Lid is programmable commerce infrastructure on Solana.
 
-At the primitive level, LID exposes three things.
+At the primitive level, Lid exposes three things.
 
 1. **Product creation.** A way to register a digital product with a price and an affiliate commission rule.
 2. **Attribution binding.** A way to route a checkout through an affiliate reference, enforced on-chain.
-3. **Atomic splits.** A smart contract that accepts payment and routes to the seller, affiliate, and LID in the same transaction.
+3. **Atomic splits.** A smart contract that accepts payment and routes to the seller, affiliate, and Lid in the same transaction.
 
-Today these primitives are consumed through the LID web app. The roadmap exposes them as API and on-chain rails for developers and AI agents to integrate directly.
+Today these primitives are consumed through the Lid web app and the MCP write-surface v1, where agents run the same loop a person does. The roadmap exposes them as a full public API for developers and AI agents to integrate directly.
 
 ## Who this section is for
 
-- **Developers** who want to understand the LID architecture before integrating.
+- **Developers** who want to understand the Lid architecture before integrating.
 - **Agent builders** thinking about how autonomous software actors will transact.
-- **Integration partners** who want to embed LID functionality in their own product.
+- **Integration partners** who want to embed Lid functionality in their own product.
 - **Security researchers** who want to responsibly disclose or audit the system.
 
-If you're a seller or affiliate, none of this is required reading. Everything you need is in the [Getting started](../getting-started/what-is-lid.md) section.
+If you're a seller or affiliate, none of this is required reading. Everything you need is in the [Getting started](getting-started/what-is-lid.md) section.
 
 ## Architecture at a glance
 
@@ -29,13 +29,13 @@ If you're a seller or affiliate, none of this is required reading. Everything yo
 - **Settlement asset:** USDC (native SPL token)
 - **Attribution enforcement:** Solana program (smart contract)
 - **Product metadata:** On-chain plus metadata storage layer
-- **Checkout UX:** Hosted by LID, abstracted (no wallet exposure for end users)
-- **Developer surface (today):** Web app
-- **Developer surface (roadmap):** Agentic Commerce API plus SDK
+- **Checkout UX:** Hosted by Lid, abstracted (no wallet exposure for end users)
+- **Developer surface (today):** Web app + MCP write-surface v1 (API keys and signed webhooks under Settings > Developer)
+- **Developer surface (roadmap):** Full public Agentic Commerce API plus SDK
 
 ## Why Solana
 
-Three properties were required. Only Solana delivered all three at the scale LID needs.
+Three properties were required. Only Solana delivered all three at the scale Lid needs.
 
 1. **Stablecoin depth.** USDC on Solana has the liquidity to settle real-world commerce.
 2. **Sub-second finality.** Checkout has to feel like software, not like waiting for block confirmations.
@@ -47,7 +47,7 @@ Three properties were required. Only Solana delivered all three at the scale LID
 
 **Attribution at checkout, not at click.** A click is a signal. A checkout is a commitment. Attribution binds at the moment of commitment.
 
-**Abstracted UX.** The blockchain is invisible infrastructure. Developers integrating LID should be able to keep that abstraction for their end users.
+**Abstracted UX.** The blockchain is invisible infrastructure. Developers integrating Lid should be able to keep that abstraction for their end users.
 
 **Permissionless distribution.** The protocol does not gate who can participate in selling. Rules at the product level, not at the user level.
 
@@ -59,20 +59,22 @@ Three properties were required. Only Solana delivered all three at the scale LID
 - Smart contract that enforces splits and fees
 - Product creation and checkout through the web app
 - USDC settlement
+- Privy embedded wallet and authentication
+- MCP write-surface v1. Agents create products, generate affiliate links, initiate checkout, and read settlement state.
 
 ## What's on the roadmap (post-raise)
 
-- **Agentic Commerce API.** REST and SDK surface for developers and AI agents to create products, generate affiliate links, and route transactions programmatically.
+- **Full public Agentic Commerce API.** REST and SDK surface for developers and AI agents to create products, generate affiliate links, and route transactions programmatically at scale.
 - **Webhooks.** Real-time event delivery (product created, sale completed, split settled) for integration with external systems.
 - **Multi-affiliate attribution.** Weighted splits for sales driven by multiple referrers.
-- **Fiat off-ramp.** Provider integration post-raise.
+- **Bridge fiat on-ramp and off-ramp.** Integration in progress, owned by Darwin.
 - **White-label embedding.** Enterprise tier with embeddable checkout on partner sites.
 
 Details in [Agentic Commerce API →](agentic-commerce-api.md)
 
 ## How to get involved
 
-- **Build on LID:** email alberto@lid.pro for the integration waitlist.
+- **Build on Lid:** email alberto@lid.pro for the integration waitlist.
 - **Security research:** responsible disclosure to alberto@lid.pro. Handled privately and prioritized.
 - **Agent frameworks:** if you're building an autonomous agent that needs economic rails, we want to talk now, before the API ships, so the design reflects what agents actually need.
 

@@ -1,12 +1,12 @@
 # The core loop
 
-Every action on LID serves one loop.
+Every action on Lid serves one loop.
 
 **Create → Share → Sell → Get paid.**
 
 ## Create
 
-A seller signs up at [app.lid.pro](https://app.lid.pro) and creates a digital product. Title, description, price, file or access link. The whole flow takes minutes, not an afternoon.
+A seller signs up at [lid.pro/dashboard](https://lid.pro/dashboard) and creates a digital product. Title, description, price, file or access link. The whole flow takes minutes, not an afternoon.
 
 The seller sets the affiliate commission at creation. Example: 20% of each sale goes to whoever drove it. That number is locked into the on-chain rules for that product.
 
@@ -14,7 +14,7 @@ No inventory. No fulfillment pipelines. No shipping. The product page is the sto
 
 ## Share
 
-Every product on LID has a public link.
+Every product on Lid has a public link.
 
 Anyone who wants to earn on the sale can generate an affiliate version of that link from the product page. The affiliate version carries an on-chain binding. When a buyer checks out through it, the attribution is recorded at the protocol level.
 
@@ -22,7 +22,7 @@ No application. No approval. No contract to countersign. The moment a seller tur
 
 ## Sell
 
-A buyer lands on the product page. Checkout feels like software. No wallet jargon. No chain selection. No gas prompts. The buyer pays in digital dollars or fiat-to-digital-dollars through an abstracted payment surface.
+A buyer lands on the product page. Checkout feels like software. No wallet jargon. No chain selection. No gas prompts. The buyer pays in digital dollars through an abstracted payment surface. Fiat card payments are planned, not live.
 
 At the moment the transaction clears, two things happen atomically.
 
@@ -37,18 +37,18 @@ In the same transaction as the sale, the split executes.
 
 * **Seller** receives their share.
 * **Affiliate** receives their commission, if one was attached.
-* **LID** receives its 3% infrastructure fee.
+* **Lid** receives its 3% infrastructure fee.
 
-All three payments settle in digital dollars in seconds. No reconciliation. No payout schedule. Money does not sit with LID between the sale and the payout. It is never touched.
+All three payments settle in digital dollars in seconds. No reconciliation. No payout schedule. Money does not sit with Lid between the sale and the payout. It is never touched.
 
-The seller can off-ramp to fiat through Bridge, our live fiat rails partner. The production cutover is complete. Digital dollars are the native settlement asset.
+Digital dollars are the native settlement asset. Cashing out to a bank account is planned for after the raise; today your earnings live in your Lid account and can be sent anywhere.
 
 ## Why this matters
 
 Every other model for creator commerce routes money through the platform. The platform holds the balance. The platform decides when you get paid. The platform decides how much to charge on the way out.
 
-LID does none of that. The split is the transaction. The fee is transparent. The trust layer is the contract.
+Lid does none of that. The split is the transaction. The fee is transparent. The trust layer is the contract.
 
-That's how "your customers are your sales team" becomes a real mechanism. Not a slogan.
+That's how "your audience is your sales team" becomes a real mechanism. Not a slogan.
 
-Next: [Quickstart →](/getting-started/quickstart.md)
+Next: [Quickstart →](quickstart.md)

@@ -1,9 +1,9 @@
 # Your product page
 
-Every product on LID gets a public page at a URL like:
+Every product on Lid gets a public page at a URL like:
 
 ```
-https://app.lid.pro/p/your-product-slug
+https://lid.pro/p/your-product
 ```
 
 This page is your product's home. It's where buyers land, where affiliates explore before they share, and where the checkout flow starts.
@@ -51,4 +51,4 @@ The product page is also the front door for attribution, trust, and conversion. 
 2. **Price visible above the fold.** No hunting.
 3. **Instant payout mentioned.** This is your differentiator. Say so.
 
-Next: [Pricing and fees →](/sell-on-lid/pricing-and-fees.md)
+Next: [Pricing and fees →](pricing-and-fees.md)

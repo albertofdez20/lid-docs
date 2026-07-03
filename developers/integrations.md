@@ -1,6 +1,6 @@
 # Integrations
 
-LID is designed to play well with the tools creators and developers already use. This page covers what integrates today, what's planned, and how to propose a new one.
+Lid is designed to play well with the tools creators and developers already use. This page covers what integrates today, what's planned, and how to propose a new one.
 
 ## What integrates today
 
@@ -11,14 +11,14 @@ LID is designed to play well with the tools creators and developers already use.
 * **Pinata** · IPFS metadata storage. Live.
 * **Solana Pay** · checkout UX. Live.
 * **USDC SPL Token** · settlement asset. Live.
-* **Bridge** · fiat rails. Live. Owned by Darwin.
+* **Bridge fiat rails** · integrating. Owned by Darwin.
 * **Helius webhooks** · transaction monitoring. Planned.
 * **x402 / ACP** · Year 2 horizon.
 
 **Payment inputs**
 
 * USDC on Solana (native)
-* Fiat-to-USDC on the buyer side through Bridge (the buyer sees USD, settlement is USDC)
+* Fiat-to-USDC on the buyer side (planned; when live the buyer sees USD, settlement is USDC)
 
 **Delivery targets**
 
@@ -29,13 +29,17 @@ LID is designed to play well with the tools creators and developers already use.
 
 * Affiliate links are plain URLs, so they work on every platform. Twitter, LinkedIn, Instagram, TikTok, Threads, email, newsletter, Discord, Telegram, community forums, blogs.
 
+**Agent surface**
+
+* MCP write-surface v1, live. Agents create products, generate affiliate links, initiate checkout, and read settlement state. The full public API is on the roadmap.
+
 **Verification**
 
 * Every sale produces a Solana transaction signature that can be verified on any block explorer.
 
 ## On the roadmap
 
-**Fiat on-ramp and off-ramp.** Bridge. Live in production. Owned by Darwin.
+**Bridge fiat on-ramp and off-ramp.** Integration in progress, owned by Darwin.
 
 **Webhooks.** Real-time events delivered to a URL you control. Useful for:
 
@@ -43,25 +47,25 @@ LID is designed to play well with the tools creators and developers already use.
 * Running onboarding automation on sale
 * Syncing to a data warehouse
 
-**SDK (JavaScript, Python).** Client libraries for reading LID state and (where the signer allows) creating products or affiliate links programmatically.
+**SDK (JavaScript, Python).** Client libraries for reading Lid state and (where the signer allows) creating products or affiliate links programmatically.
 
 **Embeddable checkout.** Drop-in checkout flow for sellers who want to run the product page on their own site.
 
 **Tax and accounting.** Native exports for common accounting systems and tax software.
 
-**CMS plugins.** WordPress, Ghost, Webflow plugins to create and manage LID products from inside a content tool.
+**CMS plugins.** WordPress, Ghost, Webflow plugins to create and manage Lid products from inside a content tool.
 
 ## Integration principles we hold to
 
 **Don't break the trust layer.** No integration is allowed to touch the money flow. External systems read state, receive events, or trigger actions. Settlement stays on-chain.
 
-**Don't expose Web3 complexity.** Any integration LID endorses must preserve the abstracted UX. If an integration adds wallet prompts or chain selectors to the end-user flow, it's not on-brand.
+**Don't expose Web3 complexity.** Any integration Lid endorses must preserve the abstracted UX. If an integration adds wallet prompts or chain selectors to the end-user flow, it's not on-brand.
 
-**Don't add hidden fees.** Integration partners can charge their own fees visibly, on top of LID. They cannot skim LID's 3% or take commission from the seller's share without explicit disclosure.
+**Don't add hidden fees.** Integration partners can charge their own fees visibly, on top of Lid. They cannot skim Lid's 3% or take commission from the seller's share without explicit disclosure.
 
 ## Proposing an integration
 
-If you want to integrate LID with a product you're building, we want to hear from you. Especially if you're building:
+If you want to integrate Lid with a product you're building, we want to hear from you. Especially if you're building:
 
 * AI agent frameworks
 * Creator toolkits (content platforms, newsletter tools, community platforms)
@@ -72,7 +76,7 @@ If you want to integrate LID with a product you're building, we want to hear fro
 Email <alberto@lid.pro> with:
 
 1. What you're building
-2. How you'd integrate LID
+2. How you'd integrate Lid
 3. What API or event surface you'd need
 4. Timeline
 
@@ -84,4 +88,4 @@ We do not do prestige partnerships for the sake of prestige. Every integration w
 
 Lightweight, practical, measurable. That's the standard.
 
-Next: [Vision →](/company/vision.md)
+Next: [Vision →](../company/vision.md)

@@ -8,9 +8,9 @@
 
 ## 1. About this Policy
 
-This Cookie Policy explains how Lid Labs Technologies - FZCO ("Lid," "we," "us") uses cookies and similar technologies on `lid.pro`, `app.lid.pro`, and any Lid-operated domain.
+This Cookie Policy explains how Lid Labs Technologies - FZCO ("Lid," "we," "us") uses cookies and similar technologies on `lid.pro`, `lid.pro/dashboard`, and any Lid-operated domain.
 
-This Policy is part of the [Privacy Policy](/legal/privacy.md). Read both together for the full picture of how we handle your data.
+This Policy is part of the [Privacy Policy](privacy.md). Read both together for the full picture of how we handle your data.
 
 ## 2. What cookies are
 
@@ -127,7 +127,7 @@ Through cookies and similar tech we may collect:
 * Session duration.
 * Email open and click data, for marketing emails you have subscribed to.
 
-See the [Privacy Policy](/legal/privacy.md) for how long we keep each category and how to exercise your rights.
+See the [Privacy Policy](privacy.md) for how long we keep each category and how to exercise your rights.
 
 ## 8. Changes to this Policy
 

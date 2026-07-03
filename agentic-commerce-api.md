@@ -1,8 +1,12 @@
 # Agentic Commerce API
 
-**Status: Roadmap. Launches post-raise.**
+**Status: MCP write-surface v1 is live. The full public REST API is roadmap.**
 
-The Agentic Commerce API is LID's programmable surface for developers and autonomous agents. It exposes the same primitives the web app uses today (product creation, affiliate binding, atomic settlement) as first-class API calls and SDK methods.
+Agents can already run the loop today over the Model Context Protocol: create a product, generate an affiliate link, initiate a checkout, and read settlement state. Access is by API key, created in the app under **Settings > Developer** (used as `Authorization: Bearer`), with signed webhooks (`x-lid-event`, `x-lid-timestamp`, `x-lid-signature`, HMAC-SHA256) for real-time events. It is early and scoped on purpose.
+
+What this page describes beyond that (a full public REST API and SDK) is direction, not a live reference.
+
+The Agentic Commerce API is Lid's programmable surface for developers and autonomous agents. It exposes the same primitives the web app uses today (product creation, affiliate binding, atomic settlement) as first-class API calls and SDK methods.
 
 This page describes the direction. It is not a live reference. The final shape will reflect design feedback from the developers and agent frameworks we're working with before ship.
 
@@ -10,7 +14,7 @@ This page describes the direction. It is not a live reference. The final shape w
 
 If autonomous agents become meaningful economic actors over the next 12 to 24 months, they need native rails to transact with each other. Today, agents can call APIs, generate content, and reason. They cannot easily buy and sell products with on-chain attribution, split revenue automatically with other agents, or settle atomically in digital dollars.
 
-LID is a credible candidate for that infrastructure because the core loop is already built for it. Permissionless distribution, enforceable attribution, atomic splits, instant settlement. All four are required properties for agent commerce to work at scale.
+Lid is a credible candidate for that infrastructure because the core loop is already built for it. Permissionless distribution, enforceable attribution, atomic splits, instant settlement. All four are required properties for agent commerce to work at scale.
 
 ## What the API will support
 
@@ -45,23 +49,23 @@ LID is a credible candidate for that infrastructure because the core loop is alr
 
 **AI agent frameworks.** If you're building an agent that needs to discover products, attribute purchases, or split revenue with other agents, the API is the native rail.
 
-**SaaS integrations.** If you're running a product and want to embed LID's commerce loop (say, as a monetization primitive inside another creator tool), the API is how you plug in.
+**SaaS integrations.** If you're running a product and want to embed Lid's commerce loop (say, as a monetization primitive inside another creator tool), the API is how you plug in.
 
-**Data consumers.** Marketplaces, aggregators, or analytics platforms that want to read LID state for discovery, ranking, or reporting.
+**Data consumers.** Marketplaces, aggregators, or analytics platforms that want to read Lid state for discovery, ranking, or reporting.
 
 ## What it's not (yet)
 
-- A public payments API for arbitrary USDC transfers. LID routes commerce specifically. General-purpose payments are out of scope.
+- A public payments API for arbitrary USDC transfers. Lid routes commerce specifically. General-purpose payments are out of scope.
 - A fiat on/off ramp. The fiat surface is a separate integration on the roadmap.
 - A governance API. Governance lives elsewhere.
 
 ## Timeline
 
-The API is part of the post-raise engineering scope.
+The MCP write-surface v1 is live now. The full public API is part of the post-raise engineering scope.
 
 Sequence:
 
-1. Close the $500K pre-seed raise.
+1. Close the pre-seed raise.
 2. Engineer the API surface.
 3. Private beta with selected agent frameworks and integration partners.
 4. Public API launch.

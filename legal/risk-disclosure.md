@@ -10,7 +10,7 @@ This document is not legal, financial, or tax advice.
 
 ## 1. Who this applies to
 
-This Risk Disclosure applies to every user of Lid (Creator, Affiliate, and Buyer) on `lid.pro` and `app.lid.pro`. By using the service you confirm you have read and understood the risks below and accept them.
+This Risk Disclosure applies to every user of Lid (Creator, Affiliate, and Buyer) on `lid.pro` and `lid.pro/dashboard`. By using the service you confirm you have read and understood the risks below and accept them.
 
 ## 2. Transactions on the Solana blockchain are final
 
@@ -105,7 +105,7 @@ Lid routes payments and attribution. Lid does not:
 
 If you are a Buyer, read the product description, preview, and the Creator's own refund policy before paying. If you are a Creator, write an accurate description and honour your stated terms.
 
-Lid may suspend or remove a Creator's account for repeated or serious misrepresentation, as described in the [Terms of Service](/legal/terms.md).
+Lid may suspend or remove a Creator's account for repeated or serious misrepresentation, as described in the [Terms of Service](terms.md).
 
 ## 9. Price and market risk
 
@@ -163,7 +163,7 @@ Providers you should be aware of:
 * **Helius.** Transaction monitoring and webhooks.
 * **Circle.** USDC issuer.
 
-See the [Privacy Policy](/legal/privacy.md) for the full list and links to each provider's terms.
+See the [Privacy Policy](privacy.md) for the full list and links to each provider's terms.
 
 ## 14. Phishing, scams, and social engineering
 
@@ -172,7 +172,7 @@ Attackers frequently target crypto users with fake sites, fake support requests,
 Rules of thumb:
 
 * Lid will never ask for your private key or recovery phrase. No one from Lid will ever need it.
-* The only official domains are `lid.pro` and `app.lid.pro`. Check the URL every time.
+* The only official domains are `lid.pro` and `lid.pro/dashboard`. Check the URL every time.
 * If a "Lid employee" asks you to sign a transaction, it is not Lid.
 * If a deal sounds too good to be true, it is.
 

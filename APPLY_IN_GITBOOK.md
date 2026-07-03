@@ -82,9 +82,9 @@ either way. The CSS version is a safety net.
 - Header style: **Minimal** or **Sticky**. Avoid "Bold" or "Centered" which
   fight the Lid layout.
 - Navigation links (right side of the header):
-  - Product → `https://app.lid.pro`
+  - Product → `https://lid.pro/dashboard`
   - Site → `https://lid.pro`
-- Primary CTA: `Open the app` → `https://app.lid.pro`
+- Primary CTA: `Open the app` → `https://lid.pro/dashboard`
 
 ---
 
@@ -93,7 +93,7 @@ either way. The CSS version is a safety net.
 **Dashboard** → **Site** → **SEO & social** → **Open Graph image**.
 
 Upload `lid-og-image.svg` from the repo root. It's a 1200×630 card with the
-Lid logo, tagline ("Your customers are your sales team."), and docs.lid.pro
+Lid logo, tagline ("Your audience is your sales team."), and docs.lid.pro
 URL on the dark purple ground.
 
 If the dashboard requires PNG instead of SVG, open the SVG in Preview or
@@ -116,7 +116,7 @@ Figma and export at 1200×630 PNG. The SVG is the source of truth.
 **Dashboard** → **Site** → **Search**.
 
 - Enable AI search if on your plan.
-- Prompt (optional): "Ask about how LID works, pricing, attribution, or the
+- Prompt (optional): "Ask about how Lid works, pricing, attribution, or the
   affiliate system."
 
 ---

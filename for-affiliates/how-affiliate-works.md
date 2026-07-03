@@ -1,17 +1,17 @@
 # How the affiliate system works
 
-LID's affiliate system has one rule: anyone can sell any product that has affiliate commission turned on. No approval. No application. No contract.
+Lid's affiliate system has one rule: anyone can sell any product that has affiliate commission turned on. No approval. No application. No contract.
 
 Here's how it works.
 
 ## The flow
 
-1. You find a product on LID with affiliate commission enabled.
+1. You find a product on Lid with affiliate commission enabled.
 2. You click **Earn on this product** on the product page.
-3. LID generates a personal affiliate link for you.
+3. Lid generates a personal affiliate link for you.
 4. You share the link anywhere. Social, email, community, DM.
 5. When someone buys through your link, the smart contract splits the payment in the same transaction.
-6. Your commission lands in your LID account in seconds.
+6. Your commission lands in your Lid account in seconds.
 
 That's the entire system.
 
@@ -21,14 +21,14 @@ That's the entire system.
 
 **On-chain attribution.** When someone checks out through your link, the smart contract binds you to that sale as the attribution. You don't trust a database to remember. The contract enforces.
 
-**Instant payment.** The seller, you, and LID are paid in the same transaction. You don't wait 30 days. You don't hit a minimum withdrawal. The commission is liquid digital dollars the moment the sale clears.
+**Instant payment.** The seller, you, and Lid are paid in the same transaction. You don't wait 30 days. You don't hit a minimum withdrawal. The commission is liquid digital dollars the moment the sale clears.
 
 **Transparent splits.** The exact percentage you earn was set by the seller when they created the product. You see the number before you share. No surprise changes.
 
 ## What you need to get started
 
 - An email address
-- A LID account at [app.lid.pro](https://app.lid.pro)
+- A Lid account at [lid.pro/dashboard](https://lid.pro/dashboard)
 - A product you believe in to share
 
 You don't need a crypto wallet. You don't need a Solana address. You don't need to understand the underlying technology. The UX stays out of your way.
@@ -44,12 +44,12 @@ This is a deliberate design choice. Click-attribution windows get abused and dis
 ## What you can't do
 
 - You can't share a product that doesn't have affiliate commission enabled. The seller has to turn it on.
-- You can't negotiate a custom commission with the seller through LID. The commission set on the product is the commission.
+- You can't negotiate a custom commission with the seller through Lid. The commission set on the product is the commission.
 - You can't claim attribution on sales that happened before you generated your affiliate link.
 
 ## The opportunity
 
-LID affiliate is permissionless creator commerce. If you have an audience, a newsletter, a group of followers, or even a set of friends who trust your taste, you can earn on any product on the platform that has commission turned on.
+Lid affiliate is permissionless creator commerce. If you have an audience, a newsletter, a group of followers, or even a set of friends who trust your taste, you can earn on any product on the platform that has commission turned on.
 
 The ones who show up early have the advantage of pick. Fewer affiliates competing for the same attention pool. Bigger margin on every sale.
 

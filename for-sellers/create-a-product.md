@@ -1,6 +1,6 @@
 # Create a product
 
-A product on LID is any digital thing you want to sell and route to collaborators. Ebooks. Courses. Templates. Community access. Research reports. Notion docs. Private channels. API keys. If it can be delivered by a link or a file, it's a product.
+A product on Lid is any digital thing you want to sell and route to collaborators. Ebooks. Courses. Templates. Community access. Research reports. Notion docs. Private channels. API keys. If it can be delivered by a link or a file, it's a product.
 
 ## Before you start
 
@@ -10,7 +10,7 @@ Your first live product is the one that teaches you how the loop feels end to en
 
 ## Step by step
 
-**1. Go to [app.lid.pro](https://app.lid.pro) and click New Product.**
+**1. Go to [lid.pro/dashboard](https://lid.pro/dashboard) and click New Product.**
 
 **2. Add the title.** Keep it concrete. "Solana Developer Bootcamp, Cohort 4" beats "The Complete Developer Course".
 
@@ -18,7 +18,7 @@ Your first live product is the one that teaches you how the loop feels end to en
 
 **4. Set the price.** Enter in USD. Settlement is in digital dollars. You can change the price later. Existing buyers keep their access.
 
-**5. Attach the delivery.** Either upload a file (PDF, ZIP, video) or paste an access URL. Notion page, YouTube playlist, Discord invite, Google Drive share, Telegram group. LID sends the link or file to the buyer on successful payment.
+**5. Attach the delivery.** Either upload a file (PDF, ZIP, video) or paste an access URL. Notion page, YouTube playlist, Discord invite, Google Drive share, Telegram group. Lid sends the link or file to the buyer on successful payment.
 
 **6. Set an affiliate commission.** A percentage of each sale that goes to whoever drove it. This is the number that turns strangers into distributors. Set it thoughtfully.
 

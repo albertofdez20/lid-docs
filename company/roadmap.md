@@ -7,15 +7,18 @@ Lid ships every week. This page shows what is live, what is being built, and wha
 * Digital products
 * Courses
 * Services with protected payments
-* Bounties
+* Challenges with prizes
+* Memberships: a paid space with a feed, a community forum, a calendar, and 1:1 bookings
+* Card payments, including Apple Pay
+* Tracked links and reward campaigns
 * Share links, with commissions set by the seller from 1% to 50%
-* Payouts in digital dollars that split automatically and land in seconds
+* Payouts that split automatically and land in seconds
+* Lida, the Lid assistant, built into the app
+* A connection for AI agents, so software can create and read on Lid today
 * A flat 3% fee, with no monthly cost
 
 ## Being built now
 
-* Memberships
-* Card payments
 * Cashing out to a bank account
 * Better analytics
 * A Pro toolkit for sellers who want more
@@ -23,7 +26,7 @@ Lid ships every week. This page shows what is live, what is being built, and wha
 
 ## Planned
 
-* A developer API so AI agents can buy and sell at scale
+* A full developer API so AI agents can buy and sell at scale
 * An independent external security review
 
 ## How to read this page

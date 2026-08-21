@@ -15,7 +15,7 @@
 * [Pricing and fees](for-sellers/pricing-and-fees.md)
 * [Getting paid](for-sellers/payouts-and-usdc.md)
 * [Courses](for-sellers/courses.md)
-* [Bounties](for-sellers/bounties.md)
+* [Challenges](for-sellers/bounties.md)
 * [Links and campaigns](for-sellers/links-and-campaigns.md)
 * [Refunds and protection](for-sellers/refunds-and-escrow.md)
 
@@ -65,3 +65,7 @@
 * [Privacy Policy](legal/privacy.md)
 * [Cookie Policy](legal/cookies.md)
 * [Risk Disclosure](legal/risk-disclosure.md)
+
+***
+
+* [Memberships](memberships.md)

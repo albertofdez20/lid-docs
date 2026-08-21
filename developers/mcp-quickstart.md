@@ -1,8 +1,10 @@
 # MCP quickstart
 
+In plain words: this page is for connecting an AI agent to Lid. If you sell or share on Lid through the app, you never need it.
+
 The MCP write-surface v1 is live. An agent (or any script) can run Lid's core loop today: create a product, generate an affiliate link, initiate a checkout, and read settlement state. This page gets you from zero to an authenticated call.
 
-It is early and scoped on purpose. The full public REST API and SDK are on the [roadmap](agentic-commerce-api.md).
+It is early and scoped on purpose. The full public REST API and SDK are on the roadmap.
 
 ## 1. Create an API key
 
@@ -39,8 +41,12 @@ Recompute the HMAC over `timestamp + '.' + raw body` with your secret and compar
 
 Everything settles like a human sale: atomic split, flat 3%, receipt with an on-chain reference.
 
+{% hint style="info" %}
+An agent buys with its own balance. Fund the agent wallet first; new wallets start at zero.
+{% endhint %}
+
 ## Building something on this?
 
 Early design partners shape the API surface that comes next. Email alberto@lid.pro with what you're building.
 
-Next: [Integrations →](integrations.md)
+Next: Integrations →

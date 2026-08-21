@@ -1,10 +1,12 @@
 # Overview
 
-This section is intentionally high-level during the alpha phase. Full technical reference, contract ABIs, and endpoint specs publish when the API surface stabilizes post-raise.
+This section explains how Lid works under the hood. You do not need any of it to sell or share on Lid; it exists for people who want to build on top of the same rails.
+
+It is intentionally high-level during the alpha phase. Full technical reference, contract ABIs, and endpoint specs publish when the API surface stabilizes.
 
 ## What Lid is from a developer's perspective
 
-Lid is programmable commerce infrastructure on Solana.
+Lid is programmable commerce on Solana.
 
 At the primitive level, Lid exposes three things.
 
@@ -19,7 +21,7 @@ Today these primitives are consumed through the Lid web app and the MCP write-su
 * **Developers** who want to understand the Lid architecture before integrating.
 * **Agent builders** thinking about how autonomous software actors will transact.
 * **Integration partners** who want to embed Lid functionality in their own product.
-* **Security researchers** who want to responsibly disclose or audit the system.
+* **Security researchers** who want to responsibly disclose issues.
 
 If you're a seller or affiliate, none of this is required reading. Everything you need is in the [Getting started](../getting-started/what-is-lid.md) section.
 
@@ -31,7 +33,7 @@ If you're a seller or affiliate, none of this is required reading. Everything yo
 * **Product metadata:** On-chain plus metadata storage layer
 * **Checkout UX:** Hosted by Lid, abstracted (no wallet exposure for end users)
 * **Wallet and auth:** Privy embedded wallet (live in production)
-* **Fiat on-ramp and off-ramp:** Bridge, integrating; not live
+* **Fiat on-ramp:** card payments and Apple Pay live at checkout; Bridge rails integrating
 * **Developer surface (today):** Web app + MCP write-surface v1 (API keys and signed webhooks under Settings > Developer)
 * **Developer surface (roadmap):** Agentic Commerce API plus SDK
 
@@ -49,7 +51,7 @@ Three properties were required. Only Solana delivered all three at the scale Lid
 
 **Attribution at checkout, not at click.** A click is a signal. A checkout is a commitment. Attribution binds at the moment of commitment.
 
-**Abstracted UX.** The blockchain is invisible infrastructure. Developers integrating Lid should be able to keep that abstraction for their end users.
+**Abstracted UX.** The blockchain is invisible. Developers integrating Lid should be able to keep that abstraction for their end users.
 
 **Permissionless distribution.** The protocol does not gate who can participate in selling. Rules at the product level, not at the user level.
 
@@ -62,9 +64,10 @@ Three properties were required. Only Solana delivered all three at the scale Lid
 * **Pinata** · IPFS metadata storage. Live.
 * **Solana Pay** · checkout UX. Live.
 * **USDC SPL Token** · settlement asset. Live.
+* **MoonPay** · card and Apple Pay checkout. Live.
 * **Bridge fiat rails** · integrating. Owned by Darwin.
 * **Helius webhooks** · transaction monitoring. Planned.
-* **x402 / ACP** · Year 2 horizon.
+* **x402 / ACP** · long-term horizon.
 
 ## What's live today
 
@@ -72,10 +75,11 @@ Three properties were required. Only Solana delivered all three at the scale Lid
 * Smart contract that enforces splits and fees
 * Product creation and checkout through the web app
 * USDC settlement
+* Card payments and Apple Pay at checkout
 * Privy embedded wallet and authentication
 * MCP write-surface v1. Agents create products, generate affiliate links, initiate checkout, and read settlement state.
 
-## What's on the roadmap (post-raise)
+## What's on the roadmap
 
 * **Agentic Commerce API.** REST and SDK surface for developers and AI agents to create products, generate affiliate links, and route transactions programmatically.
 * **Webhooks.** Real-time event delivery (product created, sale completed, split settled) for integration with external systems.
@@ -86,8 +90,8 @@ Details in [Agentic Commerce API →](agentic-commerce-api.md)
 
 ## How to get involved
 
-* **Build on Lid:** email <alberto@lid.pro> for the integration waitlist.
-* **Security research:** responsible disclosure to <alberto@lid.pro>. Handled privately and prioritized.
+* **Build on Lid:** email [alberto@lid.pro](mailto:alberto@lid.pro) for the integration waitlist.
+* **Security research:** responsible disclosure to [alberto@lid.pro](mailto:alberto@lid.pro). Handled privately and prioritized.
 * **Agent frameworks:** if you're building an autonomous agent that needs economic rails, we want to talk now, before the API ships, so the design reflects what agents actually need.
 
 Next: [Smart contracts →](smart-contracts.md)

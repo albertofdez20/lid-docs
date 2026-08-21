@@ -1,8 +1,8 @@
 # Smart contracts
 
-Lid runs on a Solana program that enforces product registration, attribution binding, and atomic settlement.
+In plain words: the smart contract is the piece of code that moves the money. It is what makes every sale split correctly and land in seconds, without Lid ever holding the funds.
 
-This page describes the architecture at a conceptual level. Full ABIs, method signatures, and example code publish when the contracts are audited and the public API stabilizes.
+Lid runs on a Solana program that enforces product registration, attribution binding, and atomic settlement. This page describes the architecture at a conceptual level. Full ABIs, method signatures, and example code publish after the external review, once the public API stabilizes.
 
 ## What the program does
 
@@ -17,28 +17,28 @@ At the contract level, Lid implements:
 
 Every checkout is a single Solana transaction. Within that transaction:
 
-- Buyer's USDC is moved out
-- Seller's share is moved in
-- Affiliate's share is moved in (if applicable)
-- Lid's fee is moved in
-- Access metadata is emitted (event log)
+* Buyer's USDC is moved out
+* Seller's share is moved in
+* Affiliate's share is moved in (if applicable)
+* Lid's fee is moved in
+* Access metadata is emitted (event log)
 
-If any step fails, the transaction reverts. No partial state exists where the buyer has paid but not received the product, or where the seller has been paid but the affiliate hasn't.
+If any step fails, the transaction reverts. No partial state exists where the buyer has paid without receiving the product, or where the seller has been paid and the affiliate hasn't.
 
 ## What lives on-chain
 
-- Product registry entries
-- Every sale transaction
-- Every split settlement
-- Affiliate attribution bindings
-- Seller and affiliate account balances (in USDC)
+* Product registry entries
+* Every sale transaction
+* Every split settlement
+* Affiliate attribution bindings
+* Seller and affiliate account balances (in USDC)
 
 ## What lives off-chain
 
-- Product descriptions and rich metadata
-- Delivery files (hosted or linked)
-- User account email and authentication
-- Dashboard UI state
+* Product descriptions and rich metadata
+* Delivery files (hosted or linked)
+* User account email and authentication
+* Dashboard UI state
 
 Off-chain data is not a source of truth for money flow. It exists to make the experience usable.
 
@@ -52,32 +52,32 @@ No upgrade can retroactively change the terms of past sales. Historical split re
 
 **Design principles applied:**
 
-- Minimum viable contract surface.
-- Payments always route directly to recipient accounts, never through intermediate holding accounts.
-- The 3% fee is enforced as a protocol constant, not a mutable config field.
-- No administrative function can move user funds.
-- All state-changing operations emit events for off-chain monitoring.
+* Minimum viable contract surface.
+* Payments always route directly to recipient accounts, never through intermediate holding accounts.
+* The 3% fee is enforced as a protocol constant, not a mutable config field.
+* No administrative function can move user funds.
+* All state-changing operations emit events for off-chain monitoring.
 
 **Planned external review:**
 
-- Formal audit by a specialized Solana security firm (post-raise).
-- Ongoing bug bounty once the public API is stable.
+* Formal review by a specialized Solana security firm. The criteria are already written down.
+* Ongoing bug bounty once the public API is stable.
 
-**Not yet in place:**
+**Not in place today:**
 
-- Third-party audit report.
-- Published bug bounty program.
+* Third-party audit report.
+* Published bug bounty program.
 
 We are transparent about what is and isn't done. During active alpha, every completed loop is reviewed for correctness.
 
 ## Responsible disclosure
 
-If you find a vulnerability, email alberto@lid.pro with details. We respond quickly, fix privately when possible, and credit researchers who help. Please do not publicly disclose before giving us a reasonable window to address the issue.
+If you find a vulnerability, email [alberto@lid.pro](mailto:alberto@lid.pro) with details. We respond quickly, fix privately when possible, and credit researchers who help. Please do not publicly disclose before giving us a reasonable window to address the issue.
 
 ## What developers can do today
 
-Today, contract interaction happens through the Lid web app. Direct on-chain interaction is possible (the contracts are deployed and public), but there is no published SDK or client library yet.
+Today, contract interaction happens through the Lid web app and the MCP write-surface v1. Direct on-chain interaction is possible (the contracts are deployed and public). There is no published SDK or client library today.
 
-The Agentic Commerce API (roadmap, post-raise) will provide the developer surface for programmatic access.
+The Agentic Commerce API (roadmap) will provide the developer surface for programmatic access.
 
 Next: [Agentic Commerce API →](agentic-commerce-api.md)

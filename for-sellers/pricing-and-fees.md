@@ -22,7 +22,7 @@ If you bring the sale yourself, you keep $9.70 and Lid gets $0.30.
 
 ## Why 3%
 
-Most platforms take 5% to 30% once subscriptions and processing costs stack up. Lid charges one flat fee that covers everything: your page, checkout, delivery, and paying everyone their share in seconds. Nothing hidden, and the 3% stays put as you grow.
+Gumroad takes 10%. Patreon takes 10%. OnlyFans takes 20%. Add processing and subscriptions and a typical stack costs 8% to 20% of every sale. Lid charges one flat fee that covers everything: your page, checkout, delivery, and paying everyone their share in seconds. Nothing hidden, and the 3% stays put as you grow.
 
 ## What you never pay
 
@@ -33,7 +33,9 @@ Most platforms take 5% to 30% once subscriptions and processing costs stack up. 
 
 ## FAQ
 
-<details><summary>What about taxes?</summary>
+<details>
+
+<summary>What about taxes?</summary>
 
 Lid does not withhold taxes. You handle your local taxes on what you earn. Your dashboard keeps your full sales history for accounting.
 

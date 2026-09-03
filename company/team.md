@@ -1,30 +1,22 @@
 # Team
 
-Lid is built by two founders, a head of growth, and a small group of advisors. Lean by design. Trust-critical roles owned end-to-end.
+Lid is built by two founders. Lean by design. Trust-critical roles owned end-to-end.
 
 ## Alberto Fernández
 
 **Co-Founder and CEO.** Owns product, strategy, GTM, and the founder voice.
 
-Previously built ENO, an 80,000-member community, and Orbi. 2x crypto founder.
+Two companies before this: ENO, an 80,000-member community, and Orbi, a stablecoin card. One taught distribution, the other taught payments.
 
 Drives the long horizon. Holds the team to the proof ladder. Writes most of what the world reads from Lid.
 
-## Darwin Ramirez
+## Darwin Ramírez
 
 **Co-Founder and CTO.** Owns the protocol, the application stack, and integrations.
 
-Built and owns the live Privy wallet and auth layer. Owns the Bridge fiat integration, in progress. Owns the split contract that has carried every observed loop with 0 funds lost and 0 attribution errors.
+Built and owns the live Privy wallet and auth layer, the memberships engine, the Lida assistant, and the Bridge fiat integration, in progress. Owns the split contract that has carried every observed loop with 0 funds lost and 0 attribution errors.
 
 The blockchain is invisible because Darwin built it that way.
-
-## Farhana Meghami
-
-**Head of Growth.** Owns growth, partnerships, and community.
-
-Founder of Eclips3, which scaled 190+ Web3 projects. Relationships with major L1 founders and exchange partners.
-
-Drives the community-led distribution motion that put Lid in front of La Familia and the Spanish-speaking Solana network.
 
 ## Operating entity
 

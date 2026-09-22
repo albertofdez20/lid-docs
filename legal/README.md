@@ -1,3 +1,9 @@
+---
+description: >-
+  The four documents that govern the use of Lid and when to read each: Terms,
+  Privacy, Cookies, Risk Disclosure.
+---
+
 # Overview
 
 The four documents that govern the use of Lid. Read the one that applies to what you are about to do.

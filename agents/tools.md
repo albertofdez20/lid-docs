@@ -1,3 +1,9 @@
+---
+description: >-
+  Every tool in the Lid MCP catalog grouped by job: products, sharing, links and
+  campaigns, challenges, sales, webhooks, and the purchase tools in preview.
+---
+
 # Tool reference
 
 Every tool the Lid agent connection exposes, grouped by job. Names match the MCP catalog. Amounts: `priceUsdc` is in human units (`"5"` is five dollars); prize and reward amounts are atomic USDC strings (`"1000000"` is one dollar).

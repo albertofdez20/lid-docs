@@ -1,3 +1,9 @@
+---
+description: >-
+  What buyers see on your product page, what you can change, and the three lines
+  that sell.
+---
+
 # Your product page
 
 Every product gets a public page at a link like `lid.pro/p/your-product`. It is where buyers land and where checkout starts.
@@ -9,8 +15,6 @@ Every product gets a public page at a link like `lid.pro/p/your-product`. It is 
 * The price
 * A buy button
 * An **Earn on this product** option, so anyone can share your product and earn the commission you set
-
-<!-- screenshot: a live product page as a buyer sees it -->
 
 ## What you can change
 
@@ -30,7 +34,9 @@ Edit any of these from your dashboard. Changes go live right away.
 
 ## FAQ
 
-<details><summary>Do sharers need my permission?</summary>
+<details>
+
+<summary>Do sharers need my permission?</summary>
 
 They join on their own. Anyone can generate a share link from your page and earn the commission you already set, on sales they bring.
 

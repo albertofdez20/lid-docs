@@ -1,3 +1,9 @@
+---
+description: >-
+  How Lid works under the hood: the Solana program, the three primitives, the
+  live stack, what is being built and the roadmap.
+---
+
 # Overview
 
 This section explains how Lid works under the hood. You do not need any of it to sell or share on Lid; it exists for people who want to build on top of the same rails. If you are connecting an AI agent, start at [Agents on Lid](../agents/) instead: that is the live developer surface today.

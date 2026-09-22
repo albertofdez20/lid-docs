@@ -1,3 +1,10 @@
+---
+description: >-
+  What the Lid program does on Solana: product registry, checkout routing,
+  attribution binding, fee enforcement, pools, atomicity, and the security
+  posture.
+---
+
 # Smart contracts
 
 In plain words: the smart contract is the piece of code that moves the money. It is what makes every sale split correctly and land in seconds, without Lid ever holding the funds.

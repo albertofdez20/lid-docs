@@ -1,3 +1,9 @@
+---
+description: >-
+  Every digital business runs on Lid: the bleed and the wait, the whole stack at
+  flat 3%, why now, the model in three sentences, the ladder.
+---
+
 # Vision
 
 **Every digital business runs on Lid.**

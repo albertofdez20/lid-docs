@@ -1,4 +1,10 @@
-# How the affiliate system works
+---
+description: >-
+  How sharing and earning works on Lid: share a link, someone buys through it,
+  your commission arrives in the same transaction. No approval, no minimum.
+---
+
+# How sharing and earning works
 
 You share a product link, someone buys through it, and you are paid the moment they pay.
 
@@ -9,8 +15,6 @@ You share a product link, someone buys through it, and you are paid the moment t
 3. Lid creates a personal link for you.
 4. Share it anywhere. Group chats, Instagram, X, YouTube.
 5. When someone buys through your link, your commission arrives in seconds, automatically.
-
-<!-- screenshot: product page with the Earn on this product button -->
 
 {% hint style="info" %}
 The seller sets the commission, from 1% to 50%. You always see the number before you share.
@@ -25,19 +29,25 @@ The seller sets the commission, from 1% to 50%. You always see the number before
 
 ## Common questions
 
-<details><summary>Do I need to apply?</summary>
+<details>
+
+<summary>Do I need to apply?</summary>
 
 No. If a product offers a commission, you can share it right away.
 
 </details>
 
-<details><summary>When do I get paid?</summary>
+<details>
+
+<summary>When do I get paid?</summary>
 
 The moment the buyer pays. It takes seconds.
 
 </details>
 
-<details><summary>Can the commission change after I share?</summary>
+<details>
+
+<summary>Can the commission change after I share?</summary>
 
 The rate shown at the moment of sale is the rate you receive. Your commission is locked in when the buyer pays.
 

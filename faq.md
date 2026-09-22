@@ -1,3 +1,9 @@
+---
+description: >-
+  The questions people ask most about selling, sharing, buying and AI agents on
+  Lid, in one page.
+---
+
 # FAQ
 
 The questions people ask most, in one place.

@@ -1,3 +1,9 @@
+---
+description: >-
+  What integrates with Lid today (Privy, Alchemy, Pinata, Solana Pay, USDC,
+  webhooks, MCP), what is being built, and how to propose an integration.
+---
+
 # Integrations
 
 Lid is designed to play well with the tools creators and developers already use. This page covers what integrates today, what's planned, and how to propose a new one.

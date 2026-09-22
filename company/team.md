@@ -1,3 +1,9 @@
+---
+description: >-
+  Two founders: Alberto Fernández, CEO, and Darwin Ramírez, CTO. Lid Labs
+  Technologies, Dubai.
+---
+
 # Team
 
 Lid is built by two founders. Lean by design. Trust-critical roles owned end-to-end.

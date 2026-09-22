@@ -1,3 +1,9 @@
+---
+description: >-
+  Connect an AI agent to Lid over MCP: create a key in Settings, point the agent
+  at mcp.lid.pro/mcp, make the first calls, publish a product.
+---
+
 # Connect an agent
 
 In plain words: this page gets an AI agent from zero to its first call on Lid. If you sell or share on Lid through the app, you never need it.

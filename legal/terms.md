@@ -1,6 +1,12 @@
+---
+description: >-
+  Terms of Service for Lid: the contract between you and Lid Labs Technologies
+  FZCO as a creator, sharer or buyer.
+---
+
 # Terms of Service
 
-*Last updated: 26 May 2026.* *Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE).*
+_Last updated: 26 May 2026._ _Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE)._
 
 {% hint style="info" %}
 **In plain language.** Lid is infrastructure for selling digital products. A Creator uploads a product. A link gets shared. A Buyer pays in digital dollars. A smart contract splits the payment between the Creator, the Affiliate, and Lid in the same transaction. Flat 3% fee. No custody. No holds.
@@ -28,7 +34,7 @@ Lid Labs Technologies - FZCO is a free zone company registered in Dubai, United 
 | Registered office       | IFZA Business Park, DDP, PO Box 342001, Dubai, UAE |
 | Licensing authority     | Dubai Integrated Economic Zones Authority (DIEZA)  |
 | Tax registration number | 105134383600001                                    |
-| Contact                 | <legal@lid.pro>                                    |
+| Contact                 | [legal@lid.pro](mailto:legal@lid.pro)              |
 
 In these Terms, "**Lid**," "**we**," "**us**," and "**our**" mean Lid Labs Technologies - FZCO. "**You**" and "**your**" mean the person or company using Lid.
 
@@ -264,4 +270,4 @@ Where a dispute involves a consumer whose jurisdiction grants mandatory protecti
 
 ## 20. Contact
 
-**Lid Labs Technologies - FZCO** IFZA Business Park, DDP PO Box 342001, Dubai, United Arab Emirates Email: <legal@lid.pro>
+**Lid Labs Technologies - FZCO** IFZA Business Park, DDP PO Box 342001, Dubai, United Arab Emirates Email: [legal@lid.pro](mailto:legal@lid.pro)

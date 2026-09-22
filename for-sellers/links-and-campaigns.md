@@ -1,3 +1,9 @@
+---
+description: >-
+  Tracked links and reward campaigns: define the result, fund the pool, let
+  anyone share, pay the sharer when you approve the result.
+---
+
 # Links and campaigns
 
 Create a tracked link, define what counts as a result, and pay the people who bring results.

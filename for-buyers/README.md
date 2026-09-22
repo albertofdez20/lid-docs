@@ -1,3 +1,9 @@
+---
+description: >-
+  What happens when you buy on Lid: sign in with an email, pay with digital
+  dollars (USDC), get access right away. Card payments are being built.
+---
+
 # Buying on Lid
 
 Someone shared a link with you, or you found something you want. This page walks you through what happens when you buy.

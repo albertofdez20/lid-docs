@@ -1,3 +1,9 @@
+---
+description: >-
+  The five Lid webhook events, the three signature headers, and how to verify a
+  delivery with HMAC-SHA256.
+---
+
 # Webhooks and events
 
 Lid calls a URL you own when something happens. Register the URL with `create_webhook` or in the app under **Settings → Developer → New webhook**. The signing secret is shown once. Store it.

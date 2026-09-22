@@ -1,3 +1,9 @@
+---
+description: >-
+  Lid's fee is a flat 3% per sale and $0 a month. A $10 sale worked out, why 3%
+  against Gumroad, Patreon and OnlyFans, and the model in three sentences.
+---
+
 # Pricing and fees
 
 You set the price. Lid takes a flat 3% on every sale, shown up front. There is no monthly fee.

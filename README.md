@@ -1,3 +1,10 @@
+---
+description: >-
+  Lid is the creator suite: store, challenges, campaigns and memberships in one
+  place, flat 3%, paid in seconds. Pick your path: sell, share, buy, connect an
+  agent, build.
+---
+
 # Welcome to Lid
 
 Lid. The creator suite. Store, challenges, campaigns and memberships in one place, and the money settles the second a result is real.

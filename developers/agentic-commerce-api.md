@@ -1,3 +1,9 @@
+---
+description: >-
+  The agent connection over MCP is live; the full REST API and SDK are roadmap.
+  What it adds, who it is for, how to get in early.
+---
+
 # Agentic Commerce API
 
 In plain words: this page is about letting software, not just people, sell and buy on Lid. If you are a seller, nothing here changes how you use Lid.

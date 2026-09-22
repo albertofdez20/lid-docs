@@ -1,3 +1,9 @@
+---
+description: >-
+  Refund windows from 0 to 90 days, protected payments for services, and what
+  happens when a refund goes through.
+---
+
 # Refunds and protection
 
 You choose a refund window for each product, and the payment is protected until the window passes.
@@ -17,7 +23,9 @@ For services, the payment is protected until the buyer accepts your delivery. Th
 
 ## FAQ
 
-<details><summary>Which window should I pick?</summary>
+<details>
+
+<summary>Which window should I pick?</summary>
 
 Short windows mean faster money for you. Longer windows help cautious buyers say yes.
 

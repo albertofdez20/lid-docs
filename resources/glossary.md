@@ -1,3 +1,9 @@
+---
+description: >-
+  The terms you meet inside Lid in plain words: digital dollars (USDC),
+  commission, sharer, pool, challenge, campaign, membership, agent.
+---
+
 # Glossary
 
 The handful of terms you will meet inside Lid, in plain words.

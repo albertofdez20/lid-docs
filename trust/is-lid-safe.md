@@ -1,3 +1,9 @@
+---
+description: >-
+  Nobody at Lid can touch your money because Lid never holds it: how splits
+  settle, what protects buyers and funders, and what is still being built.
+---
+
 # Is Lid safe?
 
 Short version: nobody at Lid can touch your money, because Lid never holds it. Here is how that works.

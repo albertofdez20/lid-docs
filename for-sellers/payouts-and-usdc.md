@@ -1,3 +1,9 @@
+---
+description: >-
+  You are paid in seconds, automatically, in digital dollars (USDC). No payout
+  day, no minimum. How cashing out works today and what is being built.
+---
+
 # Getting paid
 
 When someone buys your product, your money arrives in seconds, automatically.

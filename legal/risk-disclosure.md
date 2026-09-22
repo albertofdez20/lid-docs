@@ -1,6 +1,12 @@
+---
+description: >-
+  Risks of using Lid: Solana, USDC, smart contracts, wallets, finality, tax and
+  regulation. Read before you move funds.
+---
+
 # Risk Disclosure
 
-*Last updated: 26 May 2026.* *Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE).*
+_Last updated: 26 May 2026._ _Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE)._
 
 {% hint style="warning" %}
 **Read this before you use Lid.** Lid runs on the Solana blockchain. That comes with real risks. Transactions are final. Smart contracts can fail. USDC has its own issuer risk. Wallets can be stolen. Tax is your job. If any risk below is one you are not willing to accept, do not use the service.
@@ -190,4 +196,4 @@ We may update this document as Lid evolves and as the risks change. When we do, 
 
 ## 17. Contact
 
-**Lid Labs Technologies - FZCO** IFZA Business Park, DDP PO Box 342001, Dubai, United Arab Emirates Email: <legal@lid.pro>
+**Lid Labs Technologies - FZCO** IFZA Business Park, DDP PO Box 342001, Dubai, United Arab Emirates Email: [legal@lid.pro](mailto:legal@lid.pro)

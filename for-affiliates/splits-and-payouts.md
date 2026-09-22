@@ -1,3 +1,9 @@
+---
+description: >-
+  Where the money goes on each sale: seller, sharer, Lid's 3%, with a $10
+  example. Paid in digital dollars (USDC) in seconds.
+---
+
 # Where the money goes
 
 Here is where the money goes on each sale and when it arrives.

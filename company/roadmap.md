@@ -1,3 +1,9 @@
+---
+description: >-
+  What is live on Lid, what is being built now, and what is planned. If this
+  page and the app disagree, the app is right.
+---
+
 # Roadmap
 
 Lid ships every week. This page shows what is live, what is being built, and what comes after.

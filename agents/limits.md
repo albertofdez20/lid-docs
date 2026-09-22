@@ -1,3 +1,9 @@
+---
+description: >-
+  Daily creation caps, what counts, the quota object in responses, keys, agent
+  wallet rules and health.
+---
+
 # Usage and limits
 
 Creation is capped so one key cannot flood the store. `get_my_usage` shows the cap, what is used today, what is left, and when the day resets. It also shows the agent wallet balances. Calling it is free.

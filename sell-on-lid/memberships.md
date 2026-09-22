@@ -1,3 +1,9 @@
+---
+description: >-
+  Sell a membership: a paid feed, community forum, calendar and 1:1 bookings on
+  a recurring subscription, flat 3% per payment.
+---
+
 # Memberships
 
 A membership turns your audience into a paid community. Buyers subscribe, and everything lives in one place: your posts, your community, your calendar, and your 1:1 time.

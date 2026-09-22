@@ -1,3 +1,9 @@
+---
+description: >-
+  Six rules for sharing links without spending your audience's trust, including
+  saying it is your link.
+---
+
 # Best practices
 
 Short advice for sharing links while keeping your audience's trust.
@@ -17,13 +23,17 @@ Your audience is the asset. Every recommendation either builds trust or spends i
 
 ## Common questions
 
-<details><summary>How often should I share?</summary>
+<details>
+
+<summary>How often should I share?</summary>
 
 When it fits naturally. A product shared with real context once a month beats daily link drops.
 
 </details>
 
-<details><summary>Do I have to say I earn a commission?</summary>
+<details>
+
+<summary>Do I have to say I earn a commission?</summary>
 
 Yes. It keeps trust with your audience, and most platforms and regulators require it.
 

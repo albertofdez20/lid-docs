@@ -1,3 +1,9 @@
+---
+description: >-
+  Quick fixes: a shared link that did not count, money not showing, login codes,
+  refund requests, and how to reach us.
+---
+
 # Troubleshooting
 
 Quick fixes for the issues people hit most. If yours is missing, email [alberto@lid.pro](mailto:alberto@lid.pro).

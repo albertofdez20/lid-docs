@@ -1,3 +1,9 @@
+---
+description: >-
+  Email alberto@lid.pro or DM @albertofdez20 on X. What to include so a problem
+  gets fixed on the first reply.
+---
+
 # Contact
 
 ## Email

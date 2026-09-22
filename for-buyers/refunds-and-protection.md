@@ -1,3 +1,9 @@
+---
+description: >-
+  Refund windows, how to claim a refund, how services release on acceptance, and
+  who to write to.
+---
+
 # Refunds and protection
 
 Plain answers about your money.
@@ -15,8 +21,6 @@ Every product shows its refund policy before you pay.
 2. Select the purchase.
 3. Start a refund claim from the purchase and describe what went wrong.
 4. If your claim is approved, your money comes back automatically.
-
-<!-- screenshot: a purchase with its refund option visible -->
 
 {% hint style="info" %}
 Claim before the window closes. The refund window is shown on the product page before you pay.
@@ -37,19 +41,25 @@ The official addresses are lid.pro and docs.lid.pro. Check the address bar befor
 
 ## Common questions
 
-<details><summary>What does "your payment is protected" mean?</summary>
+<details>
+
+<summary>What does "your payment is protected" mean?</summary>
 
 During a refund window, your money is set aside. The seller receives it after the window closes. If your refund claim is approved first, the money comes back to you.
 
 </details>
 
-<details><summary>Can the seller change the refund policy after I buy?</summary>
+<details>
+
+<summary>Can the seller change the refund policy after I buy?</summary>
 
 The policy is locked in when you buy. During the window, an approved claim returns your money automatically.
 
 </details>
 
-<details><summary>The sale was final and I have a problem. What now?</summary>
+<details>
+
+<summary>The sale was final and I have a problem. What now?</summary>
 
 Reach out to the seller first. If you still need help, write to alberto@lid.pro.
 

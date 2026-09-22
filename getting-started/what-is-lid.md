@@ -1,3 +1,9 @@
+---
+description: >-
+  What Lid is, who it is for, the four steps from create to get paid, and what
+  you can sell today.
+---
+
 # What is Lid
 
 Lid is the suite for creators: run, monetize, and distribute your digital business in one place. You create a product, you share a link, and you are paid in seconds when someone buys.

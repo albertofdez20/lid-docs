@@ -1,3 +1,9 @@
+---
+description: >-
+  Sell a course on Lid: modules, lessons, free previews, hosted by Lid, unlocked
+  the moment someone buys.
+---
+
 # Courses
 
 A course is a product with structure: modules, lessons, and progress, unlocked the moment someone buys.
@@ -11,19 +17,21 @@ A course is a product with structure: modules, lessons, and progress, unlocked t
 5. Set the price and the commission you share.
 6. Publish.
 
-<!-- screenshot: course builder with modules and lessons -->
-
 Buyers get access automatically after they pay, and they can see where they left off.
 
 ## FAQ
 
-<details><summary>Do I need a separate hosting tool?</summary>
+<details>
+
+<summary>Do I need a separate hosting tool?</summary>
 
 Lid hosts the course page and the lessons for you.
 
 </details>
 
-<details><summary>How do I get paid?</summary>
+<details>
+
+<summary>How do I get paid?</summary>
 
 Like any Lid sale: in seconds, automatically, with a flat 3% fee.
 

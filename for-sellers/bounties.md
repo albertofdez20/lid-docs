@@ -1,3 +1,9 @@
+---
+description: >-
+  Run a challenge with a prize: post it, fund the pool, pick the winners, each
+  prize holder claims their prize. Called bounties in the API.
+---
+
 # Challenges
 
 A challenge is a competition with a prize. You post it, people compete, you pick the winners, and each winner claims their prize.

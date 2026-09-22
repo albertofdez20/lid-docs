@@ -1,3 +1,9 @@
+---
+description: >-
+  What a seller keeps on a $100 sale on Lid, Whop, Gumroad, Paddle and Stripe,
+  with a source per row, plus platform fees and payout fees.
+---
+
 # Compare
 
 What a seller keeps on a $100 sale, on Lid and on the platforms creators already use. Each row links to the platform's own fee page.

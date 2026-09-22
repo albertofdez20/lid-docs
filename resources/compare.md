@@ -58,12 +58,12 @@ On Lid the money is already out: it lands in your balance inside the sale. Elsew
 
 Before payment processing, before the software underneath.
 
-| Platform | Platform fee                          |
-| -------- | ------------------------------------- |
-| Lid      | 3%                                    |
-| Gumroad  | 10% + $0.50                           |
-| Patreon  | 10%, plus 2.5% on currency conversion |
-| OnlyFans | 20%                                   |
+| Platform | Platform fee                                                      | Source                                                                |
+| -------- | ----------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Lid      | 3%, all in                                                        | [Pricing and fees](../for-sellers/pricing-and-fees.md)                |
+| Gumroad  | 10% + $0.50                                                       | [gumroad.com/help](https://gumroad.com/help/article/66-gumroads-fees) |
+| Patreon  | 10%, plus payment processing, currency conversion and payout fees | [patreon.com/pricing](https://www.patreon.com/pricing)                |
+| OnlyFans | 20%                                                               | OnlyFans' published creator terms                                     |
 
 ## What does 3% buy on Lid?
 

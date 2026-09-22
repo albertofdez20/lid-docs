@@ -6,7 +6,7 @@ description: >-
 
 # What's new
 
-What shipped on Lid and on these docs, newest first. If this page and the app at [lid.pro](https://lid.pro) ever disagree, the app is right.
+If this page and the app at [lid.pro](https://lid.pro) ever disagree, the app is right.
 
 {% updates format="full" %}
 {% update date="2026-09-22" %}

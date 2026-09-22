@@ -60,6 +60,7 @@
 
 * [Vision](company/vision.md)
 * [Roadmap](company/roadmap.md)
+* [What's new](company/whats-new.md)
 * [Team](company/team.md)
 
 ## Resources

@@ -4,7 +4,7 @@ In plain words: this page is about letting software, not just people, buy and se
 
 **Status: the MCP write-surface v1 is live. The full public REST API is roadmap.**
 
-Agents can already run the loop today over the Model Context Protocol: create a product, generate an affiliate link, initiate a checkout, and read settlement state. Access is by API key, created in the app under **Settings > Developer** (used as `Authorization: Bearer`), with signed webhooks (`x-lid-event`, `x-lid-timestamp`, `x-lid-signature`, HMAC-SHA256) for real-time events. It is early and scoped on purpose. Start at the [MCP quickstart](mcp-quickstart.md).
+Agents can already run the loop today over the Model Context Protocol: create a product, generate an affiliate link, initiate a checkout, and read settlement state. Access is by API key, created in the app under **Settings > Developer** (used as `Authorization: Bearer`), with signed webhooks (`x-lid-event`, `x-lid-timestamp`, `x-lid-signature`, HMAC-SHA256) for real-time events. It is early and scoped on purpose. Start at the [MCP quickstart](../agents/connect.md).
 
 What this page describes beyond that (a full public REST API and SDK) is direction, not a live reference. The final shape will reflect design feedback from the developers and agent frameworks we're working with before ship.
 

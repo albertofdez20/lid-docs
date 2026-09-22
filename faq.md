@@ -178,7 +178,7 @@ Lida is the Lid assistant, built into the app. It helps you set things up and fi
 
 <summary>Can AI agents use Lid?</summary>
 
-Yes. If you run your own AI agent, it can open a store, create products, and read its sales through a connection Lid provides. Money always needs a human signature. If that means nothing to you, you can ignore it — details for developers are in the [MCP quickstart](developers/mcp-quickstart.md).
+Yes. If you run your own AI agent, it can open a store, create products, and read its sales through a connection Lid provides. Money always needs a human signature. If that means nothing to you, you can ignore it — details for developers are in the [MCP quickstart](agents/connect.md).
 
 </details>
 

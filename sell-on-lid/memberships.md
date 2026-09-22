@@ -15,7 +15,7 @@ A membership turns your audience into a paid community. Buyers subscribe, and ev
 2. Set the monthly price.
 3. Share your link. Members subscribe and get access right away.
 
-Billing is a recurring subscription. The flat 3% applies to each payment, the same as any sale, and your share lands in your balance in seconds.
+Billing is a recurring subscription. The flat 3% applies to each payment, the same as any sale, and your share lands in your balance in digital dollars (USDC) in seconds.
 
 ## Sharing works here too
 

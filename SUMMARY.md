@@ -15,6 +15,7 @@
 * [Pricing and fees](for-sellers/pricing-and-fees.md)
 * [Getting paid](for-sellers/payouts-and-usdc.md)
 * [Courses](for-sellers/courses.md)
+* [Memberships](sell-on-lid/memberships.md)
 * [Challenges](for-sellers/bounties.md)
 * [Links and campaigns](for-sellers/links-and-campaigns.md)
 * [Refunds and protection](for-sellers/refunds-and-escrow.md)
@@ -33,19 +34,26 @@
 * [Your purchases](for-buyers/your-purchases.md)
 * [Refunds and protection](for-buyers/refunds-and-protection.md)
 
-## Help
+***
 
-* [Is Lid safe?](trust/is-lid-safe.md)
-* [FAQ](faq.md)
-* [Troubleshooting](troubleshooting.md)
+* [Agents on Lid](agents/README.md)
+  * [Connect an agent](agents/connect.md)
+  * [Tool reference](agents/tools.md)
+  * [Webhooks and events](agents/webhooks.md)
+  * [Usage and limits](agents/limits.md)
 
 ## Developers
 
 * [Overview](developers/overview.md)
 * [Smart contracts](developers/smart-contracts.md)
 * [Agentic Commerce API](developers/agentic-commerce-api.md)
-* [MCP quickstart](developers/mcp-quickstart.md)
 * [Integrations](developers/integrations.md)
+
+## Help
+
+* [Is Lid safe?](trust/is-lid-safe.md)
+* [FAQ](faq.md)
+* [Troubleshooting](troubleshooting.md)
 
 ## Company
 
@@ -56,6 +64,7 @@
 ## Resources
 
 * [Glossary](resources/glossary.md)
+* [Compare](resources/compare.md)
 * [Contact](resources/contact.md)
 
 ## Legal
@@ -65,7 +74,3 @@
 * [Privacy Policy](legal/privacy.md)
 * [Cookie Policy](legal/cookies.md)
 * [Risk Disclosure](legal/risk-disclosure.md)
-
-***
-
-* [Memberships](memberships.md)

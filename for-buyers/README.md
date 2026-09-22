@@ -6,22 +6,22 @@ Someone shared a link with you, or you found something you want. This page walks
 
 1. Open the product page and select **Buy now**.
 2. Sign in with your email. Lid creates an account for you on the spot.
-3. Pay with your card, Apple Pay, or digital dollars. The price on the page is the amount you pay.
+3. Pay with digital dollars (USDC). The price on the page is the amount you pay.
 4. You get access immediately. Files are ready to download, and courses open right away.
 
 {% hint style="info" %}
-Paying in euros? Your payment converts to digital dollars automatically at checkout.
+Card payments and Apple Pay are being built. Today checkout takes digital dollars (USDC).
 {% endhint %}
 
 ## What you need
 
-An email address. That covers it. There is nothing technical to set up or install.
+An email address, and digital dollars (USDC) to pay with. If you do not have any yet, any exchange or wallet app that sells USDC on Solana works. There is nothing to install.
 
 ## How your payment is handled
 
 * Sellers never see your payment details.
-* If a product has a refund window, your payment is protected during it. Read more in Refunds and protection.
-* Everything you buy lives in one place in your account. See Your purchases.
+* If a product has a refund window, your payment is protected during it. Read more in [Refunds and protection](refunds-and-protection.md).
+* Everything you buy lives in one place in your account. See [Your purchases](your-purchases.md).
 
 ## Common questions
 
@@ -37,7 +37,7 @@ Lid runs in your browser. Open the link, sign in with your email, and you are se
 
 <summary>What are digital dollars?</summary>
 
-Money that works like dollars and moves over the internet in seconds. The price you see is the price you pay.
+Money that works like dollars and moves over the internet in seconds. On Lid they are USDC: one USDC is one US dollar. The price you see is the price you pay.
 
 </details>
 
@@ -45,7 +45,7 @@ Money that works like dollars and moves over the internet in seconds. The price 
 
 <summary>Can I pay with my card?</summary>
 
-Yes. Cards and Apple Pay work at checkout. You can also pay in digital dollars directly.
+Not yet. Card payments and Apple Pay are being built. Today you pay with digital dollars (USDC).
 
 </details>
 

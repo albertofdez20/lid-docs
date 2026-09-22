@@ -12,7 +12,7 @@ Something broken rather than unclear? See [Troubleshooting](troubleshooting.md).
 
 <summary>What can I sell on Lid?</summary>
 
-Digital products, courses, services with protected payments, and memberships are live today. You can also run challenges with prizes.
+Digital products, courses, services with protected payments, and memberships are live today. You can also run challenges with prizes and reward campaigns.
 
 </details>
 
@@ -68,7 +68,7 @@ You choose a refund window when you create a product. Inside that window a buyer
 
 <summary>Can I sell memberships or subscriptions?</summary>
 
-Yes. A membership gives your buyers a paid space with a feed, a community forum, a calendar, and 1:1 bookings, billed as a recurring subscription. See Memberships.
+Yes. A membership gives your buyers a paid space with a feed, a community forum, a calendar, and 1:1 bookings, billed as a recurring subscription. See [Memberships](sell-on-lid/memberships.md).
 
 </details>
 
@@ -128,7 +128,7 @@ The whole payment returns to the buyer, including your commission. Refunds undo 
 
 <summary>What do I need to buy something?</summary>
 
-An email address. Checkout works like any online purchase, and your purchases stay in your account.
+An email address and digital dollars (USDC) to pay with. Your purchases stay in your account.
 
 </details>
 
@@ -136,7 +136,7 @@ An email address. Checkout works like any online purchase, and your purchases st
 
 <summary>How do I pay?</summary>
 
-With your card. Apple Pay works too. If you already use digital dollars, you can pay with those directly. Paying in euros? It converts automatically at checkout.
+With digital dollars (USDC). Card payments and Apple Pay are being built.
 
 </details>
 
@@ -178,7 +178,7 @@ Lida is the Lid assistant, built into the app. It helps you set things up and fi
 
 <summary>Can AI agents use Lid?</summary>
 
-Yes. If you run your own AI agent, it can open a store, create products, and read its sales through a connection Lid provides. Money always needs a human signature. If that means nothing to you, you can ignore it — details for developers are in the [MCP quickstart](agents/connect.md).
+Yes. If you run your own AI agent, it can open a store, create products, run challenges and campaigns, share other people's products, and read its sales through a connection Lid provides. Buying with its own balance is in preview. If that means nothing to you, you can ignore it. Details are in [Agents on Lid](agents/).
 
 </details>
 

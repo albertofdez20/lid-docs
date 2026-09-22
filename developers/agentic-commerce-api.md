@@ -1,47 +1,28 @@
 # Agentic Commerce API
 
-In plain words: this page is about letting software, not just people, buy and sell on Lid. If you are a seller, nothing here changes how you use Lid.
+In plain words: this page is about letting software, not just people, sell and buy on Lid. If you are a seller, nothing here changes how you use Lid.
 
-**Status: the MCP write-surface v1 is live. The full public REST API is roadmap.**
+**Status: the agent connection over MCP is live. The full public REST API and SDK are roadmap.**
 
-Agents can already run the loop today over the Model Context Protocol: create a product, generate an affiliate link, initiate a checkout, and read settlement state. Access is by API key, created in the app under **Settings > Developer** (used as `Authorization: Bearer`), with signed webhooks (`x-lid-event`, `x-lid-timestamp`, `x-lid-signature`, HMAC-SHA256) for real-time events. It is early and scoped on purpose. Start at the [MCP quickstart](../agents/connect.md).
+Agents already run the loop today over MCP: create products, host files, share other people's products, open challenges and campaigns, review results, read sales and analytics, and receive signed webhooks. Purchases from the agent's own balance are in preview. Access is by API key, created in the app under **Settings > Developer** and used as a bearer token, with a REST mirror at `api.lid.pro/api/v1/agent/*`. Start at [Agents on Lid](../agents/) and the [Tool reference](../agents/tools.md).
 
-What this page describes beyond that (a full public REST API and SDK) is direction, not a live reference. The final shape will reflect design feedback from the developers and agent frameworks we're working with before ship.
+What this page describes beyond that is direction, not a live reference. The final shape reflects design feedback from the developers and agent frameworks we work with before ship.
 
 ## Why it matters
 
 If autonomous agents become meaningful economic actors over the next 12 to 24 months, they need native rails to transact with each other. Today, agents can call APIs, generate content, and reason. They cannot easily buy and sell products with on-chain attribution, split revenue automatically with other agents, or settle atomically in digital dollars.
 
-Lid is a credible candidate for those rails because the core loop is already built for it. Permissionless distribution, enforceable attribution, atomic splits, instant settlement. All four are required properties for agent commerce to work at scale. Agents already create and read on the rail today.
+Lid is a credible candidate for those rails because the core loop is already built for it. Permissionless distribution, enforceable attribution, atomic splits, instant settlement. All four are required properties for agent commerce to work at scale. Agents already create, share and read on the rail today.
 
-## What the API will support
+## What the full API adds
 
-**Product management**
+Beyond what the MCP connection does today:
 
-* Create a product (title, description, price, commission rules)
-* Update product metadata
-* List products owned by a given account
-
-**Affiliate links**
-
-* Generate an affiliate link for a given product
-* Query attribution history for a given affiliate
-
-**Checkout and settlement**
-
-* Programmatic checkout (agent-initiated purchase)
-* Query transaction status
-* Retrieve on-chain proofs for a given sale
-
-**Webhooks**
-
-* Real-time events for product created, sale completed, split settled, refund issued
-
-**Analytics**
-
-* Per-product performance
-* Per-affiliate earnings
-* Per-account transaction history
+* Programmatic checkout for production money, with spending policies per key
+* Attribution history per sharer and on-chain proofs per sale
+* Weighted splits across several referrers
+* Account-level analytics and exports
+* An SDK (JavaScript, Python)
 
 ## Who it's for
 
@@ -54,15 +35,14 @@ Lid is a credible candidate for those rails because the core loop is already bui
 ## What it's not today
 
 * A public payments API for arbitrary USDC transfers. Lid routes commerce specifically. General-purpose payments are out of scope.
-* A fiat on/off ramp. The fiat surface is a separate integration.
-* A governance API. Governance lives elsewhere.
+* A fiat on or off ramp. Bank out and card in are separate pieces, being built.
 
 ## Sequence
 
-1. Harden the MCP write-surface v1 with early design partners.
+1. Harden the MCP connection with early design partners.
 2. Engineer the full API surface.
 3. Private beta with selected agent frameworks and integration partners.
-4. Public API launch.
+4. Public API.
 
 No date commitments. Things ship when they are ready.
 
@@ -72,4 +52,4 @@ If you're building an agent or integration that needs these primitives, we want 
 
 Email [alberto@lid.pro](mailto:alberto@lid.pro) with a short description of what you're building and how you'd use the API. Selected partners get access to the private beta.
 
-Next: [Integrations →](integrations.md)
+Next: [Integrations](integrations.md)

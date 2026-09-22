@@ -2,16 +2,17 @@
 
 In plain words: the smart contract is the piece of code that moves the money. It is what makes every sale split correctly and land in seconds, without Lid ever holding the funds.
 
-Lid runs on a Solana program that enforces product registration, attribution binding, and atomic settlement. This page describes the architecture at a conceptual level. Full ABIs, method signatures, and example code publish after the external review, once the public API stabilizes.
+Lid runs on a Solana program that enforces product registration, attribution binding, and atomic settlement. This page describes the architecture at a conceptual level. Full interfaces, method signatures, and example code publish after the external review, once the public API stabilizes.
 
 ## What the program does
 
 At the contract level, Lid implements:
 
-1. **Product registry.** On-chain record of a product's ID, price, seller address, affiliate commission percentage, and delivery metadata reference.
-2. **Checkout routing.** A method that accepts a buyer's USDC payment and routes it to the seller, affiliate, and Lid per the rules set on the product.
-3. **Attribution binding.** The checkout method reads an optional affiliate reference parameter and binds that address as the beneficiary of the affiliate split for this specific sale.
+1. **Product registry.** On-chain record of a product's ID, price, seller address, sharer commission percentage, and delivery metadata reference.
+2. **Checkout routing.** A method that accepts a buyer's USDC payment and routes it to the seller, the sharer, and Lid per the rules set on the product.
+3. **Attribution binding.** The checkout method reads an optional share reference parameter and binds that address as the beneficiary of the sharer split for this specific sale.
 4. **Fee enforcement.** The 3% fee is a hard-coded split in the settlement logic, routed to a Lid-controlled address.
+5. **Pools.** For challenges and campaigns, a budget sits in a pool the funder controls until a result verifies; assignment and claims are recorded on the same public ledger.
 
 ## Atomicity
 
@@ -19,19 +20,20 @@ Every checkout is a single Solana transaction. Within that transaction:
 
 * Buyer's USDC is moved out
 * Seller's share is moved in
-* Affiliate's share is moved in (if applicable)
+* Sharer's share is moved in (if applicable)
 * Lid's fee is moved in
 * Access metadata is emitted (event log)
 
-If any step fails, the transaction reverts. No partial state exists where the buyer has paid without receiving the product, or where the seller has been paid and the affiliate hasn't.
+If any step fails, the transaction reverts. No partial state exists where the buyer has paid without receiving the product, or where the seller has been paid and the sharer hasn't.
 
 ## What lives on-chain
 
 * Product registry entries
 * Every sale transaction
 * Every split settlement
-* Affiliate attribution bindings
-* Seller and affiliate account balances (in USDC)
+* Share attribution bindings
+* Pool funding, assignments and claims
+* Seller and sharer account balances (in USDC)
 
 ## What lives off-chain
 
@@ -44,7 +46,7 @@ Off-chain data is not a source of truth for money flow. It exists to make the ex
 
 ## Upgradability
 
-The current contracts are designed for controlled upgradability during the alpha phase. Upgrade authority is governed by a multi-sig and will transition to a decentralized governance model as the protocol matures.
+The current contracts are designed for controlled upgradability during the alpha phase. Upgrade authority is held by a multi-sig.
 
 No upgrade can retroactively change the terms of past sales. Historical split records are immutable regardless of future contract versions.
 
@@ -65,7 +67,7 @@ No upgrade can retroactively change the terms of past sales. Historical split re
 
 **Not in place today:**
 
-* Third-party audit report.
+* Third-party review report.
 * Published bug bounty program.
 
 We are transparent about what is and isn't done. During active alpha, every completed loop is reviewed for correctness.
@@ -76,8 +78,8 @@ If you find a vulnerability, email [alberto@lid.pro](mailto:alberto@lid.pro) wit
 
 ## What developers can do today
 
-Today, contract interaction happens through the Lid web app and the MCP write-surface v1. Direct on-chain interaction is possible (the contracts are deployed and public). There is no published SDK or client library today.
+Today, contract interaction happens through the Lid web app and the agent connection over MCP (see [Agents on Lid](../agents/)). Direct on-chain interaction is possible (the contracts are deployed and public). There is no published SDK or client library today.
 
 The Agentic Commerce API (roadmap) will provide the developer surface for programmatic access.
 
-Next: [Agentic Commerce API →](agentic-commerce-api.md)
+Next: [Agentic Commerce API](agentic-commerce-api.md)

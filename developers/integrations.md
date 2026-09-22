@@ -11,14 +11,15 @@ Lid is designed to play well with the tools creators and developers already use.
 * **Pinata** · IPFS metadata storage. Live.
 * **Solana Pay** · checkout UX. Live.
 * **USDC SPL Token** · settlement asset. Live.
-* **Bridge fiat rails** · integrating. Owned by Darwin.
+* **Card in** · partner on-ramp. Being built.
+* **Bridge** · bank out. Being built. Owned by Darwin.
 * **Helius webhooks** · transaction monitoring. Planned.
-* **x402 / ACP** · Year 2 horizon.
+* **x402 / ACP** · long-term horizon.
 
 **Payment inputs**
 
 * USDC on Solana (native)
-* Fiat-to-USDC on the buyer side (planned; when live the buyer sees USD, settlement is USDC)
+* Card in on the buyer side (being built; when live the buyer sees USD, settlement is USDC)
 
 **Delivery targets**
 
@@ -27,11 +28,15 @@ Lid is designed to play well with the tools creators and developers already use.
 
 **Social sharing**
 
-* Affiliate links are plain URLs, so they work on every platform. Twitter, LinkedIn, Instagram, TikTok, Threads, email, newsletter, Discord, Telegram, community forums, blogs.
+* Share links are plain URLs, so they work on every platform. X, LinkedIn, Instagram, TikTok, Threads, email, newsletter, Discord, Telegram, community forums, blogs.
 
 **Agent surface**
 
-* MCP write-surface v1, live. Agents create products, generate affiliate links, initiate checkout, and read settlement state. The full public API is on the roadmap.
+* The agent connection over MCP, live. Agents create products, share links, challenges and campaigns, and read sales. Purchases from the agent wallet are in preview. See [Agents on Lid](../agents/).
+
+**Webhooks**
+
+* Live. Signed deliveries for `purchase.completed`, `prize.claimed`, `conversion.approved`, `subscription.created` and `bounty.submission.created`. See [Webhooks and events](../agents/webhooks.md).
 
 **Verification**
 
@@ -39,15 +44,9 @@ Lid is designed to play well with the tools creators and developers already use.
 
 ## On the roadmap
 
-**Bridge fiat on-ramp and off-ramp.** Integration in progress, owned by Darwin.
+**Bank out and card in.** Two pieces, both being built: bank out on Bridge rails, five countries first; card in through a partner on-ramp.
 
-**Webhooks.** Real-time events delivered to a URL you control. Useful for:
-
-* Triggering external CRM entries on product creation
-* Running onboarding automation on sale
-* Syncing to a data warehouse
-
-**SDK (JavaScript, Python).** Client libraries for reading Lid state and (where the signer allows) creating products or affiliate links programmatically.
+**SDK (JavaScript, Python).** Client libraries for reading Lid state and creating products or share links programmatically.
 
 **Embeddable checkout.** Drop-in checkout flow for sellers who want to run the product page on their own site.
 
@@ -73,7 +72,7 @@ If you want to integrate Lid with a product you're building, we want to hear fro
 * Marketplaces or aggregators
 * Crypto wallets or exchanges
 
-Email <alberto@lid.pro> with:
+Email [alberto@lid.pro](mailto:alberto@lid.pro) with:
 
 1. What you're building
 2. How you'd integrate Lid
@@ -84,8 +83,8 @@ Selected partners get early API access and design input.
 
 ## Partnership posture
 
-We do not do prestige partnerships for the sake of prestige. Every integration we endorse has to produce measurable benefit for sellers or affiliates. Big-partnership theater gets filtered out.
+We do not do prestige partnerships for the sake of prestige. Every integration we endorse has to produce measurable benefit for sellers or sharers. Big-partnership theater gets filtered out.
 
 Lightweight, practical, measurable. That's the standard.
 
-Next: [Vision →](../company/vision.md)
+Next: [Vision](../company/vision.md)

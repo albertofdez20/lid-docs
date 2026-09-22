@@ -8,20 +8,28 @@ Create a short link under **Links** in your [dashboard](https://lid.pro/dashboar
 
 ## Reward campaigns
 
-1. Create a campaign and define the result that counts.
-2. Fund the reward pool.
+1. Create a campaign and define the result that counts: a signup, a purchase, any event you name.
+2. Fund the reward pool. The pool stays in your control until a result verifies.
 3. Open it up. Anyone can click **Generate my link** to get their own version.
-4. When a visitor hits the goal, the sharer who brought them is paid from the pool in seconds.
-
-<!-- screenshot: campaign setup with goal and reward pool -->
+4. When a visitor hits the goal, the result lands in your dashboard for review. The moment you approve it, the sharer who brought it is paid from the pool.
 
 Each sharer sees their own clicks, results, and earnings under **My shared links**.
 
 ## FAQ
 
-<details><summary>How long does a sharer get credit for a visitor?</summary>
+<details>
 
-You set the window per campaign. The default is 7 days.
+<summary>How long does a sharer get credit for a visitor?</summary>
+
+You set the window per campaign, from 1 to 90 days. The default is 7 days.
+
+</details>
+
+<details>
+
+<summary>Is there a fee?</summary>
+
+The flat 3% applies to the budget when you fund the pool, the same as a challenge.
 
 </details>
 

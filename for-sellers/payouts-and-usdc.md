@@ -5,34 +5,36 @@ When someone buys your product, your money arrives in seconds, automatically.
 ## How it works
 
 1. A buyer pays on your product page.
-2. The payment splits on its own: your share, the sharer's commission, Lid's 3%.
+2. The payment splits on its own: your share, the sharer's commission, Lid's 3%. It is one transaction.
 3. Your balance goes up right away.
 
 There is no payout schedule, no minimum, and no withdrawal request. The sale and your payment are the same moment. Lid never holds your money.
 
 {% hint style="info" %}
-You get paid in digital dollars: a dollar that lives online. One digital dollar is worth one US dollar, always. Your balance is in dollars and stays in dollars.
+Your balance is in digital dollars (USDC): a dollar that lives online. One USDC is worth one US dollar, always. Your balance is in dollars and stays in dollars. Your Lid balance holds USDC only: if you ever deposit from outside, send USDC on Solana and nothing else.
 {% endhint %}
 
 ## Where to see your balance
 
 Your balance and full sales history live in your [dashboard](https://lid.pro/dashboard).
 
-<!-- screenshot: dashboard balance view -->
-
 ## Cashing out
 
-Today you can send your digital dollars from Settings to an app that converts them to regular money. Paying out to your bank directly is coming.
+Today you can send your USDC from Settings to an app or exchange that converts it to regular money. Paying out to your bank account directly is being built.
 
 ## FAQ
 
-<details><summary>Can buyers pay with a card?</summary>
+<details>
 
-Card payments are coming. Today buyers pay with digital dollars.
+<summary>Can buyers pay with a card?</summary>
+
+Card payments and Apple Pay are being built. Today buyers pay with digital dollars (USDC).
 
 </details>
 
-<details><summary>What if a payment looks wrong?</summary>
+<details>
+
+<summary>What if a payment looks wrong?</summary>
 
 Email [alberto@lid.pro](mailto:alberto@lid.pro) and we look at it first thing.
 

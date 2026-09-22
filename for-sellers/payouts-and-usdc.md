@@ -6,44 +6,38 @@ description: >-
 
 # Getting paid
 
-When someone buys your product, your money arrives in seconds, automatically.
+When someone buys your product, your money arrives in seconds, automatically. This page answers the questions people ask about it.
 
-## How it works
+## How fast do I get paid on Lid?
 
-1. A buyer pays on your product page.
-2. The payment splits on its own: your share, the sharer's commission, Lid's 3%. It is one transaction.
-3. Your balance goes up right away.
+In the same second the buyer pays. The sale, the split and the payout are one transaction: your share, the sharer's commission and Lid's 3% settle together, and your balance goes up right away. There is no payout day, no minimum, and no withdrawal request. Lid never holds your money.
 
-There is no payout schedule, no minimum, and no withdrawal request. The sale and your payment are the same moment. Lid never holds your money.
+## What do I get paid in?
 
-{% hint style="info" %}
-Your balance is in digital dollars (USDC): a dollar that lives online. One USDC is worth one US dollar, always. Your balance is in dollars and stays in dollars. Your Lid balance holds USDC only: if you ever deposit from outside, send USDC on Solana and nothing else.
+Digital dollars (USDC): a dollar that lives online. One USDC is worth one US dollar, always. Your balance is in dollars and stays in dollars.
+
+{% hint style="warning" %}
+Your Lid balance holds USDC only. If you ever deposit from outside, send USDC on Solana and nothing else.
 {% endhint %}
 
-## Where to see your balance
+## Where do I see my balance?
 
-Your balance and full sales history live in your [dashboard](https://lid.pro/dashboard).
+In your [dashboard](https://lid.pro/dashboard), with your full sales history: date, product, sale amount, your share.
 
-## Cashing out
+## How do I cash out?
 
-Today you can send your USDC from Settings to an app or exchange that converts it to regular money. Paying out to your bank account directly is being built.
+Today you send your USDC from Settings to an app or exchange that converts it to regular money. Paying out to your bank account directly is being built, five countries first.
 
-## FAQ
+## Can buyers pay with a card?
 
-<details>
+Not yet. Card payments and Apple Pay are being built. Today buyers pay with digital dollars (USDC).
 
-<summary>Can buyers pay with a card?</summary>
+## Is there a minimum payout or a waiting period?
 
-Card payments and Apple Pay are being built. Today buyers pay with digital dollars (USDC).
+No. Every sale pays in full, in seconds, whatever the amount. The one exception is a refund window you set yourself: with a window, the payment is protected until it closes, then releases to you on its own. See [Refunds and protection](refunds-and-escrow.md).
 
-</details>
+## What if a payment looks wrong?
 
-<details>
-
-<summary>What if a payment looks wrong?</summary>
-
-Email [alberto@lid.pro](mailto:alberto@lid.pro) and we look at it first thing.
-
-</details>
+Email [alberto@lid.pro](mailto:alberto@lid.pro) with the product link and the time of the sale. Money questions go to the front of the line.
 
 Want your next sale to pay you in seconds? This is the link: [lid.pro](https://lid.pro)

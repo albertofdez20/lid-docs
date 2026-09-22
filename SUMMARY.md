@@ -16,6 +16,7 @@
 * [Getting paid](for-sellers/payouts-and-usdc.md)
 * [Courses](for-sellers/courses.md)
 * [Memberships](sell-on-lid/memberships.md)
+* [Services](sell-on-lid/services.md)
 * [Challenges](for-sellers/bounties.md)
 * [Links and campaigns](for-sellers/links-and-campaigns.md)
 * [Refunds and protection](for-sellers/refunds-and-escrow.md)

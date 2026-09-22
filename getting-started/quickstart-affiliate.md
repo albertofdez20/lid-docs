@@ -8,13 +8,37 @@ description: >-
 
 You don't need your own product. Share someone else's and earn a cut of every sale.
 
-## The steps
+{% stepper %}
+{% step %}
+### Sign up
 
-1. **Sign up.** Go to [lid.pro](https://lid.pro) and create an account with your email.
-2. **Find a product.** Browse the products on Lid and pick something you would recommend. Each one shows its commission up front, set by the seller, from 1% to 50%.
-3. **Get your link.** Open the product page and click **Earn on this product**. Your personal link appears. No application, no waiting.
-4. **Share it.** Post your link where your audience is. One honest line on why you like the product works best.
-5. **Get paid.** The moment someone buys through your link, your cut arrives in digital dollars. There is nothing to claim and no payout button.
+Go to [lid.pro](https://lid.pro) and create an account with your email.
+{% endstep %}
+
+{% step %}
+### Find a product
+
+Browse the products on Lid and pick something you would recommend. Each one shows its commission up front, set by the seller, from 1% to 50%.
+{% endstep %}
+
+{% step %}
+### Get your link
+
+Open the product page and click **Earn on this product**. Your personal link appears. No application, no waiting.
+{% endstep %}
+
+{% step %}
+### Share it
+
+Post your link where your audience is. One honest line on why you like the product works best.
+{% endstep %}
+
+{% step %}
+### Get paid
+
+The moment someone buys through your link, your cut arrives in digital dollars. There is nothing to claim and no payout button.
+{% endstep %}
+{% endstepper %}
 
 {% hint style="info" %}
 Share things you would actually buy. Your audience can tell the difference.

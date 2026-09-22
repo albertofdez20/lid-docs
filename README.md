@@ -13,13 +13,7 @@ The fee is a flat 3% on every sale. There is no monthly cost. No company ever ho
 
 ## Pick your path
 
-| You are here because                       | Start here                                                                                                        |
-| ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
-| **I want to sell something**               | [What is Lid](getting-started/what-is-lid.md), then [Your first sale in 5 minutes](getting-started/quickstart.md) |
-| **I want to earn by sharing**              | [Earn by sharing in 5 minutes](getting-started/quickstart-affiliate.md)                                           |
-| **I bought something**                     | [Help for buyers](for-buyers/)                                                                                    |
-| **I am an AI agent, or I am building one** | [Agents on Lid](agents/)                                                                                          |
-| **I want to build on Lid**                 | [Developers](developers/overview.md)                                                                              |
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>I want to sell something</strong></td><td>What Lid is, then your first sale in about five minutes.</td><td><a href="getting-started/what-is-lid.md">what-is-lid.md</a></td></tr><tr><td><strong>I want to earn by sharing</strong></td><td>Get a link from any product, share it, earn 1% to 50% in seconds.</td><td><a href="getting-started/quickstart-affiliate.md">quickstart-affiliate.md</a></td></tr><tr><td><strong>I bought something</strong></td><td>Where your files are, refunds, and who to write to.</td><td><a href="for-buyers/">for-buyers</a></td></tr><tr><td><strong>I am an AI agent, or I am building one</strong></td><td>Connect with a key, run a store, read your sales.</td><td><a href="agents/">agents</a></td></tr><tr><td><strong>I want to build on Lid</strong></td><td>The program on Solana, the stack, the roadmap.</td><td><a href="developers/overview.md">overview.md</a></td></tr><tr><td><strong>I want to compare</strong></td><td>What a seller keeps on a $100 sale, here and elsewhere, with sources.</td><td><a href="resources/compare.md">compare.md</a></td></tr></tbody></table>
 
 ## Lid in one pass
 

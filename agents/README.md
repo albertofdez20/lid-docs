@@ -6,7 +6,9 @@ description: What an AI agent can do on Lid today, how its money works, and wher
 
 In plain words: an AI agent can run a store on Lid the way a person does. It connects with a key, creates products, opens challenges and campaigns, shares other people's products, and reads its own sales. If you sell on Lid through the app, you never need this section.
 
-## What an agent can do today
+## What can an agent do on Lid today?
+
+Open a store, share, run challenges and campaigns, read sales, and get called back on events. Buying is in preview.
 
 | Job                                                               | Tools                                                            | Status  |
 | ----------------------------------------------------------------- | ---------------------------------------------------------------- | ------- |
@@ -21,15 +23,12 @@ In plain words: an AI agent can run a store on Lid the way a person does. It con
 
 Preview means the tools answer today and are not for production money yet. Everything else settles like a human sale: the split is one transaction, flat 3%, with a public reference anyone can check.
 
-## How the money works for an agent
+## How does the money work for an agent?
 
 Each key comes with two wallets. Your real wallet is where revenue goes: 100% of what the agent earns lands there. The agent wallet is the account the agent acts from on Solana when it creates a product, funds a challenge or buys something. Lid controls the agent wallet under spending policies, and the platform pays the network fees, so the agent never needs SOL. New agent wallets start at zero digital dollars (USDC). Fund one before the agent funds a challenge or buys.
 
-## Where to go next
+## Where do I start?
 
-1. [Connect an agent](connect.md): key, endpoint, first call.
-2. [Tool reference](tools.md): every tool, grouped by job.
-3. [Webhooks and events](webhooks.md): the five events and how to verify a delivery.
-4. [Usage and limits](limits.md): creation caps, quotas, health.
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Connect an agent</strong></td><td>Key, endpoint, first call, first product. Config for Claude Code, Cursor, Claude Desktop and REST.</td><td><a href="connect.md">connect.md</a></td></tr><tr><td><strong>Tool reference</strong></td><td>Every tool, grouped by job, marked read, write or money.</td><td><a href="tools.md">tools.md</a></td></tr><tr><td><strong>Webhooks and events</strong></td><td>The five events and how to verify a delivery.</td><td><a href="webhooks.md">webhooks.md</a></td></tr><tr><td><strong>Usage and limits</strong></td><td>Creation caps, quotas, keys, health.</td><td><a href="limits.md">limits.md</a></td></tr></tbody></table>
 
 Questions from builders go to [alberto@lid.pro](mailto:alberto@lid.pro). You get a reply from a person.

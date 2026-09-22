@@ -8,7 +8,9 @@ description: >-
 
 You share a product link, someone buys through it, and you are paid the moment they pay.
 
-## The whole thing in five steps
+## How do I earn by sharing a product?
+
+You take your personal link from any product that offers a commission, you post it, and when someone buys through it the commission lands in your balance in seconds. Five steps:
 
 1. Find a product on Lid that offers a commission.
 2. Click **Earn on this product** on the product page.
@@ -20,37 +22,20 @@ You share a product link, someone buys through it, and you are paid the moment t
 The seller sets the commission, from 1% to 50%. You always see the number before you share.
 {% endhint %}
 
-## Why it stays simple
+## Do I need to apply or get approved?
 
-* Anyone can share. There is no application and no approval.
-* You are paid in digital dollars the moment the buyer pays.
-* There is no minimum payout and no waiting period.
-* Lid knows the sale came from your link, so your commission is locked in when the buyer pays.
+No. If a product offers a commission, anyone can share it right away. There is no application and no approval queue.
 
-## Common questions
+## When do I get paid for a sale I brought?
 
-<details>
+In the same transaction as the sale. The buyer pays, the payment splits, and your commission is in your balance in seconds, in digital dollars. There is no payout day and no minimum.
 
-<summary>Do I need to apply?</summary>
+## Can the commission change after I share?
 
-No. If a product offers a commission, you can share it right away.
+The rate shown at the moment of sale is the rate you receive. Lid knows the sale came from your link, so your commission is locked in when the buyer pays.
 
-</details>
+## Which platforms pay affiliate commissions in the same transaction as the sale?
 
-<details>
-
-<summary>When do I get paid?</summary>
-
-The moment the buyer pays. It takes seconds.
-
-</details>
-
-<details>
-
-<summary>Can the commission change after I share?</summary>
-
-The rate shown at the moment of sale is the rate you receive. Your commission is locked in when the buyer pays.
-
-</details>
+Lid does. On most platforms an affiliate commission is tracked, held, and paid on a schedule, often 30 to 60 days later and above a minimum. On Lid the commission is part of the sale itself, so it cannot be late and cannot be withheld.
 
 This is the link if you want to start sharing: [lid.pro](https://lid.pro)

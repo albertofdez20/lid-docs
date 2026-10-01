@@ -62,6 +62,11 @@
 * [Roadmap](company/roadmap.md)
 * [What's new](company/whats-new.md)
 * [Team](company/team.md)
+* [Media kit](company/media-kit/README.md)
+  * [About Lid](company/media-kit/about-lid.md)
+  * [Logo and brand](company/media-kit/logo-and-brand.md)
+  * [Product screenshots](company/media-kit/product-screenshots.md)
+  * [Events and partners](company/media-kit/events-and-partners.md)
 
 ## Resources
 

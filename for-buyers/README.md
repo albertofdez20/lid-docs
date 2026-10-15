@@ -1,7 +1,8 @@
 ---
 description: >-
   What happens when you buy on Lid: sign in with an email, pay with digital
-  dollars (USDC), get access right away. Card payments are being built.
+  dollars (USDC), get access right away. You can add money by card through
+  MoonPay.
 ---
 
 # Buying on Lid
@@ -16,7 +17,7 @@ Someone shared a link with you, or you found something you want. This page walks
 4. You get access immediately. Files are ready to download, and courses open right away.
 
 {% hint style="info" %}
-Card payments and Apple Pay are being built. Today checkout takes digital dollars (USDC).
+Checkout takes digital dollars (USDC). You can add them with a card, Apple Pay or a bank transfer through MoonPay, where MoonPay operates.
 {% endhint %}
 
 ## What you need
@@ -51,7 +52,7 @@ Money that works like dollars and moves over the internet in seconds. On Lid the
 
 <summary>Can I pay with my card?</summary>
 
-Not yet. Card payments and Apple Pay are being built. Today you pay with digital dollars (USDC).
+Yes. Add funds with a card, Apple Pay or a bank transfer through MoonPay, where MoonPay operates, and pay in digital dollars (USDC).
 
 </details>
 

@@ -30,7 +30,7 @@ Today you send your USDC from Settings to an app or exchange that converts it to
 
 ## Can buyers pay with a card?
 
-Not yet. Card payments and Apple Pay are being built. Today buyers pay with digital dollars (USDC).
+Yes. Buyers add funds with a card, Apple Pay or a bank transfer through MoonPay, where MoonPay operates, and pay in digital dollars (USDC).
 
 ## Is there a minimum payout or a waiting period?
 

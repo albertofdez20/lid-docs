@@ -12,6 +12,7 @@
 
 * [Create a product](for-sellers/create-a-product.md)
 * [Your product page](for-sellers/your-product-page.md)
+* [Your own site](sell-on-lid/your-own-site.md)
 * [Pricing and fees](for-sellers/pricing-and-fees.md)
 * [Getting paid](for-sellers/payouts-and-usdc.md)
 * [Courses](for-sellers/courses.md)

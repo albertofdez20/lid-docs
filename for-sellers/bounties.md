@@ -1,12 +1,12 @@
 ---
 description: >-
-  Run a challenge with a prize: post it, fund the pool, pick the winners, each
-  prize holder claims their prize. Called bounties in the API.
+  Run a challenge with a prize: post it, fund the pool, choose who gets each
+  prize, and each prize holder claims their prize. Called bounties in the API.
 ---
 
 # Challenges
 
-A challenge is a competition with a prize. You post it, people compete, you pick the winners, and each winner claims their prize.
+A challenge is a competition with a prize. You post it, people compete, you choose who gets each prize, and each prize holder claims their prize.
 
 {% hint style="info" %}
 Challenges were called Bounties until August 2026. Same feature, clearer name. Older links still work.
@@ -16,15 +16,15 @@ Challenges were called Bounties until August 2026. Same feature, clearer name. O
 
 1. Go to **Challenges → New challenge** in your [dashboard](https://lid.pro/dashboard).
 2. Describe the challenge and how you will judge it, in plain language.
-3. Set the prize and how it splits across winners.
+3. Set the prize and how it splits across places.
 4. Set a deadline, or leave it open.
 5. Fund it and publish.
 
 The prize money is set aside safely the moment you publish. Participants can see it is there before they start working, so they trust the challenge.
 
-## Picking winners
+## Assigning the prizes
 
-Submissions arrive in your dashboard. You choose the winners. The moment you approve, each winner's prize is locked in for them, with a public receipt, and they claim it from their own dashboard.
+Submissions arrive in your dashboard. You choose who gets each prize. The moment you approve, each prize is assigned, with a public record anyone can check, and its holder claims it from their own dashboard.
 
 ## FAQ
 
@@ -38,7 +38,7 @@ The flat 3% applies when you fund the challenge.
 
 <details>
 
-<summary>When do winners get their money?</summary>
+<summary>When do prize holders get their money?</summary>
 
 Their share is locked in the moment you approve. They claim it from their dashboard, and nobody can take it from them in between.
 

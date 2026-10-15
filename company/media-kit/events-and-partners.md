@@ -10,15 +10,15 @@ description: >-
 
 {% tabs %}
 {% tab title="English" %}
-Lid. The creator suite.
+Lid. The digital business suite.
 
-Store, challenges and campaigns in one place.
+Your community, your courses, your products in one place.
 {% endtab %}
 
 {% tab title="Español" %}
-Lid. La suite del creador.
+Lid. La suite para negocios digitales.
 
-Tienda, retos y campañas en un solo lugar.
+Tu comunidad, tus cursos, tus productos en un solo lugar.
 {% endtab %}
 {% endtabs %}
 
@@ -26,7 +26,7 @@ Tienda, retos y campañas en un solo lugar.
 
 Banners in five sizes, in English and Spanish. They are in the ZIP and the Google Drive folder on the Media kit page.
 
-<figure><img src="../../.gitbook/assets/lid-banner-en-1200x627.png" alt="Lid banner: Lid. The creator suite. Store, challenges, campaigns."><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/lid-banner-en-1200x627 (1).png" alt="Lid banner: Lid. The digital business suite. Your community, your courses, your products in one place."><figcaption></figcaption></figure>
 
 | Size        | Use                         | English                     | Español                     |
 | ----------- | --------------------------- | --------------------------- | --------------------------- |

@@ -73,7 +73,7 @@ Vender en línea puede implicar cinco herramientas, hasta un 20% en comisiones y
 | Price         | 3% of each sale and $0 a month to sell                                                                                                                           |
 | Payments      | Buyers pay in digital dollars (USDC). The business or creator receives them the moment someone joins or buys                                                     |
 | Proof         | Lid's first three challenges assigned $300 in nine prizes, and every prize has been claimed. Anyone can check the record on lid.pro                              |
-| Built on      | Solana. Lid started on Solana in Colosseum's Frontier hackathon and was built at La Familia's El Taller in Madrid                                                |
+| Built on      | Solana. Lid started on Solana in Colosseum's Frontier hackathon and was built at La Familia's El Taller                                                          |
 | Company       | Lid Labs Technologies, registered in Dubai                                                                                                                       |
 | Founders      | Alberto Fernández, CEO, and Darwin Ramírez, CTO                                                                                                                  |
 | Website       | lid.pro                                                                                                                                                          |
@@ -92,7 +92,7 @@ Vender en línea puede implicar cinco herramientas, hasta un 20% en comisiones y
 | Precio             | 3% por venta y $0 al mes por vender                                                                                                                                                              |
 | Pagos              | Quien compra paga en dólares digitales (USDC). El negocio o el creador los recibe en el momento en que alguien entra o compra                                                                    |
 | Prueba             | Los tres primeros retos de Lid asignaron 300 USD en nueve premios, y todos ya se cobraron. Cualquiera puede comprobarlo en lid.pro                                                               |
-| Funciona sobre     | Solana. Lid llegó a Solana en el hackathon Frontier de Colosseum y se construyó en El Taller de La Familia, en Madrid                                                                            |
+| Funciona sobre     | Solana. Lid llegó a Solana en el hackathon Frontier de Colosseum y se construyó en El Taller de La Familia                                                                                       |
 | Empresa            | Lid Labs Technologies, registrada en Dubái                                                                                                                                                       |
 | Fundadores         | Alberto Fernández, CEO, y Darwin Ramírez, CTO                                                                                                                                                    |
 | Sitio web          | lid.pro                                                                                                                                                                                          |

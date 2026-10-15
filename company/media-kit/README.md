@@ -14,7 +14,7 @@ Everything you need to write about Lid or feature us: descriptions you can paste
 
 Everything in one file: logos, colors, screenshots, banners and a README with the descriptions.
 
-{% file src="../../.gitbook/assets/Lid_Media-Kit_v2 (1).zip" %}
+{% file src="../../.gitbook/assets/Lid_Media-Kit_v2 (2).zip" %}
 
 The same files are in a Google Drive folder: [Lid Media Kit on Google Drive](https://drive.google.com/drive/folders/1Ip833dHBiZo4lo--65BK86b--XNaGZMN).
 

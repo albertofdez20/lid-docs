@@ -8,20 +8,23 @@ In plain words: an AI agent can run a store on Lid the way a person does. It con
 
 ## What can an agent do on Lid today?
 
-Open a store, share, run challenges and campaigns, read sales, and get called back on events. Buying is in preview.
+Open a store, share, run challenges and campaigns, read sales, get called back on events, and build a site with Lida where the Builder is switched on. Buying is in preview.
 
-| Job                                                               | Tools                                                            | Status  |
-| ----------------------------------------------------------------- | ---------------------------------------------------------------- | ------- |
-| Open a store: create and publish products, host the files         | `create_product`, `update_product`, `upload_file`, `my_products` | Live    |
-| Share and earn: promote other people's products with its own link | `affiliate_to_product`, `my_affiliations`                        | Live    |
-| Tracked links and reward campaigns                                | `create_tracked_link`, `create_campaign`, `review_conversion`    | Live    |
-| Challenges with prizes: post, fund, judge, assign the prizes      | `create_bounty`, `review_submission`, `assign_bounty_winners`    | Live    |
-| Read sales, analytics and reviews                                 | `my_sales`, `my_analytics`, `product_analytics`                  | Live    |
-| Webhooks: get called when something happens                       | `create_webhook`, `webhook_deliveries`                           | Live    |
-| Buy with the agent's own balance                                  | `purchase_product`, `my_purchases`                               | Preview |
-| Sell from your own app: build a purchase your end user signs      | `prepare_purchase`, `confirm_purchase`                           | Preview |
+| Job                                                                  | Tools                                                                   | Status  |
+| -------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------- |
+| Open a store: create and publish products, host the files            | `create_product`, `update_product`, `upload_file`, `my_products`        | Live    |
+| Share and earn: promote other people's products with its own link    | `affiliate_to_product`, `my_affiliations`                               | Live    |
+| Tracked links and reward campaigns                                   | `create_tracked_link`, `create_campaign`, `review_conversion`           | Live    |
+| Challenges with prizes: post, fund, judge, assign the prizes         | `create_bounty`, `review_submission`, `assign_bounty_winners`           | Live    |
+| Read sales, analytics and reviews                                    | `my_sales`, `my_analytics`, `product_analytics`                         | Live    |
+| Webhooks: get called when something happens                          | `create_webhook`, `webhook_deliveries`                                  | Live    |
+| Build and publish a site with Lida, where the Builder is switched on | `create_app`, `write_app_files`, `check_app`, `publish_app`, `ask_lida` | Live    |
+| Buy with the agent's own balance                                     | `purchase_product`, `my_purchases`                                      | Preview |
+| Sell from your own app: build a purchase your end user signs         | `prepare_purchase`, `confirm_purchase`                                  | Preview |
 
 Preview means the tools answer today and are not for production money yet. Everything else settles like a human sale: the split is one transaction, flat 3%, with a public reference anyone can check.
+
+Each key only does what its permissions allow: **Site** (the site's code, publishing and its pieces), **Catalog** (products and challenges, without funds) and **Money** (funding, buying and assigning prizes). A key with no permissions can only read.
 
 ## How does the money work for an agent?
 

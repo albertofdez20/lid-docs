@@ -1,7 +1,7 @@
 ---
 description: >-
-  What integrates with Lid today (Privy, Alchemy, Pinata, Solana Pay, USDC,
-  webhooks, MCP), what is being built, and how to propose an integration.
+  What integrates with Lid today (Privy, MoonPay, Alchemy, Pinata, Solana Pay,
+  USDC, webhooks, MCP), what is being built, and how to propose an integration.
 ---
 
 # Integrations
@@ -17,15 +17,15 @@ Lid is designed to play well with the tools creators and developers already use.
 * **Pinata** · IPFS metadata storage. Live.
 * **Solana Pay** · checkout UX. Live.
 * **USDC SPL Token** · settlement asset. Live.
-* **Card in** · partner on-ramp. Being built.
-* **Bridge** · bank out. Being built. Owned by Darwin.
+* **MoonPay** · card in: card, Apple Pay or bank transfer into digital dollars. Live.
+* **Bridge** · bank out. Being built.
 * **Helius webhooks** · transaction monitoring. Planned.
 * **x402 / ACP** · long-term horizon.
 
 **Payment inputs**
 
 * USDC on Solana (native)
-* Card in on the buyer side (being built; when live the buyer sees USD, settlement is USDC)
+* Card, Apple Pay or bank transfer on the buyer side, through MoonPay where MoonPay operates: the buyer adds digital dollars (USDC) and pays in USDC
 
 **Delivery targets**
 
@@ -38,7 +38,7 @@ Lid is designed to play well with the tools creators and developers already use.
 
 **Agent surface**
 
-* The agent connection over MCP, live. Agents create products, share links, challenges and campaigns, and read sales. Purchases from the agent wallet are in preview. See [Agents on Lid](../agents/).
+* The agent connection over MCP, live. Agents create products, share links, challenges and campaigns, read sales, and build sites with Lida where the Builder is switched on. Purchases from the agent wallet are in preview. See [Agents on Lid](../agents/).
 
 **Webhooks**
 
@@ -50,7 +50,7 @@ Lid is designed to play well with the tools creators and developers already use.
 
 ## On the roadmap
 
-**Bank out and card in.** Two pieces, both being built: bank out on Bridge rails, five countries first; card in through a partner on-ramp.
+**Bank out.** Being built on Bridge rails, five countries first. Card in is already live through MoonPay.
 
 **SDK (JavaScript, Python).** Client libraries for reading Lid state and creating products or share links programmatically.
 

@@ -18,7 +18,7 @@ Something broken rather than unclear? See [Troubleshooting](troubleshooting.md).
 
 <summary>What can I sell on Lid?</summary>
 
-Digital products, courses, services with protected payments, and memberships are live today. You can also run challenges with prizes and reward campaigns.
+Digital products, courses and memberships are live today. You can also run challenges with prizes and reward campaigns, and put it all on your own site. Services with protected payments are being built.
 
 </details>
 
@@ -34,7 +34,7 @@ A flat 3% of each sale. There is no monthly fee and no setup cost.
 
 <summary>How fast do I get paid?</summary>
 
-Within seconds of the sale. The payment splits automatically the moment it happens, and your share lands in your balance.
+Within seconds of the sale. The payment splits automatically the moment it happens, and your share lands in your balance. If you set a refund window, it waits until the window ends.
 
 </details>
 
@@ -66,7 +66,7 @@ Yes, going forward. Sales that already happened keep the split they were made un
 
 <summary>Can buyers get refunds?</summary>
 
-You choose a refund window when you create a product. Inside that window a buyer can ask for their money back. If you set no window, you are paid instantly and sales are final.
+You choose a refund window when you create a product. Inside that window a buyer can open a dispute, and a person on our team decides whether the money goes to you or back to them. If you set no window, you are paid instantly and sales are final.
 
 </details>
 
@@ -74,7 +74,7 @@ You choose a refund window when you create a product. Inside that window a buyer
 
 <summary>Can I sell memberships or subscriptions?</summary>
 
-Yes. A membership gives your buyers a paid space with a feed, a community forum, a calendar, and 1:1 bookings, billed as a recurring subscription. See [Memberships](sell-on-lid/memberships.md).
+Yes. A membership gives your members posts only they can see, messages with you and your own page, on a monthly or yearly plan billed as a recurring subscription. See [Memberships](sell-on-lid/memberships.md).
 
 </details>
 
@@ -92,7 +92,7 @@ Yes. Your buyers, your content, and your pricing are yours. Lid is the tool unde
 
 <summary>How do I earn by sharing?</summary>
 
-Find a product with commission turned on, grab your share link, and post it anywhere. When someone buys through your link, your share lands in your balance within seconds.
+Find a product with commission turned on, grab your share link, and post it anywhere. When someone buys through your link, your commission is assigned to you in the same transaction, and only you can claim it.
 
 </details>
 
@@ -116,7 +116,15 @@ No. If commission is on, anyone can share and earn. There is no application and 
 
 <summary>When do I get my commission?</summary>
 
-The moment the sale happens. There is no payout day and no minimum balance.
+It is assigned to you the moment the sale happens. Withdraw it from **Earnings & analytics → Affiliates** when you want. There is no payout day and no minimum balance.
+
+</details>
+
+<details>
+
+<summary>Do I earn for inviting people to Lid?</summary>
+
+Yes. Open **Referrals** in your dashboard and share your invite link. Everyone who signs up with it is tied to you, and their activity earns you 0.50%. Our team pays referral earnings to you in digital dollars (USDC).
 
 </details>
 
@@ -142,7 +150,7 @@ An email address and digital dollars (USDC) to pay with. Your purchases stay in 
 
 <summary>How do I pay?</summary>
 
-With digital dollars (USDC). Card payments and Apple Pay are being built.
+With digital dollars (USDC). If you don't have any, add them with a card, Apple Pay or a bank transfer through MoonPay, where MoonPay operates. MoonPay checks your identity before your first card payment.
 
 </details>
 
@@ -150,7 +158,7 @@ With digital dollars (USDC). Card payments and Apple Pay are being built.
 
 <summary>Can I get a refund?</summary>
 
-If the seller set a refund window, you can request your money back inside it and the full amount returns to you.
+If the seller set a refund window, you can open a dispute inside it. If our team decides in your favor, the full amount returns to you.
 
 </details>
 
@@ -158,7 +166,7 @@ If the seller set a refund window, you can request your money back inside it and
 
 <summary>Is my payment protected?</summary>
 
-Your payment goes straight to the right people the second it happens, and nobody can change that afterward. For services, the money is held until you confirm the work was delivered.
+If the product has a refund window, your payment waits in a hold until the window closes, and you can dispute it in that time. Without a window, your payment goes straight to the right people the second it happens, and nobody can change that afterward.
 
 </details>
 
@@ -176,7 +184,7 @@ Log in at [lid.pro](https://lid.pro) with the email you used at checkout. Your p
 
 <summary>What is Lida?</summary>
 
-Lida is the Lid assistant, built into the app. It helps you set things up and find answers while you work.
+You focus on your business. Lida helps with the rest. She answers your questions, drafts your products and reads your sales; where the Builder is switched on, she builds your site.
 
 </details>
 

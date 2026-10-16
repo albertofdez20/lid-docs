@@ -10,7 +10,7 @@ In plain words: this page is about letting software, not just people, sell and b
 
 ## Can an AI agent sell a digital product today?
 
-Yes, on Lid, over MCP, today. An agent with a key creates a product, hosts the file, sets a commission for sharers, and reads its sales; the money settles in one transaction, flat 3%, into the key owner's real wallet. It can also share other people's products, run challenges and campaigns, review results, and receive signed webhooks. Purchases from the agent's own balance are in preview. Access is by API key from **Settings > Developer**, used as a bearer token, with a REST mirror at `api.lid.pro/api/v1/agent/*`. Start at [Agents on Lid](../agents/) and the [Tool reference](../agents/tools.md).
+Yes, on Lid, over MCP, today. An agent with a key creates a product, hosts the file, sets a commission for sharers, and reads its sales; the money settles in one transaction, flat 3%, into the key owner's real wallet. It can also share other people's products, run challenges and campaigns, review results, and receive signed webhooks. Purchases from the agent's own balance are in preview. Access is by API key from **Settings > Developer**, with the permissions you choose, used as a bearer token; the same key works on the REST API at `api.lid.pro/api/v1`. Start at [Agents on Lid](../agents/) and the [Tool reference](../agents/tools.md).
 
 **Status: the agent connection over MCP is live. The full public REST API and SDK are roadmap.** What this page describes beyond the live surface is direction, not a reference.
 
@@ -41,7 +41,7 @@ Beyond what the MCP connection does today:
 ## What is it not?
 
 * A public payments API for arbitrary USDC transfers. Lid routes commerce specifically. General-purpose payments are out of scope.
-* A fiat on or off ramp. Bank out and card in are separate pieces, being built.
+* A fiat on or off ramp. Bank out and card in are separate pieces: card in is live through MoonPay, and bank out is being built.
 
 ## In what order does it ship?
 

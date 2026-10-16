@@ -16,7 +16,9 @@ Over MCP (Model Context Protocol), with one API key and one address. Lid runs an
 {% step %}
 ### Create a key
 
-In the app: **Settings → Developer → Create key**. One key per agent, labeled. The key is shown once and starts with `lpmcp_`. Treat keys like money: one key per agent, revoke what you do not recognize.
+In the app: **Settings → Developer → Create key**. One key per agent, labeled. Tick only the permissions the agent needs: **Site** (write the site's code, publish it, turn pieces on or off), **Catalog** (create and edit products and challenges, without funds) and **Money** (fund challenges, buy and assign prizes with the agent wallet). With no permissions, the key can only read. Choose when it expires: 30, 90 or 180 days. The key is shown once and starts with `lpmcp_`. Treat keys like money: one key per agent, revoke what you do not recognize.
+
+![The Development section in Lid's Settings, Developer tab: a label field, the Create key button, the Site, Catalog and Money permissions, and the expiry set to 90 days.](../.gitbook/assets/developer-create-key.png)
 {% endstep %}
 
 {% step %}
@@ -77,19 +79,19 @@ In `claude_desktop_config.json`, through the `mcp-remote` bridge:
 {% endtab %}
 
 {% tab title="REST" %}
-The same tools answer over REST at `https://api.lid.pro/api/v1/agent/*`, one route per tool, with the same bearer key:
+Lid also answers over REST at `https://api.lid.pro/api/v1`, with the same bearer key. Routes are named after resources, not after tools: for example `GET /agent/me`, `GET /agent/products` and `GET /agent/sales`.
 
 ```bash
 curl -H "Authorization: Bearer lpmcp_YOUR_KEY" \
      -H "User-Agent: my-agent/1.0" \
-     https://api.lid.pro/api/v1/agent/<tool>
+     https://api.lid.pro/api/v1/agent/me
 ```
 
-The route list is on the Developer page of your dashboard.
+The full list of routes is in the developer guide at [lid.pro/en/docs](https://lid.pro/en/docs), linked from **Settings → Developer**.
 {% endtab %}
 {% endtabs %}
 
-A discovery file lives at `https://lid.pro/.well-known/mcp.json`.
+The Developer tab also gives you a ready-made snippet for Claude (web), Claude Code, Claude Desktop, Cursor and Antigravity, with your new key already in it. A discovery file lives at `https://lid.pro/.well-known/mcp.json`.
 
 {% hint style="info" %}
 Send a User-Agent header that names your agent. Default script user agents can be refused at the edge.
@@ -116,7 +118,7 @@ Send a User-Agent header that names your agent. Default script user agents can b
 
 ## What can an agent do once it is connected?
 
-Everything a person does from the dashboard except spend production money: create and publish products, share other people's products, run challenges and campaigns, review results, read sales and analytics, and receive signed webhooks. Purchases from the agent's own balance are in preview. Every sale settles like a human sale: one transaction, flat 3%, revenue in the key owner's real wallet.
+Everything a person does from the dashboard except spend production money: create and publish products, share other people's products, run challenges and campaigns, review results, read sales and analytics, receive signed webhooks, and build a site with Lida where the Builder is switched on. Each call needs the matching permission on the key. Purchases from the agent's own balance are in preview. Every sale settles like a human sale: one transaction, flat 3%, revenue in the key owner's real wallet.
 
 ## What to read next
 

@@ -6,25 +6,28 @@ description: >-
 
 # Your product page
 
-Every product gets a public page at a link like `lid.pro/p/your-product`. It is where buyers land and where checkout starts.
+Every product gets a public page at a link that starts with `lid.pro/p/`, followed by the product's own address. It is where buyers land and where checkout starts.
+
+![A product page on lid.pro: the cover, the title, the price in digital dollars, the Sign in to buy button, the creator's membership and the box that says the product can be shared, with its commission.](../.gitbook/assets/lid-product-page-desktop-2026-10-15.png)
 
 ## What buyers see
 
 * Your title and description
 * Your product image
 * The price
-* A buy button
-* An **Earn on this product** option, so anyone can share your product and earn the commission you set
+* A **Buy now** button. Visitors who are not signed in see **Sign in to buy**.
+* Any free preview files you added
+* A box that says the product can be shared, with your commission per referred sale, and a **Promote and earn** button so anyone can share your product and earn the commission you set
 
 ## What you can change
 
-* Title, description, and price
-* Product image or thumbnail
-* Delivery file or access link
+* Title, description and price
+* Product image and gallery
+* Delivery files, free previews or access link
 * The commission you share
-* The end of the link (the slug)
+* Whether the product is listed in Explore or only reachable by its link
 
-Edit any of these from your dashboard. Changes go live right away.
+Edit any of these from **My store** in your dashboard. Changes go live right away. A new price applies to the next sales; past purchases stay as they were.
 
 ## Three things that sell
 

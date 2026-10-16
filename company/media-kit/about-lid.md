@@ -64,45 +64,45 @@ Vender en línea puede implicar cinco herramientas, hasta un 20% en comisiones y
 
 {% tabs %}
 {% tab title="English" %}
-| Fact          | Details                                                                                                                                                          |
-| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Name          | Lid, with a capital L                                                                                                                                            |
-| What it is    | The digital business suite: memberships, a store, challenges, campaigns and share links in one place                                                             |
-| Who it is for | Businesses with an audience, like communities, agencies and schools, and the creators around them                                                                |
-| Live today    | Memberships, store, challenges, campaigns and share links. Buyers can add money by card through MoonPay. AI agents can also create products and read data on Lid |
-| Price         | 3% of each sale and $0 a month to sell                                                                                                                           |
-| Payments      | Buyers pay in digital dollars (USDC). The business or creator receives them the moment someone joins or buys                                                     |
-| Proof         | Lid's first three challenges assigned $300 in nine prizes, and every prize has been claimed. Anyone can check the record on lid.pro                              |
-| Built on      | Solana. Lid started on Solana in Colosseum's Frontier hackathon and was built at La Familia's El Taller                                                          |
-| Company       | Lid Labs Technologies, registered in Dubai                                                                                                                       |
-| Founders      | Alberto Fernández, CEO, and Darwin Ramírez, CTO                                                                                                                  |
-| Website       | lid.pro                                                                                                                                                          |
-| Docs          | docs.lid.pro                                                                                                                                                     |
-| On X          | @Lid\_onchain                                                                                                                                                    |
-| Press contact | alberto@lid.pro                                                                                                                                                  |
+| Fact          | Details                                                                                                                                                                                                                   |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Name          | Lid, with a capital L                                                                                                                                                                                                     |
+| What it is    | The digital business suite: memberships, a store, challenges, campaigns and share links in one place                                                                                                                      |
+| Who it is for | Businesses with an audience, like communities, agencies and schools, and the creators around them                                                                                                                         |
+| Live today    | Memberships, store, challenges, campaigns and share links. Businesses can also get their own site, built with Lida. Buyers can add money by card through MoonPay. AI agents can also create products and read data on Lid |
+| Price         | 3% of each sale and $0 a month to sell                                                                                                                                                                                    |
+| Payments      | Buyers pay in digital dollars (USDC). The business or creator receives them the moment someone joins or buys                                                                                                              |
+| Proof         | Lid's first three challenges assigned $300 in nine prizes, and every prize has been claimed. Anyone can check the record on lid.pro                                                                                       |
+| Built on      | Solana. Lid started on Solana in Colosseum's Frontier hackathon and was built at La Familia's El Taller                                                                                                                   |
+| Company       | Lid Labs Technologies, registered in Dubai                                                                                                                                                                                |
+| Founders      | Alberto Fernández, CEO, and Darwin Ramírez, CTO                                                                                                                                                                           |
+| Website       | lid.pro                                                                                                                                                                                                                   |
+| Docs          | docs.lid.pro                                                                                                                                                                                                              |
+| On X          | @Lid\_onchain                                                                                                                                                                                                             |
+| Press contact | alberto@lid.pro                                                                                                                                                                                                           |
 {% endtab %}
 
 {% tab title="Español" %}
-| Dato               | Detalle                                                                                                                                                                                          |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Nombre             | Lid, con L mayúscula                                                                                                                                                                             |
-| Qué es             | La suite para negocios digitales: membresías, tienda, retos, campañas y enlaces para compartir en un solo lugar                                                                                  |
-| Para quién es      | Negocios con audiencia, como comunidades, agencias y escuelas, y los creadores a su alrededor                                                                                                    |
-| Ya funciona        | Membresías, tienda, retos, campañas y enlaces para compartir. Quien compra puede cargar saldo con tarjeta por MoonPay. Los agentes de IA también pueden crear productos y consultar datos en Lid |
-| Precio             | 3% por venta y $0 al mes por vender                                                                                                                                                              |
-| Pagos              | Quien compra paga en dólares digitales (USDC). El negocio o el creador los recibe en el momento en que alguien entra o compra                                                                    |
-| Prueba             | Los tres primeros retos de Lid asignaron 300 USD en nueve premios, y todos ya se cobraron. Cualquiera puede comprobarlo en lid.pro                                                               |
-| Funciona sobre     | Solana. Lid llegó a Solana en el hackathon Frontier de Colosseum y se construyó en El Taller de La Familia                                                                                       |
-| Empresa            | Lid Labs Technologies, registrada en Dubái                                                                                                                                                       |
-| Fundadores         | Alberto Fernández, CEO, y Darwin Ramírez, CTO                                                                                                                                                    |
-| Sitio web          | lid.pro                                                                                                                                                                                          |
-| Documentación      | docs.lid.pro                                                                                                                                                                                     |
-| En X               | @Lid\_onchain                                                                                                                                                                                    |
-| Contacto de prensa | alberto@lid.pro                                                                                                                                                                                  |
+| Dato               | Detalle                                                                                                                                                                                                                                                              |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Nombre             | Lid, con L mayúscula                                                                                                                                                                                                                                                 |
+| Qué es             | La suite para negocios digitales: membresías, tienda, retos, campañas y enlaces para compartir en un solo lugar                                                                                                                                                      |
+| Para quién es      | Negocios con audiencia, como comunidades, agencias y escuelas, y los creadores a su alrededor                                                                                                                                                                        |
+| Ya funciona        | Membresías, tienda, retos, campañas y enlaces para compartir. Los negocios también pueden tener su propio sitio, creado con Lida. Quien compra puede cargar saldo con tarjeta por MoonPay. Los agentes de IA también pueden crear productos y consultar datos en Lid |
+| Precio             | 3% por venta y $0 al mes por vender                                                                                                                                                                                                                                  |
+| Pagos              | Quien compra paga en dólares digitales (USDC). El negocio o el creador los recibe en el momento en que alguien entra o compra                                                                                                                                        |
+| Prueba             | Los tres primeros retos de Lid asignaron 300 USD en nueve premios, y todos ya se cobraron. Cualquiera puede comprobarlo en lid.pro                                                                                                                                   |
+| Funciona sobre     | Solana. Lid llegó a Solana en el hackathon Frontier de Colosseum y se construyó en El Taller de La Familia                                                                                                                                                           |
+| Empresa            | Lid Labs Technologies, registrada en Dubái                                                                                                                                                                                                                           |
+| Fundadores         | Alberto Fernández, CEO, y Darwin Ramírez, CTO                                                                                                                                                                                                                        |
+| Sitio web          | lid.pro                                                                                                                                                                                                                                                              |
+| Documentación      | docs.lid.pro                                                                                                                                                                                                                                                         |
+| En X               | @Lid\_onchain                                                                                                                                                                                                                                                        |
+| Contacto de prensa | alberto@lid.pro                                                                                                                                                                                                                                                      |
 {% endtab %}
 {% endtabs %}
 
-Facts checked on 30 September 2026; the category, the price and what is live updated on 13 October 2026.
+Facts checked on 30 September 2026; the category and the price updated on 13 October 2026, and what is live on 15 October 2026.
 
 ### How to write about Lid
 

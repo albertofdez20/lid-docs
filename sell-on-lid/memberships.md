@@ -1,31 +1,34 @@
 ---
 description: >-
-  Sell a membership: a paid feed, community forum, calendar and 1:1 bookings on
-  a recurring subscription, flat 3% per payment.
+  Sell a membership: members-only posts, messages with you and your own page, on
+  a monthly or yearly plan, flat 3% per payment.
 ---
 
 # Memberships
 
-A membership turns your audience into a paid community. Buyers subscribe, and everything lives in one place: your posts, your community, your calendar, and your 1:1 time.
+A membership turns your audience into a paid community. Members subscribe to a plan, and everything lives on your page: your posts, your messages with them, your products and your challenges.
+
+![Membership plans on a Lid creator page: a yearly plan at $90.00 a year and a monthly plan at $9.00 a month, each with a Sign in to subscribe button.](../.gitbook/assets/lid-membership-desktop-2026-10-15.png)
 
 ## What's inside a membership
 
-* **A feed.** Posts only your members can see.
-* **A community forum.** A space where your members talk to you and to each other.
-* **A calendar.** Your events and sessions, visible to members.
-* **1:1 bookings.** Members book time with you directly.
+* **Posts.** Write for everyone, or only for your members.
+* **Messages.** Your members can message you directly.
+* **Your page.** A cover, your accent color, an About, up to 12 links, your products and the products you share. Lock any section so only members see it.
+* **Plans.** Monthly or yearly, each with its own price and its own commission for sharers.
+* **Gift access.** Give anyone a free seat or a month of access. It never touches billing.
 
 ## How it works
 
-1. Go to your [dashboard](https://lid.pro/dashboard) and create a membership.
-2. Set the monthly price.
+1. Open **Memberships** in your [dashboard](https://lid.pro/dashboard) and create a plan.
+2. Choose monthly or yearly and set the price.
 3. Share your link. Members subscribe and get access right away.
 
 Billing is a recurring subscription. The flat 3% applies to each payment, the same as any sale, and your share lands in your balance in digital dollars (USDC) in seconds.
 
 ## Sharing works here too
 
-Like any product on Lid, you can turn on commission and let anyone share your membership. Whoever brings a member earns the commission you set.
+Every plan carries its own commission, so anyone can share your membership. Whoever brings a member earns the commission you set.
 
 ## FAQ
 
@@ -33,7 +36,7 @@ Like any product on Lid, you can turn on commission and let anyone share your me
 
 <summary>Can members cancel?</summary>
 
-Yes, anytime. They keep access for the period they already paid.
+Yes, anytime, from your page or from **My purchases → Subscriptions**. They keep access until the period they already paid ends.
 
 </details>
 

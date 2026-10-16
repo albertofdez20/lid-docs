@@ -1,7 +1,7 @@
 ---
 description: >-
   Every digital business runs on Lid: the bleed and the wait, the whole stack at
-  flat 3%, why now, the model in three sentences, the ladder.
+  flat 3%, why now, the model, the ladder.
 ---
 
 # Vision
@@ -18,7 +18,7 @@ Sell $100K a year through today's stack: $15,000 to $20,000 gone in fees. Then s
 
 ## The solution
 
-The whole stack, one place, flat 3%. Store, courses, services, memberships, challenges, campaigns, share links, and a connection for agents. One transaction underneath: the sale, the split and the payout. No company ever holds the money.
+The whole stack, one place, flat 3%. Store, courses, memberships, challenges, campaigns, share links, your own site, and a connection for agents. One transaction underneath: the sale, the split and the payout. No company ever holds the money.
 
 Every buyer can share, every sharer earns, every earner can open a store. Each sale recruits the next seller.
 
@@ -36,9 +36,9 @@ Digital dollars went mainstream; commerce is catching up. Three facts:
 2. **The GENIUS Act** (signed July 2025) gave stablecoins their first US federal framework.
 3. **AI agents moved \~$73M across \~176M transactions** in the last year. A spender that did not exist two years ago.
 
-## The model, in three sentences
+## The model
 
-For the individual creator, 3% of every sale and $0 a month, always. For whoever pays for results, a fee on the budget. For the business with a team, a plan a month for the team tools. The three never merge, and the individual creator never pays the other two.
+For anyone who sells, 3% of every sale and $0 a month, always. For whoever pays for results, a fee on the budget. The two never merge.
 
 ## The principle
 

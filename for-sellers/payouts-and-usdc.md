@@ -10,7 +10,7 @@ When someone buys your product, your money arrives in seconds, automatically. Th
 
 ## How fast do I get paid on Lid?
 
-In the same second the buyer pays. The sale, the split and the payout are one transaction: your share, the sharer's commission and Lid's 3% settle together, and your balance goes up right away. There is no payout day, no minimum, and no withdrawal request. Lid never holds your money.
+In the same second the buyer pays. The sale, the split and the payout are one transaction: your share and Lid's 3% settle, the sharer's commission is assigned to them to claim, and your balance goes up right away. There is no payout day, no minimum, and no withdrawal request. Lid never holds your money.
 
 ## What do I get paid in?
 
@@ -26,7 +26,7 @@ In your [dashboard](https://lid.pro/dashboard), with your full sales history: da
 
 ## How do I cash out?
 
-Today you send your USDC from Settings to an app or exchange that converts it to regular money. Paying out to your bank account directly is being built, five countries first.
+Today you send your USDC from **Settings → Wallet → Send digital dollars (USDC)** to an app or exchange that converts it to regular money. Paying out to your bank account directly is being built, five countries first.
 
 ## Can buyers pay with a card?
 

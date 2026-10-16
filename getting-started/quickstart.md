@@ -18,19 +18,21 @@ Go to [lid.pro](https://lid.pro) and create an account with your email. That's a
 {% step %}
 ### Create your product
 
-Click **New Product**. Add a title, a short description, and what the buyer gets: a file you upload or a link to your content.
+Open **My store** in your dashboard and click **New product**. First choose what buyers get: files you upload, or a link to your content. Then add a title and a short description.
+
+![The first step of New product on Lid: "What do buyers get?", with a choice between files and a link, and a preview of how buyers will see the product.](../.gitbook/assets/create-product-step-1.png)
 {% endstep %}
 
 {% step %}
 ### Set your price
 
-Prices are in dollars. Buyers see the price, you receive the money.
+Prices are in dollars. Buyers see the price, you receive the money. Choose **Free** if you want to give it away. You can change the price later: past purchases stay as they were, and the next sales pay the new price.
 {% endstep %}
 
 {% step %}
 ### Set the commission you'll share
 
-Choose what anyone who shares your product earns per sale, from 1% to 50%.
+Choose what anyone who shares your product earns per sale, from 1% to 50%. It starts at 10%.
 
 {% hint style="info" %}
 A higher commission gives more people a reason to share your product.
@@ -64,7 +66,7 @@ Nothing up front. Lid keeps a flat 3% of each sale. There are no other fees.
 
 <summary>When do I get paid?</summary>
 
-Seconds after each sale, automatically. The money arrives as digital dollars and goes straight to you. Lid never holds it. Cashing out to a bank account is being built.
+Seconds after each sale, automatically. The money arrives as digital dollars and goes straight to you. Lid never holds it. If you set a refund window, the payment waits until the window ends and then comes to you. Cashing out to a bank account is being built.
 
 </details>
 
@@ -72,7 +74,7 @@ Seconds after each sale, automatically. The money arrives as digital dollars and
 
 <summary>Do I need anything technical?</summary>
 
-No. You sign up with an email and Lid handles the rest.
+No. You sign up with your email and Lid handles the rest.
 
 </details>
 

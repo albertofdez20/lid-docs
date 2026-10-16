@@ -27,11 +27,11 @@ Every checkout is a single Solana transaction. Within that transaction:
 
 * Buyer's USDC is moved out
 * Seller's share is moved in
-* Sharer's share is moved in (if applicable)
+* Sharer's share is assigned to a vault that only the sharer can claim from (if applicable)
 * Lid's fee is moved in
 * Access metadata is emitted (event log)
 
-If any step fails, the transaction reverts. No partial state exists where the buyer has paid without receiving the product, or where the seller has been paid and the sharer hasn't.
+If any step fails, the transaction reverts. No partial state exists where the buyer has paid without receiving the product, or where the seller has been paid and the sharer's share has not been assigned.
 
 ## What lives on-chain
 
@@ -53,7 +53,7 @@ Off-chain data is not a source of truth for money flow. It exists to make the ex
 
 ## Upgradability
 
-The current contracts are designed for controlled upgradability during the alpha phase. Upgrade authority is held by a multi-sig.
+The current contracts are designed for controlled upgradability during the alpha phase.
 
 No upgrade can retroactively change the terms of past sales. Historical split records are immutable regardless of future contract versions.
 
@@ -62,9 +62,9 @@ No upgrade can retroactively change the terms of past sales. Historical split re
 **Design principles applied:**
 
 * Minimum viable contract surface.
-* Payments always route directly to recipient accounts, never through intermediate holding accounts.
-* The 3% fee is enforced as a protocol constant, not a mutable config field.
-* No administrative function can move user funds.
+* Payments route straight to the seller and to Lid. A sharer's share goes to a vault that only that sharer can claim from, and a sale with a refund window waits in a hold that can only release to the seller or return to the buyer.
+* The 3% fee on a sale is a protocol constant, not a setting anyone can change. The fee on challenge and campaign payouts is a setting only Lid can change, from 0% to 10%. It is 3% today.
+* No administrative function can send user funds anywhere else. In a dispute over a held sale, our team can only release the money to the seller or return it to the buyer. If our team has not decided a dispute 14 days after the refund window ends, anyone can release the payment to the seller, so a held payment never stays frozen.
 * All state-changing operations emit events for off-chain monitoring.
 
 **Planned external review:**
@@ -85,7 +85,7 @@ If you find a vulnerability, email [alberto@lid.pro](mailto:alberto@lid.pro) wit
 
 ## What developers can do today
 
-Today, contract interaction happens through the Lid web app and the agent connection over MCP (see [Agents on Lid](../agents/)). Direct on-chain interaction is possible (the contracts are deployed and public). There is no published SDK or client library today.
+Today, contract interaction happens through the Lid web app and the agent connection over MCP (see [Agents on Lid](../agents/)). Direct on-chain interaction is possible (the contracts are deployed and public). An SDK is being built.
 
 The Agentic Commerce API (roadmap) will provide the developer surface for programmatic access.
 

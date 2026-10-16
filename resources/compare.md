@@ -42,17 +42,17 @@ Scenario: international card, currency conversion, crypto payout. Source: [docs.
 
 ## What does it cost to get the money out?
 
-On Lid the money is already out: it lands in your balance inside the sale. Elsewhere the payout is a second fee.
+On Lid the seller's money lands in their balance inside the sale, so there is no payout step to pay for. Elsewhere the payout is a second fee.
 
-| Platform | Payout method      | Fee                         | Source                                                               |
-| -------- | ------------------ | --------------------------- | -------------------------------------------------------------------- |
-| Lid      | in the sale itself | none                        | this site                                                            |
-| Lid      | bank account       | being built, priced at cost | [Getting paid](../for-sellers/payouts-and-usdc.md)                   |
-| Whop     | instant bank (RTP) | 4% + $1.00                  | [docs.whop.com/fees](https://docs.whop.com/fees)                     |
-| Whop     | next-day ACH       | $2.50                       | same                                                                 |
-| Whop     | crypto             | 5% + $1.00                  | same                                                                 |
-| Whop     | wire               | $23.00                      | same                                                                 |
-| Gumroad  | US instant payout  | 3%, $100 minimum            | [gumroad.com/help](https://gumroad.com/help/article/13-getting-paid) |
+| Platform | Payout method      | Fee                                            | Source                                                               |
+| -------- | ------------------ | ---------------------------------------------- | -------------------------------------------------------------------- |
+| Lid      | in the sale itself | none                                           | this site                                                            |
+| Lid      | bank account       | being built, priced at cost                    | [Getting paid](../for-sellers/payouts-and-usdc.md)                   |
+| Whop     | instant bank (RTP) | 4% + $2.50                                     | [docs.whop.com/fees](https://docs.whop.com/fees)                     |
+| Whop     | next-day ACH       | $2.50                                          | same                                                                 |
+| Whop     | crypto             | 5% + $1.00                                     | same                                                                 |
+| Whop     | wire               | $23.00                                         | same                                                                 |
+| Gumroad  | US instant payout  | 3% (the $100 minimum is for scheduled payouts) | [gumroad.com/help](https://gumroad.com/help/article/13-getting-paid) |
 
 ## What is the platform fee alone?
 

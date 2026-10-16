@@ -1,16 +1,21 @@
 ---
 description: >-
-  Sell a service on Lid: the buyer pays up front, the money is protected until
-  they accept your delivery, then it releases to you in the same second.
+  Being built. How selling a service on Lid will work: the buyer pays up front,
+  the money is protected until they accept your delivery, then it releases to
+  you in the same second.
 ---
 
 # Services
+
+{% hint style="warning" %}
+Services are being built. In your dashboard they show as **Soon**: you can't list one today. This page explains how they will work when they open.
+{% endhint %}
 
 A service is work you deliver after someone pays: a design, a consult, an edit, a translation. On Lid the buyer pays first, the money is protected while you work, and it releases to you the moment the buyer accepts the delivery.
 
 ## How does a service sale work?
 
-1. Create a product in your [dashboard](https://lid.pro/dashboard) and pick **Service** as the product type. Say what you deliver and how long it takes.
+1. You create a service in your [dashboard](https://lid.pro/dashboard). You say what you deliver and how long it takes.
 2. The buyer pays. The money is set aside, in a place nobody can move it from.
 3. You deliver the work.
 4. The buyer accepts. The money releases in that second: your share, the sharer's commission if a link brought the sale, Lid's 3%.
@@ -21,11 +26,11 @@ The moment the buyer accepts your delivery. Until then the payment is protected 
 
 ## What if something goes wrong?
 
-Talk to the buyer first; most things get sorted in one message. If it does not, the buyer can open a claim from their purchase and a person at Lid looks at it. Email [alberto@lid.pro](mailto:alberto@lid.pro) with the product link and the buyer's email.
+Talk to the buyer first; most things get sorted in one message. If it does not, the buyer can open a dispute from their purchase and a person at Lid looks at it. Email [alberto@lid.pro](mailto:alberto@lid.pro) with the product link and the buyer's email.
 
 ## Can people share a service?
 
-Yes. Turn on commission and anyone can share it. The sharer is paid when the buyer accepts, in the same transaction as you.
+Yes. Turn on commission and anyone can share it. When the buyer accepts, the sharer's commission is assigned to them in the same transaction that pays you.
 
 ## FAQ
 
@@ -45,4 +50,4 @@ Yes. Each product has its own type, price and commission.
 
 </details>
 
-List your first service at [lid.pro](https://lid.pro). That is the link if you want to sell.
+Services are not open today. To sell now, start with a product at [lid.pro](https://lid.pro).

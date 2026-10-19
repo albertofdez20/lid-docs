@@ -17,4 +17,4 @@ Your site with your brand, hosted by Lid. Your products are paid through the Lid
 
 **Your admin.** Every site comes with its own owner admin at `/admin`.
 
-**Who can use it today.** We switch it on per account. If you do not see Builder in your dashboard, write to alberto@lid.pro.
+**Who can use it today.** We switch it on per account. If you do not see Builder in your dashboard, write to hello@lid.pro.

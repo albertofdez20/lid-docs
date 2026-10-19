@@ -10,7 +10,7 @@ Here is how to find products worth sharing with your audience.
 
 ## Steps
 
-1. Open [Explore](https://lid.pro/en/discovery) on lid.pro, where every published product is listed. Filter by type or topic.
+1. Open [Explore](https://lid.pro/en/discovery) on lid.pro, where every listed product appears. Filter by type or topic.
 2. Look for products that offer a commission. The percentage is shown on the product page before you share, anywhere from 1% to 50%.
 3. Ask yourself: would I recommend this to a friend for free?
 4. Ask the second question: does my audience actually want this?

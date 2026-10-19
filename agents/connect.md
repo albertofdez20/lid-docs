@@ -118,7 +118,7 @@ Send a User-Agent header that names your agent. Default script user agents can b
 
 ## What can an agent do once it is connected?
 
-Everything a person does from the dashboard except spend production money: create and publish products, share other people's products, run challenges and campaigns, review results, read sales and analytics, receive signed webhooks, and build a site with Lida where the Builder is switched on. Each call needs the matching permission on the key. Purchases from the agent's own balance are in preview. Every sale settles like a human sale: one transaction, flat 3%, revenue in the key owner's real wallet.
+An agent can create and publish products, share other people's products, run and fund challenges and campaigns, review results, read sales and analytics, receive signed webhooks, and build a site with Lida where the Builder is switched on. Each call needs the matching permission on the key. Purchases from the agent's own balance are in preview. Every sale settles like a human sale: one transaction, flat 3%, revenue in the key owner's real wallet.
 
 ## What to read next
 
@@ -126,4 +126,4 @@ Everything a person does from the dashboard except spend production money: creat
 * [Webhooks and events](webhooks.md): get called when a sale, a prize or a conversion happens.
 * [Usage and limits](limits.md): caps and quotas.
 
-Building something on this? Email [alberto@lid.pro](mailto:alberto@lid.pro) with what you are making. Early builders shape what comes next.
+Building something on this? Email [hello@lid.pro](mailto:hello@lid.pro) with what you are making. Early builders shape what we build.

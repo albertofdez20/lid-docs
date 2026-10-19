@@ -18,13 +18,13 @@ Sell $100K a year through today's stack: $15,000 to $20,000 gone in fees. Then s
 
 ## The solution
 
-The whole stack, one place, flat 3%. Store, courses, memberships, challenges, campaigns, share links, your own site, and a connection for agents. One transaction underneath: the sale, the split and the payout. No company ever holds the money.
+The whole stack, one place, flat 3%. Store, courses, memberships, challenges, campaigns, share links, your own site, and a connection for agents. One transaction underneath: the sale, the split and the payout. No company ever holds the money. Budgets sit in a pool the funder controls until the result verifies; the moment it does, the split settles in the same transaction.
 
 Every buyer can share, every sharer earns, every earner can open a store. Each sale recruits the next seller.
 
 ## What only Lid does
 
-The only suite where the sale, the split and the payout are one transaction. Budgets sit in a pool the funder controls until the result verifies; the moment it does, the split settles in the same transaction. Not holding the money is the consequence.
+The only suite where the sale, the split and the payout are one transaction. Not holding the money is the consequence.
 
 Anyone can cut a fee. Whop's processing-only price already matches ours: 2.7% plus $0.30 is 3.0% on a $100 sale. What nobody can cut is their own income statement, and 3% here buys the whole suite. Elsewhere it buys a checkout.
 
@@ -32,13 +32,13 @@ Anyone can cut a fee. Whop's processing-only price already matches ours: 2.7% pl
 
 Digital dollars went mainstream; commerce is catching up. Three facts:
 
-1. **\~$310B in stablecoins** in circulation (June 2026), headed toward \~$420B by year-end.
+1. **\~$310B in stablecoins** in circulation (June 2026).
 2. **The GENIUS Act** (signed July 2025) gave stablecoins their first US federal framework.
 3. **AI agents moved \~$73M across \~176M transactions** in the last year. A spender that did not exist two years ago.
 
 ## The model
 
-For anyone who sells, 3% of every sale and $0 a month, always. For whoever pays for results, a fee on the budget. The two never merge.
+For anyone who sells, 3% of every sale and $0 a month to sell, always. For whoever pays for results, a fee on the budget. The two never merge.
 
 ## The principle
 
@@ -55,8 +55,8 @@ Businesses with an audience first, and the creators around them: hardest to serv
 * We will not become a 10%+ tollbooth that punishes top earners.
 * We will not chase hype or inflate the story beyond what proof supports.
 * We will not expose Web3 complexity to end users.
-* We will not hold user money. Ever.
-* We will not charge the individual creator a monthly fee.
+* We will not hold the money from a sale or a budget. Ever.
+* We will not charge anyone a monthly fee to sell.
 
 ## In one sentence
 

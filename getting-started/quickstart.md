@@ -58,7 +58,7 @@ Every product gets its own link. Post it where your audience is: social, email, 
 
 <summary>What does it cost?</summary>
 
-Nothing up front. Lid keeps a flat 3% of each sale. There are no other fees.
+Nothing up front. Lid keeps a flat 3% of each sale, and selling costs $0 a month.
 
 </details>
 

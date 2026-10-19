@@ -31,12 +31,14 @@ About $11 on Whop against $3.00 on Lid, using Whop's own fee page. A creator in 
 
 |                      | Whop                                  | Lid                         |
 | -------------------- | ------------------------------------- | --------------------------- |
-| Card fee             | 2.7% + $0.30                          | none                        |
-| International card   | +1.5%                                 | none                        |
+| Card fee             | 2.7% + $0.30                          | none for the seller         |
+| International card   | +1.5%                                 | none for the seller         |
 | Currency conversion  | +1%                                   | none                        |
 | Payout in crypto     | 5% + $1.00 per payout                 | none                        |
 | Total on a $100 sale | about $11                             | $3.00                       |
 | Money arrives        | at payout, next business day or later | in the purchase transaction |
+
+On Lid the seller pays no card fee. A buyer who adds funds by card pays MoonPay's own fee, shown before they confirm.
 
 Scenario: international card, currency conversion, crypto payout. Source: [docs.whop.com/fees](https://docs.whop.com/fees), read 19 September 2026.
 
@@ -75,4 +77,4 @@ On Lid, the sale, the split and the payout are one transaction. Most platforms p
 
 ## Where do the numbers come from?
 
-Every fee above is the platform's own published price on the day it was read, and the scenario sits next to the number. Fee pages change. If one of them has, email [alberto@lid.pro](mailto:alberto@lid.pro) and we fix the row.
+Every fee above is the platform's own published price on the day it was read, and the scenario sits next to the number. Fee pages change. If one of them has, email [hello@lid.pro](mailto:hello@lid.pro) and we fix the row.

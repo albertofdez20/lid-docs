@@ -5,15 +5,15 @@ description: >-
   posture.
 ---
 
-# Smart contracts
+# The Solana program
 
-In plain words: the smart contract is the piece of code that moves the money. It is what makes every sale split correctly and land in seconds, without Lid ever holding the funds.
+In plain words: the program is the piece of code on Solana that moves the money. It is what makes every sale split correctly and land in seconds, without Lid ever holding the funds.
 
 Lid runs on a Solana program that enforces product registration, attribution binding, and atomic settlement. This page describes the architecture at a conceptual level. Full interfaces, method signatures, and example code publish after the external review, once the public API stabilizes.
 
 ## What the program does
 
-At the contract level, Lid implements:
+At the program level, Lid implements:
 
 1. **Product registry.** On-chain record of a product's ID, price, seller address, sharer commission percentage, and delivery metadata reference.
 2. **Checkout routing.** A method that accepts a buyer's USDC payment and routes it to the seller, the sharer, and Lid per the rules set on the product.
@@ -53,15 +53,15 @@ Off-chain data is not a source of truth for money flow. It exists to make the ex
 
 ## Upgradability
 
-The current contracts are designed for controlled upgradability during the alpha phase.
+The program is designed for controlled upgrades during the alpha phase.
 
-No upgrade can retroactively change the terms of past sales. Historical split records are immutable regardless of future contract versions.
+No upgrade can retroactively change the terms of past sales. Historical split records are immutable regardless of future program versions.
 
 ## Security posture
 
 **Design principles applied:**
 
-* Minimum viable contract surface.
+* Minimum viable program surface.
 * Payments route straight to the seller and to Lid. A sharer's share goes to a vault that only that sharer can claim from, and a sale with a refund window waits in a hold that can only release to the seller or return to the buyer.
 * The 3% fee on a sale is a protocol constant, not a setting anyone can change. The fee on challenge and campaign payouts is a setting only Lid can change, from 0% to 10%. It is 3% today.
 * No administrative function can send user funds anywhere else. In a dispute over a held sale, our team can only release the money to the seller or return it to the buyer. If our team has not decided a dispute 14 days after the refund window ends, anyone can release the payment to the seller, so a held payment never stays frozen.
@@ -81,11 +81,11 @@ We are transparent about what is and isn't done. During active alpha, every comp
 
 ## Responsible disclosure
 
-If you find a vulnerability, email [alberto@lid.pro](mailto:alberto@lid.pro) with details. We respond quickly, fix privately when possible, and credit researchers who help. Please do not publicly disclose before giving us a reasonable window to address the issue.
+If you find a vulnerability, email [hello@lid.pro](mailto:hello@lid.pro) with details. We respond quickly, fix privately when possible, and credit researchers who help. Please do not publicly disclose before giving us a reasonable window to address the issue.
 
 ## What developers can do today
 
-Today, contract interaction happens through the Lid web app and the agent connection over MCP (see [Agents on Lid](../agents/)). Direct on-chain interaction is possible (the contracts are deployed and public). An SDK is being built.
+Today, the program is reached through the Lid web app and the agent connection over MCP (see [Agents on Lid](../agents/)). Direct on-chain interaction is possible (the program is deployed and public). An SDK is being built.
 
 The Agentic Commerce API (roadmap) will provide the developer surface for programmatic access.
 

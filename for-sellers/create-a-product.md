@@ -18,7 +18,7 @@ A product on Lid is anything digital you can deliver with a file or a link: an e
 4. Write the description. Say what the buyer gets and who it is for. Lida can draft it for you with **Draft it**.
 5. Set the price in US dollars, or choose **Free**.
 6. Set the commission you share with people who bring you sales. Anywhere from 1% to 50%; it starts at 10%. A common setup: you keep 87%, the sharer gets 10%, Lid gets 3%.
-7. Choose a refund window. With none, you are paid at once. See [Refunds and protection](refunds-and-escrow.md).
+7. Choose a refund window. With none, you are paid at once. See [Refunds and protection](../sell-on-lid/refunds-and-protection.md).
 8. Click **Publish**. Your page is live.
 
 ## Optional extras
@@ -42,7 +42,7 @@ Yes. Title, description, price, images, delivery files and commission stay edita
 
 <summary>What does Lid charge?</summary>
 
-A flat 3% on every sale, shown up front. That is the only fee.
+A flat 3% on every sale, shown up front, and $0 a month to sell.
 
 </details>
 

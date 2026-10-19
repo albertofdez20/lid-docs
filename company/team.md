@@ -12,7 +12,7 @@ Lid is built by two founders. Lean by design: each of us owns our part from star
 
 **Co-Founder and CEO.** Owns product, strategy, GTM, and the founder voice.
 
-Two startups before this: ENO, an 80,000-member community, and Orbi, a stablecoin card. One taught distribution, the other taught payments.
+Two startups before this: ENO, an 80,000-member community, and Orbi, a digital-dollar card. One taught distribution, the other taught payments.
 
 Drives the long horizon and writes most of what the world reads from Lid.
 
@@ -27,10 +27,6 @@ The blockchain is invisible because Darwin built it that way.
 ## Operating entity
 
 Lid Labs Technologies (Dubai). Trade Licence No. 65802. Registration No. 63769. IFZA Business Park, Dubai.
-
-## Advisors
-
-To be announced.
 
 ***
 

@@ -1,16 +1,16 @@
 ---
 description: >-
-  Lid's fee is a flat 3% per sale and $0 a month. A $10 sale worked out, why 3%
-  against Gumroad, Patreon and OnlyFans, and what you never pay.
+  Lid's fee is a flat 3% per sale and $0 a month to sell. A $10 sale worked out,
+  why 3% against Gumroad, Patreon and OnlyFans, and what you never pay.
 ---
 
 # Pricing and fees
 
-You set the price. Lid takes a flat 3% on every sale, shown up front. There is no monthly fee.
+You set the price. Lid takes a flat 3% on every sale, shown up front. There is no monthly fee to sell.
 
 ## What does Lid charge?
 
-A flat 3% of every sale, and nothing else. No monthly fee, no listing fee, no minimum. Three numbers decide what everyone gets:
+A flat 3% of every sale. No monthly fee to sell, no listing fee, no minimum. Three numbers decide what everyone gets:
 
 * **Your price.** You choose it, and you can change it later. A new price applies to the next sales.
 * **Lid's fee.** A flat 3% of every sale.
@@ -32,18 +32,18 @@ If you bring the sale yourself, you keep $9.70 and Lid gets $0.30.
 
 ## Why is Lid 3% when others charge 10% to 20%?
 
-Because 3% covers the whole suite and the money moves in one transaction, so there is no processing layer, no payout layer and no software subscription to pay for. Gumroad takes 10% plus $0.50, and 2.9% plus $0.30 on top for processing: 13.7% on a $100 sale. Patreon takes 10%. OnlyFans takes 20%. Add the software underneath and a typical stack costs 8% to 20% of every sale, plus $1,900 to $7,600 a year in subscriptions. On Lid the 3% covers your page, checkout, delivery, courses, memberships, paying you in seconds and assigning each sharer's commission in the same transaction. It stays 3% as you grow. The full table, with a source per row, is on [Compare](../resources/compare.md).
+Because 3% covers the whole suite and the money moves in one transaction, so there is no processing layer and no payout layer to pay for, and selling costs $0 a month. Gumroad takes 10% plus $0.50, and 2.9% plus $0.30 on top for processing: 13.7% on a $100 sale. Patreon takes 10%. OnlyFans takes 20%. Add the software underneath and a typical stack costs 8% to 20% of every sale, plus $1,900 to $7,600 a year in subscriptions. On Lid the 3% covers your page, checkout, delivery, courses, memberships, paying you in seconds and assigning each sharer's commission in the same transaction. It stays 3% as you grow. The full table, with a source per row, is on [Compare](../resources/compare.md).
 
-## Is there a monthly plan?
+## What do I pay?
 
-Not to sell. Two rules cover what you pay:
+Two rules cover what you pay:
 
-* If you sell: 3% of every sale and $0 a month, always.
+* If you sell: 3% of every sale and $0 a month to sell, always.
 * If you pay for results, with a challenge or a campaign: the flat 3% applies to the budget you fund, when you fund it.
 
 ## What do I never pay?
 
-* Monthly fees
+* Monthly fees to sell
 * Listing fees
 * Minimums of any kind
 * Withdrawal fees from Lid. Cashing out to a bank account is being built; when it lands, that step costs what it costs Lid, and Lid does not earn on it.

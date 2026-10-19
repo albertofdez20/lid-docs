@@ -44,7 +44,7 @@ Use the same email every time. Your email is the key to your account.
 
 <summary>Where did my purchase go?</summary>
 
-Sign in with the exact email you used at checkout, then open **My purchases**. If it is still missing, write to alberto@lid.pro and include the email you paid with.
+Sign in with the exact email you used at checkout, then open **My purchases**. If it is still missing, write to hello@lid.pro and include the email you paid with.
 
 </details>
 

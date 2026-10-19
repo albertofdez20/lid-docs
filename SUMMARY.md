@@ -20,7 +20,7 @@
 * [Services](sell-on-lid/services.md)
 * [Challenges](for-sellers/bounties.md)
 * [Links and campaigns](for-sellers/links-and-campaigns.md)
-* [Refunds and protection](for-sellers/refunds-and-escrow.md)
+* [Refunds and protection](sell-on-lid/refunds-and-protection.md)
 
 ## Earn by sharing
 
@@ -47,7 +47,7 @@
 ## Developers
 
 * [Overview](developers/overview.md)
-* [Smart contracts](developers/smart-contracts.md)
+* [The Solana program](developers/solana-program.md)
 * [Agentic Commerce API](developers/agentic-commerce-api.md)
 * [Integrations](developers/integrations.md)
 

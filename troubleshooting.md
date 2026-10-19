@@ -6,7 +6,7 @@ description: >-
 
 # Troubleshooting
 
-Quick fixes for the issues people hit most. If yours is missing, email [alberto@lid.pro](mailto:alberto@lid.pro).
+Quick fixes for the issues people hit most. If yours is missing, email [hello@lid.pro](mailto:hello@lid.pro).
 
 ## I shared my link and the sale didn't count
 
@@ -44,4 +44,4 @@ Your Lid balance holds USDC on Solana only. If you sent another coin, or used an
 
 ## How to reach us
 
-Email [alberto@lid.pro](mailto:alberto@lid.pro) or message [@albertofdez20](https://x.com/albertofdez20) on X. Include your account email and the product link involved.
+Email [hello@lid.pro](mailto:hello@lid.pro) or message [@albertofdez20](https://x.com/albertofdez20) on X. Include your account email and the product link involved.

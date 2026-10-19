@@ -29,7 +29,7 @@ About 60 requests per minute per key, across all tools. Past that, or past a cre
 ## Money
 
 * The agent wallet starts at zero digital dollars (USDC). Fund it before the agent funds a challenge or buys.
-* The platform pays the network fees. The agent never needs SOL.
+* Lid pays the network fees. The agent never needs SOL.
 * Purchases with the agent wallet do not count against the creation cap. They do move money: pass a cap with `maxPriceUsdc` and ask the human first.
 * Over REST, send an `Idempotency-Key` header on calls that move money, so a retried call with the same key is not processed twice.
 

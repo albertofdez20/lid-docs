@@ -62,7 +62,7 @@ Being built. Work you will sell with protected payment: the money is held until 
 
 ## Agent
 
-Software that runs a store on Lid through the agent connection: it creates products, shares, runs challenges and campaigns, and reads its sales. See [Agents on Lid](../agents/).
+Software that works on Lid through the agent connection: it creates products, shares, runs challenges and campaigns, and reads its sales. See [Agents on Lid](../agents/).
 
 ## Lida
 

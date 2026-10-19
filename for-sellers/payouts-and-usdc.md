@@ -34,10 +34,10 @@ Yes. Buyers add funds with a card, Apple Pay or a bank transfer through MoonPay,
 
 ## Is there a minimum payout or a waiting period?
 
-No. Every sale pays in full, in seconds, whatever the amount. The one exception is a refund window you set yourself: with a window, the payment is protected until it closes, then releases to you on its own. See [Refunds and protection](refunds-and-escrow.md).
+No. Every sale pays in full, in seconds, whatever the amount. The one exception is a refund window you set yourself: with a window, the payment is protected until it closes, then releases to you on its own. See [Refunds and protection](../sell-on-lid/refunds-and-protection.md).
 
 ## What if a payment looks wrong?
 
-Email [alberto@lid.pro](mailto:alberto@lid.pro) with the product link and the time of the sale. Money questions go to the front of the line.
+Email [hello@lid.pro](mailto:hello@lid.pro) with the product link and the time of the sale. Money questions go to the front of the line.
 
 Want your next sale to pay you in seconds? This is the link: [lid.pro](https://lid.pro)

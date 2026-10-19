@@ -6,7 +6,7 @@ description: >-
 
 # Roadmap
 
-Lid ships every week. This page shows what is live, what is being built, and what comes after.
+Lid ships every week. This page shows what is live, what is being built, and what is planned.
 
 ## Live now
 
@@ -21,7 +21,7 @@ Lid ships every week. This page shows what is live, what is being built, and wha
 * Your own site, built with Lida, for the accounts we switch on
 * Lida, built into the app: she answers your questions, drafts your products and reads your sales; where the Builder is switched on, she builds your site
 * A connection for AI agents over MCP: agents create products, share links, challenges and campaigns, read sales and build sites, with signed webhooks
-* A flat 3% fee, with no monthly cost
+* A flat 3% fee, with $0 a month to sell
 
 ## Being built now
 

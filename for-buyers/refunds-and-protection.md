@@ -37,7 +37,7 @@ Services are being built. When they open, the seller does the work first, and yo
 ## If something is wrong
 
 1. Reach out to the seller first. Sellers handle most questions directly.
-2. If you still need help, write to Lid at alberto@lid.pro. Include the email you paid with and a link to the product.
+2. If you still need help, write to Lid at hello@lid.pro. Include the email you paid with and a link to the product.
 
 {% hint style="info" %}
 The official addresses are lid.pro and docs.lid.pro. Check the address bar before you sign in or pay.
@@ -57,7 +57,7 @@ During a refund window, your money is set aside. The seller receives it after th
 
 <summary>Can the seller change the refund policy after I buy?</summary>
 
-The policy is locked in when you buy. During the window, an approved claim returns your money automatically.
+The policy is locked in when you buy. During the window, a dispute our team decides in your favor returns your money.
 
 </details>
 
@@ -65,6 +65,6 @@ The policy is locked in when you buy. During the window, an approved claim retur
 
 <summary>The sale was final and I have a problem. What now?</summary>
 
-Reach out to the seller first. If you still need help, write to alberto@lid.pro.
+Reach out to the seller first. If you still need help, write to hello@lid.pro.
 
 </details>

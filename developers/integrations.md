@@ -56,10 +56,6 @@ Lid is designed to play well with the tools creators and developers already use.
 
 **Embeddable checkout.** Drop-in checkout flow for sellers who want to run the product page on their own site.
 
-**Tax and accounting.** Native exports for common accounting systems and tax software.
-
-**CMS plugins.** WordPress, Ghost, Webflow plugins to create and manage Lid products from inside a content tool.
-
 ## Integration principles we hold to
 
 **Don't break the trust layer.** No integration is allowed to touch the money flow. External systems read state, receive events, or trigger actions. Settlement stays on-chain.
@@ -78,7 +74,7 @@ If you want to integrate Lid with a product you're building, we want to hear fro
 * Marketplaces or aggregators
 * Crypto wallets or exchanges
 
-Email [alberto@lid.pro](mailto:alberto@lid.pro) with:
+Email [hello@lid.pro](mailto:hello@lid.pro) with:
 
 1. What you're building
 2. How you'd integrate Lid

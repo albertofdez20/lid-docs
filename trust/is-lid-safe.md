@@ -1,16 +1,16 @@
 ---
 description: >-
-  Nobody at Lid can touch your money because Lid never holds it: how splits
-  settle, what protects buyers and funders, and what is still being built.
+  How splits settle and who holds the money, what protects buyers and funders,
+  who decides a dispute, and what is still being built.
 ---
 
 # Is Lid safe?
 
-Short version: nobody at Lid can touch your money, because Lid never holds it. Here is how that works.
+Short version: no company ever holds the money. Budgets sit in a pool the funder controls until the result verifies; the moment it does, the split settles in the same transaction. Here is how that works, and the one case where our team decides where money goes: a disputed refund.
 
 ## Who holds the money
 
-Nobody. When a buyer pays, the payment splits the second it happens. The seller gets their share. The person who shared the link has their commission assigned to them, and only they can claim it. Lid gets a flat 3%. The sale, the split and the payout are one transaction. Unless the seller set a refund window, there is no waiting period and no payout day. Your balance is yours the moment you earn it.
+No company. When a buyer pays, the payment splits the second it happens. The seller gets their share. The person who shared the link has their commission assigned to them, and only they can claim it. Lid gets a flat 3%. The sale, the split and the payout are one transaction. Unless the seller set a refund window, there is no waiting period and no payout day. Your balance is yours the moment you earn it.
 
 ## Why the split can't be changed later
 
@@ -38,4 +38,4 @@ If this page and the app at [lid.pro](https://lid.pro) ever disagree, the app is
 
 ## Questions
 
-Email [alberto@lid.pro](mailto:alberto@lid.pro). You will get a reply from a person.
+Email [hello@lid.pro](mailto:hello@lid.pro). You will get a reply from a person.

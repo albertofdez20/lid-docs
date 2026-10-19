@@ -1,6 +1,6 @@
 ---
 description: >-
-  Email alberto@lid.pro or DM @albertofdez20 on X. What to include so a problem
+  Email hello@lid.pro or DM @albertofdez20 on X. What to include so a problem
   gets fixed on the first reply.
 ---
 
@@ -8,9 +8,9 @@ description: >-
 
 ## Email
 
-[alberto@lid.pro](mailto:alberto@lid.pro)
+[hello@lid.pro](mailto:hello@lid.pro)
 
-Every message goes to the founder. You will get a reply from a person, not a ticket number.
+You will get a reply from a person, not a ticket number.
 
 ## X
 

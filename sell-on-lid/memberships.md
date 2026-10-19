@@ -44,7 +44,7 @@ Yes, anytime, from your page or from **My purchases → Subscriptions**. They ke
 
 <summary>What does it cost me to run one?</summary>
 
-Nothing monthly. The flat 3% on each member payment is the whole fee.
+$0 a month to sell. The flat 3% on each member payment is the whole fee.
 
 </details>
 

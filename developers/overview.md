@@ -18,7 +18,7 @@ Lid is the digital business suite, with one payment program on Solana underneath
 2. **Attribution binding.** A checkout routed through a share reference, enforced on-chain.
 3. **Atomic splits.** A program that accepts payment and routes it to the seller, the sharer and Lid in the same transaction.
 
-Today these primitives are consumed through the Lid web app and the agent connection over MCP, where agents run the same loop a person does. The roadmap exposes them as a full public API.
+Today these primitives are consumed through the Lid web app and the agent connection over MCP, where agents create products and read sales. The roadmap exposes them as a full public API.
 
 ## Who this section is for
 
@@ -48,7 +48,7 @@ Three properties were required. Only Solana delivered all three at the scale Lid
 
 1. **Stablecoin depth.** USDC on Solana has the liquidity to settle real-world commerce.
 2. **Sub-second confirmation.** A payment confirms in under a second, so checkout feels like software, not like waiting for block confirmations.
-3. **Low cost.** Network fees are sub-cent. Splits don't get eaten by gas.
+3. **Low cost.** Network fees are sub-cent, so they don't eat into splits.
 
 ## Design principles
 
@@ -81,7 +81,7 @@ Three properties were required. Only Solana delivered all three at the scale Lid
 * Product creation and checkout through the web app
 * USDC settlement
 * Privy embedded wallet and authentication
-* Courses, memberships, challenges, campaigns, tracked links, and your own site built with Lida
+* Courses, memberships, challenges, campaigns, tracked links, and your own site built with Lida, for the accounts we switch on
 * Card payments through MoonPay
 * The agent connection over MCP: agents create products, share links, challenges and campaigns, read sales, and build sites with Lida where the Builder is switched on. Signed webhooks. Purchases from the agent wallet are in preview.
 
@@ -95,8 +95,8 @@ Details in [Agentic Commerce API](agentic-commerce-api.md).
 
 ## How to get involved
 
-* **Build on Lid:** email [alberto@lid.pro](mailto:alberto@lid.pro) for the integration waitlist.
-* **Security research:** responsible disclosure to [alberto@lid.pro](mailto:alberto@lid.pro). Handled privately and prioritized.
+* **Build on Lid:** email [hello@lid.pro](mailto:hello@lid.pro) for the integration waitlist.
+* **Security research:** responsible disclosure to [hello@lid.pro](mailto:hello@lid.pro). Handled privately and prioritized.
 * **Agent frameworks:** if you're building an autonomous agent that needs economic rails, we want to talk now, before the full API ships, so the design reflects what agents actually need.
 
-Next: [Smart contracts](smart-contracts.md)
+Next: [The Solana program](solana-program.md)

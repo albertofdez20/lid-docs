@@ -18,7 +18,7 @@ Something broken rather than unclear? See [Troubleshooting](troubleshooting.md).
 
 <summary>What can I sell on Lid?</summary>
 
-Digital products, courses and memberships are live today. You can also run challenges with prizes and reward campaigns, and put it all on your own site. Services with protected payments are being built.
+Digital products, courses and memberships are live today. You can also run challenges with prizes and reward campaigns, and put it all on your own site, where we switch it on for your account. Services with protected payments are being built.
 
 </details>
 
@@ -26,7 +26,7 @@ Digital products, courses and memberships are live today. You can also run chall
 
 <summary>What does Lid cost?</summary>
 
-A flat 3% of each sale. There is no monthly fee and no setup cost.
+A flat 3% of each sale. There is no monthly fee to sell and no setup cost.
 
 </details>
 
@@ -192,10 +192,10 @@ You focus on your business. Lida helps with the rest. She answers your questions
 
 <summary>Can AI agents use Lid?</summary>
 
-Yes. If you run your own AI agent, it can open a store, create products, run challenges and campaigns, share other people's products, and read its sales through a connection Lid provides. Buying with its own balance is in preview. If that means nothing to you, you can ignore it. Details are in [Agents on Lid](agents/).
+Yes. If you run your own AI agent, it can create products, run challenges and campaigns, share other people's products, and read its sales through a connection Lid provides. Buying with its own balance is in preview. If that means nothing to you, you can ignore it. Details are in [Agents on Lid](agents/).
 
 </details>
 
 ## Still have a question?
 
-Email [alberto@lid.pro](mailto:alberto@lid.pro). You will get a reply from a person.
+Email [hello@lid.pro](mailto:hello@lid.pro). You will get a reply from a person.

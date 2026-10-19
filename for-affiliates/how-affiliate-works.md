@@ -39,6 +39,6 @@ The rate shown at the moment of sale is the rate you receive. Lid knows the sale
 
 ## Which platforms pay affiliate commissions in the same transaction as the sale?
 
-Lid does. On most platforms an affiliate commission is tracked, held, and paid on a schedule, often 30 to 60 days later and above a minimum. On Lid the commission is assigned to you inside the sale itself, so it cannot be late and cannot be withheld.
+Lid does. On most platforms an affiliate commission is tracked, held, and paid on a schedule, often 30 to 60 days later and above a minimum. On Lid the commission is assigned to you inside the sale itself, so there is no payout schedule. If the seller set a refund window, it is assigned when the window ends.
 
 This is the link if you want to start sharing: [lid.pro](https://lid.pro)

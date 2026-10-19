@@ -29,4 +29,4 @@ The same files are in a Google Drive folder: [Lid Media Kit on Google Drive](htt
 
 ### Press contact
 
-Alberto Fernández, co-founder and CEO. Email [alberto@lid.pro](mailto:alberto@lid.pro). We reply in English and Spanish.
+Alberto Fernández, co-founder and CEO. Email [hello@lid.pro](mailto:hello@lid.pro). We reply in English and Spanish.

@@ -8,7 +8,7 @@ description: >-
 
 **Every digital business runs on Lid.**
 
-Lid is the digital business suite: your community, your courses and your products in one place, and you're paid the moment someone joins or buys. Live on Solana.
+Lid is the business suite: your community, your courses and your products in one place, and you're paid the moment someone joins or buys. Live on Solana.
 
 ## The problem: the bleed and the wait
 
@@ -60,6 +60,6 @@ Businesses with an audience first, and the creators around them: hardest to serv
 
 ## In one sentence
 
-Lid is the suite for digital businesses: run, monetize, and distribute your business in one place.
+Lid is the suite for businesses: run, monetize, and distribute your business in one place.
 
 Next: [Roadmap](roadmap.md)

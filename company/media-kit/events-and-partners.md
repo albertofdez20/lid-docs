@@ -10,13 +10,13 @@ description: >-
 
 {% tabs %}
 {% tab title="English" %}
-Lid. The digital business suite.
+Lid. The business suite.
 
 Your community, your courses, your products in one place.
 {% endtab %}
 
 {% tab title="Español" %}
-Lid. La suite para negocios digitales.
+Lid. La suite para negocios.
 
 Tu comunidad, tus cursos, tus productos en un solo lugar.
 {% endtab %}

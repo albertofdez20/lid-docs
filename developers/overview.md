@@ -12,7 +12,7 @@ It is intentionally high-level. Full technical reference, program interfaces and
 
 ## What Lid is from a developer's perspective
 
-Lid is the digital business suite, with one payment program on Solana underneath. At the primitive level, that program exposes three things.
+Lid is the business suite, with one payment program on Solana underneath. At the primitive level, that program exposes three things.
 
 1. **Product registration.** A product with a price and a commission rule for sharers (affiliates, in the API).
 2. **Attribution binding.** A checkout routed through a share reference, enforced on-chain.

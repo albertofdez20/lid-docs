@@ -6,7 +6,7 @@ description: >-
 
 # What is Lid
 
-Lid is the suite for digital businesses: run, monetize, and distribute your business in one place. You create a product, you share a link, and you are paid in seconds when someone buys.
+Lid is the suite for businesses: run, monetize, and distribute your business in one place. You create a product, you share a link, and you are paid in seconds when someone buys.
 
 Anyone else can share your link too. When their share leads to a sale, they earn a commission you set, from 1% to 50%.
 

@@ -6,7 +6,7 @@ description: >-
 
 # Media kit
 
-Lid. The digital business suite.
+Lid. The business suite.
 
 Everything you need to write about Lid or feature us: descriptions you can paste, key facts, logos, colors, fonts, product screenshots and banners for events. Use them as they are.
 

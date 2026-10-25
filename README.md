@@ -1,13 +1,13 @@
 ---
 description: >-
-  Lid is the digital business suite: your community, your courses and your
-  products in one place, 3% of each sale. Pick your path: sell, share, buy,
-  connect an agent, build.
+  Lid is the business suite: your community, your courses and your products in
+  one place, 3% of each sale. Pick your path: sell, share, buy, connect an
+  agent, build.
 ---
 
 # Welcome to Lid
 
-Lid. The digital business suite. Your community, your courses and your products in one place, and you're paid the moment someone joins or buys.
+Lid. The business suite. Your community, your courses and your products in one place, and you're paid the moment someone joins or buys.
 
 The fee is a flat 3% on every sale. There is no monthly fee to sell. No company ever holds the money: the moment a sale is real, the split settles in one transaction, in digital dollars (USDC). The seller is paid in seconds, and a sharer's commission is assigned in the same transaction for them to claim.
 

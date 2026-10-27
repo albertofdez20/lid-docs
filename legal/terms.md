@@ -6,7 +6,7 @@ description: >-
 
 # Terms of Service
 
-_Last updated: 26 May 2026._ _Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE)._
+_Last updated: 27 October 2026._ _Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE)._
 
 {% hint style="info" %}
 **In plain language.** Lid is infrastructure for selling digital products. A Creator uploads a product. A link gets shared. A Buyer pays in digital dollars. A smart contract splits the payment between the Creator, the Affiliate, and Lid in the same transaction. Flat 3% fee. No custody. No holds.
@@ -72,7 +72,7 @@ Lid never has custody of your wallet, your keys, or your funds. If you lose your
 
 If you log in through an embedded wallet provider (for example, Privy), that provider's terms and security model apply to how your keys are generated and stored. See the [Privacy Policy](privacy.md) for the list of providers we work with.
 
-You may close your account at any time by stopping use of the service. Closing an account does not reverse past transactions.
+You can delete your account at any time, in the Lid app (Account › Delete account) or by writing to [privacy@lid.pro](mailto:privacy@lid.pro). We then delete the personal data tied to your account, as the [Privacy Policy](privacy.md) explains. Deleting an account does not reverse past transactions.
 
 ## 5. Roles on Lid
 
@@ -168,6 +168,15 @@ You may not use Lid to sell, promote, share, or distribute:
 * Content that violates privacy or sells personal data without a lawful basis.
 * Political campaign products, government impersonation, or misinformation targeting elections.
 * Content that violates UAE Federal Law or UAE Media Council content standards — including content offensive to Islam, other recognised religions, the UAE's leadership, or public morality.
+* Hate speech, or content that threatens, promotes or incites hatred or violence against people or groups for who they are.
+* Content that shows, promotes or helps gratuitous or real-world violence.
+* Content that promotes self-harm or suicide, or games and activities where people can be seriously hurt or killed.
+* False or misleading health claims.
+* Pornography, prostitution or other sexually explicit content.
+* Content that sells or promotes alcohol, tobacco or other age-restricted products to minors.
+* Deepfakes, or tools and content made to create false or misleading media.
+* Content that falsely claims a connection to, or support from, a person, a company or a government, or that copies another brand to confuse people.
+* Content that pushes people to change their phone's security settings.
 
 You also may not:
 
@@ -178,6 +187,8 @@ You also may not:
 * Impersonate another Creator, Affiliate, or person.
 
 Lid may remove content, suspend access, or disable wallets involved in any violation. We may report violations to competent authorities where required.
+
+To report a product, a profile or a challenge entry that breaks these rules, write to [hello@lid.pro](mailto:hello@lid.pro) with the link. We review every report and remove content that breaks these Terms.
 
 ## 11. Third-party services
 
@@ -268,6 +279,18 @@ Where a dispute involves a consumer whose jurisdiction grants mandatory protecti
 
 **Notices.** Formal notices to Lid must be sent to `legal@lid.pro` and copied to the registered office above. We may send notices to you through email, in-product notifications, or wallet-bound messaging.
 
-## 20. Contact
+## 20. The Lid app
+
+**Licence to use the app.** These Terms also cover the Lid app for Android, including any copy you install from the Solana dApp Store. We give you a personal, non-exclusive, non-transferable and revocable licence to install and use the app on devices you own or control, only as these Terms allow. You may not copy, change, sell or reverse-engineer the app, except where the law lets you.
+
+**Solana Mobile is not part of these Terms.** These Terms are between you and Lid Labs Technologies - FZCO only. Solana Mobile, Inc., its affiliates, and their officers, directors, employees and agents (the "**Solana Mobile Parties**") are not a party to these Terms. They have no responsibility or liability to you in connection with the Lid app, its content or any service in it. Questions, complaints and claims about the app come to us at [legal@lid.pro](mailto:legal@lid.pro).
+
+**No warranty from the Solana Mobile Parties.** The Lid app is provided "as is" and "as available", and you use it at your own risk. To the fullest extent the law allows, the Solana Mobile Parties make no representation, warranty or condition of any kind about the app, express, implied or statutory. That includes warranties of merchantability, fitness for a particular purpose, non-infringement, and that the app will work without errors or interruption. The Solana Mobile Parties are not responsible for any loss connected to blockchains, digital assets, wallets or transactions.
+
+**No liability of the Solana Mobile Parties.** To the fullest extent the law allows, under no circumstances are the Solana Mobile Parties liable to you for any damages related to the Lid app, whether direct, indirect, special, consequential, incidental, punitive, exemplary or other. That includes loss of profits, revenue, use or data, and business interruption, even if they were told the damage was possible. Your only remedy against the Solana Mobile Parties is to stop using the app.
+
+Sections 14 (Disclaimers) and 15 (Limitation of liability) also apply in favour of the Solana Mobile Parties.
+
+## 21. Contact
 
 **Lid Labs Technologies - FZCO** IFZA Business Park, DDP PO Box 342001, Dubai, United Arab Emirates Email: [legal@lid.pro](mailto:legal@lid.pro)

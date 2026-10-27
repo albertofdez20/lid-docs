@@ -6,7 +6,7 @@ description: >-
 
 # Privacy Policy
 
-_Last updated: 26 May 2026._ _Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE)._
+_Last updated: 27 October 2026._ _Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE)._
 
 {% hint style="info" %}
 **In plain language.** We collect what we need to run Lid and nothing we do not. Your wallet address is public on Solana; we do not change that. Your email and account data are private. Blockchain transactions are permanent. We cannot delete what is recorded on Solana. We do not sell your personal data. We honour the rights the law gives you under UAE PDPL, EU GDPR, and California CCPA.
@@ -18,7 +18,7 @@ The controller of your personal data is:
 
 **Lid Labs Technologies - FZCO** Trade licence No. 65802 IFZA Business Park, DDP PO Box 342001, Dubai, United Arab Emirates Email: [privacy@lid.pro](mailto:privacy@lid.pro)
 
-For the purposes of UAE Federal Decree-Law No. 45 of 2021 on the Protection of Personal Data (UAE PDPL), the EU General Data Protection Regulation (GDPR), the UK GDPR, and the California Consumer Privacy Act as amended by the CPRA (CCPA/CPRA), Lid acts as the **data controller** for data processed on `lid.pro` and `lid.pro/dashboard`.
+For the purposes of UAE Federal Decree-Law No. 45 of 2021 on the Protection of Personal Data (UAE PDPL), the EU General Data Protection Regulation (GDPR), the UK GDPR, and the California Consumer Privacy Act as amended by the CPRA (CCPA/CPRA), Lid acts as the **data controller** for data processed on `lid.pro`, `lid.pro/dashboard` and the Lid app for Android.
 
 Our Data Protection contact is `privacy@lid.pro`. For EU and UK users, contact us at the same address. If we appoint an EU or UK representative, their details will be listed here.
 
@@ -27,6 +27,7 @@ Our Data Protection contact is `privacy@lid.pro`. For EU and UK users, contact u
 This Policy applies to personal data we collect when you:
 
 * Visit `lid.pro`, `lid.pro/dashboard`, or any Lid-operated domain.
+* Use the Lid app on your phone.
 * Create an account, connect a wallet, or complete a transaction.
 * List a product as a Creator, share a link as an Affiliate, or pay as a Buyer.
 * Contact us by email or in any Lid-operated channel.
@@ -65,6 +66,12 @@ Your wallet address and on-chain transactions are public by design. They can be 
 * Browser and device type, operating system, language.
 * Access timestamps and pages visited.
 * Error logs and crash reports.
+
+### The Lid app on your phone
+
+* **Microphone, only for Lida's live mode.** If you turn on live mode, the app uses your phone's microphone and sends your voice to Google's Gemini service so Lida can answer you. We do not keep the audio. You choose when live mode starts and ends, and the app asks before the first time.
+* **Images Lida makes.** If you ask Lida for an image, your description goes to the image service we use to make it.
+* **Files you pick.** When you add a cover, images or files to a product, you choose them with your phone's file picker. The app reads only what you choose.
 
 ### Communications
 
@@ -108,6 +115,7 @@ We share data with the categories of recipient needed to run Lid.
 
 * **Service providers** who process data on our behalf. They act under contract and process only for Lid's purposes. See the list in Section 7.
 * **Solana validators and the public blockchain** — transactions you submit through Lid are broadcast to the Solana network and become permanent public records.
+* **App stores.** If you install Lid from the Solana dApp Store, Solana Mobile, Inc. may ask us for data about activity in the app, including transactions made through it. Solana Mobile may use that data to run and improve the dApp Store, its devices and its other products, for example to show your activity in its Earn Widget. We share only what such a request needs and the law allows. Transactions on Solana are public records anyone can read.
 * **Tax and regulatory authorities**, where disclosure is required by law.
 * **Law enforcement**, where we have a good-faith belief that disclosure is needed to comply with law, a court order, or a valid legal process.
 * **Professional advisers** — lawyers, auditors, accountants — bound by confidentiality.
@@ -131,6 +139,7 @@ We do not sell personal data. We do not share it with third parties for their ow
 | Resend              | Transactional email delivery                     | Live    | United States          | resend.com/legal/privacy-policy       |
 | HubSpot             | CRM and marketing email                          | Live    | United States          | legal.hubspot.com/privacy-policy      |
 | Linear / Notion     | Internal work management                         | Live    | United States          | linear.app/privacy, notion.so/privacy |
+| Google (Gemini)     | Lida's live voice mode in the app                | Live    | United States          | policies.google.com/privacy           |
 
 Helius webhooks are planned, not yet active. When the integration goes live, this Policy will be updated and existing users notified.
 
@@ -150,14 +159,14 @@ You can ask us for a copy of the safeguards that apply to your data by emailing 
 
 ## 9. How long we keep data
 
-| Data category                      | Retention                                                         |
-| ---------------------------------- | ----------------------------------------------------------------- |
-| Account data (email, display name) | While your account is active, plus up to 12 months after closure  |
-| Transaction and commercial records | 7 years, to meet UAE tax and accounting obligations               |
-| Support communications             | 3 years after the last interaction                                |
-| Device and technical logs          | Up to 13 months                                                   |
-| Marketing data                     | Until you unsubscribe, plus 6 months for suppression records      |
-| On-chain transaction data          | Permanent — recorded on the Solana blockchain outside our control |
+| Data category                      | Retention                                                                                                                                    |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Account data (email, display name) | While your account is active. After you delete it, up to 12 months only where needed to prevent fraud, resolve disputes or meet a legal duty |
+| Transaction and commercial records | 7 years, to meet UAE tax and accounting obligations                                                                                          |
+| Support communications             | 3 years after the last interaction                                                                                                           |
+| Device and technical logs          | Up to 13 months                                                                                                                              |
+| Marketing data                     | Until you unsubscribe, plus 6 months for suppression records                                                                                 |
+| On-chain transaction data          | Permanent — recorded on the Solana blockchain outside our control                                                                            |
 
 We may keep data longer to defend legal claims, comply with a regulator, or resolve disputes.
 
@@ -169,7 +178,7 @@ Depending on where you live, you may have rights over your personal data. We gra
 
 * **Access** — ask for a copy of the personal data we hold about you.
 * **Rectification** — ask us to correct data that is wrong or incomplete.
-* **Deletion** — ask us to delete data we hold, subject to legal retention requirements. On-chain data cannot be deleted.
+* **Deletion** — delete your account in the Lid app (Account › Delete account), or ask us to delete data we hold, subject to legal retention requirements. On-chain data cannot be deleted.
 * **Restriction** — ask us to pause processing in certain cases.
 * **Portability** — receive a copy of your account data in a common, machine-readable format.
 * **Objection** — object to processing based on legitimate interest or direct marketing.

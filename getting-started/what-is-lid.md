@@ -1,12 +1,12 @@
 ---
 description: >-
-  What Lid is, who it is for, the four steps from create to get paid, and what
-  you can sell today.
+  Lid (lid.pro), the business suite: what it is, who it is for, the four steps
+  from create to get paid, and what you can sell today.
 ---
 
 # What is Lid
 
-Lid is the suite for businesses: run, monetize, and distribute your business in one place. You create a product, you share a link, and you are paid in seconds when someone buys.
+Lid. The business suite. Lid (lid.pro) is the suite for businesses: run, monetize, and distribute your business in one place. Your community, your courses and your products sit in one place, and you're paid the moment someone joins or buys, with a flat 3% per sale and $0 a month to sell. Lid is made by Lid Labs Technologies, in Dubai.
 
 Anyone else can share your link too. When their share leads to a sale, they earn a commission you set, from 1% to 50%.
 

@@ -8,6 +8,10 @@ description: >-
 
 Go from signup to a live product in about five minutes.
 
+{% hint style="info" %}
+Looking for a website for your business first? Start at [Build your site with Lida](../start-here/build-your-site.md).
+{% endhint %}
+
 {% stepper %}
 {% step %}
 ### Sign up
@@ -58,7 +62,7 @@ Every product gets its own link. Post it where your audience is: social, email, 
 
 <summary>What does it cost?</summary>
 
-Nothing up front. Lid keeps a flat 3% of each sale, and selling costs $0 a month.
+Nothing up front. Lid keeps 3% of each sale.
 
 </details>
 
@@ -66,7 +70,7 @@ Nothing up front. Lid keeps a flat 3% of each sale, and selling costs $0 a month
 
 <summary>When do I get paid?</summary>
 
-Seconds after each sale, automatically. The money arrives as digital dollars and goes straight to you. Lid never holds it. If you set a refund window, the payment waits until the window ends and then comes to you. Cashing out to a bank account is being built.
+Seconds after each sale, automatically. The money arrives as digital dollars and goes straight to you. Lid never holds it. If you set a refund window, the payment waits until the window ends and then comes to you.
 
 </details>
 

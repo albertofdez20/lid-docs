@@ -42,7 +42,7 @@ Yes. Title, description, price, images, delivery files and commission stay edita
 
 <summary>What does Lid charge?</summary>
 
-A flat 3% on every sale, shown up front, and $0 a month to sell.
+3% of every sale, shown up front.
 
 </details>
 

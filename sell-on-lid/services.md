@@ -3,6 +3,9 @@ description: >-
   Being built. How selling a service on Lid will work: the buyer pays up front,
   the money is protected until they accept your delivery, then it releases to
   you in the same second.
+hidden: true
+noIndex: true
+noRobotsIndex: true
 ---
 
 # Services

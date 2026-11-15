@@ -1,12 +1,12 @@
 ---
 description: >-
   Connect an AI agent to Lid over MCP: create a key in Settings, point the agent
-  at mcp.lid.pro/mcp, make the first calls, publish a product.
+  at mcp.lid.pro/mcp, make the first calls, build a site, publish a product.
 ---
 
 # Connect an agent
 
-In plain words: this page gets an AI agent from zero to its first call on Lid. If you sell or share on Lid through the app, you never need it.
+In plain words: this page gets an AI agent from zero to its first call on Lid. If you use Lid through the app, you never need it.
 
 ## How does an AI agent connect to Lid?
 
@@ -16,9 +16,19 @@ Over MCP (Model Context Protocol), with one API key and one address. Lid runs an
 {% step %}
 ### Create a key
 
-In the app: **Settings → Developer → Create key**. One key per agent, labeled. Tick only the permissions the agent needs: **Site** (write the site's code, publish it, turn pieces on or off), **Catalog** (create and edit products and challenges, without funds) and **Money** (fund challenges, buy and assign prizes with the agent wallet). With no permissions, the key can only read. Choose when it expires: 30, 90 or 180 days. The key is shown once and starts with `lpmcp_`. Treat keys like money: one key per agent, revoke what you do not recognize.
+In the app: **Settings → Development → Create API key**. One key per agent, labeled. Tick only the permissions the agent needs:
 
-![The Development section in Lid's Settings, Developer tab: a label field, the Create key button, the Site, Catalog and Money permissions, and the expiry set to 90 days.](../.gitbook/assets/developer-create-key.png)
+* **Site**: write your site's code, publish it and turn pieces on or off.
+* **Catalog**: create and edit products and challenges, without funds.
+* **Money**: fund challenges and assign prizes with the agent wallet.
+* **People data and sales**: contacts, waitlist, questions, members, submissions and sales, through your sites' tools.
+* **Lida tasks** and **Chat with Lida**: hand Lida a task, or chat with her, from your own system.
+
+With no permissions, the key can only read. Choose when it expires: 30, 90 or 180 days. The key starts with `lpmcp_`, and you can show it again on that screen with **Show key**. Treat keys like money: one key per agent, and remove what you do not recognize.
+
+![The Development section in Lid's Settings in an earlier capture: a label field, the Create key button, the Site, Catalog and Money permissions, and the expiry set to 90 days.](../.gitbook/assets/developer-create-key.png)
+
+The capture above is from an earlier version of this screen. Today it lists the six permissions.
 {% endstep %}
 
 {% step %}
@@ -27,7 +37,7 @@ In the app: **Settings → Developer → Create key**. One key per agent, labele
 {% tabs %}
 {% tab title="Claude Code" %}
 ```bash
-claude mcp add --transport http lid https://mcp.lid.pro/mcp \
+claude mcp add --transport http lidpro https://mcp.lid.pro/mcp \
   --header "Authorization: Bearer lpmcp_YOUR_KEY"
 ```
 {% endtab %}
@@ -38,7 +48,7 @@ In `.cursor/mcp.json`:
 ```json
 {
   "mcpServers": {
-    "lid": {
+    "lidpro": {
       "url": "https://mcp.lid.pro/mcp",
       "headers": { "Authorization": "Bearer lpmcp_YOUR_KEY" }
     }
@@ -53,7 +63,7 @@ In `claude_desktop_config.json`, through the `mcp-remote` bridge:
 ```json
 {
   "mcpServers": {
-    "lid": {
+    "lidpro": {
       "command": "npx",
       "args": [
         "-y", "mcp-remote", "https://mcp.lid.pro/mcp",
@@ -63,13 +73,15 @@ In `claude_desktop_config.json`, through the `mcp-remote` bridge:
   }
 }
 ```
+
+If your client has no field for headers, the key can go in the address as `https://mcp.lid.pro/mcp?key=lpmcp_YOUR_KEY`. A key in an address stays in history and in logs, so use the header whenever the client allows it.
 {% endtab %}
 
 {% tab title="Any MCP client" %}
 ```json
 {
   "mcpServers": {
-    "lid": {
+    "lidpro": {
       "url": "https://mcp.lid.pro/mcp",
       "headers": { "Authorization": "Bearer lpmcp_YOUR_KEY" }
     }
@@ -87,11 +99,11 @@ curl -H "Authorization: Bearer lpmcp_YOUR_KEY" \
      https://api.lid.pro/api/v1/agent/me
 ```
 
-The full list of routes is in the developer guide at [lid.pro/en/docs](https://lid.pro/en/docs), linked from **Settings → Developer**.
+The full list of routes is in the developer guide at [lid.pro/en/docs](https://lid.pro/en/docs), linked from **Settings → Development**.
 {% endtab %}
 {% endtabs %}
 
-The Developer tab also gives you a ready-made snippet for Claude (web), Claude Code, Claude Desktop, Cursor and Antigravity, with your new key already in it. A discovery file lives at `https://lid.pro/.well-known/mcp.json`.
+The Development tab also gives you a ready-made snippet for Claude (web), Claude Code, Claude Desktop, Cursor and Antigravity, with your new key already in it. A discovery file lives at `https://lid.pro/.well-known/mcp.json`.
 
 {% hint style="info" %}
 Send a User-Agent header that names your agent. Default script user agents can be refused at the edge.
@@ -107,7 +119,21 @@ Send a User-Agent header that names your agent. Default script user agents can b
 {% endstep %}
 
 {% step %}
+### Build a first site
+
+Needs the **Site** permission.
+
+1. `get_app_guide` first. It is the building guide Lida follows.
+2. `create_app` for a new site. It starts as a draft, and nothing is public until you publish.
+3. `write_app_files` in batches, and `check_app` after every write.
+4. `screenshot_app` to see the draft on a computer and on a phone.
+5. `publish_app` only when the person asks. If the site is not paid yet it answers `402 site_payment_required`: the owner finishes that step on lid.pro, and an agent cannot do it.
+{% endstep %}
+
+{% step %}
 ### Publish a first product
+
+Needs the **Catalog** permission.
 
 1. `upload_file` with `gated: true` for the content buyers pay for. It returns a `key`.
 2. `create_product` with `name`, `priceUsdc` (human units, `"5"` is five dollars), `maxSupply`, and the commission you offer sharers (`affiliateCommissionBps`, `1000` is 10%).
@@ -118,11 +144,11 @@ Send a User-Agent header that names your agent. Default script user agents can b
 
 ## What can an agent do once it is connected?
 
-An agent can create and publish products, share other people's products, run and fund challenges and campaigns, review results, read sales and analytics, receive signed webhooks, and build a site with Lida where the Builder is switched on. Each call needs the matching permission on the key. Purchases from the agent's own balance are in preview. Every sale settles like a human sale: one transaction, flat 3%, revenue in the key owner's real wallet.
+An agent can build and publish a site, create and publish products, share other people's products, run and fund challenges and campaigns, review results, read sales and analytics, work a site's admin and receive signed webhooks. Each call needs the matching permission on the key. Every sale settles like a human sale: one transaction, flat 3%, revenue in the key owner's real wallet.
 
 ## What to read next
 
-* [Tool reference](tools.md): every tool, grouped by job.
+* [Tool reference](tools.md): the tools, grouped by job.
 * [Webhooks and events](webhooks.md): get called when a sale, a prize or a conversion happens.
 * [Usage and limits](limits.md): caps and quotas.
 

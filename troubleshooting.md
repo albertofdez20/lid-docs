@@ -1,12 +1,21 @@
 ---
 description: >-
-  Quick fixes: a shared link that did not count, money not showing, login codes,
-  refund requests, card payments, the wrong coin, and how to reach us.
+  Quick fixes: finding the Builder, a domain that does not connect, a shared
+  link that did not count, money not showing, login codes, refund requests, card
+  payments, the wrong coin, and how to reach us.
 ---
 
 # Troubleshooting
 
 Quick fixes for the issues people hit most. If yours is missing, email [hello@lid.pro](mailto:hello@lid.pro).
+
+## I signed in and I can't find where to build my site
+
+Open **Builder** in your dashboard menu, then press **Create site**. The steps are on [Build your site with Lida](start-here/build-your-site.md).
+
+## My domain is not connecting
+
+Open your site's **Domain** tab. It lists the DNS records your domain needs: a CNAME record and a TXT record named `_lid-verify`, plus an A record if it is a root domain. Check them at the place where you bought the domain. DNS changes can take a while to reach everyone, so check again later. Still stuck? Email us with the domain.
 
 ## I shared my link and the sale didn't count
 
@@ -36,7 +45,7 @@ If something needs a human decision, email us and we will help.
 
 ## My card payment didn't go through
 
-Card payments run through MoonPay, which checks your identity before your first card payment and only works where it operates. If it does not work for you, add USDC on Solana from any exchange or wallet app instead, or email us.
+Card payments run through a card provider. It may ask you to verify your identity before your first payment, and it may not be available where you are. If it does not work for you, add USDC on Solana from any exchange or app that sells it, or email us.
 
 ## I sent the wrong coin
 
@@ -44,4 +53,4 @@ Your Lid balance holds USDC on Solana only. If you sent another coin, or used an
 
 ## How to reach us
 
-Email [hello@lid.pro](mailto:hello@lid.pro) or message [@albertofdez20](https://x.com/albertofdez20) on X. Include your account email and the product link involved.
+Email [hello@lid.pro](mailto:hello@lid.pro) or message [@albertofdez20](https://x.com/albertofdez20) on X. Include your account email and the product link involved. From your dashboard you can also open **Help** and send a ticket to the Lid team.

@@ -1,7 +1,7 @@
 ---
 description: >-
   How splits settle and who holds the money, what protects buyers and funders,
-  who decides a dispute, and what is still being built.
+  who decides a dispute, and what has not been reviewed from outside.
 ---
 
 # Is Lid safe?
@@ -18,7 +18,7 @@ The split rules are set on each product, and everyone can see them before they s
 
 ## What protects buyers
 
-Sellers can set a refund window on their products. During that window, the money is held to one side. The buyer can release it to the seller early, or open a dispute; a person on our team then decides whether it goes to the seller or back to the buyer, and it can go nowhere else. Services, which are being built, will release only when the buyer confirms the work was delivered. Payments become final when both sides are done.
+Sellers can set a refund window on their products. During that window, the money is held to one side. The buyer can release it to the seller early, or open a dispute; a person on our team then decides whether it goes to the seller or back to the buyer, and it can go nowhere else. Payments become final when both sides are done.
 
 ## What protects funders
 
@@ -28,9 +28,9 @@ When you fund a challenge or a campaign, the budget sits in a pool you control u
 
 Lid runs on Solana, which is what lets payments split and settle in seconds. You never have to touch, understand, or own any of it. You sign up with your email, you see prices in dollars, and you get paid in digital dollars (USDC). One USDC is worth one US dollar.
 
-## What is still being built
+## Has an outside firm reviewed Lid?
 
-Cashing out to a bank account and services are being built. Card payments are already live through MoonPay. The technology behind Lid is reviewed continuously, and an independent external security review is planned.
+No. There is no third-party review report today. Our team reviews the technology behind Lid continuously.
 
 {% hint style="info" %}
 If this page and the app at [lid.pro](https://lid.pro) ever disagree, the app is right.

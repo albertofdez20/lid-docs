@@ -4,6 +4,7 @@
 
 ## Start here
 
+* [Build your site with Lida](start-here/build-your-site.md)
 * [What is Lid](getting-started/what-is-lid.md)
 * [Your first sale in 5 minutes](getting-started/quickstart.md)
 * [Earn by sharing in 5 minutes](getting-started/quickstart-affiliate.md)
@@ -48,7 +49,7 @@
 
 * [Overview](developers/overview.md)
 * [The Solana program](developers/solana-program.md)
-* [Agentic Commerce API](developers/agentic-commerce-api.md)
+* [API, SDK and buy button](developers/agentic-commerce-api.md)
 * [Integrations](developers/integrations.md)
 
 ## Help
@@ -60,7 +61,7 @@
 ## Company
 
 * [Vision](company/vision.md)
-* [Roadmap](company/roadmap.md)
+* [What is live today](company/roadmap.md)
 * [What's new](company/whats-new.md)
 * [Team](company/team.md)
 * [Media kit](company/media-kit/README.md)

@@ -1,7 +1,7 @@
 ---
 description: >-
-  Refund windows from 0 to 90 days, what the buyer can do during one, how a
-  dispute is decided, and how services will work.
+  Refund windows from 0 to 90 days, what the buyer can do during one, and how a
+  dispute is decided.
 ---
 
 # Refunds and protection
@@ -18,10 +18,6 @@ You choose a refund window for each product, and the payment is protected until 
 6. If a refund goes through, the buyer gets the full amount back, including the sharer's commission.
 
 Buyers see your refund policy on the product page before they pay.
-
-## Services
-
-Services are being built. When they open, the payment is protected until the buyer accepts your delivery. Then it releases to you.
 
 ## FAQ
 

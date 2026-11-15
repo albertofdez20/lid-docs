@@ -1,24 +1,22 @@
 ---
 description: >-
-  Every digital business runs on Lid: the bleed and the wait, the whole stack at
-  flat 3%, why now, the model, the ladder.
+  Every digital business runs on Lid: the problem, your site and the whole stack
+  at 3% of each sale, why now, the model, the ladder.
 ---
 
 # Vision
 
 **Every digital business runs on Lid.**
 
-Lid is the business suite: your community, your courses and your products in one place, and you're paid the moment someone joins or buys. Live on Solana.
+Lid is the business suite: a website built by Lida, Lid's AI, and a store, memberships and the rest in the same account, paid in one transaction. Live on Solana.
 
 ## The problem: the bleed and the wait
 
-Five tools, two months, twenty percent gone.
-
-Sell $100K a year through today's stack: $15,000 to $20,000 gone in fees. Then sixty days for the rest. Gumroad takes 10. Patreon takes 10. OnlyFans takes 20. The software underneath charges $1,900 to $7,600 a year on top. On the funding side, performance networks take 5 to 30% of spend and hold it 30 to 60 days.
+Selling online means stacking tools, and each one takes a cut. Gumroad takes 10% plus $0.50, and 2.9% plus $0.30 on top for processing: 13.7% of a $100 sale. Patreon takes 10%, plus payment processing, currency conversion and payout fees. Then the money waits for a payout day. Both fees were read on each company's own page on 15 November 2026.
 
 ## The solution
 
-The whole stack, one place, flat 3%. Store, courses, memberships, challenges, campaigns, share links, your own site, and a connection for agents. One transaction underneath: the sale, the split and the payout. No company ever holds the money. Budgets sit in a pool the funder controls until the result verifies; the moment it does, the split settles in the same transaction.
+Your site, built by Lida, and the whole stack behind it, in one place: store, courses, memberships, challenges, campaigns, share links and a connection for agents. Lid keeps 3% of each sale. One transaction underneath: the sale, the split and the payout. No company ever holds the money. Budgets sit in a pool the funder controls until the result verifies; the moment it does, the split settles in the same transaction.
 
 Every buyer can share, every sharer earns, every earner can open a store. Each sale recruits the next seller.
 
@@ -26,7 +24,7 @@ Every buyer can share, every sharer earns, every earner can open a store. Each s
 
 The only suite where the sale, the split and the payout are one transaction. Not holding the money is the consequence.
 
-Anyone can cut a fee. Whop's processing-only price already matches ours: 2.7% plus $0.30 is 3.0% on a $100 sale. What nobody can cut is their own income statement, and 3% here buys the whole suite. Elsewhere it buys a checkout.
+Anyone can cut a fee. Whop's processing-only price already matches ours: 2.7% plus $0.30 is 3.0% on a $100 sale, read on Whop's own page on 15 November 2026. What nobody can cut is their own income statement, and 3% here buys the whole suite. Elsewhere it buys a checkout.
 
 ## Why now
 
@@ -34,11 +32,11 @@ Digital dollars went mainstream; commerce is catching up. Three facts:
 
 1. **\~$310B in stablecoins** in circulation (June 2026).
 2. **The GENIUS Act** (signed July 2025) gave stablecoins their first US federal framework.
-3. **AI agents moved \~$73M across \~176M transactions** in the last year. A spender that did not exist two years ago.
+3. **AI agents moved \~$73M across \~176M transactions** between May 2025 and April 2026. A spender that did not exist two years ago.
 
 ## The model
 
-For anyone who sells, 3% of every sale and $0 a month to sell, always. For whoever pays for results, a fee on the budget. The two never merge.
+For anyone who sells, 3% of every sale. For whoever pays for results, a fee on the budget. For anyone who wants their site live, a price per site. The three never merge.
 
 ## The principle
 
@@ -56,10 +54,9 @@ Businesses with an audience first, and the creators around them: hardest to serv
 * We will not chase hype or inflate the story beyond what proof supports.
 * We will not expose Web3 complexity to end users.
 * We will not hold the money from a sale or a budget. Ever.
-* We will not charge anyone a monthly fee to sell.
 
 ## In one sentence
 
 Lid is the suite for businesses: run, monetize, and distribute your business in one place.
 
-Next: [Roadmap](roadmap.md)
+Next: [What is live today](roadmap.md)

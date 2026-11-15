@@ -1,14 +1,15 @@
 ---
 description: >-
   How Lid works under the hood: the Solana program, the three primitives, the
-  live stack, what is being built and the roadmap.
+  developer surface (MCP, REST API, SDK, Pay with Lid button, webhooks) and the
+  live stack.
 ---
 
 # Overview
 
-This section explains how Lid works under the hood. You do not need any of it to sell or share on Lid; it exists for people who want to build on top of the same rails. If you are connecting an AI agent, start at [Agents on Lid](../agents/) instead: that is the live developer surface today.
+This section explains how Lid works under the hood. You do not need any of it to build a site or to sell on Lid; it exists for people who want to build on top of the same rails. If you are connecting an AI agent, start at [Agents on Lid](../agents/).
 
-It is intentionally high-level. Full technical reference, program interfaces and endpoint specs publish when the API surface stabilizes.
+These pages stay high-level. The reference for every route is the developer guide at [lid.pro/en/docs](https://lid.pro/en/docs): the REST API, the SDK, the Pay with Lid button, webhooks, errors and Lida via API.
 
 ## What Lid is from a developer's perspective
 
@@ -18,7 +19,7 @@ Lid is the business suite, with one payment program on Solana underneath. At the
 2. **Attribution binding.** A checkout routed through a share reference, enforced on-chain.
 3. **Atomic splits.** A program that accepts payment and routes it to the seller, the sharer and Lid in the same transaction.
 
-Today these primitives are consumed through the Lid web app and the agent connection over MCP, where agents create products and read sales. The roadmap exposes them as a full public API.
+Today these primitives are reached four ways: the Lid web app, the agent connection over MCP, the REST API with its SDK, and the Pay with Lid button. See [API, SDK and buy button](agentic-commerce-api.md).
 
 ## Who this section is for
 
@@ -27,7 +28,7 @@ Today these primitives are consumed through the Lid web app and the agent connec
 * **Integration partners** who want to embed Lid functionality in their own product.
 * **Security researchers** who want to responsibly disclose issues.
 
-If you're a seller or a sharer, none of this is required reading. Everything you need is in [Start here](../getting-started/what-is-lid.md).
+If you want a site or you sell on Lid, none of this is required reading. Everything you need is in [Start here](../getting-started/what-is-lid.md).
 
 ## Architecture at a glance
 
@@ -37,10 +38,8 @@ If you're a seller or a sharer, none of this is required reading. Everything you
 * **Product metadata:** on-chain plus a metadata storage layer
 * **Checkout UX:** hosted by Lid, abstracted (no wallet exposure for end users)
 * **Wallet and auth:** Privy embedded wallet, live in production
-* **Card in:** MoonPay, live
-* **Bank out:** Bridge rails, five countries first, being built
-* **Developer surface today:** the web app, the MCP connection at `mcp.lid.pro`, a REST API at `api.lid.pro/api/v1`, API keys with permissions and signed webhooks under Settings > Developer
-* **Developer surface, roadmap:** Agentic Commerce API plus SDK
+* **Card in:** live, inside the app
+* **Developer surface:** the MCP connection at `mcp.lid.pro`, a REST API at `api.lid.pro/api/v1`, the SDK (`@lidpro/sdk`), the Pay with Lid button (`@lidpro/pay`), API keys with permissions and signed webhooks under Settings > Development
 
 ## Why Solana
 
@@ -69,10 +68,6 @@ Three properties were required. Only Solana delivered all three at the scale Lid
 * **Pinata** · IPFS metadata storage. Live.
 * **Solana Pay** · checkout UX. Live.
 * **USDC SPL Token** · settlement asset. Live.
-* **MoonPay** · card in: card, Apple Pay or bank transfer into digital dollars. Live.
-* **Bridge** · bank out. Being built.
-* **Helius webhooks** · transaction monitoring. Planned.
-* **x402 / ACP** · long-term horizon.
 
 ## What's live today
 
@@ -81,22 +76,16 @@ Three properties were required. Only Solana delivered all three at the scale Lid
 * Product creation and checkout through the web app
 * USDC settlement
 * Privy embedded wallet and authentication
-* Courses, memberships, challenges, campaigns, tracked links, and your own site built with Lida, for the accounts we switch on
-* Card payments through MoonPay
-* The agent connection over MCP: agents create products, share links, challenges and campaigns, read sales, and build sites with Lida where the Builder is switched on. Signed webhooks. Purchases from the agent wallet are in preview.
-
-## What's on the roadmap
-
-* **Agentic Commerce API.** REST and SDK surface for developers and AI agents to create products, generate share links, and route transactions programmatically, with production purchases under spending policies.
-* **Multi-sharer attribution.** Weighted splits for sales driven by multiple referrers.
-* **White-label embedding.** Embeddable checkout on partner sites.
-
-Details in [Agentic Commerce API](agentic-commerce-api.md).
+* Sites built with Lida, open to every account
+* Courses, memberships, challenges, campaigns and tracked links
+* Adding funds by card
+* The agent connection over MCP: agents build sites, create products, share links, challenges and campaigns, read sales and work a site's admin. Signed webhooks.
+* The REST API at `api.lid.pro/api/v1`, the SDK `@lidpro/sdk` on npm, and the Pay with Lid button
 
 ## How to get involved
 
-* **Build on Lid:** email [hello@lid.pro](mailto:hello@lid.pro) for the integration waitlist.
+* **Build on Lid:** start with the developer guide at [lid.pro/en/docs](https://lid.pro/en/docs). Questions go to [hello@lid.pro](mailto:hello@lid.pro).
 * **Security research:** responsible disclosure to [hello@lid.pro](mailto:hello@lid.pro). Handled privately and prioritized.
-* **Agent frameworks:** if you're building an autonomous agent that needs economic rails, we want to talk now, before the full API ships, so the design reflects what agents actually need.
+* **Agent frameworks:** if you're building an autonomous agent that needs economic rails, write to us with what you are making.
 
 Next: [The Solana program](solana-program.md)

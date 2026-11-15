@@ -30,14 +30,10 @@ If everything is fine, select **Release** to pay the seller before the window en
 Dispute before the window closes. The refund window is shown on the product page before you pay.
 {% endhint %}
 
-## How services work
-
-Services are being built. When they open, the seller does the work first, and your payment is released only when you accept the delivery. Until you accept, your payment stays protected.
-
 ## If something is wrong
 
 1. Reach out to the seller first. Sellers handle most questions directly.
-2. If you still need help, write to Lid at hello@lid.pro. Include the email you paid with and a link to the product.
+2. If you still need help, write to Lid at [hello@lid.pro](mailto:hello@lid.pro). Include the email you paid with and a link to the product.
 
 {% hint style="info" %}
 The official addresses are lid.pro and docs.lid.pro. Check the address bar before you sign in or pay.
@@ -65,6 +61,6 @@ The policy is locked in when you buy. During the window, a dispute our team deci
 
 <summary>The sale was final and I have a problem. What now?</summary>
 
-Reach out to the seller first. If you still need help, write to hello@lid.pro.
+Reach out to the seller first. If you still need help, write to [hello@lid.pro](mailto:hello@lid.pro).
 
 </details>

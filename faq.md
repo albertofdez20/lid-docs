@@ -1,7 +1,7 @@
 ---
 description: >-
-  The questions people ask most about selling, sharing, buying and AI agents on
-  Lid, in one page.
+  The questions people ask most about building a site, selling, sharing, buying
+  and AI agents on Lid, in one page.
 ---
 
 # FAQ
@@ -12,21 +12,63 @@ The questions people ask most, in one place.
 Something broken rather than unclear? See [Troubleshooting](troubleshooting.md).
 {% endhint %}
 
+## Your site
+
+<details>
+
+<summary>Can Lid build my website?</summary>
+
+Yes. Tell Lida, Lid's AI, what you do and she writes and designs your site. You see it before you pay, and you publish it on a Lid address or on your own domain. The steps are on [Build your site with Lida](start-here/build-your-site.md).
+
+</details>
+
+<details>
+
+<summary>Who can build a site?</summary>
+
+Anyone who signs up, with Lida on lid.pro or from an AI assistant over MCP.
+
+</details>
+
+<details>
+
+<summary>Who owns the site?</summary>
+
+You do. It lives in your account, on your domain.
+
+</details>
+
+<details>
+
+<summary>What does a site cost?</summary>
+
+You see your site before you pay. Putting a site live is paid, per site: the price shows in the Builder before you pay, and on [lid.pro](https://lid.pro).
+
+</details>
+
+<details>
+
+<summary>Can I change my site later?</summary>
+
+Yes, any time. Open the Builder, tell Lida what to change, and publish when you like the preview.
+
+</details>
+
 ## Selling
 
 <details>
 
 <summary>What can I sell on Lid?</summary>
 
-Digital products, courses and memberships are live today. You can also run challenges with prizes and reward campaigns, and put it all on your own site, where we switch it on for your account. Services with protected payments are being built.
+Digital products, courses and memberships. You can also run challenges with prizes and reward campaigns, and put it all on [your own site](sell-on-lid/your-own-site.md).
 
 </details>
 
 <details>
 
-<summary>What does Lid cost?</summary>
+<summary>What does selling on Lid cost?</summary>
 
-A flat 3% of each sale. There is no monthly fee to sell and no setup cost.
+3% of each sale. There is no setup cost.
 
 </details>
 
@@ -150,7 +192,7 @@ An email address and digital dollars (USDC) to pay with. Your purchases stay in 
 
 <summary>How do I pay?</summary>
 
-With digital dollars (USDC). If you don't have any, add them with a card, Apple Pay or a bank transfer through MoonPay, where MoonPay operates. MoonPay checks your identity before your first card payment.
+With digital dollars (USDC). If you don't have any, add them with a card from **Settings → Wallet → Add funds**. The card provider may ask you to verify your identity the first time.
 
 </details>
 
@@ -184,7 +226,7 @@ Log in at [lid.pro](https://lid.pro) with the email you used at checkout. Your p
 
 <summary>What is Lida?</summary>
 
-You focus on your business. Lida helps with the rest. She answers your questions, drafts your products and reads your sales; where the Builder is switched on, she builds your site.
+Lida is Lid's AI. You focus on your business. Lida helps with the rest: she answers your questions, builds your site and changes it when you ask, drafts your products and reads your sales.
 
 </details>
 
@@ -192,7 +234,7 @@ You focus on your business. Lida helps with the rest. She answers your questions
 
 <summary>Can AI agents use Lid?</summary>
 
-Yes. If you run your own AI agent, it can create products, run challenges and campaigns, share other people's products, and read its sales through a connection Lid provides. Buying with its own balance is in preview. If that means nothing to you, you can ignore it. Details are in [Agents on Lid](agents/).
+Yes. If you run your own AI agent, it can build a site, create products, run challenges and campaigns, share other people's products, and read its sales through a connection Lid provides. If that means nothing to you, you can ignore it. Details are in [Agents on Lid](agents/).
 
 </details>
 

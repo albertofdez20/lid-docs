@@ -18,6 +18,8 @@ Everything in one file: logos, colors, screenshots, banners and a README with th
 
 The same files are in a Google Drive folder: [Lid Media Kit on Google Drive](https://drive.google.com/drive/folders/1Ip833dHBiZo4lo--65BK86b--XNaGZMN).
 
+If a description in the download differs from the [About Lid](about-lid.md) page, the page is right.
+
 ### What is inside
 
 | Page                | What you will find                                     |

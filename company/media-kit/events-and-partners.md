@@ -12,21 +12,21 @@ description: >-
 {% tab title="English" %}
 Lid. The business suite.
 
-Your community, your courses, your products in one place.
+Tell Lida what you do. She writes and designs your site.
 {% endtab %}
 
 {% tab title="Español" %}
 Lid. La suite para negocios.
 
-Tu comunidad, tus cursos, tus productos en un solo lugar.
+Cuéntale a Lida qué haces. Ella escribe y diseña tu página.
 {% endtab %}
 {% endtabs %}
 
 ### Banners
 
-Banners in five sizes, in English and Spanish. They are in the ZIP and the Google Drive folder on the Media kit page.
+Banners in five sizes, in English and Spanish. They are in the ZIP and the Google Drive folder on the Media kit page. The banners carry Lid's earlier line. For the current line, use the logo with the blurb above.
 
-<figure><img src="../../.gitbook/assets/lid-banner-en-1200x627 (1).png" alt="Lid banner: Lid. The digital business suite. Your community, your courses, your products in one place."><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/lid-banner-en-1200x627 (1).png" alt="Lid banner with the earlier line: Lid. The digital business suite. Your community, your courses, your products in one place."><figcaption></figcaption></figure>
 
 | Size        | Use                         | English                     | Español                     |
 | ----------- | --------------------------- | --------------------------- | --------------------------- |

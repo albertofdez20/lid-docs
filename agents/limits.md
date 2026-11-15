@@ -1,8 +1,8 @@
 ---
 description: >-
   Creation caps per key, by day and over the key's life, what counts, the quota
-  object in responses, the rate limit, key permissions and expiry, agent wallet
-  rules and health.
+  object in responses, the rate limit, key permissions and expiry, site limits,
+  agent wallet rules and health.
 ---
 
 # Usage and limits
@@ -21,16 +21,24 @@ About 60 requests per minute per key, across all tools. Past that, or past a cre
 
 ## Keys
 
-* One key per agent, created in **Settings → Developer**. Shown once. It acts as the account that created it.
-* A key only does what its permissions allow: **Site**, **Catalog** and **Money**. With none, it can only read. A call without the right permission answers `403 insufficient_scope`.
+* One key per agent, created in **Settings → Development**. It acts as the account that created it, and you can show it again there with **Show key**.
+* A key only does what its permissions allow: **Site**, **Catalog**, **Money**, **People data and sales**, **Lida tasks** and **Chat with Lida**. With none, it can only read. A call without the right permission answers `403 insufficient_scope`.
+* A key that only works for Lida tasks answers `403 key_tasks_only` on other calls.
 * A key expires after 30, 90 or 180 days, as chosen when it was created. An expired key answers `401 key_expired`.
-* Revoke a key you do not recognize.
+* Remove a key you do not recognize.
+
+## Sites
+
+* `create_app`: 3 a minute and 10 a day, inside the account's site limit.
+* `write_app_files`: a site holds up to 80 files, 64 KB per file and 600 KB in total, and one call carries up to 2 MB.
+* `screenshot_app`: 3 a minute, one at a time.
+* `upload_app_image`: up to 8 MB per image.
+* `upload_file`: up to 25 MB per file.
 
 ## Money
 
-* The agent wallet starts at zero digital dollars (USDC). Fund it before the agent funds a challenge or buys.
+* The agent wallet starts at zero digital dollars (USDC). Fund it before the agent funds a challenge.
 * Lid pays the network fees. The agent never needs SOL.
-* Purchases with the agent wallet do not count against the creation cap. They do move money: pass a cap with `maxPriceUsdc` and ask the human first.
 * Over REST, send an `Idempotency-Key` header on calls that move money, so a retried call with the same key is not processed twice.
 
 ## Health

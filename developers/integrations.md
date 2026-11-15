@@ -1,12 +1,13 @@
 ---
 description: >-
-  What integrates with Lid today (Privy, MoonPay, Alchemy, Pinata, Solana Pay,
-  USDC, webhooks, MCP), what is being built, and how to propose an integration.
+  What works with Lid today: the live stack (Privy, Alchemy, Pinata, Solana Pay,
+  USDC), payment inputs, delivery targets, the agent connection, the REST API,
+  the SDK, the Pay with Lid button, webhooks.
 ---
 
 # Integrations
 
-Lid is designed to play well with the tools creators and developers already use. This page covers what integrates today, what's planned, and how to propose a new one.
+Lid is designed to play well with the tools creators and developers already use. This page covers what integrates today and how to propose a new integration.
 
 ## What integrates today
 
@@ -17,15 +18,11 @@ Lid is designed to play well with the tools creators and developers already use.
 * **Pinata** · IPFS metadata storage. Live.
 * **Solana Pay** · checkout UX. Live.
 * **USDC SPL Token** · settlement asset. Live.
-* **MoonPay** · card in: card, Apple Pay or bank transfer into digital dollars. Live.
-* **Bridge** · bank out. Being built.
-* **Helius webhooks** · transaction monitoring. Planned.
-* **x402 / ACP** · long-term horizon.
 
 **Payment inputs**
 
 * USDC on Solana (native)
-* Card, Apple Pay or bank transfer on the buyer side, through MoonPay where MoonPay operates: the buyer adds digital dollars (USDC) and pays in USDC
+* A card on the buyer side: the buyer adds digital dollars (USDC) inside the app and pays in USDC
 
 **Delivery targets**
 
@@ -38,7 +35,11 @@ Lid is designed to play well with the tools creators and developers already use.
 
 **Agent surface**
 
-* The agent connection over MCP, live. Agents create products, share links, challenges and campaigns, read sales, and build sites with Lida where the Builder is switched on. Purchases from the agent wallet are in preview. See [Agents on Lid](../agents/).
+* The agent connection over MCP, live. Agents build sites, create products, share links, challenges and campaigns, and read sales. See [Agents on Lid](../agents/).
+
+**Developer surface**
+
+* The REST API at `api.lid.pro/api/v1`, the SDK `@lidpro/sdk` on npm, and the Pay with Lid button, as a script tag or as `@lidpro/pay` for React. Live. See [API, SDK and buy button](agentic-commerce-api.md).
 
 **Webhooks**
 
@@ -47,14 +48,6 @@ Lid is designed to play well with the tools creators and developers already use.
 **Verification**
 
 * Every sale produces a Solana transaction signature that can be verified on any block explorer.
-
-## On the roadmap
-
-**Bank out.** Being built on Bridge rails, five countries first. Card in is already live through MoonPay.
-
-**SDK (JavaScript, Python).** Client libraries for reading Lid state and creating products or share links programmatically.
-
-**Embeddable checkout.** Drop-in checkout flow for sellers who want to run the product page on their own site.
 
 ## Integration principles we hold to
 
@@ -80,8 +73,6 @@ Email [hello@lid.pro](mailto:hello@lid.pro) with:
 2. How you'd integrate Lid
 3. What API or event surface you'd need
 4. Timeline
-
-Selected partners get early API access and design input.
 
 ## Partnership posture
 

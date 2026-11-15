@@ -1,7 +1,8 @@
 ---
 description: >-
-  Email hello@lid.pro, DM @albertofdez20 on X, or follow Lid on X at
-  @Lid_onchain. What to include so a problem gets fixed on the first reply.
+  Email hello@lid.pro, DM @albertofdez20 on X, follow Lid on X at @Lid_onchain,
+  or send a ticket from Help in your dashboard. What to include so a problem
+  gets fixed on the first reply.
 ---
 
 # Contact
@@ -19,6 +20,10 @@ You will get a reply from a person, not a ticket number.
 DMs are open.
 
 Lid's own account on X is [@Lid\_onchain](https://x.com/Lid_onchain): product news and what we ship.
+
+## From your dashboard
+
+Open **Help** in your dashboard to ask the Lid team for help and follow your requests.
 
 ## Reporting a problem
 

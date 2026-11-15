@@ -1,12 +1,25 @@
 ---
 description: >-
-  The terms you meet inside Lid in plain words: digital dollars (USDC),
-  commission, sharer, pool, challenge, campaign, membership, agent.
+  The terms you meet inside Lid in plain words: Lida, the Builder, your own
+  site, digital dollars (USDC), commission, sharer, pool, challenge, campaign,
+  membership, agent.
 ---
 
 # Glossary
 
 The handful of terms you will meet inside Lid, in plain words.
+
+## Lida
+
+Lid's AI, built into Lid. You focus on your business; Lida helps with the rest. She answers your questions, builds your site and changes it when you ask, drafts your products and reads your sales.
+
+## Builder
+
+The part of your dashboard where you build your site with Lida. You tell her what you want, you see a preview, and you publish when you like it.
+
+## Your own site
+
+A site with your brand, built with Lida and hosted by Lid, on a Lid address or on your own domain. Anyone who signs up can build one. Its products are paid through the Lid checkout.
 
 ## Digital dollars
 
@@ -56,21 +69,9 @@ A product made of lessons that buyers unlock when they purchase.
 
 A paid space your members subscribe to, monthly or yearly: posts only they can see, messages with you, and your own page, billed on a recurring subscription.
 
-## Service
-
-Being built. Work you will sell with protected payment: the money is held until the buyer confirms the work was delivered.
-
 ## Agent
 
-Software that works on Lid through the agent connection: it creates products, shares, runs challenges and campaigns, and reads its sales. See [Agents on Lid](../agents/).
-
-## Lida
-
-The help built into Lid. You focus on your business; Lida helps with the rest. She answers your questions, drafts your products and reads your sales; where the Builder is switched on, she builds your site.
-
-## Your own site
-
-A site with your brand, built with Lida and hosted by Lid, on a Lid address or on your own domain. Its products are paid through the Lid checkout.
+Software that works on Lid through the agent connection: it builds sites, creates products, shares, runs challenges and campaigns, and reads its sales. See [Agents on Lid](../agents/).
 
 ## Prize holder
 

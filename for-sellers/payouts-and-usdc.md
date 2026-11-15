@@ -1,7 +1,7 @@
 ---
 description: >-
   You are paid in seconds, automatically, in digital dollars (USDC). No payout
-  day, no minimum. How cashing out works today and what is being built.
+  day, no minimum. Where your balance is and how cashing out works today.
 ---
 
 # Getting paid
@@ -26,11 +26,11 @@ In your [dashboard](https://lid.pro/dashboard), with your full sales history: da
 
 ## How do I cash out?
 
-Today you send your USDC from **Settings → Wallet → Send digital dollars (USDC)** to an app or exchange that converts it to regular money. Paying out to your bank account directly is being built, five countries first.
+You send your USDC from **Settings → Wallet → Send digital dollars (USDC)** to an app or exchange that converts it to regular money.
 
 ## Can buyers pay with a card?
 
-Yes. Buyers add funds with a card, Apple Pay or a bank transfer through MoonPay, where MoonPay operates, and pay in digital dollars (USDC).
+Yes. Buyers add funds with a card from **Settings → Wallet → Add funds** and pay in digital dollars (USDC). The card provider shows its fee before the buyer confirms.
 
 ## Is there a minimum payout or a waiting period?
 

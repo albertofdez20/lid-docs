@@ -9,7 +9,7 @@ description: >-
 
 In plain words: the program is the piece of code on Solana that moves the money. It is what makes every sale split correctly and land in seconds, without Lid ever holding the funds.
 
-Lid runs on a Solana program that enforces product registration, attribution binding, and atomic settlement. This page describes the architecture at a conceptual level. Full interfaces, method signatures, and example code publish after the external review, once the public API stabilizes.
+Lid runs on a Solana program that enforces product registration, attribution binding, and atomic settlement. This page describes the architecture at a conceptual level.
 
 ## What the program does
 
@@ -67,11 +67,6 @@ No upgrade can retroactively change the terms of past sales. Historical split re
 * No administrative function can send user funds anywhere else. In a dispute over a held sale, our team can only release the money to the seller or return it to the buyer. If our team has not decided a dispute 14 days after the refund window ends, anyone can release the payment to the seller, so a held payment never stays frozen.
 * All state-changing operations emit events for off-chain monitoring.
 
-**Planned external review:**
-
-* Formal review by a specialized Solana security firm. The criteria are already written down.
-* Ongoing bug bounty once the public API is stable.
-
 **Not in place today:**
 
 * Third-party review report.
@@ -85,8 +80,6 @@ If you find a vulnerability, email [hello@lid.pro](mailto:hello@lid.pro) with de
 
 ## What developers can do today
 
-Today, the program is reached through the Lid web app and the agent connection over MCP (see [Agents on Lid](../agents/)). Direct on-chain interaction is possible (the program is deployed and public). An SDK is being built.
+Today the program is reached through the Lid web app, the agent connection over MCP (see [Agents on Lid](../agents/)), and the REST API, the SDK and the Pay with Lid button (see [API, SDK and buy button](agentic-commerce-api.md)). Direct on-chain interaction is possible: the program is deployed and public.
 
-The Agentic Commerce API (roadmap) will provide the developer surface for programmatic access.
-
-Next: [Agentic Commerce API](agentic-commerce-api.md)
+Next: [API, SDK and buy button](agentic-commerce-api.md)

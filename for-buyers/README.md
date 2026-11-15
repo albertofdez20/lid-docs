@@ -1,8 +1,7 @@
 ---
 description: >-
   What happens when you buy on Lid: sign in with an email, pay with digital
-  dollars (USDC), get access right away. You can add money by card through
-  MoonPay.
+  dollars (USDC), get access right away. You can add money by card.
 ---
 
 # Buying on Lid
@@ -17,12 +16,12 @@ Someone shared a link with you, or you found something you want. This page walks
 4. You get access immediately. Files are ready to download, and courses open right away.
 
 {% hint style="info" %}
-Checkout takes digital dollars (USDC). You can add them with a card, Apple Pay or a bank transfer through MoonPay, where MoonPay operates.
+Checkout takes digital dollars (USDC). You can add them with a card from **Settings → Wallet → Add funds**.
 {% endhint %}
 
 ## What you need
 
-An email address, and digital dollars (USDC) to pay with. If you have none, add them by card from **Settings → Wallet → Add funds**, or send USDC on Solana from any exchange or wallet app that sells it. There is nothing to install.
+An email address, and digital dollars (USDC) to pay with. If you have none, add them by card from **Settings → Wallet → Add funds**, or send USDC on Solana from any exchange or app that sells it. There is nothing to install.
 
 ## How your payment is handled
 
@@ -52,7 +51,7 @@ Money that works like dollars and moves over the internet in seconds. On Lid the
 
 <summary>Can I pay with my card?</summary>
 
-Yes. Add funds with a card, Apple Pay or a bank transfer through MoonPay, where MoonPay operates, and pay in digital dollars (USDC).
+Yes. Add funds with a card from **Settings → Wallet → Add funds**, then pay in digital dollars (USDC).
 
 </details>
 
@@ -60,7 +59,7 @@ Yes. Add funds with a card, Apple Pay or a bank transfer through MoonPay, where 
 
 <summary>Do I need to verify my identity to pay by card?</summary>
 
-Yes, with MoonPay, the first time. MoonPay asks for your name, a photo of an ID document and a selfie or a quick face check before your first purchase. That check is MoonPay's, and it follows MoonPay's rules in your country. Paying with USDC you already have needs no check.
+The card provider may ask you to verify your identity the first time, under its own rules in your country. Paying with USDC you already have needs no check.
 
 </details>
 
@@ -68,7 +67,7 @@ Yes, with MoonPay, the first time. MoonPay asks for your name, a photo of an ID 
 
 <summary>Does paying by card cost more?</summary>
 
-MoonPay charges its own fee for a card payment: up to 4.5%, with a minimum fee on small amounts, plus a network fee. You see every fee before you confirm. The details are on [MoonPay's pricing page](https://www.moonpay.com/legal/pricing_disclosure).
+The card provider charges its own fee for a card payment. You see every fee before you confirm.
 
 </details>
 

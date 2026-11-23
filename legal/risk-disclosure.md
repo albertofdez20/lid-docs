@@ -6,39 +6,41 @@ description: >-
 
 # Risk Disclosure
 
-_Last updated: 26 May 2026._ _Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE)._
+_Last updated: 23 November 2026._ _Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE)._
 
 {% hint style="warning" %}
-**Read this before you use Lid.** Lid runs on the Solana blockchain. That comes with real risks. Transactions are final. Smart contracts can fail. USDC has its own issuer risk. Wallets can be stolen. Tax is your job. If any risk below is one you are not willing to accept, do not use the service.
+**Read this before you use Lid.** Lid's checkout runs on the Solana blockchain. That comes with real risks. Transactions are final, except for a payment held in a refund window. Smart contracts can fail. USDC has its own issuer risk. Wallets can be stolen. Tax is your job. If any risk below is one you are not willing to accept, do not use the service.
 
 This document is not legal, financial, or tax advice.
 {% endhint %}
 
 ## 1. Who this applies to
 
-This Risk Disclosure applies to every user of Lid (Creator, Affiliate, and Buyer) on `lid.pro` and `lid.pro/dashboard`. By using the service you confirm you have read and understood the risks below and accept them.
+This Risk Disclosure applies to every user of Lid (Site owner, Creator, Affiliate, and Buyer) on `lid.pro` and `lid.pro/dashboard`. By using the service you confirm you have read and understood the risks below and accept them.
 
 ## 2. Transactions on the Solana blockchain are final
 
-Every payment, payout, and attribution event on Lid is executed by a smart contract on the Solana blockchain. Once a transaction is confirmed, it cannot be reversed, paused, or edited by you, by the counterparty, or by Lid.
+Every sale, payout, and attribution event through Lid's checkout is executed by a smart contract on the Solana blockchain. Once a transaction is confirmed, it cannot be reversed, paused, or edited by you, by the counterparty, or by Lid.
 
-* Lid cannot undo a sale.
+* Lid cannot undo a sale, except to return a payment that is still held in a refund window (below).
 * Lid cannot claw back a payout.
 * Lid cannot refund a transaction that was submitted by mistake or to the wrong address.
 
-Refunds, where offered, are a second transaction initiated by the Creator. They are not a reversal of the original.
+The exception is a product with a refund window. A Creator can set a refund window of 1 to 90 days on a product. During the window the payment is held. The Buyer can release it to the Creator early, or open a dispute. A dispute freezes the payment, and a person on our team decides whether it is returned to the Buyer or released to the Creator. If the window passes with no dispute, the payment is released to the Creator.
+
+Outside a refund window, refunds, where offered, are a second transaction initiated by the Creator. They are not a reversal of the original.
 
 Before you confirm a transaction, check the amount, the wallet address, the product, and the split.
 
 ## 3. Smart contract risk
 
-Lid's smart contracts are deployed on the Solana mainnet. The code has been peer-reviewed internally and pressure-tested against every observed alpha session. A third-party security audit is the gate for self-serve alpha and is part of the post-raise engineering roadmap. Until that audit ships, treat the trust layer as production-active under close observation, not externally certified.
+Lid's smart contracts are deployed on the Solana mainnet. The code has been reviewed internally. A third-party security audit has not been done yet. Until one is, treat the smart contracts as running in production under close observation, not externally certified.
 
 Smart contracts can still have bugs, vulnerabilities, or edge cases that only surface under specific conditions.
 
 Possible outcomes:
 
-* A transaction fails and your gas fee is not refunded.
+* A transaction fails and the network fee paid for it is not refunded.
 * A split executes in a way that differs from the user interface because of unexpected contract behaviour.
 * A contract is paused by Lid's incident response process after a vulnerability is found.
 * A contract is upgraded or migrated, and funds routed through prior versions behave differently.
@@ -55,13 +57,13 @@ Network-level events that can affect you:
 * **Outages.** The Solana network has had outages in the past. While an outage is ongoing, no transactions can settle.
 * **Fork or chain reorganisation.** In rare cases, the chain state may re-organise. Transactions confirmed in a short window could be affected.
 * **Validator changes.** Changes to validator behaviour, protocol upgrades, or consensus rules can change how transactions work.
-* **Fee spikes.** Network fees (gas) are paid in SOL and can rise sharply under load. You are responsible for having enough SOL in your wallet to pay them.
+* **Fee spikes.** Network fees (gas) are paid in SOL and can rise sharply under load. Lid pays them for purchases made through Lid's checkout. For any other transaction you submit, you need enough SOL in your wallet to pay them.
 
 Lid does not guarantee that the Solana network will be available, performant, or secure at any given moment.
 
 ## 5. USDC and stablecoin risk
 
-All settlements on Lid are in USDC, the US-dollar-pegged stablecoin issued by Circle Internet Financial, Inc. USDC is not issued or controlled by Lid.
+All sales through Lid's checkout settle in USDC, the US-dollar-pegged stablecoin issued by Circle Internet Financial, Inc. USDC is not issued or controlled by Lid.
 
 Risks specific to USDC:
 
@@ -108,6 +110,8 @@ Lid routes payments and attribution. Lid does not:
 * Guarantee that the product delivered matches the description.
 * Handle refunds or chargebacks between Creator and Buyer.
 * Arbitrate disputes about product quality.
+
+The one exception is a dispute a Buyer opens inside a product's refund window (Section 2). A person on our team decides it.
 
 If you are a Buyer, read the product description, preview, and the Creator's own refund policy before paying. If you are a Creator, write an accurate description and honour your stated terms.
 
@@ -159,14 +163,15 @@ Use your judgment. Preview products. Read the Creator's reputation signals. Star
 
 ## 13. Third-party service risk
 
-Lid relies on third-party services to run the platform. Outages, security incidents, or changes at these providers can affect Lid.
+Lid relies on third-party services to run the Lid service. Outages, security incidents, or changes at these providers can affect Lid.
 
 Providers you should be aware of:
 
 * **Privy.** Wallet creation and authentication (Stripe-owned since June 2025).
+* **MoonPay.** Buying digital dollars with a card, including any identity check MoonPay runs.
 * **Alchemy.** Solana RPC.
 * **Pinata.** IPFS storage for product files and metadata. IPFS is a distributed storage network. If pinning is lost, a file may become temporarily unavailable.
-* **Helius.** Transaction monitoring and webhooks.
+* **Stripe.** Card payments for plans, extra usage and domains.
 * **Circle.** USDC issuer.
 
 See the [Privacy Policy](privacy.md) for the full list and links to each provider's terms.
@@ -178,7 +183,7 @@ Attackers frequently target crypto users with fake sites, fake support requests,
 Rules of thumb:
 
 * Lid will never ask for your private key or recovery phrase. No one from Lid will ever need it.
-* The only official domains are `lid.pro` and `lid.pro/dashboard`. Check the URL every time.
+* The only official Lid addresses are `lid.pro` (the app is at `lid.pro/dashboard`) and `docs.lid.pro`. A Site built on Lid speaks for its owner, not for Lid. Check the URL every time.
 * If a "Lid employee" asks you to sign a transaction, it is not Lid.
 * If a deal sounds too good to be true, it is.
 
@@ -190,10 +195,21 @@ Nothing on Lid (product pages, marketing pages, or internal messaging) is invest
 
 If you need advice, talk to a qualified professional licensed in your jurisdiction.
 
-## 16. Changes to this Disclosure
+## 16. Risks for site owners
+
+If you have a Site on Lid:
+
+* **Lida can make mistakes.** Lida, Lid's AI assistant, drafts text, images and code for your Site. You are responsible for everything your Site says, including professional, medical, legal and price claims. Check what Lida writes before you publish it.
+* **A Site needs a paid plan.** When a plan ends, by cancellation or non-payment, the Site goes offline. We keep its content for 30 days so you can renew. After that we may delete it.
+* **Availability.** Plans do not include a guaranteed uptime or service level unless we agree one in writing.
+* **Visitor data.** You are responsible for the personal data your Site collects from its visitors, and for the notices and consents the law requires for it.
+
+The [Terms of Service](terms.md) carry the full terms for Sites.
+
+## 17. Changes to this Disclosure
 
 We may update this document as Lid evolves and as the risks change. When we do, we update the "Last updated" date at the top and post the new version on this page.
 
-## 17. Contact
+## 18. Contact
 
 **Lid Labs Technologies - FZCO** IFZA Business Park, DDP PO Box 342001, Dubai, United Arab Emirates Email: [legal@lid.pro](mailto:legal@lid.pro)

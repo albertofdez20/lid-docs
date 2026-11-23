@@ -4,7 +4,7 @@ description: The cookies used on lid.pro and the dashboard, and how to change yo
 
 # Cookie Policy
 
-_Last updated: 26 May 2026._ _Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE)._
+_Last updated: 23 November 2026._ _Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE)._
 
 {% hint style="info" %}
 **In plain language.** Cookies are small files stored on your device that help Lid work and help us understand how the service is used. Some are essential and always on. Others run only if you accept them. You can change your choice at any time from the cookie banner on `lid.pro` or the settings link in our footer.
@@ -59,7 +59,7 @@ Turning these off will still let you use Lid. You will need to set your preferen
 
 These cookies help us understand how Lid is used so we can improve it. They tell us which pages are visited, how long people stay, and which features are used. Where possible, we use IP truncation and other measures to reduce how identifiable the data is.
 
-Examples of providers: PostHog, Sentry.
+Examples of providers: PostHog, Sentry, Microsoft Clarity.
 
 ### 3.4 Marketing cookies (optional)
 
@@ -71,14 +71,15 @@ These cookies help us measure the performance of our marketing campaigns. We may
 
 Some cookies are set by third-party services we use. Each provider has its own cookie and privacy policy.
 
-| Provider   | Purpose                              | Category           | Privacy policy                   |
-| ---------- | ------------------------------------ | ------------------ | -------------------------------- |
-| Privy      | Wallet connection and authentication | Strictly necessary | privy.io/privacy                 |
-| Cloudflare | DDoS protection, bot defence         | Strictly necessary | cloudflare.com/privacypolicy     |
-| Vercel     | Hosting and content delivery         | Strictly necessary | vercel.com/legal/privacy-policy  |
-| PostHog    | Product analytics                    | Analytics          | posthog.com/privacy              |
-| Sentry     | Error monitoring                     | Analytics          | sentry.io/privacy                |
-| HubSpot    | Marketing automation, newsletters    | Marketing          | legal.hubspot.com/privacy-policy |
+| Provider          | Purpose                                              | Category           | Privacy policy                         |
+| ----------------- | ---------------------------------------------------- | ------------------ | -------------------------------------- |
+| Privy             | Wallet connection and authentication                 | Strictly necessary | privy.io/privacy                       |
+| Cloudflare        | DDoS protection, bot defence                         | Strictly necessary | cloudflare.com/privacypolicy           |
+| Vercel            | Hosting and content delivery                         | Strictly necessary | vercel.com/legal/privacy-policy        |
+| PostHog           | Product analytics                                    | Analytics          | posthog.com/privacy                    |
+| Sentry            | Error monitoring                                     | Analytics          | sentry.io/privacy                      |
+| Microsoft Clarity | Recordings and heatmaps of how visitors use the site | Analytics          | privacy.microsoft.com/privacystatement |
+| HubSpot           | Marketing automation, newsletters                    | Marketing          | legal.hubspot.com/privacy-policy       |
 
 We review this list regularly and keep it current on this page.
 

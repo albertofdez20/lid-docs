@@ -6,7 +6,7 @@ description: >-
 
 # Privacy Policy
 
-_Last updated: 27 October 2026._ _Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE)._
+_Last updated: 23 November 2026._ _Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE)._
 
 {% hint style="info" %}
 **In plain language.** We collect what we need to run Lid and nothing we do not. Your wallet address is public on Solana; we do not change that. Your email and account data are private. Blockchain transactions are permanent. We cannot delete what is recorded on Solana. We do not sell your personal data. We honour the rights the law gives you under UAE PDPL, EU GDPR, and California CCPA.
@@ -18,7 +18,7 @@ The controller of your personal data is:
 
 **Lid Labs Technologies - FZCO** Trade licence No. 65802 IFZA Business Park, DDP PO Box 342001, Dubai, United Arab Emirates Email: [privacy@lid.pro](mailto:privacy@lid.pro)
 
-For the purposes of UAE Federal Decree-Law No. 45 of 2021 on the Protection of Personal Data (UAE PDPL), the EU General Data Protection Regulation (GDPR), the UK GDPR, and the California Consumer Privacy Act as amended by the CPRA (CCPA/CPRA), Lid acts as the **data controller** for data processed on `lid.pro`, `lid.pro/dashboard` and the Lid app for Android.
+For the purposes of UAE Federal Decree-Law No. 45 of 2021 on the Protection of Personal Data (UAE PDPL), the EU General Data Protection Regulation (GDPR), the UK GDPR, and the California Consumer Privacy Act as amended by the CPRA (CCPA/CPRA), Lid acts as the **data controller** for data processed on `lid.pro`, `lid.pro/dashboard` and the Lid app for Android. The exception is the data a Site built on Lid collects from its visitors (Section 2).
 
 Our Data Protection contact is `privacy@lid.pro`. For EU and UK users, contact us at the same address. If we appoint an EU or UK representative, their details will be listed here.
 
@@ -34,6 +34,8 @@ This Policy applies to personal data we collect when you:
 * Interact with Lid through social networks, embedded widgets, or integrations.
 
 This Policy does not cover third-party services we integrate with. Each one has its own privacy policy. See Section 7.
+
+**Sites built on Lid.** When a Site built on Lid collects data from its visitors, for example through a contact form, the Site's owner decides what is collected and why, and is responsible for it. Lid processes that data for the owner, only to host and run the Site. The owner's own privacy notice applies to it.
 
 ## 3. What data we collect
 
@@ -59,6 +61,15 @@ Your wallet address and on-chain transactions are public by design. They can be 
 * Product title, description, price, preview files.
 * Sales volume and payout history routed through Lid.
 * Affiliate commission settings you choose.
+
+### Payments
+
+* For a plan, extra usage or a domain: what you buy, the payments for it, and the billing details you give at checkout. Card details go to Stripe, which processes card payments for us. We do not store full card numbers.
+* When you buy digital dollars with a card: MoonPay collects your card details and runs any identity check itself, under its own privacy policy.
+
+### Lida, Lid's AI assistant
+
+* What you write to Lida, and the content of the Site it works on. Lida sends this content to the AI model providers it runs on, so it can answer you and build or change your Site.
 
 ### Device and technical data
 
@@ -113,9 +124,8 @@ Our smart contract is deterministic: it executes the split rules agreed at check
 
 We share data with the categories of recipient needed to run Lid.
 
-* **Service providers** who process data on our behalf. They act under contract and process only for Lid's purposes. See the list in Section 7.
+* **Service providers** who process data on our behalf, under contract and for Lid's purposes. See the list in Section 7. Some of them also act on their own account, under their own privacy policies: MoonPay for the identity checks it runs when you buy digital dollars with a card, Stripe for fraud prevention on card payments, and Microsoft for Clarity.
 * **Solana validators and the public blockchain** — transactions you submit through Lid are broadcast to the Solana network and become permanent public records.
-* **App stores.** If you install Lid from the Solana dApp Store, Solana Mobile, Inc. may ask us for data about activity in the app, including transactions made through it. Solana Mobile may use that data to run and improve the dApp Store, its devices and its other products, for example to show your activity in its Earn Widget. We share only what such a request needs and the law allows. Transactions on Solana are public records anyone can read.
 * **Tax and regulatory authorities**, where disclosure is required by law.
 * **Law enforcement**, where we have a good-faith belief that disclosure is needed to comply with law, a court order, or a valid legal process.
 * **Professional advisers** — lawyers, auditors, accountants — bound by confidentiality.
@@ -125,23 +135,23 @@ We do not sell personal data. We do not share it with third parties for their ow
 
 ## 7. Service providers we work with
 
-| Provider            | Role                                             | Status  | Location               | Learn more                            |
-| ------------------- | ------------------------------------------------ | ------- | ---------------------- | ------------------------------------- |
-| Privy (Stripe Inc.) | Wallet creation, embedded wallet, authentication | Live    | United States          | privy.io/privacy                      |
-| Alchemy             | Solana RPC provider                              | Live    | United States          | alchemy.com/policies/privacy-policy   |
-| Pinata              | IPFS storage for product metadata                | Live    | United States          | pinata.cloud/privacy                  |
-| Helius              | Webhooks, transaction monitoring                 | Planned | United States          | helius.dev/privacy                    |
-| Cloudflare          | CDN, DDoS protection                             | Live    | United States / Global | cloudflare.com/privacypolicy          |
-| Vercel              | Hosting (marketing and app front-end)            | Live    | United States / Global | vercel.com/legal/privacy-policy       |
-| AWS                 | Cloud infrastructure                             | Live    | United States / Global | aws.amazon.com/privacy                |
-| PostHog             | Product analytics                                | Live    | United States          | posthog.com/privacy                   |
-| Sentry              | Error monitoring                                 | Live    | United States          | sentry.io/privacy                     |
-| Resend              | Transactional email delivery                     | Live    | United States          | resend.com/legal/privacy-policy       |
-| HubSpot             | CRM and marketing email                          | Live    | United States          | legal.hubspot.com/privacy-policy      |
-| Linear / Notion     | Internal work management                         | Live    | United States          | linear.app/privacy, notion.so/privacy |
-| Google (Gemini)     | Lida's live voice mode in the app                | Live    | United States          | policies.google.com/privacy           |
-
-Helius webhooks are planned, not yet active. When the integration goes live, this Policy will be updated and existing users notified.
+| Provider            | Role                                                        | Status | Location               | Learn more                             |
+| ------------------- | ----------------------------------------------------------- | ------ | ---------------------- | -------------------------------------- |
+| Privy (Stripe Inc.) | Wallet creation, embedded wallet, authentication            | Live   | United States          | privy.io/privacy                       |
+| Alchemy             | Solana RPC provider                                         | Live   | United States          | alchemy.com/policies/privacy-policy    |
+| Pinata              | IPFS storage for product metadata                           | Live   | United States          | pinata.cloud/privacy                   |
+| Cloudflare          | CDN, DDoS protection                                        | Live   | United States / Global | cloudflare.com/privacypolicy           |
+| Vercel              | Hosting (marketing and app front-end)                       | Live   | United States / Global | vercel.com/legal/privacy-policy        |
+| AWS                 | Cloud infrastructure                                        | Live   | United States / Global | aws.amazon.com/privacy                 |
+| PostHog             | Product analytics                                           | Live   | United States          | posthog.com/privacy                    |
+| Sentry              | Error monitoring                                            | Live   | United States          | sentry.io/privacy                      |
+| Resend              | Transactional email delivery                                | Live   | United States          | resend.com/legal/privacy-policy        |
+| HubSpot             | CRM and marketing email                                     | Live   | United States          | legal.hubspot.com/privacy-policy       |
+| Linear / Notion     | Internal work management                                    | Live   | United States          | linear.app/privacy, notion.so/privacy  |
+| Google (Gemini)     | Lida's live voice mode in the app                           | Live   | United States          | policies.google.com/privacy            |
+| Stripe              | Card payments for plans, extra usage and domains            | Live   | United States          | stripe.com/privacy                     |
+| MoonPay             | Buying digital dollars with a card, and its identity checks | Live   | Global                 | moonpay.com/legal/privacy\_policy      |
+| Microsoft Clarity   | Recordings and heatmaps of how visitors use lid.pro         | Live   | Microsoft Azure cloud  | privacy.microsoft.com/privacystatement |
 
 We review this list regularly and keep it current on this page.
 

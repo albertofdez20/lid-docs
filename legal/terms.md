@@ -6,10 +6,10 @@ description: >-
 
 # Terms of Service
 
-_Last updated: 12 November 2026._ _Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE)._
+_Last updated: 23 November 2026._ _Operated by Lid Labs Technologies - FZCO (Trade Licence 65802, DIEZA, Dubai, UAE)._
 
 {% hint style="info" %}
-**In plain language.** Lid builds and hosts sites for businesses and professionals, and is infrastructure for selling digital products. A Creator uploads a product. A link gets shared. A Buyer pays in digital dollars. A smart contract splits the payment between the Creator, the Affiliate, and Lid in the same transaction. Flat 3% fee on each sale. Every site on Lid pays a monthly or yearly plan, charged by card. No custody of your sales. No holds.
+**In plain language.** Lid is the business suite: it builds and hosts sites for businesses and professionals, and lets them sell digital products. A Creator uploads a product. A link gets shared. A Buyer pays in digital dollars. A smart contract splits the payment between the Creator, the Affiliate, and Lid in the same transaction. Flat 3% fee on each sale. Every site on Lid needs a monthly or yearly plan, charged by card; a new account can first have one site online free for 14 days. No custody of your sales. No holds, except during a refund window the Creator sets.
 
 If you use Lid, you agree to these Terms.
 {% endhint %}
@@ -17,9 +17,9 @@ If you use Lid, you agree to these Terms.
 Six things to know before you keep reading.
 
 1. Every Lid account is an embedded wallet under the hood, provided by Privy. You sign up with email. Lid never holds custody of your funds.
-2. Transactions on Solana are final. We cannot reverse them.
+2. Transactions on Solana are final. We cannot reverse them. The one exception is a payment held during a refund window the Creator set (Section 7).
 3. Affiliates are permissionless. Anyone can share a product link and earn a share of the sale.
-4. Our fee on each sale is a flat 3%. It settles in the same transaction as the sale. A site on Lid needs a paid plan from its first day, charged by card every month or year until you cancel.
+4. Our fee on each sale is a flat 3%. It settles in the same transaction as the sale. A site on Lid needs a paid plan, charged by card every month or year until you cancel. A new account can first have one site online free for 14 days. We ask for a card to start those days.
 5. Site owners are responsible for what their site says, including what Lida drafts. Creators are responsible for the products they list. Buyers are responsible for what they buy.
 6. Governing law is UAE federal law. Courts of Dubai have jurisdiction.
 
@@ -40,7 +40,7 @@ In these Terms, "**Lid**," "**we**," "**us**," and "**our**" mean Lid Labs Techn
 
 ## 2. What Lid is
 
-Lid is a programmable commerce routing layer built on the Solana blockchain. It lets a **Creator** list a digital product, lets any **Affiliate** share a referral link, and lets a **Buyer** pay for the product in USDC. A smart contract executes the sale and splits the payment between the Creator, the Affiliate (if any), and Lid — atomically, in the same transaction.
+Lid is the business suite: it builds and hosts sites for businesses and professionals, and lets them sell digital products. Its checkout runs on the Solana blockchain. Lid lets a **Creator** list a digital product, lets any **Affiliate** share a referral link, and lets a **Buyer** pay for the product in USDC. A smart contract executes the sale and splits the payment between the Creator, the Affiliate (if any), and Lid — atomically, in the same transaction.
 
 Lid does the routing. Lid does not hold funds, does not create the product, and does not deliver the product. Payments move directly between wallets through the smart contract.
 
@@ -58,7 +58,7 @@ To use Lid you must:
 
 If you use Lid on behalf of a company, you confirm you have authority to bind that company. The company is then bound by these Terms.
 
-Lid is not available in jurisdictions where the service, the sale of digital products for stablecoins, or the use of non-custodial wallets is restricted by law.
+Lid is not available in jurisdictions where the service, the sale of digital products for digital dollars (USDC), or the use of non-custodial wallets is restricted by law.
 
 ## 4. Your account and your wallet
 
@@ -97,7 +97,7 @@ An Affiliate shares a Creator's product with attribution. Affiliate participatio
 * To not send traffic through spam, bots, malware, deceptive redirects, or incentivised clicks that violate advertising standards.
 * To disclose affiliate relationships where the law requires it — for example, US FTC endorsement guidelines, UK CAP Code, EU P2B Regulation, UAE Media Council Influencer Regulations.
 * To not share products in ways that violate any platform's Terms of Service (for example, running paid ads that break Meta or Google policies).
-* That commission is earned only when a sale completes through the Affiliate's attributed link, and is paid instantly in USDC by the smart contract. No retroactive commissions. No manual overrides by Lid.
+* That commission is earned only when a sale completes through the Affiliate's attributed link, and is assigned to the Affiliate in USDC in the same transaction, for the Affiliate to claim. No retroactive commissions. No manual overrides by Lid.
 
 Lid does not guarantee any level of affiliate traffic, conversion, or earnings.
 
@@ -106,7 +106,7 @@ Lid does not guarantee any level of affiliate traffic, conversion, or earnings.
 A Buyer purchases a digital product through Lid. By completing a purchase, the Buyer:
 
 * Confirms the payment is authorised by the Buyer's wallet owner.
-* Accepts that the transaction is final and cannot be reversed once confirmed on Solana.
+* Accepts that the transaction is final and cannot be reversed once confirmed on Solana. The one exception is a product with a refund window (Section 7).
 * Takes delivery of the product from the Creator under the Creator's own terms, which may include a refund policy.
 * Is responsible for reading the product description before paying.
 
@@ -120,39 +120,38 @@ A Site owner has a Site on Lid. The Site owner:
 
 ## 6. Fees
 
-Lid charges in two ways: a fee on each sale, and a plan for each Site. Prices are in US dollars. Prices do not include taxes; where Lid must charge VAT or another tax, it is added at checkout.
+Lid charges in two ways: a fee on each sale, and a plan for each Site. Prices are in US dollars, unless a price in your local currency is shown at checkout. Prices do not include taxes; where Lid must charge VAT or another tax, it is added at checkout.
 
-**Fee on each sale.** Lid charges a **flat 3% infrastructure fee** on every completed transaction through Lid's checkout. The fee is calculated on the gross sale price and is deducted by the smart contract at the point of sale. There are no listing fees and no payout fees.
+**Fee on each sale.** Lid charges a **flat 3% fee** on every completed transaction through Lid's checkout. The fee is calculated on the gross sale price and is deducted by the smart contract at the point of sale. There are no listing fees and no payout fees.
 
-**Site plans.** A Site needs a paid plan from its first day. There is no free period. The plan and price you accept at checkout apply to your Site.
-
-* **Pro:** USD 29 a month, or USD 290 a year, per Site. You build and run your Site yourself with Lida. It includes 500 credits a month.
-* **Business:** USD 99 a month, or USD 990 a year, per Site. Our team builds and updates your Site with you, within the plan's credits. It includes 2,000 credits a month. Custom development is not included: it is a custom build (below).
+**Site plans.** A Site needs a paid plan. A new account can have one Site online free for 14 days on the Pro and Pro+ plans. We ask for a card to start the free days, and an account can have one free Site at a time. After the 14 days the Site continues on the plan you pick. The plan and price you accept at checkout apply to your Site.
 
 **Renewal and cancellation.** Plans renew automatically at the end of each month or year, and we charge your card at each renewal, until you cancel. You can cancel at any time from your account or by writing to [hello@lid.pro](mailto:hello@lid.pro). Cancellation takes effect at the end of the period you have already paid, and your Site stays live until then. Plan charges are non-refundable, except where the law requires a refund, or where we end your plan for a reason other than your breach of these Terms; then we refund the unused part of the period. We will tell you by email at least 30 days before a new price applies to your plan.
 
-**Credits.** Credits pay for the work Lida does on your Site. A Site on a paid plan can buy extra credit packs. Credits have no cash value, cannot be exchanged for money or transferred, and are not refundable. Unused monthly credits expire at the end of each billing period. Credit packs expire 12 months after purchase.
+**Usage.** Each plan includes a monthly allowance for the work Lida does on your Site, and your account shows how much of it you have used. Unused allowance does not carry over to the next month. A Site on a paid plan can buy extra usage; its price is shown before you buy it. The allowance and any extra usage have no cash value, cannot be exchanged for money or transferred, and are not refundable.
 
 **Domains.** A domain you buy through Lid is charged at the price shown before you pay, and renews each year at the price shown at renewal. The domain is registered for your Site through our registrar partner. While your plan is active and the domain is paid, you can ask us to transfer it to you, under the registrar's rules.
 
 **Custom builds.** A project we build for you under a separate written proposal follows the price and terms of that proposal. Where the proposal is silent, these Terms apply.
 
-Network fees on Solana (gas) are paid by the party submitting the transaction and are separate from the Lid fee. Lid does not set, receive, or refund network fees.
+Lid pays the network fees on Solana (gas) for purchases made through Lid's checkout. For any other transaction, network fees are paid by the party submitting it. Network fees are separate from the Lid fee. Lid does not set, receive, or refund network fees.
 
 ## 7. Payments, settlement, and splits
 
-**Plan charges.** Site plans, credit packs and domains are paid by card. Card payments are processed by Stripe on the account of Lid Labs Technologies - FZCO. Card details are handled by Stripe; Lid does not store full card numbers. Your bank may add currency conversion fees. We may also accept a plan payment in USDC; a plan paid in USDC follows these same Terms. If a charge fails, Stripe emails you a link to update your card. If the plan is still unpaid 7 days after the charge failed, we may pause your Site until it is paid. If you dispute a charge with your bank without writing to us first, we may pause the Site while the dispute is open.
+**Plan charges.** Site plans, extra usage and domains are paid by card. Card payments are processed by Stripe on the account of Lid Labs Technologies - FZCO. Card details are handled by Stripe; Lid does not store full card numbers. Your bank may add currency conversion fees. We may also accept a plan payment in USDC; a plan paid in USDC follows these same Terms. If a charge fails, we may try your card again and ask you to update it. If the plan is still unpaid 7 days after the charge failed, we may pause your Site until it is paid. If you dispute a charge with your bank without writing to us first, we may pause the Site while the dispute is open.
 
 **After a plan ends.** When a plan ends, by cancellation or non-payment, the Site goes offline. We keep its content for 30 days so you can renew; after that we may delete it.
 
 **Sales through Lid's checkout.** All settlements of sales on Lid happen in USDC on the Solana blockchain. The smart contract enforces the split with mathematical certainty. For each completed sale:
 
 * The Creator receives the Creator share (gross price minus Lid fee minus Affiliate share, if any).
-* The Affiliate, if attributed to the sale, receives the Affiliate share set by the Creator.
-* Lid receives the 3% infrastructure fee.
-* All three transfers happen in the same on-chain transaction.
+* The Affiliate, if attributed to the sale, is assigned the Affiliate share set by the Creator, for the Affiliate to claim.
+* Lid receives the 3% fee.
+* All three happen in the same on-chain transaction.
 
-Settlement is instant. There is no holding period. There is no manual payout schedule.
+Settlement is instant. There is no holding period. There is no manual payout schedule. The one exception is a product with a refund window (below).
+
+**Refund windows.** A Creator can set a refund window of 1 to 90 days on a product. During the window the payment is held. The Buyer can release it to the Creator early, or open a dispute. A dispute freezes the payment, and a person on our team decides whether it is returned to the Buyer or released to the Creator. If the window passes with no dispute, the payment is released to the Creator. A refund returns the full amount to the Buyer, including the Affiliate share.
 
 Lid does not operate a custodial wallet, does not offer bank accounts, and does not convert USDC to fiat currency. A fiat off-ramp is planned for the future; it is not available today.
 
@@ -174,11 +173,11 @@ You keep all rights to the content you upload to Lid — product files, images, 
 
 ### Lid's brand
 
-"Lid," "Lid.pro," the Lid logo, and the Lid visual system are owned by Lid Labs Technologies - FZCO. You may reference Lid as your payment infrastructure and use our name and logo in standard "Powered by Lid" contexts. You may not use Lid's brand to imply partnership, endorsement, or any relationship we have not agreed to in writing.
+"Lid," "Lid.pro," the Lid logo, and the Lid visual system are owned by Lid Labs Technologies - FZCO. You may name Lid as the service behind your checkout or your Site and use our name and logo in standard "Powered by Lid" contexts. You may not use Lid's brand to imply partnership, endorsement, or any relationship we have not agreed to in writing.
 
-### The platform
+### The Lid service
 
-The Lid platform, smart contracts, user interfaces, documentation, and code — excluding your own content — are the property of Lid or its licensors. You may not copy, modify, distribute, sell, reverse-engineer, or create derivative works from the platform, except where an explicit licence in writing allows it or the law requires otherwise.
+The Lid service, its smart contracts, user interfaces, documentation, and code — excluding your own content — are the property of Lid or its licensors. You may not copy, modify, distribute, sell, reverse-engineer, or create derivative works from the Lid service, except where an explicit licence in writing allows it or the law requires otherwise.
 
 ## 10. Prohibited content and conduct
 
@@ -209,7 +208,7 @@ You also may not:
 
 * Use Lid to launder funds, evade sanctions, or move proceeds of crime.
 * Attempt to bypass the smart contract split, misattribute an affiliate, or mislead Buyers about what is being sold.
-* Interfere with, probe, or attack the Lid platform, its smart contracts, or any connected service.
+* Interfere with, probe, or attack the Lid service, its smart contracts, or any connected service.
 * Use automated tools to scrape Lid data beyond what the public API allows.
 * Impersonate another Creator, Affiliate, or person.
 
@@ -219,7 +218,7 @@ To report a product, a profile or a challenge entry that breaks these rules, wri
 
 ## 11. Third-party services
 
-Lid integrates with third-party services that are essential to how the platform works. These include — among others — Privy (wallet and authentication), Alchemy (Solana RPC), Pinata (IPFS storage for product metadata), Helius (webhooks and transaction monitoring), Stripe (card payments for plans, credit packs and domains), and the Circle-issued USDC stablecoin on Solana.
+Lid integrates with third-party services that are essential to how the Lid service works. These include — among others — Privy (wallet and authentication), MoonPay (buying digital dollars with a card, including any identity check MoonPay runs), Alchemy (Solana RPC), Pinata (IPFS storage for product metadata), Stripe (card payments for plans, extra usage and domains), and the Circle-issued USDC stablecoin on Solana.
 
 Each of these services has its own terms and privacy policy. Your use of Lid is also subject to those terms, to the extent they govern the service provided. Lid does not control these services and is not responsible for their availability, performance, or changes.
 
@@ -227,7 +226,7 @@ Each of these services has its own terms and privacy policy. Your use of Lid is 
 
 Lid is provided on an "as available" basis. We work to keep the service running without interruption, and we rely on the Solana network, Internet infrastructure, and third-party services to deliver it. We cannot guarantee uninterrupted access. Plans do not include a guaranteed uptime or service level unless we agree one in writing.
 
-Support is provided through the channels listed on [lid.pro](https://lid.pro). Response times depend on the nature of the issue. Support is not available for product-level disputes between Creators and Buyers, except where Lid's infrastructure is clearly at fault.
+Support is provided through the channels listed on [lid.pro](https://lid.pro). Response times depend on the nature of the issue. Support is not available for product-level disputes between Creators and Buyers, except where the Lid service is clearly at fault, and except for a dispute a Buyer opens inside a product's refund window, which our team decides (Section 7).
 
 ## 13. Suspension and termination
 
@@ -236,7 +235,7 @@ We may suspend or terminate your access to Lid if:
 * You breach these Terms.
 * You are added to a sanctions list or become a resident of a restricted jurisdiction.
 * We are required to suspend access by law, regulator action, or court order.
-* We have a reasonable belief that your use of Lid threatens the integrity of the platform, other users, or the smart contracts.
+* We have a reasonable belief that your use of Lid threatens the integrity of the Lid service, other users, or the smart contracts.
 
 We will tell you about the suspension where we are allowed to. In cases of serious risk, we may act without notice.
 
@@ -246,7 +245,7 @@ Sections that by their nature should survive termination — including IP, discl
 
 ## 14. Disclaimers
 
-The Lid platform, including its smart contracts and user interfaces, is provided **"as is" and "as available."** We make no warranty — express, implied, statutory, or otherwise — including warranties of merchantability, fitness for a particular purpose, accuracy, non-infringement, or that the service will be uninterrupted, timely, secure, or error-free.
+The Lid service, including its smart contracts and user interfaces, is provided **"as is" and "as available."** We make no warranty — express, implied, statutory, or otherwise — including warranties of merchantability, fitness for a particular purpose, accuracy, non-infringement, or that the service will be uninterrupted, timely, secure, or error-free.
 
 Lid does not warrant:
 
@@ -286,6 +285,8 @@ For material changes, we will give at least 30 days' notice through email or an 
 
 **Changes of 12 November 2026.** For accounts opened before 12 November 2026, the changes made on that date (Sites, plans, credits, domains and plan charges) apply 30 days after we tell you about them by email or in the product. The plan and price you accepted at checkout already apply to your Site.
 
+**Changes of 23 November 2026.** For accounts opened before 23 November 2026, the move from credits to usage (Sections 6 and 7) applies 30 days after we tell you about it by email or in the product. The plan and price you accepted at checkout already apply to your Site. The other changes made on that date describe how Lid already works: the free days for new accounts, refund windows, how an Affiliate's share is assigned, who pays network fees on checkout purchases, and the third-party services we use.
+
 ## 18. Governing law and dispute resolution
 
 These Terms, and any non-contractual obligation arising out of or connected to them, are governed by the **federal laws of the United Arab Emirates** and the laws of the Emirate of Dubai that apply to them.
@@ -308,18 +309,6 @@ Where a dispute involves a consumer whose jurisdiction grants mandatory protecti
 
 **Notices.** Formal notices to Lid must be sent to `legal@lid.pro` and copied to the registered office above. We may send notices to you through email, in-product notifications, or wallet-bound messaging.
 
-## 20. The Lid app
-
-**Licence to use the app.** These Terms also cover the Lid app for Android, including any copy you install from the Solana dApp Store. We give you a personal, non-exclusive, non-transferable and revocable licence to install and use the app on devices you own or control, only as these Terms allow. You may not copy, change, sell or reverse-engineer the app, except where the law lets you.
-
-**Solana Mobile is not part of these Terms.** These Terms are between you and Lid Labs Technologies - FZCO only. Solana Mobile, Inc., its affiliates, and their officers, directors, employees and agents (the "**Solana Mobile Parties**") are not a party to these Terms. They have no responsibility or liability to you in connection with the Lid app, its content or any service in it. Questions, complaints and claims about the app come to us at [legal@lid.pro](mailto:legal@lid.pro).
-
-**No warranty from the Solana Mobile Parties.** The Lid app is provided "as is" and "as available", and you use it at your own risk. To the fullest extent the law allows, the Solana Mobile Parties make no representation, warranty or condition of any kind about the app, express, implied or statutory. That includes warranties of merchantability, fitness for a particular purpose, non-infringement, and that the app will work without errors or interruption. The Solana Mobile Parties are not responsible for any loss connected to blockchains, digital assets, wallets or transactions.
-
-**No liability of the Solana Mobile Parties.** To the fullest extent the law allows, under no circumstances are the Solana Mobile Parties liable to you for any damages related to the Lid app, whether direct, indirect, special, consequential, incidental, punitive, exemplary or other. That includes loss of profits, revenue, use or data, and business interruption, even if they were told the damage was possible. Your only remedy against the Solana Mobile Parties is to stop using the app.
-
-Sections 14 (Disclaimers) and 15 (Limitation of liability) also apply in favour of the Solana Mobile Parties.
-
-## 21. Contact
+## 20. Contact
 
 **Lid Labs Technologies - FZCO** IFZA Business Park, DDP PO Box 342001, Dubai, United Arab Emirates Email: [legal@lid.pro](mailto:legal@lid.pro)

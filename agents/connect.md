@@ -144,12 +144,12 @@ Needs the **Catalog** permission.
 
 ## What can an agent do once it is connected?
 
-An agent can build and publish a site, create and publish products, share other people's products, run and fund challenges and campaigns, review results, read sales and analytics, work a site's admin and receive signed webhooks. Each call needs the matching permission on the key. Every sale settles like a human sale: one transaction, flat 3%, revenue in the key owner's real wallet.
+An agent can build and publish a site, create and publish products, share other people's products, run and fund challenges, review entries, read sales and analytics, work a site's admin and receive signed webhooks. Each call needs the matching permission on the key. Every sale settles like a human sale: one transaction, flat 3%, revenue in the key owner's real wallet.
 
 ## What to read next
 
 * [Tool reference](tools.md): the tools, grouped by job.
-* [Webhooks and events](webhooks.md): get called when a sale, a prize or a conversion happens.
+* [Webhooks and events](webhooks.md): get called when a sale settles, a prize is claimed or someone enters a challenge.
 * [Usage and limits](limits.md): caps and quotas.
 
 Building something on this? Email [hello@lid.pro](mailto:hello@lid.pro) with what you are making. Early builders shape what we build.

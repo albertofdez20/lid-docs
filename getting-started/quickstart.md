@@ -22,7 +22,7 @@ Go to [lid.pro](https://lid.pro) and create an account with your email. That's a
 {% step %}
 ### Create your product
 
-Open **My store** in your dashboard and click **New product**. First choose what buyers get: files you upload, or a link to your content. Then add a title and a short description.
+Open **Create** in your dashboard menu and click **New product**. First choose what buyers get: files you upload, or a link to your content. Then add a title and a short description.
 
 ![The first step of New product on Lid: "What do buyers get?", with a choice between files and a link, and a preview of how buyers will see the product.](../.gitbook/assets/create-product-step-1.png)
 {% endstep %}

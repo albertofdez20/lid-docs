@@ -19,7 +19,7 @@ At the program level, Lid implements:
 2. **Checkout routing.** A method that accepts a buyer's USDC payment and routes it to the seller, the sharer, and Lid per the rules set on the product.
 3. **Attribution binding.** The checkout method reads an optional share reference parameter and binds that address as the beneficiary of the sharer split for this specific sale.
 4. **Fee enforcement.** The 3% fee is a hard-coded split in the settlement logic, routed to a Lid-controlled address.
-5. **Pools.** For challenges and campaigns, a budget sits in a pool the funder controls until a result verifies; assignment and claims are recorded on the same public ledger.
+5. **Pools.** For challenges, the prize money sits in a pool until the funder assigns it to the entries that won; assignments and claims are recorded on the same public ledger.
 
 ## Atomicity
 
@@ -63,7 +63,7 @@ No upgrade can retroactively change the terms of past sales. Historical split re
 
 * Minimum viable program surface.
 * Payments route straight to the seller and to Lid. A sharer's share goes to a vault that only that sharer can claim from, and a sale with a refund window waits in a hold that can only release to the seller or return to the buyer.
-* The 3% fee on a sale is a protocol constant, not a setting anyone can change. The fee on challenge and campaign payouts is a setting only Lid can change, from 0% to 10%. It is 3% today.
+* The 3% fee on a sale is a protocol constant, not a setting anyone can change. The fee on challenge payouts is a setting only Lid can change, from 0% to 10%. It is 3% today.
 * No administrative function can send user funds anywhere else. In a dispute over a held sale, our team can only release the money to the seller or return it to the buyer. If our team has not decided a dispute 14 days after the refund window ends, anyone can release the payment to the seller, so a held payment never stays frozen.
 * All state-changing operations emit events for off-chain monitoring.
 

@@ -20,7 +20,7 @@ A membership turns your audience into a paid community. Members subscribe to a p
 
 ## How it works
 
-1. Open **Memberships** in your [dashboard](https://lid.pro/dashboard) and create a plan.
+1. Open **Create** in your [dashboard](https://lid.pro/dashboard) menu and click **New membership**.
 2. Choose monthly or yearly and set the price.
 3. Share your link. Members subscribe and get access right away.
 
@@ -36,7 +36,7 @@ Every plan carries its own commission, so anyone can share your membership. Whoe
 
 <summary>Can members cancel?</summary>
 
-Yes, anytime, from your page or from **My purchases → Subscriptions**. They keep access until the period they already paid ends.
+Yes, anytime, from your page or from [My purchases](https://lid.pro/dashboard/purchases), in the **Subscriptions** tab. They keep access until the period they already paid ends.
 
 </details>
 

@@ -32,16 +32,17 @@ If you bring the sale yourself, you keep $9.70 and Lid gets $0.30.
 
 ## Why is Lid 3% when others charge 10% or more?
 
-Because 3% covers the whole suite and the money moves in one transaction, so there is no processing layer and no payout layer to pay for. Gumroad takes 10% plus $0.50, and 2.9% plus $0.30 on top for processing: 13.7% on a $100 sale. Patreon takes 10%, plus payment processing, currency conversion and payout fees. Both numbers were read on their own pages on 15 November 2026. On Lid the 3% covers your page, checkout, delivery, courses, memberships, paying you in seconds and assigning each sharer's commission in the same transaction. It stays 3% as you grow. The full table, with a source per row, is on [Compare](../resources/compare.md).
+Because the money moves in one transaction, so there is no processing layer and no payout layer to pay for. Gumroad takes 10% plus $0.50, and 2.9% plus $0.30 on top for processing: 13.7% on a $100 sale. Patreon takes 10%, plus payment processing, currency conversion and payout fees. Both numbers were read on their own pages on 15 November 2026. On Lid the 3% covers your product page, checkout, delivery, courses, memberships, paying you in seconds and assigning each sharer's commission in the same transaction. It stays 3% as you grow. A site built with Lida is priced on its own, per site. The full table, with a source per row, is on [Compare](../resources/compare.md).
 
 ## What do I pay?
 
 * If you sell: 3% of every sale.
-* If you pay for results, with a challenge or a campaign: the 3% applies to the budget you fund, when you fund it.
+* If you pay for results with a challenge: the 3% applies to the budget you fund, when you fund it.
 * If you put a site live: a live site is paid, per site. You see the price in the Builder before you pay, and on [lid.pro](https://lid.pro). See [Your own site](../sell-on-lid/your-own-site.md).
 
 ## What do I never pay?
 
+* A monthly fee to sell
 * Listing fees
 * Minimums of any kind
 * Withdrawal fees from Lid

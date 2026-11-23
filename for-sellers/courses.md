@@ -12,7 +12,7 @@ A course is a product with structure: modules, lessons, and progress, unlocked t
 
 ## Steps
 
-1. Open **My store** in your [dashboard](https://lid.pro/dashboard) and click **New course**.
+1. Open **Create** in your [dashboard](https://lid.pro/dashboard) menu, then **Open** next to Products. In **My store**, click **New course**.
 2. Name the first module and the first lesson. The lesson is a video, audio or PDF file, or text.
 3. Say whether the course is **Available now** or **In progress**. Buyers see this before they pay, so you can sell a course while you are still recording it.
 4. Add the rest of your modules and lessons, in the order you want. Mark any lessons you want as free previews.

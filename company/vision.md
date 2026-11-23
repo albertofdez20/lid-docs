@@ -1,52 +1,57 @@
 ---
 description: >-
-  Every digital business runs on Lid: the problem, your site and the whole stack
-  at 3% of each sale, why now, the model, the ladder.
+  Every independent professional runs their practice from a page that is theirs:
+  the problem, the page, why now, the technology underneath, the model and the
+  ladder.
 ---
 
 # Vision
 
-**Every digital business runs on Lid.**
+**Every independent professional runs their practice from a page that is theirs.**
 
-Lid is the business suite: a website built by Lida, Lid's AI, and a store, memberships and the rest in the same account, paid in one transaction. Live on Solana.
+Lid is the business suite. We start with independent professionals: Lida, Lid's AI, builds the page under their own name, on their own domain, and changes it when they ask. The same account can sell memberships, courses and digital products.
 
-## The problem: the bleed and the wait
+## The problem: found on someone else's page
 
-Selling online means stacking tools, and each one takes a cut. Gumroad takes 10% plus $0.50, and 2.9% plus $0.30 on top for processing: 13.7% of a $100 sale. Patreon takes 10%, plus payment processing, currency conversion and payout fees. Then the money waits for a payout day. Both fees were read on each company's own page on 15 November 2026.
+Patients look the doctor up first. What they find belongs to someone else: a directory, a clinic's site or a social profile, next to other doctors. Then everything piles up in WhatsApp.
 
-## The solution
+## The page
 
-Your site, built by Lida, and the whole stack behind it, in one place: store, courses, memberships, challenges, campaigns, share links and a connection for agents. Lid keeps 3% of each sale. One transaction underneath: the sale, the split and the payout. No company ever holds the money. Budgets sit in a pool the funder controls until the result verifies; the moment it does, the split settles in the same transaction.
-
-Every buyer can share, every sharer earns, every earner can open a store. Each sale recruits the next seller.
-
-## What only Lid does
-
-The only suite where the sale, the split and the payout are one transaction. Not holding the money is the consequence.
-
-Anyone can cut a fee. Whop's processing-only price already matches ours: 2.7% plus $0.30 is 3.0% on a $100 sale, read on Whop's own page on 15 November 2026. What nobody can cut is their own income statement, and 3% here buys the whole suite. Elsewhere it buys a checkout.
+A page that is theirs. A professional tells Lida what they do, and she writes and designs the site, on their own domain, hosted by Lid. They change it by asking, and they decide when it goes live.
 
 ## Why now
 
-Digital dollars went mainstream; commerce is catching up. Three facts:
+Patients choose online and now ask AI, and a page costs little to build.
 
-1. **\~$310B in stablecoins** in circulation (June 2026).
-2. **The GENIUS Act** (signed July 2025) gave stablecoins their first US federal framework.
-3. **AI agents moved \~$73M across \~176M transactions** between May 2025 and April 2026. A spender that did not exist two years ago.
+1. **Patients search first.** 9 in 10 patients in Mexico look a specialist up online before they book, and 84% read reviews first (Doctoralia data given to Expansión, 29 July 2026).
+2. **Patients ask AI.** AI tools are the third most used source of health information in Mexico, up from eighth a year earlier ("El Paciente Digital Mexicano 2025", FUNSALUD, as reported by Expansión, 6 October 2026).
+3. **Building got easy.** A site built from a description is now common. That is why a doctor's page no longer needs an agency's invoice, and why building alone is not a reason to pick Lid.
+
+## The technology underneath
+
+One payment program on Solana runs a sale, its split and its payout as one transaction, in digital dollars (USDC). Lid is the only suite where the sale, the split and the payout are one transaction. It is live, and so far it has been used at a small scale.
+
+No company ever holds the money. Budgets sit in a pool the funder controls until the result verifies; the moment it does, the split settles in the same transaction.
+
+Digital dollars got their first US federal framework with the GENIUS Act, signed in July 2025.
 
 ## The model
 
 For anyone who sells, 3% of every sale. For whoever pays for results, a fee on the budget. For anyone who wants their site live, a price per site. The three never merge.
 
+## The ladder
+
+Independent professionals, doctors first. Then the small clinics they own and other professionals who live on appointments. Then businesses with an audience and the creators around them. Then every business that pays for results. Then every digital business, human or agent.
+
+Doctors come first because many already pay every month to be found. At the far end, every digital business runs on Lid. Agents already transact on the rail.
+
+## Further up the ladder: the bleed and the wait
+
+For businesses that sell online, every tool in the stack takes a cut, and then the money waits for a payout day. On Lid, selling costs 3% of each sale and the money lands in seconds. Every buyer can share, every sharer earns, every earner can open a store. Each sale recruits the next seller. The numbers, platform by platform, are on [Compare](../resources/compare.md).
+
 ## The principle
 
 Everything at Lid flows from one principle. If a decision doesn't help people earn fairly and grow over time, we don't make it.
-
-## The ladder
-
-Businesses with an audience and the creators around them. Then every business that pays for results. Then every digital business, human or agent.
-
-Businesses with an audience first, and the creators around them: hardest to serve, fastest to move. Agents already transact on the rail.
 
 ## What we will not do
 

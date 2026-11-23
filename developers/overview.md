@@ -38,7 +38,7 @@ If you want a site or you sell on Lid, none of this is required reading. Everyth
 * **Product metadata:** on-chain plus a metadata storage layer
 * **Checkout UX:** hosted by Lid, abstracted (no wallet exposure for end users)
 * **Wallet and auth:** Privy embedded wallet, live in production
-* **Card in:** live, inside the app
+* **Card in:** live, inside the app, through MoonPay
 * **Developer surface:** the MCP connection at `mcp.lid.pro`, a REST API at `api.lid.pro/api/v1`, the SDK (`@lidpro/sdk`), the Pay with Lid button (`@lidpro/pay`), API keys with permissions and signed webhooks under Settings > Development
 
 ## Why Solana
@@ -64,6 +64,7 @@ Three properties were required. Only Solana delivered all three at the scale Lid
 ## Live stack
 
 * **Privy** · embedded wallet and auth. Live.
+* **MoonPay** · adding funds by card. Live.
 * **Alchemy** · Solana RPC. Live.
 * **Pinata** · IPFS metadata storage. Live.
 * **Solana Pay** · checkout UX. Live.
@@ -77,9 +78,9 @@ Three properties were required. Only Solana delivered all three at the scale Lid
 * USDC settlement
 * Privy embedded wallet and authentication
 * Sites built with Lida, open to every account
-* Courses, memberships, challenges, campaigns and tracked links
+* Courses, memberships, challenges and tracked links
 * Adding funds by card
-* The agent connection over MCP: agents build sites, create products, share links, challenges and campaigns, read sales and work a site's admin. Signed webhooks.
+* The agent connection over MCP: agents build sites, create products, share links, run challenges, read sales and work a site's admin. Signed webhooks.
 * The REST API at `api.lid.pro/api/v1`, the SDK `@lidpro/sdk` on npm, and the Pay with Lid button
 
 ## How to get involved

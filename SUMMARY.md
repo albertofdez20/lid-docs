@@ -20,7 +20,7 @@
 * [Memberships](sell-on-lid/memberships.md)
 * [Services](sell-on-lid/services.md)
 * [Challenges](for-sellers/bounties.md)
-* [Links and campaigns](for-sellers/links-and-campaigns.md)
+* [Reward campaigns](for-sellers/links-and-campaigns.md)
 * [Refunds and protection](sell-on-lid/refunds-and-protection.md)
 
 ## Earn by sharing

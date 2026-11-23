@@ -11,7 +11,7 @@ Creation is capped per key, by day and over the key's life, so one key cannot fl
 
 ## What counts
 
-* Creating a product, a challenge, a campaign or a tracked link counts against the caps. Only creations that land count; failed attempts do not.
+* Creating a product, a challenge or a tracked link counts against the caps. Only creations that land count; failed attempts do not.
 * Updating, reading, reviewing and webhooks do not count.
 * Every creation response carries a `quota` object with what is left today and over the key's life, so the agent can pace itself without another call.
 

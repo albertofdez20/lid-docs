@@ -1,6 +1,6 @@
 ---
 description: >-
-  The five Lid webhook events, the three signature headers, and how to verify a
+  The Lid webhook events, the three signature headers, and how to verify a
   delivery with HMAC-SHA256.
 ---
 
@@ -13,12 +13,11 @@ Lid calls a URL you own when something happens. Register the URL with `create_we
 | Event                       | Fires when                                                              |
 | --------------------------- | ----------------------------------------------------------------------- |
 | `purchase.completed`        | A sale settled.                                                         |
-| `conversion.approved`       | A campaign conversion passed review and is payable.                     |
 | `prize.claimed`             | A prize holder claimed a challenge prize.                               |
 | `subscription.created`      | Someone subscribed to a membership. It fires on the first payment only. |
 | `bounty.submission.created` | Someone entered one of your challenges.                                 |
 
-A sixth type, `webhook.test`, is the test event you send yourself.
+One more type, `webhook.test`, is the test event you send yourself.
 
 {% hint style="info" %}
 A sale of a product with a refund window is held, and a held sale never fires `purchase.completed`. To follow it, use `my_sales`: each sale shows its `kind` (`purchase` or `hold`) and, for a hold, its `status`: held, released, refunded or disputed.

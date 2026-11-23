@@ -29,7 +29,7 @@ No. If a product offers a commission, anyone can share it right away. There is n
 
 ## When do I get paid for a sale I brought?
 
-In the same transaction as the sale. The buyer pays, the payment splits, and your commission is assigned to you, in digital dollars (USDC). It waits in **Earnings & analytics → Affiliates**, under **Affiliate commissions**, until you withdraw it. There is no payout day and no minimum.
+In the same transaction as the sale. The buyer pays, the payment splits, and your commission is assigned to you, in digital dollars (USDC). It waits in **Earnings** → **Affiliates**, under **Affiliate commissions**, until you withdraw it. There is no payout day and no minimum.
 
 ![The Affiliate commissions box in Lid's Earnings & analytics: the amount available to withdraw, the lifetime amount earned, and the withdraw button.](../.gitbook/assets/affiliate-commissions.png)
 

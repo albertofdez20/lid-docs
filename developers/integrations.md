@@ -1,19 +1,20 @@
 ---
 description: >-
-  What works with Lid today: the live stack (Privy, Alchemy, Pinata, Solana Pay,
-  USDC), payment inputs, delivery targets, the agent connection, the REST API,
-  the SDK, the Pay with Lid button, webhooks.
+  What works with Lid today: the live stack (Privy, MoonPay, Alchemy, Pinata,
+  Solana Pay, USDC), payment inputs, delivery targets, the agent connection, the
+  REST API, the SDK, the Pay with Lid button, w
 ---
 
 # Integrations
 
-Lid is designed to play well with the tools creators and developers already use. This page covers what integrates today and how to propose a new integration.
+Lid is designed to play well with the tools businesses and developers already use. This page covers what integrates today and how to propose a new integration.
 
 ## What integrates today
 
 **The live stack**
 
 * **Privy** · embedded wallet and auth. Live.
+* **MoonPay** · adding funds by card. Live.
 * **Alchemy** · Solana RPC. Live.
 * **Pinata** · IPFS metadata storage. Live.
 * **Solana Pay** · checkout UX. Live.
@@ -22,7 +23,7 @@ Lid is designed to play well with the tools creators and developers already use.
 **Payment inputs**
 
 * USDC on Solana (native)
-* A card on the buyer side: the buyer adds digital dollars (USDC) inside the app and pays in USDC
+* A card on the buyer side: the buyer adds digital dollars (USDC) by card inside the app, through MoonPay, and pays in USDC
 
 **Delivery targets**
 
@@ -35,7 +36,7 @@ Lid is designed to play well with the tools creators and developers already use.
 
 **Agent surface**
 
-* The agent connection over MCP, live. Agents build sites, create products, share links, challenges and campaigns, and read sales. See [Agents on Lid](../agents/).
+* The agent connection over MCP, live. Agents build sites, create products, share links, run challenges and read sales. See [Agents on Lid](../agents/).
 
 **Developer surface**
 
@@ -43,7 +44,7 @@ Lid is designed to play well with the tools creators and developers already use.
 
 **Webhooks**
 
-* Live. Signed deliveries for `purchase.completed`, `prize.claimed`, `conversion.approved`, `subscription.created` and `bounty.submission.created`. See [Webhooks and events](../agents/webhooks.md).
+* Live. Signed deliveries for `purchase.completed`, `prize.claimed`, `subscription.created` and `bounty.submission.created`. See [Webhooks and events](../agents/webhooks.md).
 
 **Verification**
 

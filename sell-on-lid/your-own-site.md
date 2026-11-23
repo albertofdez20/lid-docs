@@ -11,7 +11,7 @@ Your site with your brand, built with Lida and hosted by Lid. Anyone who signs u
 
 New here? [Build your site with Lida](../start-here/build-your-site.md) takes you through it step by step.
 
-**How it works.** Open **Builder** in your dashboard, press **Create site** and tell Lida what your site is about. She writes and designs it. You ask for changes in your own words and see them in a preview that only you can see. You press **Publish** when you like it. Lida never publishes for you.
+**How it works.** Open **Sites** in your dashboard menu, press **Create site** and tell Lida what your site is about. She writes and designs it. You ask for changes in your own words and see them in a preview that only you can see. You press **Publish** when you like it. Lida never publishes for you. To change it later, open **Sites** and press **Open in the Builder** on your site.
 
 **What runs on it.** Your pages, and the pieces you turn on: products, courses, challenges, memberships, a contact form or a waitlist. The pieces that sell use the same checkout as your Lid page. Turning a piece on or off reaches your site in under a minute, without publishing again.
 

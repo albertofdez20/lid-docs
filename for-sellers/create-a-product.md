@@ -12,7 +12,7 @@ A product on Lid is anything digital you can deliver with a file or a link: an e
 
 ## Steps
 
-1. Open **My store** in your [dashboard](https://lid.pro/dashboard) and click **New product**.
+1. Open **Create** in your [dashboard](https://lid.pro/dashboard) menu and click **New product**.
 2. Choose what buyers get. Upload files (PDF, ZIP, video) or paste a link, like a Notion page or a shared folder. Only buyers see it, and Lid delivers it the moment they pay.
 3. Add a title. Concrete beats clever.
 4. Write the description. Say what the buyer gets and who it is for. Lida can draft it for you with **Draft it**.
@@ -34,7 +34,7 @@ A product on Lid is anything digital you can deliver with a file or a link: an e
 
 <summary>Can I edit after publishing?</summary>
 
-Yes. Title, description, price, images, delivery files and commission stay editable from **My store**, and buyers who already paid keep their access. A new price applies to the next sales; past purchases stay as they were.
+Yes. Title, description, price, images, delivery files and commission stay editable from **My store** (open **Create**, then **Open** next to Products), and buyers who already paid keep their access. A new price applies to the next sales; past purchases stay as they were.
 
 </details>
 

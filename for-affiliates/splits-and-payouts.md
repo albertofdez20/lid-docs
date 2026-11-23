@@ -14,7 +14,7 @@ Here is where the money goes on each sale and when it arrives.
 1. The buyer pays.
 2. The payment splits automatically: the seller's share, your commission, and Lid's 3% fee. It is one transaction.
 3. Your commission is assigned to you in that transaction, in digital dollars (USDC), and only you can claim it.
-4. You see it in **Earnings & analytics → Affiliates**, under **Affiliate commissions**, ready to withdraw.
+4. You see it in **Earnings** → **Affiliates**, under **Affiliate commissions**, ready to withdraw.
 5. Your dashboard lists every payout with the date, product, sale amount, and your cut.
 
 ## A worked example

@@ -9,7 +9,7 @@ description: >-
 
 Lid. The business suite. Tell Lida, Lid's AI, what you do and she writes and designs your website. You see it before you pay, and you put it live on your own domain when you like it.
 
-Your site is the start. When you want to sell online, it is all in the same account: a store, memberships, challenges, campaigns and share links. Lid keeps 3% of each sale. No company ever holds the money: the moment a sale is real, the split settles in one transaction, in digital dollars (USDC).
+Your site is the start. When you want to sell online, it is all in the same account: a store, memberships, challenges and share links. Lid keeps 3% of each sale. No company ever holds the money: the moment a sale is real, the split settles in one transaction, in digital dollars (USDC).
 
 ## Pick your path
 
@@ -19,13 +19,15 @@ Your site is the start. When you want to sell online, it is all in the same acco
 
 The facts a person or an agent can check in ten seconds.
 
-* What it is: the business suite. A website built by Lida, with a store, memberships, challenges, campaigns and share links in the same account.
+* What it is: the business suite. A website built by Lida, with a store, memberships, challenges and share links in the same account.
+* Who it is for: professionals and small businesses that want a website of their own, like a doctor, a dentist, a lawyer or a shop, and businesses that sell online.
+* Who is behind it: Lid Labs Technologies, registered in Dubai. Its founders are Alberto Fernández, CEO, and Darwin Ramírez, CTO.
 * Who can build a site: anyone who signs up, with Lida on lid.pro or from an AI assistant over MCP.
 * Fee on sales: 3% of each sale.
 * Split on a sale with a 10% commission: seller 87, sharer 10, Lid 3.
 * Commission a seller can offer: 1% to 50%, set per product.
 * Settlement: the sale, the split and the payout are one transaction. The seller's share lands in seconds, and the sharer's commission is assigned to them in that same transaction, for them to claim.
 * Money: digital dollars (USDC) on Solana. One digital dollar is one US dollar.
-* Live today: sites built with Lida on your own domain, store, courses, memberships, challenges, links and campaigns, share links, adding funds by card, an agent connection over MCP, a REST API, an SDK and the Pay with Lid button.
+* Live today: sites built with Lida on your own domain, store, courses, memberships, challenges, share links, adding funds by card, an agent connection over MCP, a REST API, an SDK and the Pay with Lid button.
 
 This is the link if you want to start: [lid.pro](https://lid.pro)

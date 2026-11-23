@@ -13,7 +13,7 @@ Tell Lida what you do. She writes and designs your site, and you see it before y
 {% step %}
 ### Sign in
 
-Go to [lid.pro](https://lid.pro) and sign in with your email or with Google. Then open **Builder** in your dashboard menu.
+Go to [lid.pro](https://lid.pro) and sign in with your email or with Google. Lida opens as your home. Then open **Sites** in your dashboard menu.
 {% endstep %}
 
 {% step %}
@@ -72,7 +72,7 @@ Your site starts on a Lid address. In the site's **Domain** tab you can connect 
 
 ## After your site is live
 
-* **Change it any time.** Open the Builder and tell Lida what to change. You see it in the preview and you decide when to publish.
+* **Change it any time.** Open **Sites**, press **Open in the Builder** on your site and tell Lida what to change. You see it in the preview and you decide when to publish.
 * **Turn pieces on or off.** In the site's settings you choose what the site shows and sells: products, courses, challenges, memberships, a contact form or a waitlist. Each change reaches your site in under a minute, without publishing again.
 * **Read your messages.** Messages from the contact form and emails from the waitlist arrive in your site panel. The waitlist exports as a CSV file.
 * **Invite someone to help.** In the **People** tab you can invite up to 5 editors by email. Editors can change the site and publish it. The money, the domain and the site's admin stay yours. An invitation expires after 14 days if nobody accepts it.

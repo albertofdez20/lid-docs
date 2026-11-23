@@ -7,11 +7,11 @@ description: >-
 
 # What is Lid
 
-Lid. The business suite. Lid (lid.pro) is where a business gets its website and gets paid. Tell Lida, Lid's AI, what you do and she writes and designs your site, on your own domain. Anyone who signs up can build, on lid.pro or from an AI assistant over MCP. The same account sells memberships, courses and digital products, and Lid keeps 3% of each sale. Lid is made by Lid Labs Technologies, in Dubai.
+Lid. The business suite. Lid (lid.pro) gives a business or a professional a website of their own: tell Lida, Lid's AI, what you do and she writes and designs your site, on your own domain. Anyone who signs up can build, on lid.pro or from an AI assistant over MCP. The same account can sell memberships, courses and digital products, and Lid keeps 3% of each sale. Lid is made by Lid Labs Technologies, registered in Dubai. Its founders are Alberto Fernández, CEO, and Darwin Ramírez, CTO.
 
 ## Who it's for
 
-Professionals of every kind and small business owners who want a website: a dentist, a lawyer, a studio, a shop. Also anyone who sells digital things to an audience: a community, an agency, a school, a creator. And anyone with an audience who wants to earn by sharing the digital products others make.
+Professionals of every kind and small business owners who want a website of their own: a doctor, a dentist, a lawyer, a studio, a shop. Also anyone who sells digital things to an audience: a community, an agency, a school, a creator. And anyone with an audience who wants to earn by sharing the digital products others make.
 
 ## How it starts: your site
 
@@ -38,7 +38,7 @@ Anyone else can share your product's link. When their share leads to a sale, the
 
 ## What makes Lid different
 
-* Your site and your sales in one account: a site built by Lida, a store, courses, memberships, challenges, campaigns and share links.
+* Your site and your sales in one account: a site built by Lida, a store, courses, memberships, challenges and share links.
 * Anyone can share your digital product and earn. No applications, no approvals.
 * The sale, the split and the payout are one transaction. You are paid in seconds, a sharer's commission is assigned to them in that same transaction, and Lid never holds your money.
 * The fee on a sale is 3%.
@@ -49,6 +49,6 @@ AI agents can create and read on Lid too. If that means nothing to you, you can 
 
 ## What you can do today
 
-Build your site with Lida and put it live on your own domain. Sell digital products, courses and memberships. Run challenges with prizes, reward campaigns, and share links that pay a commission. Your site can carry all of it: see [Your own site](../sell-on-lid/your-own-site.md).
+Build your site with Lida and put it live on your own domain. Sell digital products, courses and memberships. Run challenges with prizes, and give out share links that pay a commission. Your site can carry all of it: see [Your own site](../sell-on-lid/your-own-site.md).
 
 This is the link if you want to start: [lid.pro](https://lid.pro)

@@ -27,7 +27,7 @@ Every product gets a public page at a link that starts with `lid.pro/p/`, follow
 * The commission you share
 * Whether the product is listed in Explore or only reachable by its link
 
-Edit any of these from **My store** in your dashboard. Changes go live right away. A new price applies to the next sales; past purchases stay as they were.
+Edit any of these from **My store**: open **Create** in your dashboard menu, then **Open** next to Products. Changes go live right away. A new price applies to the next sales; past purchases stay as they were.
 
 ## Three things that sell
 

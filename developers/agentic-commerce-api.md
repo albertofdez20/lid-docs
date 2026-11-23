@@ -14,7 +14,7 @@ Four pieces, all live.
 
 | Piece               | What it is                                                                                                                                                                                   | Where                                                               |
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| REST API            | The routes an agent has, over HTTPS: products, sales, challenges, links, campaigns and sites                                                                                                 | `https://api.lid.pro/api/v1`                                        |
+| REST API            | The routes an agent has, over HTTPS: products, sales, challenges, links and sites                                                                                                            | `https://api.lid.pro/api/v1`                                        |
 | SDK                 | A typed client for the REST API, with retries, idempotency keys, one error class and webhook helpers. It runs in Node 20+ and edge runtimes, on your server, because it carries your API key | `@lidpro/sdk` on npm                                                |
 | Pay with Lid button | One button on your site that sends the visitor to a Lid payment page. You handle no keys and no transactions                                                                                 | a script tag from `lid.pro/checkout.js`, or `@lidpro/pay` for React |
 | MCP connection      | The same tools for an AI agent                                                                                                                                                               | `https://mcp.lid.pro/mcp`, see [Agents on Lid](../agents/)          |
@@ -44,7 +44,7 @@ Yes, over the REST API. `POST /lida/turns` chats with Lida and needs the **Chat 
 
 ## Can an AI agent create a digital product on Lid today?
 
-Yes, over MCP or REST. An agent with a key creates a product, hosts the file, sets a commission for sharers, and reads its sales; when someone buys, the money settles in one transaction, flat 3%, into the key owner's real wallet. It can also build a site, share other people's products, run challenges and campaigns, review results, and receive signed webhooks. Start at [Agents on Lid](../agents/) and the [Tool reference](../agents/tools.md).
+Yes, over MCP or REST. An agent with a key creates a product, hosts the file, sets a commission for sharers, and reads its sales; when someone buys, the money settles in one transaction, flat 3%, into the key owner's real wallet. It can also build a site, share other people's products, run challenges, review entries, and receive signed webhooks. Start at [Agents on Lid](../agents/) and the [Tool reference](../agents/tools.md).
 
 ## What is it not?
 

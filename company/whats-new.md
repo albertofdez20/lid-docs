@@ -9,6 +9,12 @@ description: >-
 If this page and the app at [lid.pro](https://lid.pro) ever disagree, the app is right.
 
 {% updates format="full" %}
+{% update date="2026-11-23" %}
+## Docs: the new menu, and no more campaigns
+
+The docs follow the app's new menu: Lida opens as your home, and **Sites**, **Create**, **Earnings** and **Settings** hold the rest. Lid no longer offers reward campaigns, so they came out of every page; share links and challenges do that job, and the agent and developer pages no longer list the campaign tools. [What is Lid](../getting-started/what-is-lid.md) now says who Lid is for and who is behind it, and [Vision](vision.md) starts with independent professionals.
+{% endupdate %}
+
 {% update date="2026-11-15" %}
 ## Docs: your site first
 

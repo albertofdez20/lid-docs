@@ -1,8 +1,8 @@
 ---
 description: >-
-  Quick fixes: finding the Builder, a domain that does not connect, a shared
-  link that did not count, money not showing, login codes, refund requests, card
-  payments, the wrong coin, and how to reach us.
+  Quick fixes: finding where to build your site, a domain that does not connect,
+  a shared link that did not count, money not showing, login codes, refund
+  requests, card payments, the wrong coin, and how
 ---
 
 # Troubleshooting
@@ -11,7 +11,7 @@ Quick fixes for the issues people hit most. If yours is missing, email [hello@li
 
 ## I signed in and I can't find where to build my site
 
-Open **Builder** in your dashboard menu, then press **Create site**. The steps are on [Build your site with Lida](start-here/build-your-site.md).
+Lida opens as your home. Open **Sites** in your dashboard menu, then press **Create site**. The steps are on [Build your site with Lida](start-here/build-your-site.md).
 
 ## My domain is not connecting
 
@@ -27,7 +27,7 @@ Commissions cannot be added to a sale after it happens, so share the link itself
 
 ## My money isn't showing
 
-Check your balance first. A seller's payout lands within seconds of a sale. If you shared the link, your commission waits in **Earnings & analytics → Affiliates** until you withdraw it.
+Check your balance first. A seller's payout lands within seconds of a sale. If you shared the link, your commission waits in the **Affiliates** tab under **Earnings** until you withdraw it.
 
 If the product has a refund window, the money is held until the window closes or the buyer releases it. That is normal, and it releases automatically.
 
@@ -53,4 +53,4 @@ Your Lid balance holds USDC on Solana only. If you sent another coin, or used an
 
 ## How to reach us
 
-Email [hello@lid.pro](mailto:hello@lid.pro) or message [@albertofdez20](https://x.com/albertofdez20) on X. Include your account email and the product link involved. From your dashboard you can also open **Help** and send a ticket to the Lid team.
+Email [hello@lid.pro](mailto:hello@lid.pro) or message [@albertofdez20](https://x.com/albertofdez20) on X. Include your account email and the product link involved. You can also open **Help** in your dashboard menu and press **New ticket** to write to the Lid team.

@@ -17,7 +17,7 @@ Every product shows its refund policy before you pay.
 
 ## How to ask for your money back
 
-1. Sign in at [lid.pro](https://lid.pro) and open **My purchases**.
+1. Sign in at [lid.pro](https://lid.pro) and open [My purchases](https://lid.pro/dashboard/purchases).
 2. Find the purchase. While the window is open it shows **Release** and **Dispute**.
 3. Select **Dispute** and tell us what went wrong.
 4. The payment stays frozen while a person on our team looks at it. We either return the money to you or release it to the seller.

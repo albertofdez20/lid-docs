@@ -14,7 +14,7 @@ Get your link from any product page and put it where your audience already is.
 2. Click **Promote and earn**. Your personal link is created right away.
 3. Copy the link and share it. Group chats, Instagram bio, X, YouTube descriptions, newsletters.
 4. Add a line of context. Say what the product did for you or who it is for, then put the link at the end.
-5. Open **Affiliates** in your dashboard to see every product you promote, with its clicks, sales and what you earned, and to copy your link again.
+5. Open **Earnings** in your dashboard menu, then the **Affiliates** tab, to see the products you promote and what you earned.
 
 {% hint style="info" %}
 Lid knows the sale came from your link, so your commission is locked in when the buyer pays.
@@ -42,7 +42,7 @@ The commission goes to the link the buyer checks out through. If that is your li
 
 <summary>When does the money arrive?</summary>
 
-Your commission is assigned to you in the same transaction as the sale, in digital dollars (USDC), and only you can claim it. Withdraw it from **Earnings & analytics → Affiliates**, under **Affiliate commissions**.
+Your commission is assigned to you in the same transaction as the sale, in digital dollars (USDC), and only you can claim it. Withdraw it from the **Affiliates** tab under **Earnings**.
 
 </details>
 

@@ -6,7 +6,7 @@ description: >-
 
 # Is Lid safe?
 
-Short version: no company ever holds the money. Budgets sit in a pool the funder controls until the result verifies; the moment it does, the split settles in the same transaction. Here is how that works, and the one case where our team decides where money goes: a disputed refund.
+Short version: no company ever holds the money. A sale splits in the same transaction the buyer pays, and challenge prize money sits in a pool that only goes to the people the funder picks. Here is how that works, and the one case where our team decides where money goes: a disputed refund.
 
 ## Who holds the money
 
@@ -22,7 +22,7 @@ Sellers can set a refund window on their products. During that window, the money
 
 ## What protects funders
 
-When you fund a challenge or a campaign, the budget sits in a pool you control until the result verifies. The moment it does, the split settles in the same transaction. Until then, nobody else can move it.
+When you fund a challenge, the prize money sits in a pool. It only leaves toward the people you assign the prizes to, and each of them claims their prize from their own wallet. Nobody else can move it.
 
 ## Is this crypto?
 

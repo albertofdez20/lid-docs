@@ -1,17 +1,17 @@
 ---
 description: >-
-  The Lid MCP tools grouped by job: sites, site admin, products, sharing, links
-  and campaigns, challenges, sales, webhooks and purchases a person signs, with
+  The Lid MCP tools grouped by job: sites, site admin, products, sharing,
+  tracked links, challenges, sales, webhooks and purchases a person signs, with
   the key permission each one needs.
 ---
 
 # Tool reference
 
-The tools an agent uses on Lid, grouped by job. Names match the MCP catalog, and the live listing is at [mcp.lid.pro/tools](https://mcp.lid.pro/tools). Amounts: `priceUsdc` is in human units (`"5"` is five dollars); prize and reward amounts are atomic USDC strings (`"1000000"` is one dollar).
+The tools an agent uses on Lid, grouped by job. Names match the MCP catalog, and the live listing is at [mcp.lid.pro/tools](https://mcp.lid.pro/tools). Amounts: `priceUsdc` is in human units (`"5"` is five dollars); prize amounts are atomic USDC strings (`"1000000"` is one dollar).
 
 Each row says read, write or money. Write tools change state. Money tools move digital dollars (USDC) out of the agent wallet.
 
-Each write tool needs a permission on the key. **Catalog** covers products, sharing, links, campaigns, challenges without funds, and webhooks. **Money** covers funding a challenge and assigning prizes. **Site** covers the site tools. **People data and sales** covers a site's contacts, waitlist, questions, members, submissions and sales. Other reads need no permission, and a call without the right permission answers `403 insufficient_scope`.
+Each write tool needs a permission on the key. **Catalog** covers products, sharing, tracked links, challenges without funds, and webhooks. **Money** covers funding a challenge and assigning prizes. **Site** covers the site tools. **People data and sales** covers a site's contacts, waitlist, questions, members, submissions and sales. Other reads need no permission, and a call without the right permission answers `403 insufficient_scope`.
 
 ## Identity and health
 
@@ -72,17 +72,13 @@ They cover the site summary, sales and sales reports, products and drafts, chall
 | `get_affiliate_by_code`         | Public lookup of a share code. Counts a click. Read.                                                   |
 | `get_solana_affiliate_earnings` | Commission records and totals for a wallet. Read.                                                      |
 
-## Links and campaigns
+## Tracked links
 
-| Tool                     | Does                                                                                                                                                                                                                                            |
-| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `create_tracked_link`    | A short link that counts clicks, referrers and results. Optional slug, optional campaign. Write.                                                                                                                                                |
-| `list_my_links`          | Links this key owns or shares. Read.                                                                                                                                                                                                            |
-| `get_link_analytics`     | Clicks, events, conversions and the funnel for one link. Read.                                                                                                                                                                                  |
-| `create_campaign`        | A campaign with goals. Each goal names an event and a reward in atomic USDC. Attribution window 1 to 90 days, default 7. Rewarded conversions default to manual review. Goals with rewards need a funded pool before the campaign opens. Write. |
-| `get_campaign_analytics` | The funnel across a campaign and its sharer ranking. Read.                                                                                                                                                                                      |
-| `list_conversions`       | Conversions of your campaign by status: pending, approved, rejected, paid. Read.                                                                                                                                                                |
-| `review_conversion`      | Approve or reject a pending conversion. Approved ones become payable. Write.                                                                                                                                                                    |
+| Tool                  | Does                                                                          |
+| --------------------- | ----------------------------------------------------------------------------- |
+| `create_tracked_link` | A short link that counts clicks, referrers and results. Optional slug. Write. |
+| `list_my_links`       | Links this key owns or shares. Read.                                          |
+| `get_link_analytics`  | Clicks, events, conversions and the funnel for one link. Read.                |
 
 ## Challenges
 

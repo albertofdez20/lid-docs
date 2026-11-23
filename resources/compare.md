@@ -68,9 +68,9 @@ Before payment processing, before the software underneath.
 
 ## What does 3% buy on Lid?
 
-The store, checkout, delivery, courses, memberships, challenges, campaigns, share links and the payout. Elsewhere 3% buys a checkout, and the store, the email tool, the link page and the community tool are billed apart.
+The store, checkout, delivery, courses, memberships, share links and the payout. Elsewhere 3% buys a checkout, and the store, the email tool, the link page and the community tool are billed apart.
 
-A site built with Lida is a separate price, per site. It is on [lid.pro](https://lid.pro).
+Challenges carry their own fee, charged when you create one. A site built with Lida is a separate price, per site, shown before you pay.
 
 ## How long does the money take?
 

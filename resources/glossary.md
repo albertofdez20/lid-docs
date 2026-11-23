@@ -1,8 +1,8 @@
 ---
 description: >-
   The terms you meet inside Lid in plain words: Lida, the Builder, your own
-  site, digital dollars (USDC), commission, sharer, pool, challenge, campaign,
-  membership, agent.
+  site, digital dollars (USDC), commission, sharer, pool, challenge, membership,
+  agent.
 ---
 
 # Glossary
@@ -11,11 +11,11 @@ The handful of terms you will meet inside Lid, in plain words.
 
 ## Lida
 
-Lid's AI, built into Lid. You focus on your business; Lida helps with the rest. She answers your questions, builds your site and changes it when you ask, drafts your products and reads your sales.
+Lid's AI, built into Lid, and the first thing you see when you sign in. You focus on your business; Lida helps with the rest. She answers your questions, builds your site and changes it when you ask, drafts your products and reads your sales.
 
 ## Builder
 
-The part of your dashboard where you build your site with Lida. You tell her what you want, you see a preview, and you publish when you like it.
+Where you build your site with Lida: open **Sites** in your dashboard menu and press **Open in the Builder**. You tell her what you want, you see a preview, and you publish when you like it.
 
 ## Your own site
 
@@ -39,7 +39,7 @@ Your personal link to a product; when someone buys through it, you earn the comm
 
 ## Tracked link
 
-A short link that counts clicks and results. Campaigns are built from them.
+A short link that counts clicks and results.
 
 ## Payout
 
@@ -51,7 +51,7 @@ A period the seller chooses, from 1 to 90 days, during which the payment is held
 
 ## Pool
 
-Where a challenge or campaign budget sits, in the funder's control, until a result verifies. Everyone can see it.
+Where a challenge's prize money sits until the person who posted it assigns the prizes. Everyone can see it.
 
 ## Challenge
 
@@ -59,7 +59,7 @@ A competition with a prize. The prize sits in a pool while people compete; when 
 
 ## Campaign
 
-A reward pool that pays sharers for verified results, like signups or sales. Anyone can generate their own link and earn from the pool when their visitors deliver the result and the funder approves it.
+Lid no longer offers reward campaigns. Share links and challenges do that job today.
 
 ## Course
 
@@ -71,7 +71,7 @@ A paid space your members subscribe to, monthly or yearly: posts only they can s
 
 ## Agent
 
-Software that works on Lid through the agent connection: it builds sites, creates products, shares, runs challenges and campaigns, and reads its sales. See [Agents on Lid](../agents/).
+Software that works on Lid through the agent connection: it builds sites, creates products, shares, runs challenges, and reads its sales. See [Agents on Lid](../agents/).
 
 ## Prize holder
 
@@ -87,4 +87,4 @@ What a buyer opens during a refund window when something went wrong. The payment
 
 ## Referral
 
-Inviting someone to Lid with your invite link, from **Referrals** in your dashboard. Their activity earns you 0.50%.
+Inviting someone to Lid with your invite link, from **My referrals** in the menu under your balance. Their activity earns you 0.50%.

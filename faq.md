@@ -24,6 +24,14 @@ Yes. Tell Lida, Lid's AI, what you do and she writes and designs your site. You 
 
 <details>
 
+<summary>Is Lid for doctors, dentists and other professionals?</summary>
+
+Yes. Lid gives a professional a website under their own name. Tell Lida what you do and she writes and designs it, and it goes live on your own domain.
+
+</details>
+
+<details>
+
 <summary>Who can build a site?</summary>
 
 Anyone who signs up, with Lida on lid.pro or from an AI assistant over MCP.
@@ -42,7 +50,7 @@ You do. It lives in your account, on your domain.
 
 <summary>What does a site cost?</summary>
 
-You see your site before you pay. Putting a site live is paid, per site: the price shows in the Builder before you pay, and on [lid.pro](https://lid.pro).
+You see your site before you pay. Putting a site live is paid, per site, and Lid shows you the price before you pay.
 
 </details>
 
@@ -50,7 +58,7 @@ You see your site before you pay. Putting a site live is paid, per site: the pri
 
 <summary>Can I change my site later?</summary>
 
-Yes, any time. Open the Builder, tell Lida what to change, and publish when you like the preview.
+Yes, any time. Open **Sites**, press **Open in the Builder**, tell Lida what to change, and publish when you like the preview.
 
 </details>
 
@@ -60,7 +68,7 @@ Yes, any time. Open the Builder, tell Lida what to change, and publish when you 
 
 <summary>What can I sell on Lid?</summary>
 
-Digital products, courses and memberships. You can also run challenges with prizes and reward campaigns, and put it all on [your own site](sell-on-lid/your-own-site.md).
+Digital products, courses and memberships. You can also run challenges with prizes, and put it all on [your own site](sell-on-lid/your-own-site.md).
 
 </details>
 
@@ -158,7 +166,7 @@ No. If commission is on, anyone can share and earn. There is no application and 
 
 <summary>When do I get my commission?</summary>
 
-It is assigned to you the moment the sale happens. Withdraw it from **Earnings & analytics → Affiliates** when you want. There is no payout day and no minimum balance.
+It is assigned to you the moment the sale happens. Withdraw it from the **Affiliates** tab under **Earnings** when you want. There is no payout day and no minimum balance.
 
 </details>
 
@@ -166,7 +174,7 @@ It is assigned to you the moment the sale happens. Withdraw it from **Earnings &
 
 <summary>Do I earn for inviting people to Lid?</summary>
 
-Yes. Open **Referrals** in your dashboard and share your invite link. Everyone who signs up with it is tied to you, and their activity earns you 0.50%. Our team pays referral earnings to you in digital dollars (USDC).
+Yes. Open **My referrals** from the menu under your balance, at the top right, and share your invite link. Everyone who signs up with it is tied to you, and their activity earns you 0.50%. Our team pays referral earnings to you in digital dollars (USDC).
 
 </details>
 
@@ -216,7 +224,7 @@ If the product has a refund window, your payment waits in a hold until the windo
 
 <summary>Where do I find what I bought?</summary>
 
-Log in at [lid.pro](https://lid.pro) with the email you used at checkout. Your purchases are in your account.
+Log in at [lid.pro](https://lid.pro) with the email you used at checkout. Your purchases are in your account, at [My purchases](https://lid.pro/dashboard/purchases).
 
 </details>
 
@@ -226,7 +234,7 @@ Log in at [lid.pro](https://lid.pro) with the email you used at checkout. Your p
 
 <summary>What is Lida?</summary>
 
-Lida is Lid's AI. You focus on your business. Lida helps with the rest: she answers your questions, builds your site and changes it when you ask, drafts your products and reads your sales.
+Lida is Lid's AI, and she opens as your home when you sign in. You focus on your business. Lida helps with the rest: she answers your questions, builds your site and changes it when you ask, drafts your products and reads your sales.
 
 </details>
 
@@ -234,7 +242,7 @@ Lida is Lid's AI. You focus on your business. Lida helps with the rest: she answ
 
 <summary>Can AI agents use Lid?</summary>
 
-Yes. If you run your own AI agent, it can build a site, create products, run challenges and campaigns, share other people's products, and read its sales through a connection Lid provides. If that means nothing to you, you can ignore it. Details are in [Agents on Lid](agents/).
+Yes. If you run your own AI agent, it can build a site, create products, run challenges, share other people's products, and read its sales through a connection Lid provides. If that means nothing to you, you can ignore it. Details are in [Agents on Lid](agents/).
 
 </details>
 

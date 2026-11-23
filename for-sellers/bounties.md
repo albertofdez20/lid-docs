@@ -16,7 +16,7 @@ Challenges were called Bounties until August 2026. Same feature, clearer name. O
 
 ## Steps
 
-1. Open **My challenges** in your [dashboard](https://lid.pro/dashboard) and click **New challenge**.
+1. Open **Create** in your [dashboard](https://lid.pro/dashboard) menu and click **New challenge**.
 2. Describe the challenge and how you will judge it, in plain language.
 3. Set the prize and how it splits across places.
 4. Set a deadline, or leave it open.

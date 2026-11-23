@@ -19,7 +19,7 @@ Go to [lid.pro](https://lid.pro) and create an account with your email.
 {% step %}
 ### Find a product
 
-Open [Explore](https://lid.pro/en/discovery) and pick something you would recommend. Each product shows its commission up front, set by the seller, from 1% to 50%.
+Open [Explore](https://lid.pro/en/discovery), or **Store** in your dashboard menu, and pick something you would recommend. Each product shows its commission up front, set by the seller, from 1% to 50%.
 {% endstep %}
 
 {% step %}
@@ -39,7 +39,7 @@ Post your link where your audience is. One honest line on why you like the produ
 {% step %}
 ### Get paid
 
-When someone buys through your link, your commission is assigned to you in the same transaction as the sale, and only you can claim it. It waits for you in **Earnings & analytics → Affiliates**, under **Affiliate commissions**, ready to withdraw.
+When someone buys through your link, your commission is assigned to you in the same transaction as the sale, and only you can claim it. It waits for you in **Earnings** → **Affiliates**, under **Affiliate commissions**, ready to withdraw.
 {% endstep %}
 {% endstepper %}
 
@@ -61,7 +61,7 @@ The seller sets the commission, from 1% to 50% of the price. You see it on the p
 
 <summary>When do I get paid?</summary>
 
-Your commission is assigned to you in the same transaction as the sale, in digital dollars (USDC). You withdraw it from **Earnings & analytics → Affiliates** whenever you want. Lid never holds your money.
+Your commission is assigned to you in the same transaction as the sale, in digital dollars (USDC). You withdraw it from **Earnings** → **Affiliates** whenever you want. Lid never holds your money.
 
 </details>
 
